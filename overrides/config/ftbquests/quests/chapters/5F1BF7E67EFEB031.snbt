@@ -1,0 +1,604 @@
+{
+	id: "5F1BF7E67EFEB031"
+	group: ""
+	order_index: 1
+	filename: "5F1BF7E67EFEB031"
+	title: "§a交易(华纳神族的帮助)"
+	icon: "tconstruct:blood_slime_ball"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 3.5d
+			y: 1.5d
+			description: ["那片森林的宝物吗？我会收下的。"]
+			id: "0D412D2C1402B12A"
+			tasks: [{
+				id: "1FAF3FFC69BEA523"
+				type: "item"
+				item: {
+					id: "twilightforest:glass_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			icon: {
+				id: "twilightforest:glass_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.5d
+			y: 3.5d
+			dependencies: ["0D412D2C1402B12A"]
+			id: "2A8087540129B5E6"
+			tasks: [
+				{
+					id: "79B7C0E96E76914B"
+					type: "ftbmoney:money"
+					value: 2000L
+				}
+				{
+					id: "132B1E0371A0980F"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "232C6872350C4127"
+					type: "item"
+					item: {
+						id: "twilightforest:glass_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "04E612171FAFF877"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			description: ["放心的交给我吧，我不会让你失望的"]
+			id: "32119C6DD0A40F87"
+			tasks: [{
+				id: "2822E0CD49368128"
+				type: "item"
+				item: "minecraft:dragon_egg"
+				consume_items: true
+			}]
+		}
+		{
+			icon: "minecraft:dragon_egg"
+			x: -2.5d
+			y: 3.5d
+			dependencies: ["32119C6DD0A40F87"]
+			id: "7C23420F0A4B7592"
+			tasks: [{
+				id: "1C3085035FF10E2E"
+				type: "ftbmoney:money"
+				value: 2000L
+			}]
+			rewards: [
+				{
+					id: "0009DC27E9D359C4"
+					type: "item"
+					item: "minecraft:dragon_egg"
+				}
+				{
+					id: "04E612171FAFF875"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			icon: "minecraft:ghast_tear"
+			x: -4.5d
+			y: 3.5d
+			dependencies: ["32119C6DD0A40F87"]
+			id: "0B29D44A136DFBC8"
+			tasks: [{
+				id: "366794DE7B7C2A5D"
+				type: "ftbmoney:money"
+				value: 500L
+			}]
+			rewards: [
+				{
+					id: "1161652E6BC5D6FC"
+					type: "item"
+					item: "minecraft:ghast_tear"
+				}
+				{
+					id: "04E612171FAFF874"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["你终于把它给了我们。"]
+			id: "39658792D1BA8516"
+			tasks: [{
+				id: "1C70636A0D19F676"
+				type: "item"
+				item: "avaritia:infinity_ingot"
+				consume_items: true
+			}]
+		}
+		{
+			icon: {
+				id: "avaritia:swordofthe_cosmos"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: 3.5d
+			description: [""]
+			dependencies: ["39658792D1BA8516"]
+			id: "013AA583C7F8E671"
+			tasks: [{
+				id: "7DA2E0BFF143918E"
+				type: "ftbmoney:money"
+				value: 500L
+			}]
+			rewards: [
+				{
+					id: "18858573182CD7B2"
+					type: "item"
+					item: {
+						id: "avaritia:swordofthe_cosmos"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "04E612171FAFF881"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: [""]
+			id: "0314C25B186EE426"
+			tasks: [
+				{
+					id: "6CE4ACF14BA89DEB"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:earth_heart"
+						Count: 1b
+						tag: { }
+					}
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "413BD67B5D99500B"
+					type: "item"
+					item: "enigmaticlegacy:astral_dust"
+					count: 5L
+					consume_items: true
+				}
+			]
+		}
+		{
+			icon: {
+				id: "enigmaticlegacy:earth_heart"
+				Count: 1b
+				tag: { }
+			}
+			x: -1.0d
+			y: -3.5d
+			dependencies: ["0314C25B186EE426"]
+			id: "7F7B55F478BD8622"
+			tasks: [
+				{
+					id: "5267151CE564D395"
+					type: "ftbmoney:money"
+					value: 900L
+				}
+				{
+					id: "3659C3EF3BAF6CEC"
+					type: "item"
+					item: "mysticalagriculture:prudentium_essence"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "6EE8918EC90B8648"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:earth_heart"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "28BF2A8CDA365095"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			icon: {
+				id: "avaritia:longbowofthe_heavens"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: 3.5d
+			dependencies: ["39658792D1BA8516"]
+			id: "2CA079527827A03D"
+			tasks: [{
+				id: "1EA125D02A0933DA"
+				type: "ftbmoney:money"
+				value: 400L
+			}]
+			rewards: [
+				{
+					id: "6170AC8A8EA854BC"
+					type: "item"
+					item: {
+						id: "avaritia:longbowofthe_heavens"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "586E56B773DE3A43"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			icon: "twilightforest:steeleaf_ingot"
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["0D412D2C1402B12A"]
+			id: "6C49734A1DC6A225"
+			tasks: [{
+				id: "560BC07A4734E4BB"
+				type: "ftbmoney:money"
+				value: 300L
+			}]
+			rewards: [
+				{
+					id: "1335D4DDF7E95ACC"
+					type: "item"
+					item: "twilightforest:steeleaf_ingot"
+				}
+				{
+					id: "1F59D9ADD541A287"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			icon: "twilightforest:fiery_tears"
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["0D412D2C1402B12A"]
+			id: "2D9CD8FA26CD42E7"
+			tasks: [{
+				id: "2A4E58B29059A50E"
+				type: "ftbmoney:money"
+				value: 500L
+			}]
+			rewards: [
+				{
+					id: "226343832AA89950"
+					type: "item"
+					item: "twilightforest:fiery_tears"
+				}
+				{
+					id: "2E26C0EAF52869E4"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			dependencies: ["0D412D2C1402B12A"]
+			id: "6FF203C45D0687D5"
+			tasks: [{
+				id: "7A7F457E897B9BFD"
+				type: "ftbmoney:money"
+				value: 300L
+			}]
+			rewards: [
+				{
+					id: "08FF443134554AE6"
+					type: "item"
+					item: "twilightforest:alpha_fur"
+				}
+				{
+					id: "23B3648F626E641A"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			id: "249C5283DB842EFF"
+			tasks: [
+				{
+					id: "58CAAC8BC667710C"
+					type: "item"
+					item: {
+						id: "minecraft:elytra"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5A80571094512CEC"
+					type: "item"
+					item: "betterendforge:eternal_crystal"
+					count: 2L
+					consume_items: true
+				}
+			]
+		}
+		{
+			icon: "minecraft:dragon_head"
+			x: -4.0d
+			y: -3.5d
+			dependencies: ["249C5283DB842EFF"]
+			id: "7B190C19330B2A8C"
+			tasks: [
+				{
+					id: "59FF4DA1597486AC"
+					type: "ftbmoney:money"
+					value: 600L
+				}
+				{
+					id: "072DEBF57E4E72F7"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "5C22DD757D7E32C0"
+					type: "item"
+					item: "minecraft:dragon_head"
+				}
+				{
+					id: "3DC9D6340298F10A"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			icon: "minecraft:dragon_breath"
+			x: -3.0d
+			y: -3.5d
+			dependencies: ["249C5283DB842EFF"]
+			id: "6BB66966971738DB"
+			tasks: [
+				{
+					id: "7474BA74FF5B7B35"
+					type: "ftbmoney:money"
+					value: 400L
+				}
+				{
+					id: "2A6D76CD4AD03390"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:poison"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "064E41ECEF306FB9"
+					type: "item"
+					item: "minecraft:dragon_breath"
+					count: 2
+				}
+				{
+					id: "7AA5D584E7E242CC"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			icon: "enigmaticlegacy:astral_dust"
+			x: 1.0d
+			y: -3.5d
+			dependencies: ["0314C25B186EE426"]
+			id: "54494F7A9B7CBF49"
+			tasks: [
+				{
+					id: "4D4FB7C1CB640E2F"
+					type: "ftbmoney:money"
+					value: 1500L
+				}
+				{
+					id: "2D1957A400B07456"
+					type: "item"
+					item: "astralsorcery:stardust"
+					count: 16L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "40C98B57EBB57030"
+					type: "item"
+					item: "enigmaticlegacy:astral_dust"
+					count: 4
+				}
+				{
+					id: "0EDECE901B168303"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			icon: "relics:rune_of_earth"
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["0314C25B186EE426"]
+			id: "5402C25A218FD05B"
+			tasks: [
+				{
+					id: "6385C11FFCE16580"
+					type: "ftbmoney:money"
+					value: 600L
+				}
+				{
+					id: "59F5D5793D3101F3"
+					type: "item"
+					item: "botania:mana_diamond"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "3C012371AC393A2E"
+					type: "random"
+					table_id: 8029986425622399243L
+				}
+				{
+					id: "27387D777392FA3B"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			id: "1A9F5EA5AB68B0A1"
+			tasks: [
+				{
+					id: "10FF08A29ED6B651"
+					type: "item"
+					item: "extrabotany:treasurebox"
+					consume_items: true
+				}
+				{
+					id: "7E9F8AE06E75B852"
+					type: "ftbmoney:money"
+					value: 600L
+				}
+			]
+		}
+		{
+			icon: "kubejs:philosophy_soul"
+			x: 3.5d
+			y: -3.5d
+			dependencies: ["1A9F5EA5AB68B0A1"]
+			id: "24A17EB121797E8F"
+			tasks: [
+				{
+					id: "499F29C1502ECA04"
+					type: "item"
+					item: "extrabotany:treasurebox"
+					consume_items: true
+				}
+				{
+					id: "3D34A8393AF46817"
+					type: "item"
+					item: "mythicbotany:alfsteel_nugget"
+					consume_items: true
+				}
+				{
+					id: "1DBFB4867B4AC2E1"
+					type: "ftbmoney:money"
+					value: 200L
+				}
+			]
+			rewards: [
+				{
+					id: "0C6DBB5462C167F9"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+				{
+					id: "74FC10C18849B7D5"
+					type: "item"
+					item: "kubejs:philosophy_soul"
+				}
+			]
+		}
+	]
+}

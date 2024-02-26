@@ -1,0 +1,116 @@
+{
+	id: "1F4FEA0B90965E91"
+	order_index: 0
+	title: "遗物奖励"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "relics:spatial_sign"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:magma_walker"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:midnight_robe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:camouflage_ring"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:delay_ring"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:space_dissector"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:fragrant_flower"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:ice_breaker"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:spider_necklace"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "xreliquary:angelheart_vial" }
+		{ item: "xreliquary:holy_hand_grenade" }
+		{ item: "enigmaticlegacy:unwitnessed_amulet" }
+		{ item: "enigmaticlegacy:mega_sponge" }
+		{ item: "enigmaticlegacy:lore_inscriber" }
+		{ item: "enigmaticlegacy:soul_crystal" }
+		{ item: "enigmaticlegacy:cursed_ring" }
+		{
+			item: {
+				id: "enigmaticlegacy:mining_charm"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "enigmaticlegacy:magnet_ring" }
+		{ item: "enigmaticlegacy:enchantment_transposer" }
+		{ item: "enigmaticlegacy:animal_guide" }
+		{ item: "enigmaticlegacy:hunter_guide" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 1
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "_"
+	}
+}

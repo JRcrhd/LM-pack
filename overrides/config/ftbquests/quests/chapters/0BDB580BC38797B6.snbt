@@ -1,0 +1,934 @@
+{
+	id: "0BDB580BC38797B6"
+	group: "547F7E1B88118B9B"
+	order_index: 1
+	filename: "0BDB580BC38797B6"
+	title: "安生立命"
+	icon: {
+		id: "minecraft:iron_hoe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "享受生活"
+			x: 0.0d
+			y: -1.0d
+			id: "3C0F773C9DB89D6D"
+			tasks: [
+				{
+					id: "11CEBCA6B1C5E118"
+					type: "item"
+					item: "farmersdelight:stove"
+				}
+				{
+					id: "5AF68DFA00E2940A"
+					type: "item"
+					item: "farmersdelight:cooking_pot"
+				}
+				{
+					id: "4CA224C6FF30E2A7"
+					type: "item"
+					item: {
+						id: "farmersdelight:skillet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "762085B0C3BD19E8"
+					type: "item"
+					item: "farmersdelight:cutting_board"
+				}
+			]
+			rewards: [
+				{
+					id: "01298FA4C87BE9D9"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "3BD2D0BD85764676"
+					type: "item"
+					item: "farmersdelight:egg_sandwich"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "1C479B12C79477E4"
+			tasks: [{
+				id: "75D2961E0A15763B"
+				type: "item"
+				item: "farmersdelight:smoked_ham"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "62B4B96910EF4396"
+			tasks: [{
+				id: "1715C09B4A112660"
+				type: "item"
+				item: "farmersdelight:apple_pie"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "5D935DA77546E656"
+			tasks: [{
+				id: "720E2C354A5EA5D6"
+				type: "item"
+				item: "farmersdelight:sweet_berry_cheesecake"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "364C665CF3506F56"
+			tasks: [{
+				id: "7EEB7394635B7E70"
+				type: "item"
+				item: "farmersdelight:chocolate_pie"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "2C968AF6D59FABB7"
+			tasks: [{
+				id: "4FC5FFEEC84BF099"
+				type: "item"
+				item: "farmersdelight:sweet_berry_cookie"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "0C3EC9E71742B15C"
+			tasks: [{
+				id: "43F77627223BDFFE"
+				type: "item"
+				item: "farmersdelight:honey_cookie"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "1339939E502A4768"
+			tasks: [{
+				id: "537F653656573ACC"
+				type: "item"
+				item: "farmersdelight:melon_popsicle"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "7EAD57661C5B672B"
+			tasks: [{
+				id: "5FAED6F331BFD98D"
+				type: "item"
+				item: "farmersdelight:mixed_salad"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "31C2039E044BCA49"
+			tasks: [{
+				id: "51CD3BC9B17E2E89"
+				type: "item"
+				item: "farmersdelight:fruit_salad"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "60B2AA45464AC25A"
+			tasks: [{
+				id: "17C1F5B5AD800498"
+				type: "item"
+				item: "farmersdelight:nether_salad"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "2AE69DB84EB591C0"
+			tasks: [{
+				id: "00F5CB103A906EA2"
+				type: "item"
+				item: "farmersdelight:barbecue_stick"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "535B8E75392696B5"
+			tasks: [{
+				id: "4A1BDC0C9AC394BA"
+				type: "item"
+				item: "farmersdelight:egg_sandwich"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "0BC88BB8C182D00D"
+			tasks: [{
+				id: "32F818708D2D0F6F"
+				type: "item"
+				item: "farmersdelight:chicken_sandwich"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "400B4E344333C902"
+			tasks: [{
+				id: "18A939E03D4B0526"
+				type: "item"
+				item: "farmersdelight:hamburger"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "3AF701A57D991130"
+			tasks: [{
+				id: "110DEF542449DAB9"
+				type: "item"
+				item: "farmersdelight:bacon_sandwich"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "56E5955A095C4D70"
+			tasks: [{
+				id: "035AFD0F9923D4AE"
+				type: "item"
+				item: "farmersdelight:mutton_wrap"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "44A258632A8D9B82"
+			tasks: [{
+				id: "24B9BFF4338C7A01"
+				type: "item"
+				item: "farmersdelight:dumplings"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "1CD96C45BE02F6B9"
+			tasks: [{
+				id: "5004EDED331720DB"
+				type: "item"
+				item: "farmersdelight:stuffed_potato"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "46EA0552D5705878"
+			tasks: [{
+				id: "6F449B7D8AACE2B3"
+				type: "item"
+				item: "farmersdelight:cabbage_rolls"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "0D9F5CE2EF3C094B"
+			tasks: [{
+				id: "22CE22721DC779E7"
+				type: "item"
+				item: "farmersdelight:cooked_rice"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "04FB1B76B235A8E5"
+			tasks: [{
+				id: "1593B180CD7E0268"
+				type: "item"
+				item: "farmersdelight:beef_stew"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "406BEE40523FA2B8"
+			tasks: [{
+				id: "76C15CB3B0A45FB2"
+				type: "item"
+				item: "farmersdelight:chicken_soup"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "0A0396964F5A2FAA"
+			tasks: [{
+				id: "00BE13B8066E169E"
+				type: "item"
+				item: "farmersdelight:vegetable_soup"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "0C85BCD3AC119A75"
+			tasks: [{
+				id: "306B33D1A535303E"
+				type: "item"
+				item: "farmersdelight:fish_stew"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "50F54C7002D7FDCA"
+			tasks: [{
+				id: "17C991840204990E"
+				type: "item"
+				item: "farmersdelight:fried_rice"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "445E7AFD1F767A15"
+			tasks: [{
+				id: "1D4DB436EBE7C966"
+				type: "item"
+				item: "farmersdelight:pumpkin_soup"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "5FE2DE646599FEB6"
+			tasks: [{
+				id: "313A6BB301E57383"
+				type: "item"
+				item: "farmersdelight:baked_cod_stew"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "2622A92C39C0E11D"
+			tasks: [{
+				id: "70953A0B194A4BCC"
+				type: "item"
+				item: "farmersdelight:noodle_soup"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "5F0623F6A30BD0CC"
+			tasks: [{
+				id: "48CB065771ABE564"
+				type: "item"
+				item: "farmersdelight:bacon_and_eggs"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "6D59669B349C8501"
+			tasks: [{
+				id: "65738CF99980FFBF"
+				type: "item"
+				item: "farmersdelight:pasta_with_meatballs"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "4E10D9A37B1C0BF3"
+			tasks: [{
+				id: "02DADAF0FC88DB88"
+				type: "item"
+				item: "farmersdelight:pasta_with_mutton_chop"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "5879A4B1AAC0586E"
+			tasks: [{
+				id: "1558D0C4EECAA715"
+				type: "item"
+				item: "farmersdelight:roasted_mutton_chops"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "19D2DCFDC8A7255F"
+			tasks: [{
+				id: "5452B720BF1B2006"
+				type: "item"
+				item: "farmersdelight:vegetable_noodles"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "47A861D1C0430E69"
+			tasks: [{
+				id: "4E1059C03C985BBD"
+				type: "item"
+				item: "farmersdelight:steak_and_potatoes"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "4C255E056BB78951"
+			tasks: [{
+				id: "3B047817144FD6B7"
+				type: "item"
+				item: "farmersdelight:ratatouille"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "6EE4E9420CDB19C7"
+			tasks: [{
+				id: "67D2CEBF4534AC33"
+				type: "item"
+				item: "farmersdelight:squid_ink_pasta"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "0401C4B80DFDC80B"
+			tasks: [{
+				id: "35037352208B4E51"
+				type: "item"
+				item: "farmersdelight:grilled_salmon"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "408F71CB58F3F5AE"
+			tasks: [{
+				id: "5889160AB1EAC839"
+				type: "item"
+				item: "farmersdelight:roast_chicken_block"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "241E9FDE0BA61D9E"
+			tasks: [{
+				id: "3829FEF0634CFCBF"
+				type: "item"
+				item: "farmersdelight:roast_chicken"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "1CBC39662ADCBC20"
+			tasks: [{
+				id: "27536533AF18F27D"
+				type: "item"
+				item: "farmersdelight:stuffed_pumpkin_block"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "17B4977D29B1F80C"
+			tasks: [{
+				id: "526E2D91376C98F4"
+				type: "item"
+				item: "farmersdelight:stuffed_pumpkin"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "1144FC0CE35CCAAA"
+			tasks: [{
+				id: "37AB86E12C93A358"
+				type: "item"
+				item: "farmersdelight:honey_glazed_ham_block"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "1E6F42B7B694DD62"
+			tasks: [{
+				id: "68A5CA8EBB5917E8"
+				type: "item"
+				item: "farmersdelight:honey_glazed_ham"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "605471F279E52A16"
+			tasks: [{
+				id: "44F4A076108BC0E2"
+				type: "item"
+				item: "farmersdelight:shepherds_pie_block"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			dependencies: ["3C0F773C9DB89D6D"]
+			id: "137A8CF516368BE3"
+			tasks: [{
+				id: "205FF4E342E057D1"
+				type: "item"
+				item: "farmersdelight:shepherds_pie"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			id: "4F4E77A5DC6DE5A1"
+			tasks: [{
+				id: "5E1C38C76FA21095"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "09D1E2EB8F00BC7D"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			id: "61D7C501D3FCFDC4"
+			tasks: [{
+				id: "7FC59945C56269FF"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2DED82062C72B92F"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			id: "6D91E2D8A6AD488A"
+			tasks: [{
+				id: "284A05A2BB2532EF"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7CD330FBADAC47F9"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			id: "1BD82F5C365B04EF"
+			tasks: [{
+				id: "76B6009D10F6A8E8"
+				type: "item"
+				item: {
+					id: "constructionwand:infinity_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B6057E7E7BFA411"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			description: ["有点难做"]
+			id: "53CC4B5ABCAC9463"
+			tasks: [{
+				id: "6975E40336D1DBEE"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6EB7F9C9178302BF"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			id: "37949F3C5CB8FD36"
+			tasks: [{
+				id: "57995B58BEA1C8B8"
+				type: "item"
+				item: {
+					id: "chisel:diamond_chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+						chiseldata: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "6F8755C8BA2449D9"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			id: "029B19E31B28BADD"
+			tasks: [{
+				id: "423D177CB5267C95"
+				type: "item"
+				item: {
+					id: "adhooks:pudge_launcher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			id: "68D45940C2A0746D"
+			tasks: [{
+				id: "663C5B94316DB3F5"
+				type: "item"
+				item: {
+					id: "adhooks:spear_launcher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			id: "7243D267E02404CB"
+			tasks: [{
+				id: "1EDC1A9D87FC71F8"
+				type: "item"
+				item: {
+					id: "adhooks:web_launcher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			id: "664C0A38CF92A26F"
+			tasks: [{
+				id: "06CA7EB45FEC61FA"
+				type: "item"
+				item: {
+					id: "toolbelt:belt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "6237FD36F9D24C98"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "49DA48D9289627A9"
+					type: "item"
+					item: "toolbelt:pouch"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			description: ["可惜，这版本的简易存储未实现无线面板"]
+			id: "665C217F2C68F32A"
+			tasks: [{
+				id: "3E6D4286F5804B74"
+				type: "item"
+				item: "toms_storage:ts.inventory_connector"
+			}]
+			rewards: [
+				{
+					id: "76AEA17AE37CEFC7"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "12C6365922CE4024"
+					type: "item"
+					item: "toms_storage:ts.trim"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			description: ["地图配方经过修改，且地狱可用"]
+			id: "6A604AC092859A83"
+			tasks: [{
+				id: "66DF54CAE6DA82F9"
+				type: "item"
+				item: "mapatlases:atlas"
+			}]
+			rewards: [
+				{
+					id: "28586582D7CC2BD3"
+					type: "item"
+					item: "minecraft:map"
+				}
+				{
+					id: "58E912619B8F741B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			id: "02B4B8CA7E7DDB4B"
+			tasks: [{
+				id: "2EFAF9065460584E"
+				type: "item"
+				item: "sereneseasons:calendar"
+			}]
+			rewards: [{
+				id: "51F52629FC260F97"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			description: [
+				"与旗帜合成来改变材质，与染料或烟花合成更改尾迹。"
+				"可以用剪刀把它分成两半，分别配置颜色"
+				"以及最重要的，提供了一种很爽的飞(去)行(逝)方式"
+			]
+			id: "0AFFA475DCBED406"
+			tasks: [{
+				id: "57BD2E0D13364A4C"
+				type: "item"
+				item: {
+					id: "aerobaticelytra:aerobatic_elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							"aerobaticelytra:spec": {
+								Ability: {
+									Hover: 1.0f
+									"aerobaticelytra:Fuel": 256.0f
+									"aerobaticelytra:MaxFuel": 256.0f
+									Jetpack: 1.0f
+								}
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "63D96C7970B7732F"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			description: ["使用后可以按波次刷出对应怪物。如果在限定时间内击杀完毕，则合成表中间的物品会返还。"]
+			id: "240E6BA66264E3C4"
+			tasks: [{
+				id: "356E74B4BEB72923"
+				type: "item"
+				item: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "gateways:shulker_gate_large"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2D6526BA0E190920"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "799073557392CD11"
+					type: "item"
+					item: "mysticalagradditions:nether_star_shard"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			description: ["自动将果实放入下方容器。"]
+			id: "34AB8A7B6DAC874A"
+			tasks: [{
+				id: "3203D0EF4C66030C"
+				type: "item"
+				item: "botanypots:hopper_botany_pot"
+			}]
+			rewards: [{
+				id: "679E2CA0823242EA"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			description: ["在村庄的公告栏接取悬赏任务"]
+			id: "215CE257602DF9C3"
+			tasks: [{
+				id: "1396722ADA60ED3D"
+				type: "item"
+				item: "bountiful:bounty"
+			}]
+			rewards: [{
+				id: "426D9A46B5745225"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.0d
+			description: ["可以放进所有教程书"]
+			id: "04D2F050D738571D"
+			tasks: [{
+				id: "5C2F8D3D79A86BCC"
+				type: "item"
+				item: "akashictome:tome"
+			}]
+			rewards: [{
+				id: "421F2D5ACCC6E5C0"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+	]
+}

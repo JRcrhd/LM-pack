@@ -1,0 +1,24 @@
+{
+  "oreConfig": [
+   {
+      "ore": "atum:nebu_ore",
+      "filler": "atum:sand",
+      "minY": 1,
+      "maxY": 20,
+      "maxVeinSize": 3,
+      "spawnRate": 6,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+    {
+      "ore": "atum:nebu_ore",
+      "filler": "atum:limestone",
+      "minY": 1,
+      "maxY": 20,
+      "maxVeinSize": 3,
+      "spawnRate": 6,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

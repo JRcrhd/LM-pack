@@ -1,0 +1,1655 @@
+{
+	id: "58E49AD8296E2233"
+	group: "31630154FA06B1E9"
+	order_index: 1
+	filename: "58E49AD8296E2233"
+	title: "植物魔法"
+	icon: {
+		id: "botania:lexicon"
+		Count: 1b
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -6.0d
+		y: -1.5d
+		width: 1.0d
+		height: 1.0d
+		rotation: 0.0d
+		image: "botania:textures/block/jiyuulia.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -6.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: [
+				"用来合成花"
+				""
+				"其实是科技模组"
+				""
+				"“幻梦”章节会告诉你如何获得花药台核心的魂石"
+			]
+			id: "3711F3727C6EDBA0"
+			tasks: [{
+				id: "24787AA3283D3396"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [
+				{
+					id: "7488147C09E5EAEF"
+					type: "item"
+					item: {
+						id: "botania:twig_wand"
+						Count: 1b
+						tag: {
+							color1: 3
+							color2: 3
+						}
+					}
+				}
+				{
+					id: "7DD8CB8B6E9C7302"
+					type: "random"
+					table_id: 7000164146175417815L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			subtitle: "净化！"
+			description: ["白雏菊可以把原木和圆石活化。"]
+			dependencies: ["3711F3727C6EDBA0"]
+			id: "724E785BD3BD59AA"
+			tasks: [{
+				id: "031624571C33CE38"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [
+				{
+					id: "390D5179F30185B3"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 3
+				}
+				{
+					id: "28524230E53CB8AB"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			subtitle: "传输魔力"
+			dependencies: ["724E785BD3BD59AA"]
+			id: "572FBB0160065C7E"
+			tasks: [{
+				id: "09839B9914D65FA2"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+			rewards: [{
+				id: "1B6B107D43A0F592"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			description: [
+				"制作符文的地方，右键放置物品，使用魔力发射器提供魔力。"
+				""
+				"很遗憾，目前没有把火花连接到这里的方法"
+			]
+			dependencies: ["4368BE106BBD9C7B"]
+			id: "6EA7E57DD13B7BF8"
+			tasks: [{
+				id: "14E43DBA2D6660A9"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [
+				{
+					id: "2FA52752C446A5E3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3751C3674C56C5D1"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			subtitle: "装魔力的"
+			description: ["可以容纳1,000,000点魔力。"]
+			dependencies: ["572FBB0160065C7E"]
+			id: "4368BE106BBD9C7B"
+			tasks: [{
+				id: "41D579366225499F"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [
+				{
+					id: "47BC24B3969774B7"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "53D61C66E5CA52FF"
+					type: "item"
+					item: "extrabotany:rewardbaga"
+				}
+				{
+					id: "35DC3EC985A430D0"
+					type: "random"
+					table_id: 7000164146175417815L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 3.5d
+			subtitle: "便携式魔力池"
+			description: ["可以容纳500,000点魔力。"]
+			dependencies: ["4368BE106BBD9C7B"]
+			id: "56985B3C3CBCF5C0"
+			tasks: [{
+				id: "0563CB480BEECF19"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "35962861D7CBEBB8"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 2.0d
+			subtitle: "快速传输"
+			description: ["为泰拉钢做准备"]
+			dependencies: ["4368BE106BBD9C7B"]
+			id: "26A8D48FAE396240"
+			tasks: [{
+				id: "4F9FE26A93961058"
+				type: "item"
+				item: "botania:spark"
+			}]
+			rewards: [
+				{
+					id: "6BB044CCA662C72F"
+					type: "item"
+					item: "botania:spark"
+					count: 3
+				}
+				{
+					id: "34F4BC1ED2D27827"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			title: "泰拉钢"
+			x: -4.0d
+			y: 6.0d
+			description: ["高等金属"]
+			dependencies: ["6EA7E57DD13B7BF8"]
+			id: "5D9DED59A7007B5F"
+			tasks: [
+				{
+					id: "19ACA4F356A1F239"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "346BFD0BD0222414"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "3302954B2EAE8ECF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "232489A22E16DBFE"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "01150983535ABCAB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mid_reward"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			description: [
+				"喝下这个来使用符文仪式。"
+				""
+				"会开启一段记忆"
+			]
+			dependencies: ["5D9DED59A7007B5F"]
+			id: "4D8C9E8CC8428A43"
+			tasks: [{
+				id: "49FE77BB96D8D403"
+				type: "item"
+				item: "mythicbotany:gjallar_horn_full"
+			}]
+			rewards: [
+				{
+					id: "148FB049A371F905"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+				{
+					id: "23C7365563BEF2B2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "精灵门"
+			x: -1.0d
+			y: 4.5d
+			description: ["建造精灵门，方法请查阅植物魔法辞典。"]
+			dependencies: ["5D9DED59A7007B5F"]
+			id: "5B03AC7D519E0C17"
+			tasks: [
+				{
+					id: "1F1762AA31A9F412"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "3E89C14138C49558"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+				{
+					id: "168DFEEE28162E7E"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "179D7F903CBB228B"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "6A31BD7AD90718C4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "45F8DA5745B2A9F4"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "7ADF99977C1EBD55"
+					type: "item"
+					item: "botania:blacker_lotus"
+				}
+			]
+		}
+		{
+			title: "精灵钢"
+			x: 0.5d
+			y: 2.5d
+			description: ["需要消耗2个魔力池的魔力。"]
+			dependencies: ["5B03AC7D519E0C17"]
+			id: "7321EA61DEFCA454"
+			tasks: [
+				{
+					id: "67A835C42D487FD5"
+					type: "item"
+					item: "mythicbotany:alfsteel_ingot"
+				}
+				{
+					id: "67C43E871556896A"
+					type: "item"
+					item: "mythicbotany:mana_infuser"
+				}
+			]
+			rewards: [
+				{
+					id: "59FD04CF53EA2FEB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "29A63913105A1BED"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+				{
+					id: "0428C1C24D9841E7"
+					type: "item"
+					item: "botania:blacker_lotus"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "大战盖亚"
+			x: 2.5d
+			y: 2.5d
+			description: ["怎么和我长得一模一样？"]
+			dependencies: ["7321EA61DEFCA454"]
+			id: "41054B476C42839C"
+			tasks: [
+				{
+					id: "2F10F1A730EF8BBE"
+					type: "item"
+					item: "botania:gaia_pylon"
+					count: 2L
+				}
+				{
+					id: "505CF29B4D5B32EA"
+					type: "item"
+					item: "botania:life_essence"
+				}
+			]
+			rewards: [
+				{
+					id: "6DE5C5CA8D87149B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "79CA6454AE3AA7E6"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "00ED535E2117A12F"
+					type: "random"
+					table_id: 1007301431635339741L
+				}
+			]
+		}
+		{
+			title: "第二次大战盖亚"
+			x: 4.5d
+			y: 4.5d
+			dependencies: ["41054B476C42839C"]
+			id: "3E27B2DC4368A363"
+			tasks: [{
+				id: "005326DB90A617F4"
+				type: "item"
+				item: {
+					id: "botania:dice"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "449F264162E11D33"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6F73F3BE61D3F8A7"
+					type: "ftbmoney:money"
+					ftb_money: 70L
+				}
+				{
+					id: "44CBC3B6DE6B85C3"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+				{
+					id: "7BC1A22C4B199EEB"
+					type: "item"
+					item: "botania:gaia_head"
+				}
+				{
+					id: "6862EAC19B96F987"
+					type: "item"
+					item: "extrabotany:rewardbagb"
+				}
+				{
+					id: "5DA97B3773D5FDF5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			description: ["九界通行证"]
+			dependencies: [
+				"4D8C9E8CC8428A43"
+				"7321EA61DEFCA454"
+			]
+			id: "114B8B908AB442EB"
+			tasks: [
+				{
+					id: "700661014F3B996F"
+					type: "item"
+					item: "mythicbotany:kvasir_mead"
+				}
+				{
+					id: "402FFCAEDC28271A"
+					type: "dimension"
+					dimension: "mythicbotany:alfheim"
+				}
+			]
+			rewards: [{
+				id: "71B9A3411A2E6721"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			subtitle: "可能确实很重"
+			dependencies: ["4D8C9E8CC8428A43"]
+			id: "1C9C498D130E0A0F"
+			tasks: [{
+				id: "2C3A37006B541384"
+				type: "item"
+				item: "mythicbotany:mjoellnir"
+			}]
+			rewards: [
+				{
+					id: "4F2CE34429BB781A"
+					type: "choice"
+					table_id: 2256279273727221393L
+				}
+				{
+					id: "54E9921AD6815621"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			description: [
+				"BGM:余罪待偿"
+				""
+				"会开启一段记忆"
+			]
+			dependencies: [
+				"3E27B2DC4368A363"
+				"60E6378FE20CA5FC"
+			]
+			id: "372CE42C5183A872"
+			tasks: [{
+				id: "24905E72A2E24443"
+				type: "kill"
+				entity: "extrabotany:ego"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6C36AC0030475B55"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+				{
+					id: "7EECB4D566CA29CE"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "39AF2A7A0F1A43BB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "276779EAA806A9D0"
+					type: "item"
+					item: "extrabotany:challengeticket"
+				}
+				{
+					id: "48C6E0B7244FA3C8"
+					type: "item"
+					item: "extrabotany:rewardbagc"
+					count: 3
+				}
+				{
+					id: "4FDFD78B8A07F04E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			dependencies: ["6184E077B2FC8B60"]
+			id: "60E6378FE20CA5FC"
+			tasks: [{
+				id: "18610335EB1F573E"
+				type: "item"
+				item: {
+					id: "extrabotany:natureorb"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "3A910A00EBC3F646"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "6E5A6742D713A575"
+					type: "item"
+					item: "botania:black_lotus"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 0.5d
+			subtitle: "将煤炭活化"
+			dependencies: ["4368BE106BBD9C7B"]
+			id: "15E7EB6428F8F1ED"
+			tasks: [{
+				id: "6C6B268295A05F64"
+				type: "item"
+				item: "extrabotany:nightmarefuel"
+			}]
+			rewards: [{
+				id: "6E9A30978041FF8A"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 6.0d
+			dependencies: ["5D9DED59A7007B5F"]
+			id: "6184E077B2FC8B60"
+			tasks: [{
+				id: "225600C478711B14"
+				type: "item"
+				item: "extrabotany:powerframe"
+			}]
+			rewards: [{
+				id: "73B602317AE7AFB9"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -8.5d
+			y: -0.5d
+			dependencies: ["15E7EB6428F8F1ED"]
+			id: "5BBF915ECCE94DD3"
+			tasks: [{
+				id: "38B16E80C7D4EB25"
+				type: "item"
+				item: "extrabotany:spiritfuel"
+			}]
+			rewards: [{
+				id: "77ECEBC73A760EB9"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.0d
+			dependencies: ["372CE42C5183A872"]
+			id: "04B35FBA03F9EB3C"
+			tasks: [{
+				id: "06FA1A1E88E65A0E"
+				type: "item"
+				item: "extrabotany:heromedal"
+			}]
+			rewards: [
+				{
+					id: "2C3FC27BAB94C7A8"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "18BFE62E4F52A1FB"
+					type: "choice"
+					table_id: 2256279273727221393L
+				}
+				{
+					id: "348058D653CA971D"
+					type: "item"
+					item: "extrabotany:rewardbagd"
+					count: 3
+				}
+				{
+					id: "2EBFF25AD9A72E85"
+					type: "random"
+					table_id: 2598854915727183632L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			dependencies: ["6EA7E57DD13B7BF8"]
+			id: "56414D37F65E0CCA"
+			tasks: [{
+				id: "41C024324067858D"
+				type: "item"
+				item: {
+					id: "endrem:magical_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			dependencies: ["3711F3727C6EDBA0"]
+			id: "7B10FA89B94F1A1E"
+			tasks: [{
+				id: "1C180EA4FCD69F50"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["114B8B908AB442EB"]
+			id: "36D7CFEEFF0AD8DA"
+			tasks: [{
+				id: "431DA968A3DFC9BC"
+				type: "item"
+				item: {
+					id: "mythicbotany:cursed_andwari_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5D88EF58CC454AD1"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["36D7CFEEFF0AD8DA"]
+			id: "3FE0C6EB3EB98077"
+			tasks: [{
+				id: "32418496A8AFF80C"
+				type: "item"
+				item: {
+					id: "mythicbotany:andwari_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7771F8319BEEFE39"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			id: "4AB3A66887D9289A"
+			tasks: [{
+				id: "447F8E5B702A1494"
+				type: "item"
+				item: {
+					id: "botania:mana_ring"
+					Count: 1b
+					tag: {
+						mana: 145
+					}
+				}
+			}]
+			rewards: [{
+				id: "086FD14D4C61D0AA"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["4AB3A66887D9289A"]
+			id: "50E7715247AF6573"
+			tasks: [{
+				id: "5EC3E3ED906C5259"
+				type: "item"
+				item: {
+					id: "botania:mana_ring_greater"
+					Count: 1b
+					tag: {
+						mana: 15
+					}
+				}
+			}]
+			rewards: [{
+				id: "76379AAFDB8AE110"
+				type: "ftbmoney:money"
+				ftb_money: 40L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -6.0d
+			dependencies: ["50E7715247AF6573"]
+			id: "0D142F13D0F458D7"
+			tasks: [{
+				id: "14E0978B77C37D08"
+				type: "item"
+				item: {
+					id: "mythicbotany:mana_ring_greatest"
+					Count: 1b
+					tag: {
+						mana: 100
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "03BFD7B6A35D4BA9"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+				{
+					id: "797A39B8A3A0339D"
+					type: "random"
+					table_id: 1007301431635339741L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			id: "3F2116B3E1620D8E"
+			tasks: [{
+				id: "117CF9AD1285481D"
+				type: "item"
+				item: "extrabotany:photonium"
+			}]
+			rewards: [{
+				id: "7CECA11863575242"
+				type: "ftbmoney:money"
+				ftb_money: 60L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			id: "07EEE7E010E7F784"
+			tasks: [{
+				id: "1B6147EF63BB6773"
+				type: "item"
+				item: "extrabotany:shadowium"
+			}]
+			rewards: [{
+				id: "081E408A4D21F149"
+				type: "ftbmoney:money"
+				ftb_money: 60L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			id: "0149D2AD40537FC7"
+			tasks: [{
+				id: "47A63592CFA5D6BF"
+				type: "item"
+				item: "extrabotany:aerialite"
+			}]
+			rewards: [{
+				id: "1933B26EE3CB6CA5"
+				type: "ftbmoney:money"
+				ftb_money: 60L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			id: "26E7A549DD63C805"
+			tasks: [{
+				id: "01A99DE3DEDB0BA7"
+				type: "item"
+				item: "extrabotany:orichalcos"
+			}]
+			rewards: [{
+				id: "627E6BC9A8CBBC78"
+				type: "ftbmoney:money"
+				ftb_money: 60L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -6.0d
+			dependencies: [
+				"18EBF425A1A5DEFC"
+				"1FF7E2DC7F0A3165"
+				"32B0DDD4C7614D03"
+				"411C00EE1C3CB3F6"
+				"1FC2FAF540D2019E"
+			]
+			id: "7DA42131B8000F3F"
+			tasks: [{
+				id: "6C2432332AAEC349"
+				type: "item"
+				item: {
+					id: "extrabotany:firstfractal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7426E56FABB9D1D7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "35E2EBC36D665278"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -7.5d
+			id: "4B5FDFA9091F40D0"
+			tasks: [{
+				id: "77C736CB00B92E91"
+				type: "item"
+				item: {
+					id: "extrabotany:motor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7426E56FAB59D1D7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "1EFA80B2BEC02328"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -7.0d
+			id: "411C00EE1C3CB3F6"
+			tasks: [{
+				id: "0C3E6AEA7ED205C2"
+				type: "item"
+				item: {
+					id: "extrabotany:excaliber"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7426E56FA15991D7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "0017E86F0C24E0DD"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			id: "6C620445A46C54C4"
+			tasks: [{
+				id: "0F3241347F3AC116"
+				type: "item"
+				item: {
+					id: "extrabotany:failnaught"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7426E56FA159A1D7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "6A953BF393F2F122"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -5.0d
+			id: "1FC2FAF540D2019E"
+			tasks: [{
+				id: "504F6FEC2628D0AB"
+				type: "item"
+				item: {
+					id: "extrabotany:influxwaver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7426E5EFA159D1D7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "24B3BFED0C447008"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			id: "18EBF425A1A5DEFC"
+			tasks: [{
+				id: "526A1B68E6874EAD"
+				type: "item"
+				item: {
+					id: "extrabotany:trueterrablade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7426E56FA359D1D7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "55BFE1066AAFA782"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -7.0d
+			id: "1FF7E2DC7F0A3165"
+			tasks: [{
+				id: "1ACF322237430557"
+				type: "item"
+				item: {
+					id: "extrabotany:trueshadowkatana"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7426156FA159D1D7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "55650BF3C7400AD5"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -8.0d
+			id: "32B0DDD4C7614D03"
+			tasks: [{
+				id: "5FAADFB783E7BA64"
+				type: "item"
+				item: {
+					id: "extrabotany:starwrath"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7426E56FA159D144"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "166B79F4A3D4B400"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -6.0d
+			id: "39E56AF7B29C4858"
+			tasks: [{
+				id: "0B1B8D15B35B7018"
+				type: "item"
+				item: {
+					id: "extrabotany:camera"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "07426E56FA159D17"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "14837EA45D4CD3EE"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -6.0d
+			subtitle: "概率，小子！"
+			id: "6C4B735E7657CA7C"
+			tasks: [{
+				id: "28417802B5284338"
+				type: "item"
+				item: {
+					id: "extrabotany:buddhistrelics"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.0d
+			id: "3CEC46AA5399DA4B"
+			tasks: [{
+				id: "1C12259562F435C8"
+				type: "item"
+				item: {
+					id: "extrabotany:coregod"
+					Count: 1b
+					tag: {
+						variant: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3426E56FA159D1D7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "6617CC9F48A0054E"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -7.5d
+			id: "07DFC6D915B035EC"
+			tasks: [{
+				id: "4E79D5FB33277AED"
+				type: "item"
+				item: {
+					id: "extrabotany:sunring"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: -8024766989461470939L
+						baubleUUIDLeast: -8764422335788658569L
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7416E56FA159D1D7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "1DB2D088A97051A1"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -8.0d
+			id: "43CBF351C80F9C88"
+			tasks: [{
+				id: "7CBEDF69D23E10EF"
+				type: "item"
+				item: {
+					id: "extrabotany:moonpendant"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: 5803486855242730977L
+						baubleUUIDLeast: -5421505358549897511L
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7426E52FA159D1D7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "79EA394AD39E1CE9"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			id: "17F919B84A916574"
+			tasks: [{
+				id: "2D04160F94EAFDF4"
+				type: "item"
+				item: {
+					id: "botania:infinite_fruit"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7426E56FA159D127"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "7CD76B9E5BA10F00"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			id: "64309F35317D9BEE"
+			tasks: [{
+				id: "383B780061E1C4BB"
+				type: "item"
+				item: {
+					id: "botania:king_key"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "07426E56FA159D1D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "3212709F23514376"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			id: "10913C630A501491"
+			tasks: [{
+				id: "174DF41B62214B90"
+				type: "item"
+				item: {
+					id: "botania:flugel_eye"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0742E56FA159D1D7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "11B1F757C3B529E7"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			id: "757EE1AD2A00AA49"
+			tasks: [{
+				id: "3C8E5C97115930B2"
+				type: "item"
+				item: {
+					id: "botania:thor_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0726E56FA159D1D7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "1B141AE4788BECDD"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			id: "47663CD45A4DF116"
+			tasks: [{
+				id: "10A4D2805F0CE723"
+				type: "item"
+				item: {
+					id: "botania:odin_ring"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: -3415979070851036797L
+						baubleUUIDLeast: -6986983581399078528L
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7426E56FA159D1D7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "035E2EBC36D66278"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			id: "3375243E112CE931"
+			tasks: [{
+				id: "5A87294ED3B25661"
+				type: "item"
+				item: {
+					id: "botania:loki_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0A38EC88DF2A3118"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "2B64E79C478E2E35"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -9.5d
+			subtitle: "地母的一部分灵魂"
+			id: "48F9DDA41A26E12D"
+			tasks: [{
+				id: "3FC6A4F7BFF90D83"
+				type: "item"
+				item: "mowziesmobs:earth_talisman"
+			}]
+			rewards: [
+				{
+					id: "2C7CB52B101BDAA3"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "4C09C9BDF4D48D21"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -8.0d
+			dependencies: ["0D142F13D0F458D7"]
+			id: "0CA30A425291BE13"
+			tasks: [{
+				id: "04EB9A6278DCF381"
+				type: "item"
+				item: {
+					id: "extrabotany:sagesmanaring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			description: ["不要误会，这套装备并不强大"]
+			id: "2ED0492236A8B307"
+			tasks: [{
+				id: "0809FC5B16DEE5E3"
+				type: "item"
+				item: "kubejs:philosophy_soul"
+			}]
+			rewards: [{
+				id: "7CE677B40556AE32"
+				type: "ftbmoney:money"
+				ftb_money: 80L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			description: [""]
+			dependencies: ["2ED0492236A8B307"]
+			id: "22681098F9BCA50C"
+			tasks: [{
+				id: "20BB0641FC7FB00E"
+				type: "item"
+				item: {
+					id: "kubejs:star_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			dependencies: ["2ED0492236A8B307"]
+			id: "6AAEB1128B469A2A"
+			tasks: [{
+				id: "7612F51787B688BA"
+				type: "item"
+				item: {
+					id: "kubejs:star_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			dependencies: ["2ED0492236A8B307"]
+			id: "25CABE77121876EF"
+			tasks: [{
+				id: "2521C858538E19EB"
+				type: "item"
+				item: {
+					id: "kubejs:star_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			dependencies: ["2ED0492236A8B307"]
+			id: "0363983187A7D42F"
+			tasks: [{
+				id: "70A54E22CAD9D60D"
+				type: "item"
+				item: {
+					id: "kubejs:star_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			description: ["从此实现魔力自由"]
+			dependencies: ["41054B476C42839C"]
+			id: "0B635A5ED54D1164"
+			tasks: [{
+				id: "517FC55ED580D6DF"
+				type: "item"
+				item: "mythicbotany:mana_collector"
+			}]
+		}
+	]
+}

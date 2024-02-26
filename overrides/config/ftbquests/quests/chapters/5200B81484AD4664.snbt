@@ -1,0 +1,789 @@
+{
+	id: "5200B81484AD4664"
+	group: ""
+	order_index: 2
+	filename: "5200B81484AD4664"
+	title: "悬赏"
+	icon: {
+		id: "minecraft:iron_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			disable_toast: true
+			x: -5.0d
+			y: -3.0d
+			id: "572F1A25C6247FBF"
+			tasks: [{
+				id: "1B092805828A602A"
+				type: "item"
+				item: "xreliquary:zombie_heart"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "63D314E7D07ADA35"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+				{
+					id: "792DC4A2575C2093"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -4.0d
+			y: -3.0d
+			id: "045A4E72451A1220"
+			tasks: [{
+				id: "207A0B7D22CD8463"
+				type: "item"
+				item: "xreliquary:squid_beak"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "12E12AEF453EDABC"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+				{
+					id: "792DC4A2575C2094"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -3.0d
+			y: -3.0d
+			id: "441CCA33FA95688A"
+			tasks: [{
+				id: "78B767229DB82DA8"
+				type: "item"
+				item: "xreliquary:rib_bone"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3F6B2272CBAA20E1"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "792DC4A2575C2095"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -2.0d
+			y: -3.0d
+			id: "6419C3652CFD4142"
+			tasks: [{
+				id: "3E8FA7E13C407B29"
+				type: "item"
+				item: "xreliquary:catalyzing_gland"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3366F98B37D3F1B6"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+				{
+					id: "792DC4A2575C2096"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -1.0d
+			y: -3.0d
+			id: "039A76A3DF4BBFF6"
+			tasks: [{
+				id: "7F3BA1845B8080CB"
+				type: "item"
+				item: "xreliquary:chelicerae"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "76F9E05FE4ED9B46"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+				{
+					id: "792DC4A2575C2097"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 0.0d
+			y: -3.0d
+			id: "0860853932C80D7E"
+			tasks: [{
+				id: "0A8108C25D6F37ED"
+				type: "item"
+				item: "xreliquary:slime_pearl"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "59EA01837006AA80"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+				{
+					id: "792DC4A2575C2098"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 1.0d
+			y: -3.0d
+			id: "09CE50AA1A72413D"
+			tasks: [{
+				id: "0166C7D583A12212"
+				type: "item"
+				item: "xreliquary:kraken_shell_fragment"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7D200D8F917CAD05"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+				{
+					id: "792DC4A2575C2099"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 2.0d
+			y: -3.0d
+			id: "38EE6E9E16AF36FF"
+			tasks: [{
+				id: "41906883BCA11921"
+				type: "item"
+				item: "xreliquary:bat_wing"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "17848D71CE5719F8"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "792DC4A2575C2100"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -5.0d
+			y: -2.0d
+			optional: true
+			id: "5E1934EB1BDF7926"
+			tasks: [{
+				id: "36460557EC4F6E16"
+				type: "item"
+				item: "xreliquary:molten_core"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2F9BB0DD38EE5A80"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+				{
+					id: "792DC4A2575C2101"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -4.0d
+			y: -2.0d
+			id: "0333ACB45D9CE35D"
+			tasks: [{
+				id: "6D4E8EDC284D8CE6"
+				type: "item"
+				item: "xreliquary:withered_rib"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0588D4597E3E6628"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+				{
+					id: "792DC4A2575C2102"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -3.0d
+			y: -2.0d
+			id: "118732B3FB30A6B9"
+			tasks: [{
+				id: "1E66B5F0A52A7BD7"
+				type: "item"
+				item: "xreliquary:eye_of_the_storm"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "42B931A6D4A7443E"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "792DC4A2575C2103"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -2.0d
+			y: -2.0d
+			id: "30576386A3E6A182"
+			tasks: [{
+				id: "632A181C5CB93156"
+				type: "item"
+				item: "xreliquary:frozen_core"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "56031BCC883DCF55"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+				{
+					id: "792DC4A2575C2104"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -1.0d
+			y: -2.0d
+			id: "655CD7DB8418963D"
+			tasks: [{
+				id: "3DD3526B5A77DCC9"
+				type: "item"
+				item: "xreliquary:nebulous_heart"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "36E4E612CB8FCAF4"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+				{
+					id: "792DC4A2575C2105"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 0.0d
+			y: -2.0d
+			id: "59850A9C6CC7AFAB"
+			tasks: [{
+				id: "348E9B0F49561845"
+				type: "item"
+				item: "xreliquary:guardian_spike"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "41CA7C2943B31136"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+				{
+					id: "792DC4A2575C2106"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -5.0d
+			y: -5.5d
+			optional: true
+			id: "38082C9EA5728FD6"
+			tasks: [{
+				id: "092353402997D978"
+				type: "item"
+				item: "minecraft:bone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "301B3268F871455E"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "792DC4A2575C2117"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -4.0d
+			y: -5.5d
+			optional: true
+			id: "60BEF83274F1C3DC"
+			tasks: [{
+				id: "0273B61B6A5C71F7"
+				type: "item"
+				item: "minecraft:rotten_flesh"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "37A693F3543C7950"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "792DC4A2575C2118"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -3.0d
+			y: -5.5d
+			optional: true
+			id: "16A0C048C224287E"
+			tasks: [{
+				id: "781E91C6A8E6748B"
+				type: "item"
+				item: "minecraft:spider_eye"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "48F43D34BF8805BD"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "792DC4A2575C2119"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -2.0d
+			y: -5.5d
+			optional: true
+			id: "6019B78414C18B68"
+			tasks: [{
+				id: "14EC2EDF0C726860"
+				type: "item"
+				item: "minecraft:string"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "53F90F4547A28A17"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "792DC4A2575C2116"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -1.0d
+			y: -5.5d
+			optional: true
+			id: "486D2AE3DA42953E"
+			tasks: [{
+				id: "7D1FB2E61D1642F3"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3966CCAD1F6BF127"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "792DC4A2575C2115"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 0.0d
+			y: -5.5d
+			optional: true
+			id: "27572C48D731C86A"
+			tasks: [{
+				id: "2AEF615FA5F6C574"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2B50263AF9D17D20"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "792DC4A2575C2114"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -5.0d
+			y: -4.5d
+			optional: true
+			id: "525CE8B35B2A20A8"
+			tasks: [{
+				id: "2EB935BB77E9A7DA"
+				type: "item"
+				item: "minecraft:chicken"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2FB03A6311DD361B"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "5E61FFA2356ABE55"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -4.0d
+			y: -4.5d
+			optional: true
+			id: "6972A634B2049F4E"
+			tasks: [{
+				id: "20BE46469F791187"
+				type: "item"
+				item: "minecraft:porkchop"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "50AA7BD18E801E85"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "792DC4A2575C2113"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -3.0d
+			y: -4.5d
+			optional: true
+			id: "2D6DDA4800012FA4"
+			tasks: [{
+				id: "73E7E580560C1E48"
+				type: "item"
+				item: "minecraft:beef"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "76728218C61C3AB2"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "792DC4A2575C2112"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -2.0d
+			y: -4.5d
+			optional: true
+			id: "12B41B8B6246EBB9"
+			tasks: [{
+				id: "11B99B342577430C"
+				type: "item"
+				item: "minecraft:mutton"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1B312B01AC967578"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "792DC4A2575C2111"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -1.0d
+			y: -4.5d
+			optional: true
+			id: "4C097930148C3A85"
+			tasks: [{
+				id: "5F29E6D9D8F58272"
+				type: "item"
+				item: "minecraft:rabbit_foot"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7BA7CC39F061ABB7"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "792DC4A2575C2110"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 0.0d
+			y: -4.5d
+			optional: true
+			id: "0C5F093548A2B8D8"
+			tasks: [{
+				id: "3F83557AA8CE075C"
+				type: "item"
+				item: "minecraft:rabbit_hide"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "56176C053F9A4295"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "792DC4A2575C2107"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 1.0d
+			y: -4.5d
+			optional: true
+			id: "2E2D9113753A8B5C"
+			tasks: [{
+				id: "5075CD3431D923C4"
+				type: "item"
+				item: "minecraft:leather"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7490A1AB63D6F99E"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "792DC4A2575C2109"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -7.0d
+			id: "20805ED00FDEA527"
+			tasks: [{
+				id: "0D532A034FC6A7F1"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:earth_heart"
+					Count: 1b
+					tag: { }
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4A6ACEBEDBD6E7BA"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "0F6E363B80EF7F72"
+					type: "custom"
+					title: "可重复"
+					icon: "alexsmobs:roadrunner_feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,745 @@
+{
+	id: "748FC60A66EAA146"
+	group: "547F7E1B88118B9B"
+	order_index: 4
+	filename: "748FC60A66EAA146"
+	title: "【发展“神秘学”解锁】§6§l饰品拓展"
+	icon: {
+		id: "enigmaticlegacy:enigmatic_amulet"
+		Count: 1b
+		tag: {
+			AssignedColor: 0.4f
+			Inscription: "JRcrhd"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "脚饰+1"
+			icon: "ars_nouveau:glyph_underfoot"
+			x: -6.0d
+			y: -5.0d
+			description: ["很奇妙，对吧"]
+			dependencies: ["42190148A803BD42"]
+			hide: true
+			id: "4C95BBAF416D5C4B"
+			tasks: [
+				{
+					id: "1ED2C3CE7C85B30B"
+					type: "item"
+					item: {
+						id: "easy_emerald:ruby_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "64DF152D01758162"
+					type: "item"
+					item: "scalinghealth:cursed_heart"
+					consume_items: true
+				}
+				{
+					id: "18AA437955E979C8"
+					type: "item"
+					item: "xreliquary:emperor_chalice"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "534B6E07E3B45A75"
+				type: "command"
+				title: "脚饰+1"
+				icon: "ars_nouveau:glyph_underfoot"
+				command: "/curios add feet @p"
+				player_command: false
+			}]
+		}
+		{
+			title: "脚饰+1"
+			icon: "ars_nouveau:glyph_underfoot"
+			x: -7.0d
+			y: -7.0d
+			description: [""]
+			dependencies: ["4C95BBAF416D5C4B"]
+			hide: true
+			id: "06A5792363AF50D2"
+			tasks: [
+				{
+					id: "0069E4BA6A3E1ACF"
+					type: "item"
+					item: "endrem:end_crystal_fragment"
+					consume_items: true
+				}
+				{
+					id: "370AC9E3641AC0B5"
+					type: "item"
+					item: "enigmaticlegacy:etherium_ingot"
+					consume_items: true
+				}
+				{
+					id: "704F76F19E284839"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingboots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4C8086D6591E9529"
+				type: "command"
+				title: "脚饰+1"
+				icon: "ars_nouveau:glyph_underfoot"
+				command: "/curios add feet @p"
+				player_command: false
+			}]
+		}
+		{
+			title: "护符+1"
+			icon: "eidolon:basic_amulet"
+			x: -3.0d
+			y: -5.0d
+			description: [
+				"“魔灵”分出了一份力量，这让你可以同时承受更多饰品。"
+				""
+			]
+			dependencies: ["3E9C5545ED1F246A"]
+			hide: true
+			id: "42190148A803BD42"
+			tasks: [
+				{
+					id: "152F4F01A3A1639F"
+					type: "item"
+					item: "omnis:evoker_charm"
+					consume_items: true
+				}
+				{
+					id: "0A65A3635896E08D"
+					type: "item"
+					item: "botania:mana_pearl"
+					consume_items: true
+				}
+				{
+					id: "5D1D12495E6911FF"
+					type: "item"
+					item: "twilightforest:charm_of_life_2"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "79BE9BA4D3EDD98A"
+				type: "command"
+				title: "护符+1"
+				icon: "eidolon:basic_amulet"
+				command: "/curios add charm @p"
+				player_command: false
+			}]
+		}
+		{
+			title: "项链+1"
+			icon: {
+				id: "relics:reflection_necklace"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.0d
+			y: -9.0d
+			dependencies: [
+				"42190148A803BD42"
+				"16C766A3F25F5C28"
+			]
+			hide: true
+			id: "65E2AF5E86F5E0FF"
+			tasks: [
+				{
+					id: "4ABF82C76647F9C3"
+					type: "item"
+					item: {
+						id: "botania:blood_pendant"
+						Count: 1b
+						tag: {
+							brewKey: "extrabotany:floating"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "302C25BB444E9E65"
+					type: "item"
+					item: "mowziesmobs:barako_mask"
+					consume_items: true
+				}
+				{
+					id: "514D977E32254061"
+					type: "item"
+					item: {
+						id: "botania:tiny_planet"
+						Count: 1b
+						tag: { }
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4215611FA38A5FC3"
+				type: "command"
+				title: "项链+1"
+				icon: {
+					id: "relics:reflection_necklace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				command: "/curios add necklace @p"
+				player_command: false
+			}]
+		}
+		{
+			title: "头饰+1"
+			icon: {
+				id: "betterendforge:aeternium_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: -3.0d
+			description: [
+				""
+				""
+				""
+				"这片不断沸腾的、暗灰色的海洋向你描绘了第一个需求"
+				""
+			]
+			dependencies: ["2C51C061A8FAB3F0"]
+			hide: true
+			id: "3E9C5545ED1F246A"
+			tasks: [
+				{
+					id: "66519ADED57F964B"
+					type: "item"
+					item: {
+						id: "easy_emerald:emerald_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3E1BE5547D20C7C7"
+					type: "item"
+					item: {
+						id: "occultism:spirit_attuned_gem"
+						Count: 1b
+						tag: { }
+					}
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "6CA1298310BA43DD"
+					type: "item"
+					item: "gobber2:gobber2_ingot"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6870230AD6C6218A"
+				type: "command"
+				title: "头饰+1"
+				icon: {
+					id: "betterendforge:aeternium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				command: "/curios add head @p"
+				player_command: false
+			}]
+		}
+		{
+			title: "手饰+1"
+			icon: {
+				id: "extrabotany:powerglove"
+				Count: 1b
+				tag: {
+					baubleUUIDMost: 7671974062355465441L
+					baubleUUIDLeast: -7839714479790620090L
+				}
+			}
+			x: 0.0d
+			y: -5.0d
+			dependencies: ["42190148A803BD42"]
+			hide: true
+			id: "0B33223E942ADF3C"
+			tasks: [
+				{
+					id: "3E8254B4BA3F6780"
+					type: "item"
+					item: "farmersdelight:roast_chicken_block"
+					consume_items: true
+				}
+				{
+					id: "7C744DF4D25B3D7D"
+					type: "item"
+					title: "Any #iceandfire:dragon_skulls"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "iceandfire:dragon_skulls"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1086778977BC5A2F"
+					type: "item"
+					item: "ars_nouveau:glyph_interact"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "411DD7E645069E13"
+				type: "command"
+				title: "手饰+1"
+				icon: {
+					id: "extrabotany:powerglove"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: 7671974062355465441L
+						baubleUUIDLeast: -7839714479790620090L
+					}
+				}
+				command: "/curios add hands @p"
+				player_command: false
+			}]
+		}
+		{
+			title: "术石+1"
+			icon: "enigmaticlegacy:golem_heart"
+			x: -3.0d
+			y: -7.0d
+			dependencies: ["42190148A803BD42"]
+			hide: true
+			id: "16C766A3F25F5C28"
+			tasks: [
+				{
+					id: "54A5A18EE3E039FF"
+					type: "item"
+					item: "eidolon:shadow_gem"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "47C78FAE830A3032"
+					type: "item"
+					item: "gobber2:gobber2_medallion_nether"
+					consume_items: true
+				}
+				{
+					id: "153CEC01BF701E52"
+					type: "item"
+					item: "bloodmagic:weakbloodshard"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "11BEC6C6B4E2E390"
+				type: "command"
+				title: "术石+1"
+				icon: "enigmaticlegacy:golem_heart"
+				command: "/curios add spellstone @p"
+				player_command: false
+			}]
+		}
+		{
+			title: "戒指+1"
+			icon: "ringsofascension:ring_health"
+			x: 1.0d
+			y: -7.0d
+			dependencies: ["0B33223E942ADF3C"]
+			hide: true
+			id: "5ED082AD20A63B70"
+			tasks: [
+				{
+					id: "73002AC5916BD061"
+					type: "item"
+					item: "cataclysm:ignitium_ingot"
+					consume_items: true
+				}
+				{
+					id: "27F80D6CD7D50496"
+					type: "item"
+					item: "tconstruct:manyullyn_ingot"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "726F63ADEAFA125E"
+					type: "item"
+					item: "atum:nebu_torch"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6526F27C0363B595"
+				type: "command"
+				title: "戒指+1"
+				icon: "ringsofascension:ring_health"
+				command: "/curios add ring @p"
+				player_command: false
+			}]
+		}
+		{
+			title: "手镯+1"
+			icon: "atum:relic_diamond_bracelet"
+			x: -1.0d
+			y: -7.0d
+			dependencies: [
+				"0B33223E942ADF3C"
+				"42190148A803BD42"
+			]
+			hide: true
+			id: "4890BD2635B49587"
+			tasks: [
+				{
+					id: "538CD7F8CA6E59AD"
+					type: "item"
+					item: "ringsofascension:ring_growth"
+					consume_items: true
+				}
+				{
+					id: "0A22AF040FB226CF"
+					type: "item"
+					item: "occultism:iesnium_ingot"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "47F95C438ADC9791"
+					type: "item"
+					item: {
+						id: "xreliquary:void_tear"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "3A3AEACF72BC7D1F"
+				type: "command"
+				title: "手镯+1"
+				icon: "atum:relic_diamond_bracelet"
+				command: "/curios add bracelet @p"
+				player_command: false
+			}]
+		}
+		{
+			title: " 卡莱恩能量之心+1"
+			icon: {
+				id: "projecte:klein_star_omega"
+				Count: 1b
+				ForgeCaps: {
+					Parent: { }
+				}
+			}
+			x: -3.0d
+			y: -12.5d
+			description: ["它似乎开始向你索求一些*特别的*物品"]
+			dependencies: ["16C766A3F25F5C28"]
+			hide: true
+			id: "3D63516268C023F7"
+			tasks: [
+				{
+					id: "16A59490DB6323A1"
+					type: "item"
+					item: "projecte:dark_matter"
+				}
+				{
+					id: "02F9F9D7FFC1DE53"
+					type: "item"
+					item: "enigmaticlegacy:twisted_core"
+				}
+				{
+					id: "048863BCC6FA8AA9"
+					type: "item"
+					item: "mysticalagradditions:dragon_scale"
+				}
+			]
+			rewards: [{
+				id: "295985E2AB835E6E"
+				type: "command"
+				title: "卡莱恩能量之心+1"
+				icon: {
+					id: "projecte:klein_star_omega"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+				command: "/curios add klein_star @p"
+				player_command: false
+			}]
+		}
+		{
+			title: "背饰+1"
+			icon: "sophisticatedbackpacks:backpack"
+			x: -5.0d
+			y: -7.0d
+			dependencies: [
+				"65E2AF5E86F5E0FF"
+				"42190148A803BD42"
+			]
+			hide: true
+			id: "1065673D0673EA83"
+			tasks: [
+				{
+					id: "099479B9D89C779C"
+					type: "item"
+					item: "astralsorcery:perk_seal"
+					consume_items: true
+				}
+				{
+					id: "24F252EA7C808432"
+					type: "item"
+					item: "omnis:haunted_steel_ingot"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "7FA75556330695EE"
+					type: "item"
+					item: "tomes:ancient_heart"
+					consume_items: true
+				}
+				{
+					id: "2EF6BA7CA685DB0C"
+					type: "item"
+					item: "tomes:beating_heart"
+					consume_items: true
+				}
+				{
+					id: "1C918FA72CBF6753"
+					type: "item"
+					item: "tomes:sweet_heart"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "27254C08EA9A0DB9"
+				type: "command"
+				title: "背饰+1"
+				icon: "sophisticatedbackpacks:backpack"
+				command: "/curios add back @p"
+				player_command: false
+			}]
+		}
+		{
+			title: "护符+1"
+			icon: "eidolon:void_amulet"
+			x: -4.5d
+			y: -13.5d
+			description: ["可以无限升级"]
+			dependencies: ["3D63516268C023F7"]
+			hide: true
+			id: "27152A7882580DD2"
+			tasks: [
+				{
+					id: "2E50E26B32696E83"
+					type: "item"
+					item: "projecte:red_matter"
+					consume_items: true
+				}
+				{
+					id: "3DF01224E74FEB9F"
+					type: "item"
+					item: "avaritia:neutronium_nugget"
+					count: 3L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "5180FF3897F10F9D"
+					type: "command"
+					title: "护符+1"
+					icon: "eidolon:void_amulet"
+					command: "/curios add charm @p"
+					player_command: false
+				}
+				{
+					id: "67A42D144D55938A"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			title: "术石+1"
+			icon: "kubejs:unawaken_creative_core"
+			x: -1.5d
+			y: -13.5d
+			description: ["可以无限升级"]
+			dependencies: ["3D63516268C023F7"]
+			hide: true
+			id: "698F731AC1F9D9CA"
+			tasks: [
+				{
+					id: "233B64FFDC360E04"
+					type: "item"
+					item: "projecte:red_matter"
+					consume_items: true
+				}
+				{
+					id: "08E7424DBC3F1F0D"
+					type: "item"
+					item: "avaritia:neutronium_nugget"
+					count: 3L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "12DD14A624C41CCA"
+					type: "command"
+					title: "术石+1"
+					icon: "kubejs:unawaken_creative_core"
+					command: "/curios add spellstone @p"
+					player_command: false
+				}
+				{
+					id: "38D56EB2246047DB"
+					type: "custom"
+					title: "可重复"
+					icon: "twilightforest:raven_feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			title: "戒指+2"
+			icon: "eidolon:basic_ring"
+			x: -3.0d
+			y: -14.0d
+			description: ["可以无限升级"]
+			dependencies: ["3D63516268C023F7"]
+			id: "28A9165C09120E4A"
+			tasks: [
+				{
+					id: "1722078371BC59A7"
+					type: "item"
+					item: "projecte:red_matter"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "287327D6EE2C13F1"
+					type: "item"
+					item: "avaritia:neutronium_nugget"
+					count: 10L
+				}
+			]
+			rewards: [
+				{
+					id: "4F7D204B37E25266"
+					type: "command"
+					title: "戒指+2"
+					icon: "eidolon:basic_ring"
+					command: "/curios add ring @p 2"
+					player_command: false
+				}
+				{
+					id: "792AA1E398ACF3C2"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			title: "腰带+1"
+			icon: "eidolon:basic_belt"
+			x: -4.0d
+			y: -9.0d
+			dependencies: [
+				"16C766A3F25F5C28"
+				"42190148A803BD42"
+				"4890BD2635B49587"
+			]
+			hide: true
+			id: "2AC2AF211ED55C88"
+			tasks: [
+				{
+					id: "498F682B498D6270"
+					type: "item"
+					item: {
+						id: "mowziesmobs:naga_fang_dagger"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								1667758976
+								228543167
+								-1240934850
+								431263783
+							]
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5DD425BF8F16C8F1"
+					type: "item"
+					item: "mythicbotany:petrunia"
+					consume_items: true
+				}
+				{
+					id: "7C68A9FA7DF586FD"
+					type: "item"
+					item: {
+						id: "pyromancer:netherite_mask_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "1AB736D42AD50F08"
+				type: "command"
+				title: "腰带+1"
+				icon: "eidolon:basic_belt"
+				command: "/curios add belt @p"
+				player_command: false
+			}]
+		}
+	]
+}

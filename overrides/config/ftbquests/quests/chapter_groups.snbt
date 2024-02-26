@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "547F7E1B88118B9B", title: "§3§l生存" }
+		{ id: "71995C756599D570", title: "§e§l冒险" }
+		{ id: "31630154FA06B1E9", title: "§5§l魔法" }
+	]
+}

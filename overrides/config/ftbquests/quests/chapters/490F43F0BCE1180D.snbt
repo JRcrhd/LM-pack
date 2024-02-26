@@ -1,0 +1,727 @@
+{
+	id: "490F43F0BCE1180D"
+	group: "31630154FA06B1E9"
+	order_index: 3
+	filename: "490F43F0BCE1180D"
+	title: "血液"
+	icon: "bloodmagic:altar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -6.0d
+			y: 0.5d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "bloodmagic:textures/models/alchemyarrays/basearray.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "bloodmagic:textures/models/alchemyarrays/moonarray.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "bloodmagic:textures/models/alchemyarrays/magnetismsigil.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -6.0d
+			y: 0.5d
+			shape: "hexagon"
+			description: ["献祭自己！"]
+			id: "6AC802B91DCC980B"
+			tasks: [
+				{
+					id: "45D1B46538856CA5"
+					type: "item"
+					item: "bloodmagic:altar"
+				}
+				{
+					id: "2C40F4AD1F0F8905"
+					type: "item"
+					item: {
+						id: "bloodmagic:sacrificialdagger"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "34B5BCC1BDA5E8A6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "09EB4FCE8152F263"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 0.5d
+			description: ["把灵魂投网扔向怪物，当它们发出白色粒子时杀死它们获得恶魔意志。"]
+			dependencies: ["6AC802B91DCC980B"]
+			id: "6564EDE750574628"
+			tasks: [
+				{
+					id: "2D2DFB4EA41E7BF9"
+					type: "item"
+					item: {
+						id: "bloodmagic:basemonstersoul"
+						Count: 1b
+						tag: {
+							souls: 5.0d
+						}
+					}
+				}
+				{
+					id: "593B9BF6A4E927F7"
+					type: "item"
+					item: "bloodmagic:soulsnare"
+				}
+			]
+			rewards: [{
+				id: "52B0F87AE2D187C1"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			description: ["至少得做一组"]
+			dependencies: ["6AC802B91DCC980B"]
+			id: "35D1500A599361FF"
+			tasks: [{
+				id: "765595C1825F3472"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+			rewards: [
+				{
+					id: "2D391029D7813261"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "155C2283AF09462B"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 16
+				}
+				{
+					id: "672F060ABDF6C2BE"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			subtitle: "相当于充电宝"
+			description: ["用来储存 LP。"]
+			dependencies: ["6AC802B91DCC980B"]
+			id: "166BC5976FD39349"
+			tasks: [{
+				id: "182AB11EAB379EA3"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+			rewards: [{
+				id: "44EF1E48EDCA0494"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			subtitle: "魔法工作台"
+			dependencies: ["35D1500A599361FF"]
+			id: "2E608AB1C5379DBE"
+			tasks: [{
+				id: "622E03E1AEE4B0CB"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+			rewards: [{
+				id: "6AF045E6F18C3E08"
+				type: "ftbmoney:money"
+				ftb_money: 40L
+			}]
+		}
+		{
+			title: "2级祭坛"
+			icon: "bloodmagic:altar"
+			x: -1.0d
+			y: 2.5d
+			shape: "hexagon"
+			subtitle: "获得升级!"
+			description: ["跟星辉魔法那边一样，多留点空间。"]
+			dependencies: ["35D1500A599361FF"]
+			id: "26CAFA5CC28EA9CB"
+			tasks: [{
+				id: "0EEC091C1DC0266B"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "64865247BB9588E4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3A6C85E540C13419"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			subtitle: "停止伤害自己!"
+			description: ["现在你可以割别人来生产 LP 了。"]
+			dependencies: ["26CAFA5CC28EA9CB"]
+			id: "0742A0229ABE2307"
+			tasks: [{
+				id: "624C4254B4EF5F13"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+			rewards: [{
+				id: "687380CF0556A5BE"
+				type: "random"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			dependencies: ["35D1500A599361FF"]
+			id: "13E1D60614861334"
+			tasks: [{
+				id: "7830506273059699"
+				type: "item"
+				item: "bloodmagic:reinforcedslate"
+			}]
+			rewards: [{
+				id: "04F86D0943BB4DE7"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.5d
+			dependencies: ["166BC5976FD39349"]
+			id: "742209303CAB632C"
+			tasks: [{
+				id: "61EB59E1A1DC5735"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+			rewards: [{
+				id: "0E4C469BA69ACF00"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			title: "3级祭坛"
+			icon: "bloodmagic:altar"
+			x: 1.0d
+			y: 4.0d
+			shape: "hexagon"
+			description: ["依靠不同的符文搭配，创造不同属性的祭坛。"]
+			dependencies: ["26CAFA5CC28EA9CB"]
+			id: "02C1F1068634FC94"
+			tasks: [
+				{
+					id: "58DE78E7D5F249C3"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 20L
+				}
+				{
+					id: "2AFDA5FB1B8293F8"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 8L
+				}
+				{
+					id: "2EE2F45C0E25CF19"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "0F8B7C1DDA0A0DB4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6C4C2D380259B5FB"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "4级祭坛"
+			icon: "bloodmagic:altar"
+			x: 3.0d
+			y: 5.5d
+			shape: "hexagon"
+			description: ["目前最高级的祭坛。"]
+			dependencies: ["54302741C88300AF"]
+			id: "40F70001B6451809"
+			tasks: [
+				{
+					id: "7476C2BA307D5BDC"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 28L
+				}
+				{
+					id: "3F5D42E6D4C2967D"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 12L
+				}
+				{
+					id: "2BB42C9BE5A47B7B"
+					type: "item"
+					item: "bloodmagic:largebloodstonebrick"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "775AA597F562D267"
+				type: "ftbmoney:money"
+				ftb_money: 70L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			description: ["储存恶魔意志。"]
+			dependencies: ["11B01305CC4B6153"]
+			id: "2FF6A0539B1F320C"
+			tasks: [{
+				id: "44D284A7314F4AED"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: {
+						souls: 0.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "77ADCC0011772F01"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "7607C7141AA34FA7"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulgempetty"
+						Count: 1b
+						tag: {
+							souls: 64.0d
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 4.5d
+			dependencies: ["742209303CAB632C"]
+			id: "0C2D2CF77C3D8AC3"
+			tasks: [{
+				id: "5D7C3C11D09DFF59"
+				type: "item"
+				item: "bloodmagic:magicianbloodorb"
+			}]
+			rewards: [{
+				id: "246FC32B0BA465A4"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.5d
+			dependencies: ["0C2D2CF77C3D8AC3"]
+			id: "640C74DFACF853AC"
+			tasks: [{
+				id: "21DDF38AC065341E"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+			rewards: [
+				{
+					id: "2D62DF81735E99EA"
+					type: "ftbmoney:money"
+					ftb_money: 90L
+				}
+				{
+					id: "2E2A82B9E116A5EA"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["35D1500A599361FF"]
+			id: "11B01305CC4B6153"
+			tasks: [{
+				id: "44ED84714570848D"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+			rewards: [{
+				id: "10FD00ADDE252752"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["13E1D60614861334"]
+			id: "6FF2232732200BFC"
+			tasks: [{
+				id: "1C217ECB3695112F"
+				type: "item"
+				item: "bloodmagic:infusedslate"
+			}]
+			rewards: [{
+				id: "3156EFFD6BC3A42E"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			dependencies: ["6FF2232732200BFC"]
+			id: "10A70CD5B2D6E08D"
+			tasks: [{
+				id: "7B9674B3FE78F5C2"
+				type: "item"
+				item: "bloodmagic:demonslate"
+			}]
+			rewards: [{
+				id: "7BBB0751625F1F35"
+				type: "ftbmoney:money"
+				ftb_money: 70L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			subtitle: "某种强化！"
+			description: ["每个增加 2,000 LP 容量。"]
+			dependencies: ["6FF2232732200BFC"]
+			id: "4CFD107F9F416077"
+			tasks: [{
+				id: "479B9FF8B6D47178"
+				type: "item"
+				item: "bloodmagic:altarcapacityrune"
+			}]
+			rewards: [{
+				id: "0E79920CE3A119E9"
+				type: "ftbmoney:money"
+				ftb_money: 40L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.5d
+			subtitle: "抹在地上"
+			description: ["制作炼金矩阵。"]
+			dependencies: ["2E608AB1C5379DBE"]
+			id: "3AD1D2C531A810B7"
+			tasks: [{
+				id: "441257DE2794F745"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6133BDB4E252FFC2"
+					type: "item"
+					item: {
+						id: "bloodmagic:arcaneashes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "45534F83FA7ADE1D"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			description: ["处理矿物。"]
+			dependencies: ["6FF2232732200BFC"]
+			id: "771F97927E7F3362"
+			tasks: [{
+				id: "33256FF91FE3A391"
+				type: "item"
+				item: "bloodmagic:alchemicalreactionchamber"
+			}]
+			rewards: [{
+				id: "17BC3CE15649635E"
+				type: "ftbmoney:money"
+				ftb_money: 40L
+			}]
+		}
+		{
+			title: "恶魔领域"
+			x: 1.0d
+			y: 1.0d
+			description: ["进行隐域之缘仪式，进入恶魔领域。"]
+			dependencies: ["02C1F1068634FC94"]
+			id: "3BB42AF2987124A8"
+			tasks: [{
+				id: "6C70939B486C8449"
+				type: "dimension"
+				dimension: "bloodmagic:dungeon"
+			}]
+			rewards: [
+				{
+					id: "657FCA2186540E67"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "3C9F91225AF3AE76"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:sharpness"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			description: ["获得饱满血命果来制作你的第一个气血碎片。"]
+			dependencies: ["3BB42AF2987124A8"]
+			id: "54302741C88300AF"
+			tasks: [{
+				id: "28B248823EADCDB1"
+				type: "item"
+				item: "bloodmagic:strong_tau"
+			}]
+			rewards: [{
+				id: "7D115C8DC50FD8C6"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			description: ["将彼岸金属浸以血液"]
+			dependencies: ["26CAFA5CC28EA9CB"]
+			id: "13C1D4DD854D5E68"
+			tasks: [{
+				id: "6E81FC60BE13ADA2"
+				type: "item"
+				item: "endrem:witch_pupil"
+			}]
+			rewards: [{
+				id: "731290EEF552C2FD"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.5d
+			dependencies: ["13C1D4DD854D5E68"]
+			id: "3097E983D5BCD643"
+			tasks: [{
+				id: "6D7276FEDD9AEC23"
+				type: "item"
+				item: {
+					id: "endrem:witch_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A7B2BCDD1E7874C"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			dependencies: ["6AC802B91DCC980B"]
+			id: "12765836091AFABC"
+			tasks: [{
+				id: "686D75D9AC22C3A5"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.0d
+			dependencies: ["2FF6A0539B1F320C"]
+			id: "59484CAB3E2F856F"
+			tasks: [{
+				id: "342081A602ACC7F2"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemlesser"
+					Count: 1b
+					tag: {
+						souls: 256.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C4D07B95747C993"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -3.5d
+			dependencies: ["59484CAB3E2F856F"]
+			id: "1575E8BC087FF886"
+			tasks: [{
+				id: "2D73FDD2EE7E16C0"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemcommon"
+					Count: 1b
+					tag: {
+						souls: 1024.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "2F5B238DA12342D1"
+				type: "ftbmoney:money"
+				ftb_money: 70L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			dependencies: ["1575E8BC087FF886"]
+			id: "07C08AB7AF9AB5DE"
+			tasks: [{
+				id: "765E26EE09D93AE0"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemgreater"
+					Count: 1b
+					tag: {
+						souls: 4096.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "2CFBA25A223ECA68"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.5d
+			description: ["无需投网"]
+			dependencies: ["6564EDE750574628"]
+			id: "72147117EE7BE244"
+			tasks: [{
+				id: "45FDBF77A23483C3"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "440A79676F1AEB23"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+  "oreConfig": [
+    {
+      "ore": "pyromancer:cinnabar_ore",
+      "filler": "minecraft:netherrack",
+      "minY": 5,
+      "maxY": 96,
+      "maxVeinSize": 5,
+      "spawnRate": 10.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

@@ -1,0 +1,896 @@
+{
+	id: "70EAD8B531CC56E2"
+	group: "71995C756599D570"
+	order_index: 2
+	filename: "70EAD8B531CC56E2"
+	title: "金沙之域"
+	icon: "atum:scarab"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 3.0d
+		y: -1.0d
+		width: 2.0d
+		height: 2.0d
+		rotation: 0.0d
+		image: "atum:textures/block/alabaster_brick_polished.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -5.0d
+			y: -1.0d
+			dependencies: ["07C12FB92FD928C9"]
+			id: "7F6283FE4DCBA7DE"
+			tasks: [{
+				id: "7F2066FC166DBE12"
+				type: "dimension"
+				dimension: "atum:atum"
+			}]
+			rewards: [
+				{
+					id: "67328B6CF7309A2B"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "12189BA4DDCD31FF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			id: "07C12FB92FD928C9"
+			tasks: [
+				{
+					id: "1E71D60796D476D7"
+					type: "item"
+					item: "minecraft:sandstone"
+					count: 59L
+				}
+				{
+					id: "413481F16444DE0B"
+					type: "item"
+					item: "atum:scarab"
+				}
+			]
+			rewards: [
+				{
+					id: "3C61B7B6C3710F2E"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "24C0EBB5ACAAAE05"
+					type: "item"
+					item: "atum:coin_gold"
+					count: 10
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			dependencies: ["7F6283FE4DCBA7DE"]
+			id: "49E7324A6C60A2A0"
+			tasks: [{
+				id: "039F35DD0C4E1E20"
+				type: "item"
+				item: "atum:nebu_ore"
+			}]
+			rewards: [
+				{
+					id: "5761318762D226B7"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "6AE75977090C6DCE"
+					type: "item"
+					item: "atum:nebu_ore"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["49E7324A6C60A2A0"]
+			id: "1332F140295E83D1"
+			tasks: [{
+				id: "1FCE071B82DBF2D4"
+				type: "item"
+				item: "atum:nebu_torch"
+				count: 6L
+			}]
+			rewards: [
+				{
+					id: "1E0F7DE21B60597A"
+					type: "item"
+					item: "atum:nebu_torch"
+					count: 64
+				}
+				{
+					id: "20978C2D3E179AAF"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			title: "罪有应得"
+			x: -5.0d
+			y: -2.5d
+			dependencies: ["7F6283FE4DCBA7DE"]
+			id: "39F777AF477AE613"
+			tasks: [
+				{
+					id: "5002BC9AA6863476"
+					type: "kill"
+					entity: "atum:assassin"
+					value: 1L
+				}
+				{
+					id: "30AC3B3DDC180449"
+					type: "kill"
+					entity: "atum:barbarian"
+					value: 1L
+				}
+				{
+					id: "170AC7D6999A0144"
+					type: "kill"
+					entity: "atum:brigand"
+					value: 1L
+				}
+				{
+					id: "4D70152D5E0EF2B6"
+					type: "kill"
+					entity: "atum:sergeant"
+					value: 1L
+				}
+			]
+			rewards: [{
+				id: "749B6487286E042B"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			description: ["除了奖励太少都挺好的"]
+			dependencies: ["1332F140295E83D1"]
+			id: "7B6E2BD3C2771A37"
+			tasks: [{
+				id: "7DF94BA9F67F926C"
+				type: "kill"
+				title: "惊扰"
+				entity: "atum:pharaoh"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "760EC881A0564303"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+				{
+					id: "1788FBD2583A5BC6"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+				{
+					id: "27C94E156C93E1A5"
+					type: "item"
+					item: "atum:nebu_hammer"
+				}
+				{
+					id: "09796C59713E82A7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			dependencies: ["49E7324A6C60A2A0"]
+			id: "0EC911E72AD0D1D6"
+			tasks: [{
+				id: "476B9AFF18FD4E25"
+				type: "item"
+				item: "atum:nebu_drop"
+				count: 8L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			dependencies: ["0EC911E72AD0D1D6"]
+			id: "61744117AE35CEE3"
+			tasks: [{
+				id: "2568F34273BFA83F"
+				type: "item"
+				item: {
+					id: "endrem:old_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "29C85D5EE4DC8ED7"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.5d
+			dependencies: ["7F6283FE4DCBA7DE"]
+			id: "066D5825727795F0"
+			tasks: [{
+				id: "0047CA9FB8C69566"
+				type: "biome"
+				title: "绿洲！"
+				icon: "atum:fertile_soil"
+				biome: "atum:oasis"
+			}]
+			rewards: [{
+				id: "22A8395BA328C3CA"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			id: "35DB00FFC3DA679E"
+			tasks: [{
+				id: "1128B60A254F9A8D"
+				type: "item"
+				item: {
+					id: "atum:nuits_ire"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			id: "7912C0ACD726587F"
+			tasks: [{
+				id: "1E7FA4AF6B408A6B"
+				type: "item"
+				item: {
+					id: "atum:nuits_quarter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			id: "39C3844CC70F854A"
+			tasks: [{
+				id: "6A04B29216F82D0F"
+				type: "item"
+				item: "atum:nuits_vanishing"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "26BBC6F7D9416BC4"
+			tasks: [{
+				id: "6807C2B95CFB2B38"
+				type: "item"
+				item: {
+					id: "atum:seths_sting"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			id: "08DC1A68A7F1DD2C"
+			tasks: [{
+				id: "4550122EF8B7299A"
+				type: "item"
+				item: {
+					id: "atum:seths_venom"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			id: "36BA113E7C680966"
+			tasks: [{
+				id: "30BED4AC37B98E8D"
+				type: "item"
+				item: {
+					id: "atum:feet_of_ra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			id: "7249EA824D83041A"
+			tasks: [{
+				id: "3E4E50221B3B5744"
+				type: "item"
+				item: {
+					id: "atum:halo_of_ra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			id: "51D8F22DD011A676"
+			tasks: [{
+				id: "6EC4A4CDC5D630DC"
+				type: "item"
+				item: {
+					id: "atum:body_of_ra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			id: "3CAF679C6A344EB1"
+			tasks: [{
+				id: "3D52A1728F483413"
+				type: "item"
+				item: {
+					id: "atum:legs_of_ra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			id: "6C4CC9B4E0B897B9"
+			tasks: [{
+				id: "0B2F900D39E700A5"
+				type: "item"
+				item: {
+					id: "atum:ras_fury"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			id: "70A0CBF87B8855CD"
+			tasks: [{
+				id: "2D7D43918BFC1343"
+				type: "item"
+				item: "atum:ras_step"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "30A54BFC9C45CFD5"
+			tasks: [{
+				id: "09E4ED9E3DCEE120"
+				type: "item"
+				item: "atum:shus_swiftness"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "4CDB952B51F5444C"
+			tasks: [{
+				id: "1CA333AF81131E1E"
+				type: "item"
+				item: {
+					id: "atum:shus_exile"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "795A149AE2BD74B5"
+			tasks: [{
+				id: "40D12660C3CC3A96"
+				type: "item"
+				item: {
+					id: "atum:shus_breath"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-2008389356
+							450312131
+							-1587466983
+							-557462751
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			id: "1BCDE86EACFDB3B6"
+			tasks: [{
+				id: "0A96813EE3E23C03"
+				type: "item"
+				item: {
+					id: "atum:tefnuts_call"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			id: "65AAF18AE6FB9324"
+			tasks: [{
+				id: "57FD7393F6040B91"
+				type: "item"
+				item: {
+					id: "atum:tefnuts_rain"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			id: "0210D4C8A1A76E57"
+			tasks: [{
+				id: "6A04040A18E23B5F"
+				type: "item"
+				item: {
+					id: "atum:feet_of_atem"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			id: "151EAAC6B679C27A"
+			tasks: [{
+				id: "301E170B762D2AFD"
+				type: "item"
+				item: {
+					id: "atum:legs_of_atem"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			id: "4C8B2F821682DB08"
+			tasks: [{
+				id: "75823F98B1668EAB"
+				type: "item"
+				item: {
+					id: "atum:body_of_atem"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			id: "0B1881AE98F5BBEE"
+			tasks: [{
+				id: "48783C353D560CEC"
+				type: "item"
+				item: {
+					id: "atum:eyes_of_atem"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			id: "7172FABE9C667FD6"
+			tasks: [{
+				id: "74028880FD459958"
+				type: "item"
+				item: {
+					id: "atum:atems_bounty"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.0d
+			id: "158BF56B960330CF"
+			tasks: [{
+				id: "3AA31ADA77D7D750"
+				type: "item"
+				item: {
+					id: "atum:atems_homecoming"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			id: "736D92FF900B3C07"
+			tasks: [{
+				id: "0AFF0608C590EDCD"
+				type: "item"
+				item: {
+					id: "atum:atems_protection"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.0d
+			id: "429200FE53C2F182"
+			tasks: [{
+				id: "725076565AC3B22F"
+				type: "item"
+				item: {
+					id: "atum:atems_will"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			id: "764AEE40EC6731D5"
+			tasks: [{
+				id: "191653D62B2021DA"
+				type: "item"
+				item: {
+					id: "atum:gebs_might"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			id: "226AD6BF27516BE4"
+			tasks: [{
+				id: "18F8E0DEA3E4E79E"
+				type: "item"
+				item: {
+					id: "atum:gebs_toil"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.0d
+			id: "17838F0CECD20E5F"
+			tasks: [{
+				id: "27826B1BD8E84941"
+				type: "item"
+				item: {
+					id: "atum:gebs_undoing"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.0d
+			id: "059D3FD7C08FF7DE"
+			tasks: [{
+				id: "54AA2DB847302C2A"
+				type: "item"
+				item: {
+					id: "atum:nepthys_banishing"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.0d
+			id: "69649E8F283EAC12"
+			tasks: [{
+				id: "6C9BD5956C0B67CF"
+				type: "item"
+				item: "atum:nepthys_guard"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			id: "329E4EF888940B5B"
+			tasks: [{
+				id: "11E6319221957AD2"
+				type: "item"
+				item: {
+					id: "atum:montus_strike"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			id: "4B3080012E5ECAF3"
+			tasks: [{
+				id: "02C12288F31B33C4"
+				type: "item"
+				item: {
+					id: "atum:montus_blast"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			id: "4C265E4A6B1E3DDA"
+			tasks: [{
+				id: "2158B69C6108639E"
+				type: "item"
+				item: {
+					id: "atum:isis_division"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			id: "485A1A4A27316EFB"
+			tasks: [{
+				id: "4BBEAADFEE612CEB"
+				type: "item"
+				item: "atum:isis_healing"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			id: "2F1BB82527727B09"
+			tasks: [{
+				id: "141B3ABDC6D7FB72"
+				type: "item"
+				item: {
+					id: "atum:horus_ascension"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.0d
+			id: "6E496E92ECDF93D7"
+			tasks: [{
+				id: "39516E02150B5918"
+				type: "item"
+				item: {
+					id: "atum:horus_soaring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.0d
+			id: "73CFD7D1536F5103"
+			tasks: [{
+				id: "0F3BAFDBBA00C37B"
+				type: "item"
+				item: {
+					id: "atum:anputs_grounding"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.0d
+			id: "259CA4850DF836C0"
+			tasks: [{
+				id: "3A2EA1EA4B2AB22C"
+				type: "item"
+				item: {
+					id: "atum:anputs_hunger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.5d
+			id: "54F70089E6CAC603"
+			tasks: [{
+				id: "231905FE453B2736"
+				type: "item"
+				item: {
+					id: "atum:osiris_blessing"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -0.5d
+			id: "0584AD31D2C73B19"
+			tasks: [{
+				id: "7DF01D7DEFA51D1A"
+				type: "item"
+				item: {
+					id: "atum:osiris_mercy"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			id: "426370E347A32D6E"
+			tasks: [{
+				id: "2A235E0FC2E90D39"
+				type: "item"
+				item: {
+					id: "atum:anubis_wrath"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			id: "28C6EC1B662EDA42"
+			tasks: [{
+				id: "2D2FC72F7D5B75FA"
+				type: "item"
+				item: {
+					id: "atum:ptahs_decadence"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

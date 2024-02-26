@@ -1,0 +1,459 @@
+{
+	id: "0E1643E121E57393"
+	group: "31630154FA06B1E9"
+	order_index: 2
+	filename: "0E1643E121E57393"
+	title: "神秘学"
+	icon: "occultism:spirit_attuned_gem"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 2.0d
+			y: -1.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "occultism:textures/block/chalk_glyph/10.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.0d
+			y: 8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "occultism:textures/block/chalk_glyph/3.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.5d
+			y: 3.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "occultism:textures/block/chalk_glyph/11.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.5d
+			y: 3.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "occultism:textures/block/chalk_glyph/5.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 3.5d
+			y: -0.5d
+			id: "5AECF0335D6BB794"
+			tasks: [{
+				id: "0218631B74C2B2E1"
+				type: "item"
+				item: "occultism:dictionary_of_spirits"
+			}]
+		}
+		{
+			title: "第三只眼"
+			x: 2.0d
+			y: 0.5d
+			description: [
+				"    尼福尔海姆，又或者是我们所称的“彼岸”，是一片由迷雾笼罩的未知领域。"
+				"我们对那里还知之甚少，前行须谨慎。"
+			]
+			id: "5A0A835DB538990D"
+			tasks: [{
+				id: "162F7139D8B7270D"
+				type: "item"
+				item: "occultism:datura"
+			}]
+			rewards: [
+				{
+					id: "67C7B101B7F028FB"
+					type: "item"
+					item: "occultism:datura_seeds"
+				}
+				{
+					id: "27314EC49461A02F"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			title: "仪式开始"
+			icon: "occultism:pentacle"
+			x: 0.5d
+			y: 3.5d
+			description: ["来自彼岸，幽蓝的火光。"]
+			dependencies: ["695EB0AAAF7886AB"]
+			id: "7FE6BDF7C0008538"
+			tasks: [
+				{
+					id: "6820AEE5F4331415"
+					type: "item"
+					item: {
+						id: "occultism:chalk_white"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "715AA251329F8039"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+				{
+					id: "5E978C7D1761C5FA"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+				}
+				{
+					id: "39E7EF6CE17A4D1A"
+					type: "item"
+					item: "occultism:candle_white"
+				}
+			]
+			rewards: [
+				{
+					id: "22AB10C5BF93935B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "22AE2CC3173A1717"
+					type: "item"
+					item: "occultism:book_of_binding_foliot"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["5A0A835DB538990D"]
+			id: "6F18CAFF6EEC4446"
+			tasks: [{
+				id: "539C43206B89E3C0"
+				type: "item"
+				item: "occultism:spirit_attuned_gem"
+			}]
+			rewards: [
+				{
+					id: "46893CDB851E9FFB"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1088413F82E8AC97"
+					type: "item"
+					item: "occultism:spirit_attuned_gem"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["6F18CAFF6EEC4446"]
+			id: "6E9280C4D4F9AD9E"
+			tasks: [{
+				id: "4E037150895FC093"
+				type: "item"
+				item: {
+					id: "occultism:divination_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5296451DC7AD77CD"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			description: ["用异界火焰净化它"]
+			dependencies: ["5A0A835DB538990D"]
+			id: "695EB0AAAF7886AB"
+			tasks: [{
+				id: "5F8C08784B45AE9F"
+				type: "item"
+				item: {
+					id: "occultism:chalk_white"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "68F78E3230413187"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			description: [
+				"彼岸灯火真实地出现在异界眼镜的对面。如果你还保有理智，那这便是个好兆头。"
+				""
+				"在你观察时，那群魔灵也会注意到你。尼福尔海姆存在于精神的海洋，而你打开了它的通路。"
+				"既然它们似乎没有敌意，那不妨尝试下与之沟通。"
+			]
+			dependencies: ["7FE6BDF7C0008538"]
+			id: "2C51C061A8FAB3F0"
+			tasks: [{
+				id: "3BD6A432ABEDF015"
+				type: "item"
+				item: {
+					id: "occultism:otherworld_goggles"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "69533B920FC17D9A"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["7FE6BDF7C0008538"]
+			id: "05C74CEC53DAC6B4"
+			tasks: [{
+				id: "0A976C013DB23016"
+				type: "item"
+				item: {
+					id: "occultism:storage_remote"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "13FC0B5BFB1A5B4D"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.5d
+			dependencies: ["7FE6BDF7C0008538"]
+			id: "3376D1B61A87ED46"
+			tasks: [{
+				id: "2F3DDE1E6C616F71"
+				type: "item"
+				item: {
+					id: "occultism:stable_wormhole"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1EA059F58A489876"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.5d
+			description: ["获取凋零骷髅头的方式"]
+			dependencies: ["7FE6BDF7C0008538"]
+			id: "620035C61529F23D"
+			tasks: [{
+				id: "012DEC05E12D3911"
+				type: "kill"
+				title: "击败狂猎"
+				icon: "occultism:jei_dummy/none"
+				entity: "occultism:wild_hunt_wither_skeleton"
+				value: 1L
+			}]
+			rewards: [{
+				id: "73AE09F2A139BFD7"
+				type: "ftbmoney:money"
+				ftb_money: 40L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			dependencies: ["7FE6BDF7C0008538"]
+			id: "53D5FA0453514F74"
+			tasks: [{
+				id: "727D0DAE72C55ACC"
+				type: "item"
+				item: "occultism:storage_controller"
+			}]
+			rewards: [{
+				id: "36D913D7F6333FBD"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["38D1D8DEB941120A"]
+			id: "07B497DFDC74395A"
+			tasks: [{
+				id: "5C6E910764F320E5"
+				type: "item"
+				item: "occultism:magic_lamp_empty"
+			}]
+			rewards: [{
+				id: "74A3666C6B4BED50"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			description: [
+				"使用探测杖同调地狱岩"
+				"需要灌注镐来挖掘"
+				"开启第三只眼时可见"
+			]
+			dependencies: [
+				"2C51C061A8FAB3F0"
+				"2572170617A92B64"
+			]
+			id: "38D1D8DEB941120A"
+			tasks: [{
+				id: "02053BA45DC60427"
+				type: "item"
+				item: "occultism:iesnium_ingot"
+			}]
+			rewards: [
+				{
+					id: "37D33A232B90E6FA"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "6A818F10C81DC927"
+					type: "item"
+					item: "occultism:iesnium_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["695EB0AAAF7886AB"]
+			id: "3B3005C4978903C6"
+			tasks: [{
+				id: "765738A0F20FD621"
+				type: "item"
+				item: {
+					id: "occultism:chalk_gold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7CD5F41E72184A59"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			dependencies: ["7FE6BDF7C0008538"]
+			id: "5122396540BD25C7"
+			tasks: [{
+				id: "594CA127DDFBADD2"
+				type: "item"
+				item: {
+					id: "occultism:chalk_purple"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.5d
+			dependencies: [
+				"5122396540BD25C7"
+				"620035C61529F23D"
+			]
+			id: "6A23B1489318CE60"
+			tasks: [{
+				id: "18123F16DE3FE0D9"
+				type: "item"
+				item: {
+					id: "occultism:chalk_red"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.5d
+			dependencies: ["5122396540BD25C7"]
+			id: "2572170617A92B64"
+			tasks: [{
+				id: "13668C86066C6847"
+				type: "item"
+				item: {
+					id: "occultism:infused_pickaxe"
+					Count: 1b
+					tag: {
+						spiritName: "Zurlorizur"
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.5d
+			dependencies: ["38D1D8DEB941120A"]
+			id: "373883A620EAB93A"
+			tasks: [{
+				id: "1E8B941E15CF7F95"
+				type: "item"
+				item: "occultism:dimensional_mineshaft"
+			}]
+			rewards: [{
+				id: "58EB395BF7D45E06"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+	]
+}

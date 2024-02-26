@@ -1,0 +1,428 @@
+{
+	id: "6DCEFB837B90772A"
+	group: "547F7E1B88118B9B"
+	order_index: 3
+	filename: "6DCEFB837B90772A"
+	title: "屠龙"
+	icon: "minecraft:dragon_head"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 3.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "iceandfire:textures/block/dragonforge_lightning_input_active.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: ["请准备好玻璃瓶"]
+			dependencies: [
+				"19FDC1EA8B19DE78"
+				"4663CFE06BDEB1CC"
+				"380CA5F3FB56EEBD"
+				"535D5EB06BAE1BB5"
+				"0B14CF42B2295A1B"
+				"10A41FEE6D2DC3DE"
+				"0EA19039452760EB"
+				"7BEFD40A7C03B4C1"
+				"0A3B363DF9BFFBC6"
+				"4D7595F6DEF4594E"
+				"114F239430BCA41A"
+				"10D81B53CD0530DD"
+			]
+			id: "72689C23D8BAD546"
+			tasks: [{
+				id: "10500AE94D48C623"
+				type: "kill"
+				title: "屠龙！"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2CA637AA824A9600"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "184CD7E4A77B70AF"
+					type: "random"
+					table_id: 2598854915727183632L
+				}
+				{
+					id: "3180321D030A9F0F"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+				{
+					id: "24AC8920EAACFF64"
+					type: "item"
+					item: "minecraft:dragon_egg"
+				}
+				{
+					id: "636B65840E854F36"
+					type: "item"
+					item: "minecraft:end_crystal"
+					count: 2
+				}
+				{
+					id: "144F10048ECCE034"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			id: "7BEFD40A7C03B4C1"
+			tasks: [{
+				id: "44C7641A143E7AC2"
+				type: "item"
+				item: {
+					id: "endrem:magical_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3FCEA147D264554F"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "38944E88B9D19D7F"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			id: "0A3B363DF9BFFBC6"
+			tasks: [{
+				id: "70521E8512DB7EF0"
+				type: "item"
+				item: {
+					id: "endrem:wither_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2EB1887CA771D933"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "7516F1A7EC99BDAF"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			id: "0EA19039452760EB"
+			tasks: [{
+				id: "405087313F5E66A8"
+				type: "item"
+				item: {
+					id: "endrem:guardian_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "422F5E6D78333624"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "3F1800F403F9FAF0"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			id: "114F239430BCA41A"
+			tasks: [{
+				id: "0DA1DD26DF8A4991"
+				type: "item"
+				item: {
+					id: "endrem:old_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3FE700BD874AF3EE"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "435E75AE609647BC"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			id: "4D7595F6DEF4594E"
+			tasks: [{
+				id: "2FE4891F9A6F4609"
+				type: "item"
+				item: {
+					id: "endrem:rogue_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "76D0EA1F2D18FDEF"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "2908C4743AD7E201"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			id: "10D81B53CD0530DD"
+			tasks: [{
+				id: "22E5526D8592AF8D"
+				type: "item"
+				item: {
+					id: "endrem:nether_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1531954F985A82F1"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "1790E677F152658D"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			id: "19FDC1EA8B19DE78"
+			tasks: [{
+				id: "23AFFC6C369BE1E5"
+				type: "item"
+				item: {
+					id: "endrem:cold_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "29A97C61A8E4C681"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "2E87F651F8FE06A1"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "4663CFE06BDEB1CC"
+			tasks: [{
+				id: "55758659C4C83155"
+				type: "item"
+				item: {
+					id: "endrem:corrupted_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "27AC871EA8550666"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "08E4A727F7CA63AB"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "380CA5F3FB56EEBD"
+			tasks: [{
+				id: "7E5D9F8976F767A5"
+				type: "item"
+				item: {
+					id: "endrem:black_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "29BA9678FD85057B"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "57B95EC7AC4DA87C"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			id: "535D5EB06BAE1BB5"
+			tasks: [{
+				id: "0282F8B6BCCDDB96"
+				type: "item"
+				item: {
+					id: "endrem:lost_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "17977DE2800819D5"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "366BA839FCF25918"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "0B14CF42B2295A1B"
+			tasks: [{
+				id: "591487D425BCF3E5"
+				type: "item"
+				item: {
+					id: "endrem:end_crystal_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3A7B51617A167E9E"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "1CFBA138DC9DBD42"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			id: "10A41FEE6D2DC3DE"
+			tasks: [{
+				id: "2FC41D860402B677"
+				type: "item"
+				item: {
+					id: "endrem:witch_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2F286C4C8910ED1E"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "36501CE9198DADDD"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+			]
+		}
+	]
+}

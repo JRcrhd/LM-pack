@@ -1,0 +1,14 @@
+{
+  "oreConfig": [
+    {
+      "ore": "pyromancer:brimstone_ore",
+      "filler": "minecraft:basalt",
+      "minY": 1,
+      "maxY": 128,
+      "maxVeinSize": 5,
+      "spawnRate": 10.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

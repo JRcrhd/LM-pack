@@ -1,0 +1,675 @@
+{
+	id: "75C11B837EA279E9"
+	group: ""
+	order_index: 4
+	filename: "75C11B837EA279E9"
+	title: "§4§l七咒启示录"
+	icon: "enigmaticlegacy:cursed_ring"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -6.0d
+			y: -1.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "bloodmagic:textures/models/alchemyarrays/bouncearray.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -12.5d
+			y: 3.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/gui/arrow_collapsed.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -12.5d
+			y: 6.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/gui/arrow_collapsed.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -12.5d
+			y: 8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/gui/arrow_collapsed.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -12.5d
+			y: 11.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/gui/arrow_collapsed.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			width: 14.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "astralsorcery:textures/gui/line_connection.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.0d
+			y: 6.0d
+			width: 16.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "astralsorcery:textures/environment/line.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.5d
+			y: 8.5d
+			width: 13.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "astralsorcery:textures/environment/line.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.0d
+			y: 11.0d
+			width: 12.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "astralsorcery:textures/environment/line.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			disable_toast: true
+			x: -6.0d
+			y: -0.5d
+			description: [
+				"    这部分的任务不会影响整合包的主线。"
+				"    由于这部分难度较大，我更建议在安全和物资得到保障的前提下尝试开始。"
+				"    这一系列任务会大幅增加游玩的难度。而且一旦开启，不可反悔。"
+				"    如果你打算开始了，就请带上与你一同来到世界的“七咒之戒”吧 。"
+			]
+			id: "3066FC81BE8677B0"
+			tasks: [{
+				id: "22645A4F2F1CEE3C"
+				type: "checkmark"
+				title: "注意！"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 6.0d
+			shape: "diamond"
+			description: [
+				"第二层级·扭曲之心"
+				""
+				"负咒者可以通过将大地之心和地狱物质结合来制作此物。扭曲之心比大地之心有更强大的光泽，而且它似乎拥有蛊惑人心的能力。"
+				""
+				"也许这才是大地之心的真正样貌。"
+				""
+				"达到这一层级的负咒者已是凤毛麟角。此时七咒的祝福面开始显现，负咒者可以无师自通的学会使用一些常人难以运用的物品。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["28BA5EE580D99E51"]
+			hide: true
+			id: "0906A6C2464E0D93"
+			tasks: [{
+				id: "6BB560561CC996A6"
+				type: "item"
+				item: "enigmaticlegacy:twisted_core"
+			}]
+			rewards: [
+				{
+					id: "526C5B05FFADDA6B"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "42EC0284C58DB081"
+					type: "random"
+					table_id: 5316651533782326179L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 3.5d
+			dependencies: ["4B3C83EA7F45DA21"]
+			hide: true
+			id: "0B02952D8F0B3BFF"
+			tasks: [{
+				id: "05D94FD9B1694710"
+				type: "item"
+				item: "enigmaticlegacy:darkest_scroll"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 6.0d
+			dependencies: [
+				"0B02952D8F0B3BFF"
+				"0906A6C2464E0D93"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "25DC14D7DBD76F6E"
+			tasks: [{
+				id: "53792EC85FE89A99"
+				type: "item"
+				item: "enigmaticlegacy:cursed_scroll"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 6.0d
+			dependencies: [
+				"0B02952D8F0B3BFF"
+				"2A3D807A763A150A"
+				"0906A6C2464E0D93"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "30CF113D819E80F0"
+			tasks: [{
+				id: "3B8B0D850F0AA570"
+				type: "item"
+				item: "enigmaticlegacy:avarice_scroll"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.5d
+			dependencies: ["4B3C83EA7F45DA21"]
+			hide: true
+			id: "061FE887918344BB"
+			tasks: [{
+				id: "165D0937215711B0"
+				type: "item"
+				item: "enigmaticlegacy:the_acknowledgment"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 8.5d
+			dependencies: [
+				"31675B809CB9C0A4"
+				"061FE887918344BB"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "7F25FA38AFAFAEE6"
+			tasks: [{
+				id: "461C1022C4013928"
+				type: "item"
+				item: "enigmaticlegacy:the_twist"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 8.5d
+			shape: "diamond"
+			description: [
+				"第三层级·邪恶精髓"
+				""
+				"带着七咒之戒击败凋灵……听起来很疯狂，对吧？但这是你获得邪恶精髓的唯一途径。"
+				""
+				"这是曾有人类达到的最高层级。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["28BA5EE580D99E51"]
+			hide: true
+			id: "31675B809CB9C0A4"
+			tasks: [{
+				id: "6F2EDC8E892E14F2"
+				type: "item"
+				item: "enigmaticlegacy:evil_essence"
+			}]
+			rewards: [
+				{
+					id: "02C4D86B353F0A3E"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "1B6EA7CDB46CFBD2"
+					type: "random"
+					table_id: 1007301431635339741L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 8.5d
+			dependencies: ["31675B809CB9C0A4"]
+			hide: true
+			id: "03397D9352439C4F"
+			tasks: [{
+				id: "0F5B2054E0B54FFE"
+				type: "item"
+				item: "enigmaticlegacy:enchanter_pearl"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			dependencies: ["4B3C83EA7F45DA21"]
+			hide: true
+			id: "2A3D807A763A150A"
+			tasks: [{
+				id: "0F2E0AC811F695BD"
+				type: "item"
+				item: "enigmaticlegacy:gem_ring"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 3.5d
+			shape: "diamond"
+			description: [
+				"第一层级·大地之心"
+				""
+				"    似乎天然出现在遗迹之中的神秘物质。通常认为它是英雄灵魂的具现。但对于它出现的原因人们一无所知。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["28BA5EE580D99E51"]
+			hide: true
+			id: "4B3C83EA7F45DA21"
+			tasks: [{
+				id: "0DF018F995899CCB"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:earth_heart"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7CF1C77FDC45C220"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			dependencies: ["0906A6C2464E0D93"]
+			hide: true
+			id: "583BDFABE93014FD"
+			tasks: [{
+				id: "4C6E516DF99B1F0D"
+				type: "item"
+				item: "enigmaticlegacy:dark_mirror"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.0d
+			dependencies: ["0906A6C2464E0D93"]
+			hide: true
+			id: "24BE4E92A5E5FAC1"
+			tasks: [{
+				id: "600042C4E0833F42"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:berserk_emblem"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			hide: true
+			id: "312E609D882E759C"
+			tasks: [{
+				id: "2FDAA26E66556568"
+				type: "item"
+				item: "enigmaticlegacy:etherium_ingot"
+			}]
+			rewards: [{
+				id: "404796567CE0C498"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			icon: "enigmaticlegacy:soul_crystal"
+			x: -2.0d
+			y: 8.5d
+			description: [
+				"实际上，以太矿在负咒者的手中还可以有别的用处。"
+				""
+				"把以太锭和邪恶精髓融合锻造，可以制造出虚假的灵魂水晶。但似乎它的效果和真正的灵魂水晶并无差别。 "
+			]
+			dependencies: [
+				"312E609D882E759C"
+				"31675B809CB9C0A4"
+			]
+			hide: true
+			id: "20C92BD022DBF724"
+			tasks: [{
+				id: "2111AA6F632ECE19"
+				type: "item"
+				item: "enigmaticlegacy:soul_crystal"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			description: [
+				"这枚戒指会与你的灵魂相融，不分彼此。只有神的力量才能打断你与它的联系。"
+				""
+				"自愿背负诅咒的人被称为“负咒者”。在久远的曾经，它们被视为挑战命运的勇士，同时又被讥讽为自讨苦吃的傻子。"
+				""
+				"但诅咒与祝福一同降临，除了“七咒之戒”铭文上所刻的七条祝福，还有一些不曾言明的祝福伴随着诅咒的深入而出现。走得越深，便会拥有越强大的力量。直到最后连诅咒也可能会化为力量……"
+			]
+			dependencies: ["3066FC81BE8677B0"]
+			hide: true
+			id: "28BA5EE580D99E51"
+			tasks: [{
+				id: "0D39B78014E8F469"
+				type: "item"
+				item: "enigmaticlegacy:cursed_ring"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			description: ["负咒者可以在潜影贝的身体里找到它，但这种情况较为罕见。"]
+			hide: true
+			id: "4356049452D90E5D"
+			tasks: [{
+				id: "592FD656D12571B4"
+				type: "item"
+				item: "enigmaticlegacy:astral_dust"
+			}]
+			rewards: [
+				{
+					id: "5C96F4E0444B7C41"
+					type: "item"
+					item: "enigmaticlegacy:astral_dust"
+				}
+				{
+					id: "7822E0F2CDFAFC2D"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			description: ["“禁忌苹果”是这个世界众多遗物之一，它会令你不再饥饿，作为交换，它也会大幅减弱你自然再生的能力。而解除它的效果并不容易。"]
+			dependencies: ["0906A6C2464E0D93"]
+			hide: true
+			id: "6D6B2B97B9D93068"
+			tasks: [{
+				id: "5B9029D9EC47AFB1"
+				type: "item"
+				item: "enigmaticlegacy:antiforbidden_potion"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			dependencies: [
+				"4356049452D90E5D"
+				"312E609D882E759C"
+			]
+			hide: true
+			id: "774CA424278C4974"
+			tasks: [{
+				id: "426B937F88C2EF89"
+				type: "item"
+				item: "enigmaticlegacy:fabulous_scroll"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["4356049452D90E5D"]
+			hide: true
+			id: "641B9BB5814C37EB"
+			tasks: [{
+				id: "1911782675E5EE9A"
+				type: "item"
+				item: "enigmaticlegacy:lore_inscriber"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			dependencies: ["4B3C83EA7F45DA21"]
+			hide: true
+			id: "0C2F51CA58F2FC47"
+			tasks: [{
+				id: "2CAE07C4E3AF4228"
+				type: "item"
+				item: "enigmaticlegacy:infinimeal"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 8.5d
+			dependencies: [
+				"0C2F51CA58F2FC47"
+				"31675B809CB9C0A4"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "555E731067EB13FE"
+			tasks: [{
+				id: "186F35FC55BDEE31"
+				type: "item"
+				item: {
+					id: "projecte:harvest_goddess_band"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			title: "运势掌握"
+			icon: "scalinghealth:chance_heart"
+			x: 0.0d
+			y: 8.5d
+			description: [
+				"完成此任务后解锁修改难度的任务"
+				""
+				"怪物会自然地随着时间不断增强，这种莫名的变化似乎有意的在和你的实力平衡。"
+				""
+				"这种莫名的变化对人类而言并不是好事。而幸运的是，这一层级的负咒者已经可以控制这种变化了。"
+			]
+			dependencies: [
+				"31675B809CB9C0A4"
+				"4356049452D90E5D"
+			]
+			hide: true
+			id: "5B7020FF40E639D8"
+			tasks: [
+				{
+					id: "36A5D45E923A6B60"
+					type: "item"
+					item: "enigmaticlegacy:evil_essence"
+					consume_items: true
+				}
+				{
+					id: "5E073D0339F4C3D9"
+					type: "item"
+					item: "eidolon:wicked_weave"
+					consume_items: true
+				}
+				{
+					id: "2A116A65FACF4A52"
+					type: "item"
+					item: {
+						id: "botania:unholy_cloak"
+						Count: 1b
+						tag: { }
+					}
+					consume_items: true
+				}
+				{
+					id: "4FD1ED258AFA7339"
+					type: "item"
+					item: "enigmaticlegacy:astral_dust"
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "难度修改"
+			icon: "scalinghealth:chance_heart"
+			x: -0.5d
+			y: 9.5d
+			description: ["可以无限次交易"]
+			dependencies: ["5B7020FF40E639D8"]
+			hide: true
+			id: "7F8CC090EC3A86D3"
+			tasks: [{
+				id: "33D6C95AE99321FE"
+				type: "item"
+				item: "enigmaticlegacy:evil_essence"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "77B7B0176FF2D4FA"
+					type: "item"
+					item: "scalinghealth:enchanted_heart"
+					count: 3
+				}
+				{
+					id: "1CB59518364ADBBC"
+					type: "item"
+					item: "scalinghealth:cursed_heart"
+					count: 5
+				}
+				{
+					id: "3F43579DB7BE5C34"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 11.0d
+			shape: "diamond"
+			description: [
+				"第四层级·神"
+				""
+				"    带着七咒之戒通关……如果你确实做到了，那么恭喜你，你完成了自己设下的挑战。"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"28BA5EE580D99E51"
+				"31675B809CB9C0A4"
+			]
+			hide: true
+			id: "2B270BF9AB21BD66"
+			tasks: [{
+				id: "56B0E8E4662AEEAD"
+				type: "item"
+				item: "kubejs:unawaken_creative_core"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 11.0d
+			description: [
+				"理论上，你已经可以摘下七咒之戒了。如果你想的话，"
+				"这块石头可以帮你摘下它。"
+			]
+			dependencies: [
+				"20C92BD022DBF724"
+				"2B270BF9AB21BD66"
+				"6D6B2B97B9D93068"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "2A8BB87437C67862"
+			tasks: [{
+				id: "2458D7BE296C1C8F"
+				type: "item"
+				item: "enigmaticlegacy:cursed_stone"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			description: [
+				"当然，如果你已下定决心，我可以帮你把它销毁掉。"
+				""
+				"但也许你还会再次找到它……"
+			]
+			dependencies: ["3066FC81BE8677B0"]
+			id: "578C3E83D02F9362"
+			tasks: [{
+				id: "4B7CBE5F132E9BF2"
+				type: "item"
+				item: "enigmaticlegacy:cursed_ring"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0C56AB98104EC58F"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "591C5A42CB456BD8"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+	]
+}

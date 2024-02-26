@@ -1,0 +1,203 @@
+{
+	id: "0DAC97574FEFD04E"
+	group: "31630154FA06B1E9"
+	order_index: 4
+	filename: "0DAC97574FEFD04E"
+	title: "新生魔艺"
+	icon: {
+		id: "ars_nouveau:creative_spell_book"
+		Count: 1b
+		tag: {
+			mode: 0
+			spells: ",intangible,ignite,flare,underfoot,strength,bounce,craft,cold_snap,rune,snare,slowfall,freeze,split,crush,smelt,summon_decoy,summon_steed,accelerate,hex,summon_vex,orbit,lightning,grow,dampen,touch,sensitive,toss,invisibility,firework,extract,delay,light,duration_down,exchange,place_block,summon_wolves,shield,conjure_water,cut,harm,interact,blink,amplify,phantom_block,fell,extend_time,heal,evaporate,leap,redstone_signal,pierce,harvest,fortune,break,linger,pickup,launch,dispel,haste,wind_shear,ender_inventory,pull,explosion,fangs,aoe,gravity,self,glide,aquatic,projectile,wither,gust"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 0.5d
+			id: "607986973D633F40"
+			tasks: [{
+				id: "1CFE2E690E50B3AC"
+				type: "item"
+				item: "ars_nouveau:worn_notebook"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			id: "5ED22B382C9406F5"
+			tasks: [{
+				id: "451B92D5614AE21E"
+				type: "item"
+				item: {
+					id: "ars_nouveau:novice_spell_book"
+					Count: 1b
+					tag: {
+						mode: 0
+						spells: ",touch,harm,break,self,projectile"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			dependencies: ["5ED22B382C9406F5"]
+			id: "16031631EAC3788D"
+			tasks: [{
+				id: "5BFFF0E0DDC2E627"
+				type: "item"
+				item: {
+					id: "ars_nouveau:apprentice_spell_book"
+					Count: 1b
+					tag: {
+						mode: 0
+						spells: ",touch,harm,break,self,projectile"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["16031631EAC3788D"]
+			id: "61EDF63B3F1B1B1C"
+			tasks: [{
+				id: "72DAF6374C2DAC8E"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_spell_book"
+					Count: 1b
+					tag: {
+						mode: 0
+						spells: ",touch,harm,break,self,projectile"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			id: "174CBD04EAF6A3D9"
+			tasks: [{
+				id: "0F93C6A1471F0876"
+				type: "item"
+				item: "ars_nouveau:glyph_press"
+			}]
+			rewards: [{
+				id: "6E018E6AE3443C15"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.0d
+			dependencies: ["65B8312674C8A919"]
+			id: "15547AF1B3877CDD"
+			tasks: [{
+				id: "18D074F36A60979F"
+				type: "item"
+				item: "ars_nouveau:mythical_clay"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			id: "2BE731CE91DF6909"
+			tasks: [{
+				id: "2F4F7A554CD8DE5B"
+				type: "item"
+				item: "ars_nouveau:magic_clay"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.0d
+			dependencies: ["2BE731CE91DF6909"]
+			id: "65B8312674C8A919"
+			tasks: [{
+				id: "70E4B3C053770CD8"
+				type: "item"
+				item: "ars_nouveau:marvelous_clay"
+			}]
+		}
+		{
+			icon: "ars_nouveau:ritual_wilden_summon"
+			x: 3.5d
+			y: 3.0d
+			dependencies: ["0F33DC8AE43CE6D4"]
+			id: "4C1A2BAAD7689681"
+			tasks: [{
+				id: "70C6F035491B6018"
+				type: "kill"
+				entity: "ars_nouveau:wilden_boss"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "363A4F91F46787C6"
+					type: "ftbmoney:money"
+					ftb_money: 70L
+				}
+				{
+					id: "3C24EE161DB19498"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			id: "4485D1121817FC50"
+			tasks: [
+				{
+					id: "47F9778E6E863BB8"
+					type: "item"
+					item: "ars_nouveau:arcane_core"
+				}
+				{
+					id: "36A7A0AD703E582F"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+			]
+			rewards: [{
+				id: "4D53482613557BCC"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			id: "38BFC8F6D737169D"
+			tasks: [{
+				id: "3CE313F827E8FEFE"
+				type: "item"
+				item: "ars_nouveau:arcane_pedestal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["38BFC8F6D737169D"]
+			id: "0F33DC8AE43CE6D4"
+			tasks: [{
+				id: "31A1CE90DFD04BA6"
+				type: "item"
+				item: "ars_nouveau:ritual"
+			}]
+		}
+	]
+}

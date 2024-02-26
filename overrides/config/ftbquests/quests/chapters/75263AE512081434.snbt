@@ -1,0 +1,270 @@
+{
+	id: "75263AE512081434"
+	group: "31630154FA06B1E9"
+	order_index: 0
+	filename: "75263AE512081434"
+	title: "幻梦"
+	icon: "eidolon:soul_enchanter"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "幻梦"
+			x: 0.0d
+			y: 3.0d
+			shape: "hexagon"
+			size: 1.2d
+			id: "4FB1479CB2710760"
+			tasks: [{
+				id: "2FC3BE593F815BA5"
+				type: "checkmark"
+				title: "点击确认"
+				icon: "eidolon:shadow_gem"
+			}]
+			rewards: [
+				{
+					id: "1954E7DDB9DC1030"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1EEBF1C264615637"
+					type: "item"
+					item: "eidolon:codex"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			description: ["获得一些锡镴锭。"]
+			dependencies: ["4FB1479CB2710760"]
+			id: "455ECA09E0A082DE"
+			tasks: [{
+				id: "11A9ED92579BE3FC"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+			}]
+			rewards: [
+				{
+					id: "6C2C027F64988D9C"
+					type: "item"
+					item: "eidolon:pewter_ingot"
+				}
+				{
+					id: "64B465FBC10E7E89"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			title: "仪式入门"
+			x: -0.5d
+			y: 4.5d
+			description: ["获得用来进行仪式的物品。"]
+			dependencies: ["455ECA09E0A082DE"]
+			id: "3E0B648966DA3E93"
+			tasks: [
+				{
+					id: "54A9B8A2FEB51FE7"
+					type: "item"
+					item: "eidolon:brazier"
+				}
+				{
+					id: "18ACC20A5F8D56D1"
+					type: "item"
+					item: "eidolon:stone_hand"
+				}
+			]
+			rewards: [{
+				id: "019CABC600FD0DC6"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			description: ["进行一场结晶仪式，获得魂之碎片。"]
+			dependencies: ["3E0B648966DA3E93"]
+			id: "6C152913534B33FA"
+			tasks: [{
+				id: "619F87CAE41DEAD5"
+				type: "item"
+				item: "eidolon:soul_shard"
+			}]
+			rewards: [
+				{
+					id: "0551CBD6A3E537A2"
+					type: "item"
+					item: "eidolon:soul_shard"
+				}
+				{
+					id: "31C4EAE2D31FC4E0"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "炼金入门"
+			x: -2.0d
+			y: 6.0d
+			dependencies: ["3E0B648966DA3E93"]
+			id: "6D3F772B4D38A7FD"
+			tasks: [{
+				id: "0A0A504F68AF1800"
+				type: "item"
+				item: "eidolon:crucible"
+			}]
+			rewards: [
+				{
+					id: "2BAA6939ABCA2BA9"
+					type: "item"
+					item: "eidolon:tattered_cloth"
+					count: 2
+				}
+				{
+					id: "095FD5CB35D69AAB"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			description: ["获得魔力工作台，用于合成更高级的魔法物品。"]
+			dependencies: ["455ECA09E0A082DE"]
+			id: "16EFC2CA05AA2496"
+			tasks: [{
+				id: "3C42EFC233BCD0F4"
+				type: "item"
+				item: "eidolon:worktable"
+			}]
+			rewards: [
+				{
+					id: "559E48A11B582BE1"
+					type: "item"
+					item: "eidolon:soul_shard"
+					count: 3
+				}
+				{
+					id: "25854B640E7ABE0F"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			dependencies: ["16EFC2CA05AA2496"]
+			id: "59CB35C0EBD93904"
+			tasks: [{
+				id: "0063CE3136DF527F"
+				type: "item"
+				item: "eidolon:soul_enchanter"
+			}]
+			rewards: [
+				{
+					id: "608B4AEED6770D79"
+					type: "item"
+					item: "eidolon:soul_shard"
+					count: 3
+				}
+				{
+					id: "44AEC92CE4750D59"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "祭坛"
+			x: -0.5d
+			y: 1.5d
+			description: [
+				"为了更强的力量！"
+				""
+				" "
+				"将书丢给女巫，获得第一个吟唱符文"
+			]
+			dependencies: ["4FB1479CB2710760"]
+			id: "3C1DCD1FBE3EC6D9"
+			tasks: [
+				{
+					id: "5BF6DE4C2CE403F8"
+					type: "item"
+					item: "eidolon:wooden_altar"
+				}
+				{
+					id: "484ED7992DCE1A92"
+					type: "item"
+					item: "eidolon:straw_effigy"
+				}
+				{
+					id: "02D01D3B55EC22EF"
+					type: "item"
+					item: "eidolon:goblet"
+				}
+			]
+			rewards: [
+				{
+					id: "3965CE777AD3CA3D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "293FBEA42CA1BBBE"
+					type: "item"
+					item: "eidolon:wooden_altar"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "更好的祭坛"
+			x: 0.0d
+			y: 0.0d
+			description: ["石头做的祭坛和雕像能让你进行更强的仪式。"]
+			dependencies: ["715FF695CF10345C"]
+			id: "31C1939D4F457208"
+			tasks: [
+				{
+					id: "212C28AB740ECAAB"
+					type: "item"
+					item: "eidolon:stone_altar"
+				}
+				{
+					id: "4EBDFDBD0FDD6E0C"
+					type: "item"
+					item: "eidolon:unholy_effigy"
+				}
+			]
+			rewards: [{
+				id: "03D9B35265A2D00D"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			description: ["对着扔在地上的嵌材咏唱黑暗之触祷告，获得亵渎象征符。"]
+			dependencies: ["3C1DCD1FBE3EC6D9"]
+			id: "715FF695CF10345C"
+			tasks: [{
+				id: "6DF12E20987A753A"
+				type: "item"
+				item: "eidolon:unholy_symbol"
+			}]
+			rewards: [{
+				id: "3F412F972428311F"
+				type: "xp"
+				xp: 200
+			}]
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+	id: "6908AFF8C2C25A33"
+	order_index: 7
+	title: "mistery_creature"
+	icon: "relics:runic_altar"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "advanture_chest"
+				}
+			}
+			weight: 39
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "magic_chest"
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "_"
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 1
+			passive: 0
+			monster: 0
+		}
+		color: 6307631
+		item_name: "神秘造物"
+		glow: 1b
+		string_id: "mistery_creature"
+	}
+}

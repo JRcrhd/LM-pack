@@ -1,0 +1,628 @@
+{
+	id: "7F054025E30D0014"
+	group: "71995C756599D570"
+	order_index: 0
+	filename: "7F054025E30D0014"
+	title: "寒冰与烈火"
+	icon: "iceandfire:dragon_skull_ice"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 2.0d
+		y: 2.0d
+		width: 1.0d
+		height: 1.0d
+		rotation: 0.0d
+		image: "iceandfire:textures/item/troll_skull.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 2.0d
+			y: 6.5d
+			id: "0742EF480DAFA3CE"
+			tasks: [
+				{
+					id: "20884F380F0F802B"
+					type: "item"
+					item: "iceandfire:bestiary"
+				}
+				{
+					id: "3DB68707179E8AD2"
+					type: "item"
+					item: "iceandfire:lectern"
+				}
+			]
+			rewards: [
+				{
+					id: "0C808F95B09659DB"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "3D00478DAB1096A2"
+					type: "item"
+					item: "iceandfire:manuscript"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 6.5d
+			id: "56FEF856C1F2FB83"
+			tasks: [{
+				id: "3D81CA635D0FC9AF"
+				type: "item"
+				item: {
+					id: "iceandfire:hippogryph_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "758A1AB8F5E182BF"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.5d
+			id: "1D13C79B34A3AE67"
+			tasks: [{
+				id: "2B02829F6F30C036"
+				type: "item"
+				item: {
+					id: "iceandfire:gorgon_head"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "25D8374002CAA21D"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			id: "7B34A045046596DC"
+			tasks: [{
+				id: "23AA2BB7FDC61CD6"
+				type: "item"
+				item: {
+					id: "iceandfire:pixie_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7F09ADDF0A876EA4"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			id: "74973A0349E55F91"
+			tasks: [{
+				id: "7B07933748FE32BE"
+				type: "item"
+				item: {
+					id: "iceandfire:cyclops_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2431D23B0188E28C"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			id: "2DB7D07FCADD043A"
+			tasks: [{
+				id: "66EF7632AB2D6D57"
+				type: "item"
+				item: {
+					id: "iceandfire:siren_flute"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "785F8783E6E771D1"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "3BA32FD211C3BB89"
+			tasks: [{
+				id: "012B774C65697D6C"
+				type: "item"
+				item: {
+					id: "iceandfire:hippocampus_slapper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6151BB55C7878993"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			optional: true
+			id: "2F4292D932FA5847"
+			tasks: [
+				{
+					id: "2B0227700CF86740"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_gauntlet_yellow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "12F56446D3C987D4"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_gauntlet_white"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5589C7DF9767FD4C"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_gauntlet_red"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "67594D2007CD4B59"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			id: "55430212962E415C"
+			tasks: [{
+				id: "1B77A7F3285986E4"
+				type: "item"
+				item: {
+					id: "iceandfire:cockatrice_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "78EF4CFA16C86FCA"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 6.5d
+			id: "6EA91DD6422DFE82"
+			tasks: [{
+				id: "44D748F53AADA4EB"
+				type: "item"
+				item: "iceandfire:stymphalian_feather_bundle"
+			}]
+			rewards: [{
+				id: "28DD9FD2B45149B8"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.5d
+			id: "62C42BF471981459"
+			tasks: [{
+				id: "56871BAA7F40E095"
+				type: "item"
+				item: {
+					id: "iceandfire:stymphalian_bird_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B9C398B16F11CA3"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 10.5d
+			optional: true
+			id: "7C6BFCFC7A885ECE"
+			tasks: [
+				{
+					id: "6E56D65257784059"
+					type: "item"
+					item: "iceandfire:myrmex_desert_swarm"
+				}
+				{
+					id: "7F14923FCC87295E"
+					type: "item"
+					item: "iceandfire:myrmex_jungle_swarm"
+				}
+			]
+			rewards: [{
+				id: "6ADC138F6CFC4AD0"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 12.0d
+			id: "3A5B1C6E2DF48886"
+			tasks: [{
+				id: "08E256E0E1554D1A"
+				type: "item"
+				item: {
+					id: "iceandfire:amphithere_macuahuitl"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4B158D1F8091C73F"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 8.5d
+			id: "09EDD57E7DCE8A45"
+			tasks: [{
+				id: "3917C8C34078B215"
+				type: "item"
+				item: {
+					id: "iceandfire:tide_trident"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3F839AC8B4777E77"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 10.5d
+			id: "7740FA1CBCB9AA9B"
+			tasks: [{
+				id: "74798AE5BB26C889"
+				type: "item"
+				item: "iceandfire:hydra_heart"
+			}]
+			rewards: [{
+				id: "26EA280D5E13E65E"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 12.0d
+			id: "25B0221612BF44C1"
+			tasks: [{
+				id: "7E93C186B15DE8CB"
+				type: "item"
+				item: {
+					id: "iceandfire:ghost_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1984F8071BC3B4E9"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.5d
+			dependencies: ["0742EF480DAFA3CE"]
+			id: "526008E8B78BB30E"
+			tasks: [{
+				id: "42AC6C09BC42BA10"
+				type: "item"
+				item: "iceandfire:dragon_stick"
+			}]
+			rewards: [{
+				id: "279F4ADD13AA92B8"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.0d
+			dependencies: ["0742EF480DAFA3CE"]
+			id: "1BC04FA12082896F"
+			tasks: [{
+				id: "433970366F79DF3D"
+				type: "item"
+				item: "iceandfire:dragon_horn"
+			}]
+			rewards: [{
+				id: "355392C14E0877CC"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 8.0d
+			dependencies: ["0742EF480DAFA3CE"]
+			id: "68146B3D6A731DA9"
+			tasks: [{
+				id: "46966C5581C99C4F"
+				type: "item"
+				item: "iceandfire:dragon_flute"
+			}]
+			rewards: [{
+				id: "4651E7D4FB1C9E0B"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 10.0d
+			dependencies: ["0742EF480DAFA3CE"]
+			id: "0FB273F55DD9D842"
+			tasks: [{
+				id: "5390E191CD04800F"
+				type: "item"
+				item: "iceandfire:dragon_meal"
+			}]
+			rewards: [
+				{
+					id: "465847ABE9E39268"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "2810E989A435287F"
+					type: "item"
+					item: "iceandfire:dragon_meal"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "龙炎锻炉"
+			x: 1.0d
+			y: 5.0d
+			dependencies: ["0742EF480DAFA3CE"]
+			id: "7EE2F007C205ACCE"
+			tasks: [
+				{
+					id: "00D21D28764E9E53"
+					type: "item"
+					item: "iceandfire:dragonforge_fire_brick"
+					count: 17L
+				}
+				{
+					id: "1E655B32D34D4562"
+					type: "item"
+					item: "iceandfire:dragonforge_fire_input"
+				}
+				{
+					id: "0D80C2FB5D9C4054"
+					type: "item"
+					item: "iceandfire:dragonforge_fire_core_disabled"
+				}
+				{
+					id: "6EAF2DD43EE9F00D"
+					type: "item"
+					item: "iceandfire:dragon_bone_block"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "3FB6C21679F39C2C"
+					type: "item"
+					item: "iceandfire:fire_dragon_blood"
+				}
+				{
+					id: "166958B8577B8271"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "龙霜锻炉"
+			x: 2.0d
+			y: 4.5d
+			dependencies: ["0742EF480DAFA3CE"]
+			id: "6C6F59EEE8AC810C"
+			tasks: [
+				{
+					id: "23B2F798D480F3FF"
+					type: "item"
+					item: "iceandfire:dragonforge_ice_input"
+				}
+				{
+					id: "50F9E3F6D27B4356"
+					type: "item"
+					item: "iceandfire:dragonforge_ice_brick"
+					count: 17L
+				}
+				{
+					id: "2C7E27E6F783E764"
+					type: "item"
+					item: "iceandfire:dragonforge_ice_core_disabled"
+				}
+				{
+					id: "58BAEB82D6AEA09F"
+					type: "item"
+					item: "iceandfire:dragon_bone_block"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "11E2F835481128BE"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "49FAFDFDDD638476"
+					type: "item"
+					item: "iceandfire:ice_dragon_blood"
+				}
+			]
+		}
+		{
+			title: "龙霆锻炉"
+			x: 3.0d
+			y: 5.0d
+			dependencies: ["0742EF480DAFA3CE"]
+			id: "170EDE987E3325DD"
+			tasks: [
+				{
+					id: "240793ECB7EBBC64"
+					type: "item"
+					item: "iceandfire:dragonforge_lightning_brick"
+					count: 17L
+				}
+				{
+					id: "2470399CDBD2CE56"
+					type: "item"
+					item: "iceandfire:dragon_bone_block"
+					count: 8L
+				}
+				{
+					id: "282DC85F81597334"
+					type: "item"
+					item: "iceandfire:dragonforge_lightning_input"
+				}
+				{
+					id: "7B2DE05A9F2BE6F5"
+					type: "item"
+					item: "iceandfire:dragonforge_lightning_core_disabled"
+				}
+			]
+			rewards: [
+				{
+					id: "725F72038DDADDE1"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "4E6FF55F7B8586BC"
+					type: "item"
+					item: "iceandfire:lightning_dragon_blood"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			id: "4DF1EF4343ACBD5B"
+			tasks: [{
+				id: "4E30734E72CDD56C"
+				type: "item"
+				item: {
+					id: "endrem:guardian_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C15156556B68E84"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.5d
+			dependencies: ["0742EF480DAFA3CE"]
+			id: "198270B07A2DB2C3"
+			tasks: [{
+				id: "5DB45AB006A9D1ED"
+				type: "item"
+				item: {
+					id: "dragonseeker:dragonseeker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "373783ECA569B37C"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+	]
+}

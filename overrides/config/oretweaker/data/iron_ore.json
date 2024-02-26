@@ -1,0 +1,25 @@
+{
+  "oreConfig": [
+    
+{
+      "ore": "minecraft:iron_ore",
+      "filler": "minecraft:sandstone",
+      "minY": 1,
+      "maxY": 64,
+      "maxVeinSize": 10,
+      "spawnRate": 35.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+{
+      "ore": "minecraft:iron_ore",
+      "filler": "minecraft:stone",
+      "minY": 1,
+      "maxY": 64,
+      "maxVeinSize": 10,
+      "spawnRate": 35.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

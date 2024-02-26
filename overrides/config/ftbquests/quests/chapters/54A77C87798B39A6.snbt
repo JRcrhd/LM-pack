@@ -1,0 +1,1300 @@
+{
+	id: "54A77C87798B39A6"
+	group: "547F7E1B88118B9B"
+	order_index: 0
+	filename: "54A77C87798B39A6"
+	title: "活下去"
+	icon: "minecraft:bread"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: 5.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "gobber2:textures/block/gobber2_glass_nether.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.0d
+			y: 9.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "pyromancer:textures/blocks/shroomlight.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "出生"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "无穷的可能，对吧？"
+			id: "233E9C74CEA3E1F5"
+			tasks: [{
+				id: "334CD9AF4A81A5ED"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [
+				{
+					id: "4A930200F4581746"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "patchouli:guidebook"
+						}
+					}
+				}
+				{
+					id: "780C07A0095583A7"
+					type: "item"
+					item: "ftbquests:book"
+				}
+				{
+					id: "608CA2F069740C0E"
+					type: "command"
+					auto: "invisible"
+					command: "/gamerule sendCommandFeedback false"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "万物之母"
+			x: 0.0d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["233E9C74CEA3E1F5"]
+			id: "0AD3E2353607D877"
+			tasks: [{
+				id: "1923267F6115BAAB"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [
+				{
+					id: "041C630DBA9E302B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0704C47F6418C8D2"
+					type: "item"
+					item: "minecraft:cooked_beef"
+					count: 8
+				}
+				{
+					id: "1DE998BA2809517F"
+					type: "item"
+					item: "atum:limestone_torch"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["0AD3E2353607D877"]
+			id: "656FCD4B1AA87292"
+			tasks: [{
+				id: "11F709870A36BF7C"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+			rewards: [
+				{
+					id: "59B2BE256B718E09"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "655D9DA9DB69B409"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["0AD3E2353607D877"]
+			id: "082D62E07DBEE8AB"
+			tasks: [{
+				id: "08334F9EE80D71C8"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+			rewards: [
+				{
+					id: "6B45D275BB818AAB"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "0881ED49971D152A"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			dependencies: ["0AD3E2353607D877"]
+			id: "19F88716D79B3DC3"
+			tasks: [{
+				id: "57E8C0DE605C55E4"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [{
+				id: "18B97D118AE458DB"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			title: "铜/铁熔炉"
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["19F88716D79B3DC3"]
+			optional: true
+			id: "750757A5199790CE"
+			tasks: [{
+				id: "3DDC43EDC8FF98A5"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+			}]
+			rewards: [{
+				id: "27004AA415BE0CA4"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			title: "银/金熔炉"
+			x: -3.5d
+			y: 1.0d
+			dependencies: ["750757A5199790CE"]
+			optional: true
+			id: "58055BC242F8945B"
+			tasks: [{
+				id: "7F5D76799C630BB7"
+				type: "item"
+				item: "ironfurnaces:gold_furnace"
+			}]
+			rewards: [{
+				id: "291E5CE8ED03C800"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["58055BC242F8945B"]
+			id: "14CC375115F747D0"
+			tasks: [{
+				id: "53DD4810F4F2B2B4"
+				type: "item"
+				item: "ironfurnaces:diamond_furnace"
+			}]
+			rewards: [{
+				id: "35FD8156312C6B1E"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			title: "绿宝石/水晶熔炉"
+			x: -4.0d
+			y: 2.0d
+			dependencies: ["14CC375115F747D0"]
+			optional: true
+			id: "3C413E4AEBD4E7EE"
+			tasks: [{
+				id: "0F6082BC81F132B5"
+				type: "item"
+				item: "ironfurnaces:emerald_furnace"
+			}]
+			rewards: [{
+				id: "4DCF890C6868A25D"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			dependencies: ["3C413E4AEBD4E7EE"]
+			id: "7732891E021B707C"
+			tasks: [{
+				id: "3880751FC8B032A4"
+				type: "item"
+				item: "ironfurnaces:obsidian_furnace"
+			}]
+			rewards: [{
+				id: "53703E6D9635F413"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["7732891E021B707C"]
+			id: "20BB4F4065F64E0E"
+			tasks: [{
+				id: "08C8B60551885335"
+				type: "item"
+				item: "ironfurnaces:netherite_furnace"
+			}]
+			rewards: [{
+				id: "7ECAEF00D879039A"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			dependencies: ["0AD3E2353607D877"]
+			id: "0B9F9C231E83351E"
+			tasks: [{
+				id: "748070941775585D"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "6B6E54A8AC3074E7"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			title: "铜/铁箱子"
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["0B9F9C231E83351E"]
+			optional: true
+			id: "5B44B04F657E0398"
+			tasks: [{
+				id: "7CE83513671A9CE1"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+			rewards: [{
+				id: "560B2BC73AA9FBF2"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			title: "铁/银箱子"
+			x: 3.5d
+			y: 1.0d
+			dependencies: ["5B44B04F657E0398"]
+			optional: true
+			id: "67D3A136CA583342"
+			tasks: [{
+				id: "6091B5A955CBC576"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+			rewards: [{
+				id: "3A0DCA5BF77EC33A"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["67D3A136CA583342"]
+			id: "3D16E37DC64DA6F0"
+			tasks: [{
+				id: "0873CEA8AEB9B56C"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+			rewards: [{
+				id: "486937BAE23764E6"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["0AD3E2353607D877"]
+			id: "0CBAFA2DFF59454D"
+			tasks: [{
+				id: "106683DC4EF520E8"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+			rewards: [
+				{
+					id: "0AA69EAFC87A6FC0"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 2
+				}
+				{
+					id: "68E79BA0FABFB7C9"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			title: "炙热的炽烤"
+			icon: "minecraft:netherrack"
+			x: 0.0d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: [
+				"082D62E07DBEE8AB"
+				"656FCD4B1AA87292"
+				"0CBAFA2DFF59454D"
+			]
+			id: "23C3D549286A41EA"
+			tasks: [{
+				id: "56783C58C272A7A3"
+				type: "dimension"
+				title: "下地狱去吧!"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [
+				{
+					id: "1AF08429C07CA405"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "7874B9174418FE13"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "1958ACD7AD6FF029"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 9.5d
+			dependencies: ["6144BD144D6E5CD5"]
+			id: "152D28FBB547B9D3"
+			tasks: [{
+				id: "311038244FC00451"
+				type: "kill"
+				icon: "minecraft:nether_star"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0D03886CC7268D29"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "162EA4CC418AC67F"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:looting"
+							}]
+						}
+					}
+				}
+				{
+					id: "23EEDF6623F82F9C"
+					type: "random"
+					table_id: 5316651533782326179L
+				}
+				{
+					id: "642883CD7BDBA97E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 7.5d
+			description: ["相当困难的敌人，你可以先去做点别的再回来。"]
+			dependencies: ["23C3D549286A41EA"]
+			id: "6144BD144D6E5CD5"
+			tasks: [
+				{
+					id: "79B039999BA856AC"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 3L
+				}
+				{
+					id: "39D9562C1B5DF433"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "476BA98EC859560F"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "0016AEAFEC1ECA24"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:smite"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 7.5d
+			dependencies: ["23C3D549286A41EA"]
+			id: "13C46501144CDBBB"
+			tasks: [{
+				id: "79D954F8DF341756"
+				type: "kill"
+				entity: "minecraft:blaze"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "41563BC33552F30E"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "2707E9957E34DD82"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 9.5d
+			dependencies: ["13C46501144CDBBB"]
+			id: "061D865AF87650A1"
+			tasks: [{
+				id: "06D727BB0EF3F314"
+				type: "item"
+				item: "minecraft:brewing_stand"
+			}]
+			rewards: [
+				{
+					id: "49C8C154FDA70C75"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "4D2A2CAA966D0ABE"
+					type: "item"
+					item: "minecraft:blaze_powder"
+					count: 4
+				}
+				{
+					id: "32BA85A61F92E6DC"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 6
+				}
+				{
+					id: "169249EC277F986F"
+					type: "item"
+					item: "minecraft:nether_wart"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			dependencies: ["23C3D549286A41EA"]
+			id: "76AD5E017C80953C"
+			tasks: [{
+				id: "792F311406A9FC36"
+				type: "advancement"
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "39029C493528AE19"
+				type: "random"
+				table_id: 5316651533782326179L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			dependencies: ["23C3D549286A41EA"]
+			id: "382F1D68BC0C9712"
+			tasks: [{
+				id: "0124A773BF2A9641"
+				type: "item"
+				item: "endrem:end_crystal_fragment"
+			}]
+			rewards: [
+				{
+					id: "2E628B073C6FD73A"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "4A2BF84EEDD386DE"
+					type: "item"
+					item: "endrem:end_crystal_fragment"
+				}
+				{
+					id: "0F48718FFC9315F0"
+					type: "random"
+					table_id: 1007301431635339741L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 7.0d
+			dependencies: ["382F1D68BC0C9712"]
+			id: "242FE5D7FA67119D"
+			tasks: [{
+				id: "4D9D327BF39D4648"
+				type: "item"
+				item: {
+					id: "endrem:end_crystal_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "608515FC834F43E0"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "72B00806563B5C8E"
+					type: "item"
+					item: {
+						id: "endrem:end_crystal_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 16
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 9.0d
+			dependencies: ["6144BD144D6E5CD5"]
+			id: "24429F98BED1648A"
+			tasks: [{
+				id: "3720C0EEB3F053AE"
+				type: "item"
+				item: {
+					id: "endrem:wither_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6E7C3B8D0C55DB8C"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			dependencies: ["20BB4F4065F64E0E"]
+			id: "124CE06C3B57474D"
+			tasks: [{
+				id: "30E5CEF5AFA8B003"
+				type: "item"
+				item: "ironfurnaces:million_furnace"
+			}]
+			rewards: [{
+				id: "36BA5256D24DBF20"
+				type: "ftbmoney:money"
+				ftb_money: 60L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			id: "042F7125518108BF"
+			tasks: [{
+				id: "4401BAF5373BE48D"
+				type: "item"
+				item: "betterendforge:guidebook"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			id: "0DDC15A0C3EDDDFA"
+			tasks: [{
+				id: "0012EFBB198A3645"
+				type: "item"
+				item: "botania:lexicon"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			id: "177052FEEC81A6E6"
+			tasks: [{
+				id: "1A789BA1EF585D75"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "extendedcrafting:guide"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			id: "4C90E956740F5518"
+			tasks: [{
+				id: "3A6286F26748C75C"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "twilightforest:guide"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			id: "6342AB42387ED459"
+			tasks: [{
+				id: "7AC66B6C235F636A"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "mysticalagriculture:guide"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			id: "51AB5BD504E5BD87"
+			tasks: [{
+				id: "2E7A1E2C12A6F7BD"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			id: "3772D93DCDCFACB5"
+			tasks: [{
+				id: "006126BDF6C190F5"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:the_acknowledgment"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			id: "16555DDB0A2180CD"
+			tasks: [{
+				id: "21DF4294A0EBEF72"
+				type: "item"
+				item: {
+					id: "iceandfire:bestiary"
+					Count: 1b
+					tag: {
+						Pages: [I;0]
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			id: "3918BEF7BB2DDCBE"
+			tasks: [{
+				id: "6281E245BC4EC500"
+				type: "item"
+				item: "occultism:dictionary_of_spirits"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			id: "1216C0B719396A96"
+			tasks: [{
+				id: "296DA70B7A3E1868"
+				type: "item"
+				item: "astralsorcery:tome"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			id: "04F6E048F562D6CA"
+			tasks: [{
+				id: "62A9EAC00B8163EC"
+				type: "item"
+				item: "tconstruct:materials_and_you"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			id: "2A41FD095DB32C82"
+			tasks: [{
+				id: "33E06BB96D9A69A8"
+				type: "item"
+				item: "alexsmobs:animal_dictionary"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			id: "573C7FF16FF1E8CF"
+			tasks: [{
+				id: "261E9CD795495282"
+				type: "item"
+				item: "ars_nouveau:worn_notebook"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			id: "25629B375E901239"
+			tasks: [{
+				id: "31972D7F08B5A4D2"
+				type: "item"
+				item: "eidolon:codex"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			id: "081E88C5B3FD32E6"
+			tasks: [{
+				id: "11B5C866A5E6DFCA"
+				type: "item"
+				item: "mysticalworld:encyclopedia"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			id: "26A86494C4E8773B"
+			tasks: [{
+				id: "32AD6DB1C0403722"
+				type: "item"
+				item: "gobber2:gobber2_ingot"
+			}]
+			rewards: [{
+				id: "1D4B8D3170067E6B"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			dependencies: ["26A86494C4E8773B"]
+			id: "1019A93BDAE4D0D6"
+			tasks: [{
+				id: "0AF611F98B65CCF7"
+				type: "item"
+				item: "gobber2:gobber2_ingot_nether"
+			}]
+			rewards: [{
+				id: "1257F7AEBE252732"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			dependencies: ["1019A93BDAE4D0D6"]
+			id: "76C1AB0C48EA9286"
+			tasks: [{
+				id: "2FD3A6B04C97F555"
+				type: "item"
+				item: "gobber2:gobber2_ingot_end"
+			}]
+			rewards: [{
+				id: "1B078476E75C031F"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			id: "0CAF2F6014B66F88"
+			tasks: [{
+				id: "0A53FB5C059F4272"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.0d
+			dependencies: ["23C3D549286A41EA"]
+			id: "16A32612112EE7D2"
+			tasks: [{
+				id: "0948F95C84E775E0"
+				type: "item"
+				item: "pyromancer:brimstone"
+			}]
+			rewards: [
+				{
+					id: "7121988B2C3969C5"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "764E5D19F71EDEA4"
+					type: "item"
+					item: {
+						id: "pyromancer:brimstone"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 7.0d
+			dependencies: ["23C3D549286A41EA"]
+			id: "224D5DAF3AAB5CAD"
+			tasks: [{
+				id: "5DBA9DC291AC7E7A"
+				type: "item"
+				item: "pyromancer:cinnabar_chunk"
+			}]
+			rewards: [
+				{
+					id: "748ECCA1E5A2FFBB"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "59D23A65304DA5F6"
+					type: "item"
+					item: "pyromancer:cinnabar_chunk"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 9.5d
+			dependencies: ["6144BD144D6E5CD5"]
+			id: "6EE18099A89400DD"
+			tasks: [{
+				id: "4EC837772069C68C"
+				type: "item"
+				item: "pyromancer:core_shard"
+			}]
+			rewards: [{
+				id: "2E4059F9A47C8BF6"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			title: "迎战猪灵军团"
+			icon: "pyromancer:netherite_shard"
+			x: 0.0d
+			y: 10.5d
+			description: [
+				"搭成下界反应堆的样子，用信标替代反应堆核心"
+				"用核心碎片右键开启"
+				"死亡或再次用核心碎片右键以停止"
+				"可以用来获取下界合金碎片"
+				"建议事先在周围做好准备"
+			]
+			dependencies: ["6EE18099A89400DD"]
+			id: "421BE199F1B40727"
+			tasks: [
+				{
+					id: "01EF7B8FC08339C3"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 4L
+				}
+				{
+					id: "59E79AF0BC5A205A"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 14L
+				}
+			]
+			rewards: [
+				{
+					id: "5D1FAEC2F66E31E2"
+					type: "item"
+					item: "pyromancer:core_shard"
+				}
+				{
+					id: "1E593F197F4F6EBD"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "15195AE69074FF03"
+					type: "random"
+					table_id: 7568492656750385715L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 8.5d
+			dependencies: ["224D5DAF3AAB5CAD"]
+			id: "53437A3FAA7B6751"
+			tasks: [{
+				id: "406B76E5453B7063"
+				type: "item"
+				item: "pyromancer:drops_of_mercury"
+			}]
+			rewards: [{
+				id: "7AD5CBF84BBCA6ED"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 8.5d
+			dependencies: ["16A32612112EE7D2"]
+			id: "338514F0EED881F4"
+			tasks: [{
+				id: "20B4F05619C53620"
+				type: "item"
+				item: "pyromancer:nitropowder"
+			}]
+			rewards: [{
+				id: "518A5CD64C06CE2A"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 9.0d
+			description: [
+				"释放烈焰法术的基础。"
+				"可以储存烈焰粉，放在副手启动。"
+				"可以为主手武器添加特殊攻击特效"
+				"也可以以烈焰粉为代价使用施术物品"
+				"改变羽毛笔的类型可以带来不同的效果"
+			]
+			dependencies: ["13C46501144CDBBB"]
+			id: "0B219B8FC70A78F6"
+			tasks: [{
+				id: "05E002F0FBE14D7C"
+				type: "item"
+				item: {
+					id: "pyromancer:blazing_journal"
+					Count: 1b
+					tag: {
+						CustomModelData: 0.0d
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4531554943C2A453"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			description: ["在诡异森林找到"]
+			dependencies: ["23C3D549286A41EA"]
+			id: "6129FB07CAF8DB1D"
+			tasks: [{
+				id: "31808132C69CD461"
+				type: "item"
+				item: "pyromancer:fractal_cucumber"
+			}]
+			rewards: [{
+				id: "4B437030C50AE8C1"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.0d
+			description: ["将分形黄瓜塞进沙漠群系的沙子中"]
+			dependencies: ["6129FB07CAF8DB1D"]
+			id: "1E6F0302575BD235"
+			tasks: [{
+				id: "5AAB017E5A4F93EB"
+				type: "item"
+				item: "pyromancer:molten_pyrowood"
+			}]
+			rewards: [
+				{
+					id: "50E2989C74387674"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "69EF9C16D5933982"
+					type: "random"
+					table_id: 5316651533782326179L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 12.0d
+			dependencies: ["421BE199F1B40727"]
+			id: "24B8F38DCEF97A50"
+			tasks: [{
+				id: "42F46C513069337D"
+				type: "item"
+				item: "pyromancer:court_of_embers"
+			}]
+			rewards: [
+				{
+					id: "230C605B3875CCF9"
+					type: "random"
+					table_id: 1007301431635339741L
+				}
+				{
+					id: "1668C1DDE125EC9D"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 12.0d
+			dependencies: ["421BE199F1B40727"]
+			id: "26E57BA5E1EEC872"
+			tasks: [{
+				id: "59E84B6C2C14215D"
+				type: "item"
+				item: "pyromancer:lantern_of_blazing_souls"
+			}]
+			rewards: [
+				{
+					id: "71B645E6B3DCB903"
+					type: "random"
+					table_id: 1007301431635339741L
+				}
+				{
+					id: "3374EAE7577DA7BB"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 13.0d
+			dependencies: ["421BE199F1B40727"]
+			id: "02CD25413E2AEEC8"
+			tasks: [{
+				id: "41D05F2F59893A03"
+				type: "item"
+				item: "pyromancer:sizzling_hand"
+			}]
+			rewards: [
+				{
+					id: "56136CDF9C3D5C26"
+					type: "random"
+					table_id: 1007301431635339741L
+				}
+				{
+					id: "16F77BF375FC28EE"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 13.0d
+			dependencies: ["421BE199F1B40727"]
+			id: "510517E7DFD09C44"
+			tasks: [{
+				id: "7E52BF7855F73B51"
+				type: "item"
+				item: "pyromancer:call_of_flames"
+			}]
+			rewards: [
+				{
+					id: "415DDE6F3FBEFDF1"
+					type: "random"
+					table_id: 1007301431635339741L
+				}
+				{
+					id: "621B244130E967C1"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 9.5d
+			dependencies: ["338514F0EED881F4"]
+			id: "1FFAC8630D9E044D"
+			tasks: [{
+				id: "59C96F231A052BC3"
+				type: "item"
+				item: {
+					id: "pyromancer:firelink"
+					Count: 1b
+					tag: {
+						CustomModelData: 0.0d
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5256CDF73BC5100E"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "568123CEB9B780E4"
+					type: "random"
+					table_id: 5316651533782326179L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			dependencies: ["23C3D549286A41EA"]
+			id: "1E9E6EC09C2F3E3F"
+			tasks: [{
+				id: "4506B1C19F4AB9DF"
+				type: "item"
+				item: "minecraft:nether_wart"
+			}]
+			rewards: [
+				{
+					id: "3EDB893F44498497"
+					type: "item"
+					item: "minecraft:soul_sand"
+				}
+				{
+					id: "5C1305B4A9FDC828"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+	]
+}

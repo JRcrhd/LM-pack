@@ -1,0 +1,509 @@
+{
+	id: "4C4FD1C92B11B69A"
+	group: "31630154FA06B1E9"
+	order_index: 5
+	filename: "4C4FD1C92B11B69A"
+	title: "星空的低语"
+	icon: "astralsorcery:resonating_gem"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "准备工作"
+			x: -3.0d
+			y: -3.5d
+			shape: "hexagon"
+			subtitle: "两种石头"
+			description: ["大理石请多弄一些！不同模组的大理石可以用 Chisel 的凿子转换！"]
+			id: "10D69C7F5CD0F0ED"
+			tasks: [
+				{
+					id: "60568C2F3F2F931A"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+				}
+				{
+					id: "4A87C963C4AFCD9A"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+				}
+			]
+			rewards: [
+				{
+					id: "2F99F9EBE870D894"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 16
+				}
+				{
+					id: "5CDA6AC221AE2025"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+					count: 8
+				}
+				{
+					id: "03DF1F4CD40B3E9E"
+					type: "item"
+					item: "astralsorcery:tome"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["10D69C7F5CD0F0ED"]
+			id: "09FDCE77B6CDD452"
+			tasks: [{
+				id: "7ED4DFF2CBF4591D"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+			rewards: [
+				{
+					id: "63BCC05A80F00572"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "49236E557968D284"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: [
+				"在露天的浮动水晶下方放置一个工作台。"
+				" "
+				"浮动水晶所在的神殿可以在雪原或高山找到。"
+			]
+			dependencies: ["09FDCE77B6CDD452"]
+			id: "58F5F6DDDE1B8995"
+			tasks: [{
+				id: "6901877846B64E57"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+			rewards: [{
+				id: "064884077438DF0A"
+				type: "ftbmoney:money"
+				ftb_money: 40L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			description: ["在地下找到水晶石矿石。"]
+			dependencies: ["58F5F6DDDE1B8995"]
+			id: "124D99433C227EA9"
+			tasks: [{
+				id: "087BD8A61176D9FD"
+				type: "item"
+				item: {
+					id: "astralsorcery:rock_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "6EE54955C3B2583D"
+				type: "ftbmoney:money"
+				ftb_money: 60L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			description: ["在有星能的地方放置聚星缸，再往里面放一枚海蓝宝石或水晶石，这样就可以收集星能液。"]
+			dependencies: ["124D99433C227EA9"]
+			id: "68214B0CE6FC57D3"
+			tasks: [{
+				id: "331B716583AF0AE6"
+				type: "item"
+				item: "astralsorcery:well"
+			}]
+			rewards: [{
+				id: "6D4060F1E4F2C356"
+				type: "ftbmoney:money"
+				ftb_money: 40L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			description: [
+				"为了使用这个，你需要按照书里的指示建造一个大理石结构。最好在比较高的地方建造。"
+				""
+				"建造的时候建议预留更大的空间便于以后的升级"
+			]
+			dependencies: ["68214B0CE6FC57D3"]
+			id: "024D93796288EFB0"
+			tasks: [{
+				id: "674F2A0B29F0B64A"
+				type: "item"
+				item: "astralsorcery:altar_attunement"
+			}]
+			rewards: [
+				{
+					id: "34837D9472323BD8"
+					type: "item"
+					item: "mysticalagriculture:aquamarine_seeds"
+				}
+				{
+					id: "20B761F6CC248736"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "28E1144670274983"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			description: [
+				"除了在高海拔地区发展你的星辉大业，你也可以使用这个寻找星能较强的区域。"
+				" "
+				"在晚上拿着它到处走走，被蓝色云雾覆盖的地方就是星能较强的地方。"
+			]
+			dependencies: ["68214B0CE6FC57D3"]
+			id: "2A261C1530F20531"
+			tasks: [{
+				id: "3EEFBFCD182EEBED"
+				type: "item"
+				item: {
+					id: "astralsorcery:resonator"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							upgrades: [0]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C1C5B61B5BCF491"
+				type: "ftbmoney:money"
+				ftb_money: 40L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.0d
+			description: ["显然搬家是一件很麻烦的事情，你也可以通过使用这个来给你的星辉设备提供更多的星能。"]
+			dependencies: ["68214B0CE6FC57D3"]
+			id: "2A3F34991A5C02BD"
+			tasks: [{
+				id: "47E4A20490B6B318"
+				type: "item"
+				item: "astralsorcery:spectral_relay"
+			}]
+			rewards: [{
+				id: "0F7F753B86406B20"
+				type: "item"
+				item: "astralsorcery:spectral_relay"
+				count: 5
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["024D93796288EFB0"]
+			id: "17AFE64438ACE6E7"
+			tasks: [{
+				id: "22D2CBE3A38FBBF8"
+				type: "item"
+				item: "astralsorcery:altar_constellation"
+			}]
+			rewards: [
+				{
+					id: "6CCC0DAA0BBB9213"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5B67EA6F9D62D2F1"
+					type: "ftbmoney:money"
+					ftb_money: 80L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			description: ["这就是最高级的祭坛了。"]
+			dependencies: ["17AFE64438ACE6E7"]
+			id: "721BC1E4330E6C2C"
+			tasks: [{
+				id: "714F3C562C4996A2"
+				type: "item"
+				item: "astralsorcery:altar_radiance"
+			}]
+			rewards: [
+				{
+					id: "38D3405C982377D4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "03E3A9DBBFF5DA3B"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+				{
+					id: "704259FE4CEC1E5A"
+					type: "item"
+					item: "mysticalagriculture:marble_seeds"
+				}
+				{
+					id: "0C6D041CAC83CBDD"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "5E62ECDEC20BAA78"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 3.5d
+			description: ["使用星能液转化物品。"]
+			dependencies: ["17AFE64438ACE6E7"]
+			id: "34EC4C222AFA331C"
+			tasks: [{
+				id: "34AB712734870792"
+				type: "item"
+				item: "astralsorcery:infuser"
+			}]
+			rewards: [
+				{
+					id: "3567A5AC73108F31"
+					type: "item"
+					item: "astralsorcery:liquid_starlight_bucket"
+				}
+				{
+					id: "3766873B4A5444D6"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			description: [
+				"使用连接器连接聚能水晶和铁矿石，获得星辉矿石。"
+				""
+				"注意：这里只能使用原版的铁矿石。"
+			]
+			dependencies: ["024D93796288EFB0"]
+			id: "029D7A5E6FACEECD"
+			tasks: [
+				{
+					id: "6B57E4AC9BB60C84"
+					type: "item"
+					item: "astralsorcery:starmetal_ore"
+				}
+				{
+					id: "5B188424DE2979AA"
+					type: "item"
+					item: "astralsorcery:linking_tool"
+				}
+			]
+			rewards: [{
+				id: "58AEF2A3F7F6BEC7"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.0d
+			description: ["使用切削工具切割星辉锭获得星尘。"]
+			dependencies: ["029D7A5E6FACEECD"]
+			id: "3679EC082C761797"
+			tasks: [{
+				id: "2647ACE666AA2C40"
+				type: "item"
+				item: "astralsorcery:stardust"
+			}]
+			rewards: [{
+				id: "15C13EF66068D1E4"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			subtitle: "看得更远！"
+			description: ["帮你在夜空中寻找星座，在此之前你需要获得对应星座的星图。"]
+			dependencies: ["58F5F6DDDE1B8995"]
+			id: "4CC5A741068A8EDD"
+			tasks: [{
+				id: "50FE5DB349F00D00"
+				type: "item"
+				item: "astralsorcery:hand_telescope"
+			}]
+			rewards: [{
+				id: "3BAB3008EE4D75A9"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			subtitle: "看得更清楚！"
+			description: ["强大的观星设施"]
+			dependencies: ["4CC5A741068A8EDD"]
+			id: "6A221D762C24E0B9"
+			tasks: [{
+				id: "0EB6E31B0E1D75B6"
+				type: "item"
+				item: "astralsorcery:telescope"
+			}]
+			rewards: [{
+				id: "3D798C40F77E6C6D"
+				type: "ftbmoney:money"
+				ftb_money: 60L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			subtitle: "看得更舒适！"
+			description: ["最强的观星设施"]
+			dependencies: ["6A221D762C24E0B9"]
+			id: "1416D2E5F0A5F595"
+			tasks: [{
+				id: "27C7906DFF4C255A"
+				type: "item"
+				item: "astralsorcery:observatory"
+			}]
+			rewards: [
+				{
+					id: "790806FBFAA92EA5"
+					type: "ftbmoney:money"
+					ftb_money: 90L
+				}
+				{
+					id: "0EB6B3B0A9A51C49"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			description: [
+				"把自己放上去共鸣"
+				""
+				"需要荒野供物，在“新生魔艺”章节中有描述"
+			]
+			dependencies: ["024D93796288EFB0"]
+			id: "516494404A05A4EC"
+			tasks: [{
+				id: "695D93A71FD21460"
+				type: "item"
+				item: "astralsorcery:attunement_altar"
+			}]
+			rewards: [
+				{
+					id: "751F2A3C364CBD41"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "23B1FD8CAF18707A"
+					type: "item"
+					item: "astralsorcery:spectral_relay"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			description: ["达到满级"]
+			dependencies: ["516494404A05A4EC"]
+			id: "6CE28B7AC98CBE04"
+			tasks: [{
+				id: "4C6D6F2F26236F11"
+				type: "advancement"
+				title: "星辰之力"
+				icon: "astralsorcery:resonating_gem"
+				advancement: "astralsorcery:perk_level_large"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7F942088BCCD3F5D"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "674ADEA3D0022585"
+					type: "item"
+					item: "astralsorcery:shifting_star_aevitas"
+				}
+				{
+					id: "16847D5E95A7BFCA"
+					type: "choice"
+					table_id: 2256279273727221393L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			dependencies: ["10D69C7F5CD0F0ED"]
+			id: "081AE0F344CC978C"
+			tasks: [{
+				id: "6D7151AC9ADB8937"
+				type: "item"
+				item: "astralsorcery:tome"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			dependencies: ["024D93796288EFB0"]
+			id: "7500A4E5264D534B"
+			tasks: [{
+				id: "65BE4D1D8FD58ED1"
+				type: "item"
+				item: {
+					id: "endrem:cold_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3CC709FC4A604487"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+	]
+}

@@ -1,0 +1,570 @@
+{
+	id: "457532B63D9BEA23"
+	group: "31630154FA06B1E9"
+	order_index: 7
+	filename: "457532B63D9BEA23"
+	title: "炼金术"
+	icon: {
+		id: "projecte:philosophers_stone"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 5.5d
+			y: -4.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "projecte:textures/block/aeternalis_fuel_block.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "bloodmagic:textures/models/alchemyarrays/mobsacrifice.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["62D2B14974E0AE73"]
+			id: "42BE61F044BEF8AE"
+			tasks: [{
+				id: "7C151564D8A7BFA6"
+				type: "item"
+				item: {
+					id: "projecte:philosophers_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "60B4C875CC51990B"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["66F67AD429CD0364"]
+			id: "7F47E5AD2AB11293"
+			tasks: [{
+				id: "604CC8C28AE01049"
+				type: "item"
+				item: "projecte:dm_pedestal"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["42BE61F044BEF8AE"]
+			id: "66F67AD429CD0364"
+			tasks: [{
+				id: "1DCBA067732ECC8C"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
+			rewards: [
+				{
+					id: "18EC47AAD6330D7D"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "36CEAF08330D266C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "high_reward"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: ["需求不是很大"]
+			dependencies: ["66F67AD429CD0364"]
+			id: "7C7CD09C24E89014"
+			tasks: [{
+				id: "03AFE9FC5265E699"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
+			rewards: [{
+				id: "7A83521B68056655"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			dependencies: ["7C7CD09C24E89014"]
+			id: "5F7C150E93FDF3C7"
+			tasks: [{
+				id: "0941EA219019062A"
+				type: "item"
+				item: {
+					id: "projecte:watch_of_flowing_time"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.5d
+			description: ["请不要和时间洪流怀表一起用"]
+			dependencies: ["5F7C150E93FDF3C7"]
+			id: "21B9A7680CCE6A43"
+			tasks: [{
+				id: "5FCA03DF9DA607A1"
+				type: "item"
+				item: "torcherino:torcherino"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			dependencies: ["66F67AD429CD0364"]
+			id: "7D11187D1AC27EE8"
+			tasks: [{
+				id: "333CF560681E731A"
+				type: "item"
+				item: "projecte:low_covalence_dust"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			dependencies: ["66F67AD429CD0364"]
+			id: "23F1958E1391A840"
+			tasks: [{
+				id: "034C640997BAE017"
+				type: "item"
+				item: "projecte:medium_covalence_dust"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			dependencies: ["66F67AD429CD0364"]
+			id: "0A49A6B2EE3C038E"
+			tasks: [{
+				id: "50A58E8937C2CB0E"
+				type: "item"
+				item: "projecte:high_covalence_dust"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			dependencies: [
+				"7D11187D1AC27EE8"
+				"23F1958E1391A840"
+				"0A49A6B2EE3C038E"
+			]
+			id: "73FA2F39C911E09C"
+			tasks: [{
+				id: "58FF8D91E3283503"
+				type: "item"
+				item: "projecte:alchemical_chest"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			dependencies: ["73FA2F39C911E09C"]
+			id: "334298E19E06CB5B"
+			tasks: [{
+				id: "4BC244492890CFDF"
+				type: "item"
+				item: "projecte:condenser_mk1"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			dependencies: ["334298E19E06CB5B"]
+			id: "237E8AD82212241A"
+			tasks: [{
+				id: "25AF1A2401F48A12"
+				type: "item"
+				item: "projecte:condenser_mk2"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			dependencies: ["66F67AD429CD0364"]
+			id: "07E27D7448934B1B"
+			tasks: [{
+				id: "7876C5CE25DDC9A3"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_ein"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["07E27D7448934B1B"]
+			id: "5B0B4D4E59B29647"
+			tasks: [{
+				id: "1D26624CB609C487"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_zwei"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			dependencies: ["5B0B4D4E59B29647"]
+			id: "6012D8872056314B"
+			tasks: [{
+				id: "1991CD9A6CBA75C9"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_drei"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			dependencies: ["6012D8872056314B"]
+			id: "1654828008C48504"
+			tasks: [{
+				id: "34F949C098E66D84"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_vier"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			dependencies: ["1654828008C48504"]
+			id: "17CABD2205410239"
+			tasks: [{
+				id: "2D9EF7460A9EE58C"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_sphere"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -7.5d
+			dependencies: ["17CABD2205410239"]
+			id: "40FC47CC1E2C73DF"
+			tasks: [{
+				id: "19092E50A3F6315A"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_omega"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			id: "564C52DCFD7A6D96"
+			tasks: [{
+				id: "3951920754906345"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+			rewards: [{
+				id: "3CC55648815824E4"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["564C52DCFD7A6D96"]
+			id: "62D2B14974E0AE73"
+			tasks: [{
+				id: "145335B11E0047E1"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+			rewards: [{
+				id: "5B591CE04B363020"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["62D2B14974E0AE73"]
+			id: "347DE42321796CE8"
+			tasks: [{
+				id: "49D05B9F954DE299"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+			rewards: [{
+				id: "33A2783546ED292C"
+				type: "ftbmoney:money"
+				ftb_money: 40L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			dependencies: ["347DE42321796CE8"]
+			id: "3CD664FD04FA5257"
+			tasks: [{
+				id: "453A6AB4DE7E9F0D"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+			rewards: [{
+				id: "2F0C1C3BB55338A3"
+				type: "ftbmoney:money"
+				ftb_money: 60L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			dependencies: ["564C52DCFD7A6D96"]
+			id: "0D1975658E52ADE3"
+			tasks: [{
+				id: "5464123AFD447AB1"
+				type: "item"
+				item: "extendedcrafting:ender_crafter"
+			}]
+			rewards: [{
+				id: "5E6C6F57A88BBC39"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			dependencies: ["564C52DCFD7A6D96"]
+			id: "48D6412F1F01E7FB"
+			tasks: [{
+				id: "3FC272DC53CCBCF7"
+				type: "item"
+				item: "extendedcrafting:ender_alternator"
+			}]
+			rewards: [{
+				id: "44AB2E8D2F8C381B"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.5d
+			dependencies: [
+				"0D1975658E52ADE3"
+				"48D6412F1F01E7FB"
+			]
+			id: "62B4EB1A2325AD5F"
+			tasks: [{
+				id: "4D16F8B8854FF2B0"
+				type: "item"
+				item: "extendedcrafting:enhanced_ender_ingot"
+			}]
+			rewards: [{
+				id: "30124539DE59C87E"
+				type: "ftbmoney:money"
+				ftb_money: 40L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.5d
+			dependencies: ["564C52DCFD7A6D96"]
+			id: "683581015FB30045"
+			tasks: [{
+				id: "0AE43DE259DC2757"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
+			rewards: [{
+				id: "152EC29D545B7576"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			dependencies: ["564C52DCFD7A6D96"]
+			id: "6DBB5650AD11B481"
+			tasks: [{
+				id: "5CB5CD21B7F67B6B"
+				type: "item"
+				item: "extendedcrafting:redstone_ingot"
+			}]
+			rewards: [{
+				id: "66D1A85E8772840A"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -7.5d
+			dependencies: ["683581015FB30045"]
+			id: "666E09554A1546DB"
+			tasks: [{
+				id: "27EA438BC005DAE4"
+				type: "item"
+				item: "extendedcrafting:ender_ingot"
+			}]
+			rewards: [{
+				id: "2DF3DB8292215F2D"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			dependencies: ["347DE42321796CE8"]
+			id: "2CD0D385BEB17133"
+			tasks: [{
+				id: "2EBD2D4528846322"
+				type: "item"
+				item: "extendedcrafting:crystaltine_ingot"
+			}]
+			rewards: [{
+				id: "18B4971C9FD4917D"
+				type: "ftbmoney:money"
+				ftb_money: 60L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			dependencies: ["7C7CD09C24E89014"]
+			id: "4D650E5C0987CA70"
+			tasks: [{
+				id: "218341ACBAC802F1"
+				type: "item"
+				item: {
+					id: "projecte:body_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			dependencies: ["7C7CD09C24E89014"]
+			id: "0F9F2D9B224A4D6F"
+			tasks: [{
+				id: "083D8171BF6F56D4"
+				type: "item"
+				item: {
+					id: "projecte:soul_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			dependencies: [
+				"0F9F2D9B224A4D6F"
+				"4D650E5C0987CA70"
+			]
+			id: "75C2EE14D947EE27"
+			tasks: [{
+				id: "7219220D2D101206"
+				type: "item"
+				item: {
+					id: "projecte:life_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			dependencies: ["7C7CD09C24E89014"]
+			id: "6DB57B5CC0997FAA"
+			tasks: [{
+				id: "1930D031C6D48601"
+				type: "item"
+				item: "avaritia:infinity_ingot"
+			}]
+		}
+	]
+}

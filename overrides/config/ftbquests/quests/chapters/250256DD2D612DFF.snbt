@@ -1,0 +1,607 @@
+{
+	id: "250256DD2D612DFF"
+	group: "31630154FA06B1E9"
+	order_index: 8
+	filename: "250256DD2D612DFF"
+	title: "神话"
+	icon: "apotheosis:prismatic_altar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: 0.0d
+			shape: "square"
+			id: "120D28720EA3C227"
+			tasks: [{
+				id: "4757529B7FDE283F"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+			rewards: [
+				{
+					id: "67C0A6541D2EC59A"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 12
+				}
+				{
+					id: "53C2C7481EA7793E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2D145DDF00F68D03"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "利用精准采集"
+			id: "3CC84A68A96B11EB"
+			tasks: [{
+				id: "044320427685920B"
+				type: "item"
+				item: "minecraft:spawner"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["120D28720EA3C227"]
+			id: "70CFA133FFC97BD7"
+			tasks: [{
+				id: "4862315056A764BA"
+				type: "item"
+				item: "apotheosis:hellshelf"
+			}]
+			rewards: [{
+				id: "6C69D556D90D041F"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["120D28720EA3C227"]
+			id: "794F0D3585C2DC52"
+			tasks: [{
+				id: "342094436661C134"
+				type: "item"
+				item: "apotheosis:seashelf"
+			}]
+			rewards: [{
+				id: "7FC435C93AB18B8F"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["120D28720EA3C227"]
+			id: "6B39276A290D7738"
+			tasks: [{
+				id: "0244C5539BFE0AAD"
+				type: "item"
+				item: "apotheosis:endshelf"
+			}]
+			rewards: [{
+				id: "548F0E736F8471D0"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["120D28720EA3C227"]
+			id: "4F7D6F42A89CE97F"
+			tasks: [{
+				id: "4ACAD2DB25C295A9"
+				type: "item"
+				item: "apotheosis:beeshelf"
+			}]
+			rewards: [
+				{
+					id: "475DF77850F46471"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "658F7F672B699E65"
+					type: "item"
+					item: "apotheosis:beeshelf"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["120D28720EA3C227"]
+			id: "59AF68F4F061B74D"
+			tasks: [{
+				id: "716FFAB31E5E4206"
+				type: "item"
+				item: "apotheosis:melonshelf"
+			}]
+			rewards: [
+				{
+					id: "20B2470802C8E3AE"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "5E081929CF615206"
+					type: "item"
+					item: "apotheosis:melonshelf"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["120D28720EA3C227"]
+			id: "0116609E37FF1BF7"
+			tasks: [{
+				id: "6154F929BFE71223"
+				type: "item"
+				item: "apotheosis:prismatic_altar"
+			}]
+			rewards: [
+				{
+					id: "601B960B2A16909F"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [ ]
+						}
+					}
+					count: 4
+				}
+				{
+					id: "0EE971DFFCA4B38D"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			dependencies: ["3CC84A68A96B11EB"]
+			id: "27E8CC74BD2EAFCE"
+			tasks: [{
+				id: "61507E4353F7E73F"
+				type: "item"
+				item: "minecraft:sugar"
+			}]
+			rewards: [{
+				id: "5DFCC58EDDC62803"
+				type: "item"
+				item: "minecraft:sugar"
+				count: 10
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["3CC84A68A96B11EB"]
+			id: "31A8FFA04C3F039B"
+			tasks: [{
+				id: "04AD9F0E6F7216E4"
+				type: "item"
+				item: "minecraft:clock"
+			}]
+			rewards: [{
+				id: "7BF6BF5591240335"
+				type: "item"
+				item: "minecraft:clock"
+				count: 10
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["3CC84A68A96B11EB"]
+			id: "47654CAE863EF31C"
+			tasks: [{
+				id: "15CF99495338F03C"
+				type: "item"
+				item: "minecraft:comparator"
+			}]
+			rewards: [{
+				id: "44E71DAEDCABD5A9"
+				type: "item"
+				item: "minecraft:comparator"
+				count: 10
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			dependencies: ["3CC84A68A96B11EB"]
+			id: "44140AD27BFC979D"
+			tasks: [{
+				id: "413B3C17EB5DF535"
+				type: "item"
+				item: "minecraft:fermented_spider_eye"
+			}]
+			rewards: [{
+				id: "2895F836DBFBFF23"
+				type: "item"
+				item: "minecraft:fermented_spider_eye"
+				count: 10
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["3CC84A68A96B11EB"]
+			id: "7060AB31F15D04CD"
+			tasks: [{
+				id: "1D9116041129C1CE"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
+			rewards: [{
+				id: "2011CBA7F981F142"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 10
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			dependencies: ["3CC84A68A96B11EB"]
+			id: "448E7C26F5C6B1C4"
+			tasks: [{
+				id: "633F1B908FA2CECF"
+				type: "item"
+				item: "minecraft:prismarine_crystals"
+			}]
+			rewards: [{
+				id: "16409F1EC4FC037C"
+				type: "item"
+				item: "minecraft:prismarine_crystals"
+				count: 10
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			dependencies: ["3CC84A68A96B11EB"]
+			id: "625769B867ADB77A"
+			tasks: [{
+				id: "55E75BFFB713AF51"
+				type: "item"
+				item: "minecraft:ghast_tear"
+			}]
+			rewards: [{
+				id: "140965A21484F36F"
+				type: "item"
+				item: "minecraft:ghast_tear"
+				count: 10
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			dependencies: ["3CC84A68A96B11EB"]
+			id: "3BDFBAED7F4360B8"
+			tasks: [{
+				id: "71ED3F7231B7FCCA"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+			rewards: [{
+				id: "3A1A20AA4745BFCB"
+				type: "ftbmoney:money"
+				ftb_money: 40L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["3CC84A68A96B11EB"]
+			id: "02D30000CA8F3755"
+			tasks: [{
+				id: "0DE5B7668B68DED6"
+				type: "item"
+				item: "minecraft:dragon_egg"
+			}]
+			rewards: [{
+				id: "31307D1AED2F96D5"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["120D28720EA3C227"]
+			id: "33B1439F9A946553"
+			tasks: [{
+				id: "368E1FB30F2AF771"
+				type: "item"
+				item: {
+					id: "endrem:nether_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "04FE58A5E065D184"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			dependencies: ["70CFA133FFC97BD7"]
+			id: "5A108E8912095446"
+			tasks: [{
+				id: "2884053A74025E63"
+				type: "item"
+				item: {
+					id: "apotheosis:hellshelf"
+					Count: 1b
+					tag: {
+						Enchantments: [{
+							lvl: 3s
+							id: "apotheosis:hell_infusion"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["5A108E8912095446"]
+			id: "0CBFD57F587D0CE6"
+			tasks: [{
+				id: "24CCBA90561FFC76"
+				type: "item"
+				item: "apotheosis:blazing_hellshelf"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["5A108E8912095446"]
+			id: "1B799AAFD854D6FB"
+			tasks: [{
+				id: "161C5312FE8E61D2"
+				type: "item"
+				item: "apotheosis:glowing_hellshelf"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			description: ["增加附魔线索"]
+			dependencies: ["5A108E8912095446"]
+			id: "2842E734DFF7D3EE"
+			tasks: [{
+				id: "7738BCCE8BC479CF"
+				type: "item"
+				item: "apotheosis:sightshelf"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			dependencies: ["2842E734DFF7D3EE"]
+			id: "67DEF47DF3406E84"
+			tasks: [{
+				id: "1F3ADADBBB7F87FE"
+				type: "item"
+				item: "apotheosis:sightshelf_t2"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			dependencies: ["794F0D3585C2DC52"]
+			id: "16ABA9D7B0C4FFC2"
+			tasks: [{
+				id: "52D6ADD49308ECF8"
+				type: "item"
+				item: {
+					id: "apotheosis:seashelf"
+					Count: 1b
+					tag: {
+						Enchantments: [{
+							lvl: 3s
+							id: "apotheosis:sea_infusion"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			dependencies: ["16ABA9D7B0C4FFC2"]
+			id: "5B50B569429A2264"
+			tasks: [{
+				id: "08705DCA0A3B024E"
+				type: "item"
+				item: "apotheosis:crystal_seashelf"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			dependencies: ["16ABA9D7B0C4FFC2"]
+			id: "48EE96B8C2D8F141"
+			tasks: [{
+				id: "5B909A0021E93FA0"
+				type: "item"
+				item: "apotheosis:heart_seashelf"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["5A108E8912095446"]
+			id: "4923399BC57F486A"
+			tasks: [{
+				id: "15FE199D5611C39B"
+				type: "item"
+				item: "apotheosis:enchantment_library"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			dependencies: ["6B39276A290D7738"]
+			id: "08827613206D4524"
+			tasks: [{
+				id: "6C72B8E6E37A168E"
+				type: "item"
+				item: "apotheosis:draconic_endshelf"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			dependencies: ["6B39276A290D7738"]
+			id: "65A182AAA68DF4FE"
+			tasks: [{
+				id: "43C7266528AC411D"
+				type: "item"
+				item: "apotheosis:pearl_endshelf"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			description: ["减少量子化带来的负面影响"]
+			dependencies: ["16ABA9D7B0C4FFC2"]
+			id: "6F5671BF6A77AED2"
+			tasks: [{
+				id: "005C8227D41333EC"
+				type: "item"
+				item: "apotheosis:rectifier"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.5d
+			dependencies: ["6F5671BF6A77AED2"]
+			id: "29220A086FC86BB9"
+			tasks: [{
+				id: "43FE5621DA17B5B6"
+				type: "item"
+				item: "apotheosis:rectifier_t2"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.5d
+			dependencies: ["29220A086FC86BB9"]
+			id: "7597B3B7C78F869D"
+			tasks: [{
+				id: "04B40CA125C6F1D7"
+				type: "item"
+				item: "apotheosis:rectifier_t3"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: ["极其巨大的附魔仓库"]
+			dependencies: ["08827613206D4524"]
+			id: "4732172671057C3E"
+			tasks: [{
+				id: "04F260EFC43B9452"
+				type: "item"
+				item: "apotheosis:ender_library"
+			}]
+			rewards: [
+				{
+					id: "464E246CD4CDD8C4"
+					type: "random"
+					table_id: 2598854915727183632L
+				}
+				{
+					id: "105065BF3CAFD9C8"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			description: ["用于分解带词缀的装备"]
+			id: "1F0FACEFB88592B7"
+			tasks: [{
+				id: "703E1143D000A4EF"
+				type: "item"
+				item: "minecraft:soul_campfire"
+			}]
+			rewards: [{
+				id: "791C610472E6D83B"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "apotheosis:boss_summoner"
+			x: 1.0d
+			y: -4.0d
+			description: ["击败后掉落词缀装备"]
+			id: "6E6765266A485473"
+			tasks: [{
+				id: "400026D01073CA5E"
+				type: "ftbmoney:money"
+				value: 30L
+			}]
+			rewards: [
+				{
+					id: "33FD80357739A046"
+					type: "item"
+					item: "apotheosis:boss_summoner"
+				}
+				{
+					id: "0E809995AF4FE8DA"
+					type: "custom"
+					title: "可重复"
+					icon: "alexsmobs:roadrunner_feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["如果想在末地之前制造，那大概离不开西瓜书架和蜜制书架"]
+			dependencies: ["120D28720EA3C227"]
+			id: "00351B933ABAA33D"
+			tasks: [{
+				id: "71B0B4DF4125BE60"
+				type: "item"
+				item: "disenchanting:disenchanter"
+			}]
+			rewards: [{
+				id: "63847388061F1ADB"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+	]
+}

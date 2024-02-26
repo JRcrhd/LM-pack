@@ -1,0 +1,506 @@
+{
+	id: "1E484AB6DCD764DF"
+	group: "71995C756599D570"
+	order_index: 1
+	filename: "1E484AB6DCD764DF"
+	title: "暮光永驻"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 10.0d
+		y: -2.0d
+		width: 3.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "twilightforest:textures/block/castle_door_rune_corners.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "暮色森林"
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: -2.0d
+			y: -2.0d
+			shape: "octagon"
+			subtitle: "永恒黄昏之地"
+			description: [
+				"花花花花"
+				"花水水花"
+				"花水水花"
+				"花花花花"
+				"  +钻石"
+			]
+			id: "41F913DE229866D3"
+			tasks: [{
+				id: "259699A85E8607D2"
+				type: "dimension"
+				dimension: "twilightforest:twilightforest"
+			}]
+			rewards: [
+				{
+					id: "66EB09B922055D24"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "378ED7060A214283"
+					type: "item"
+					item: "twilightforest:raven_feather"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			subtitle: "寻找目的地"
+			description: ["你会需要它的"]
+			dependencies: ["41F913DE229866D3"]
+			id: "393CA41672921467"
+			tasks: [{
+				id: "2E1B4F48D1E287FA"
+				type: "item"
+				item: "twilightforest:magic_map_empty"
+			}]
+			rewards: [
+				{
+					id: "436B08A050C9874C"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "2961F5CCBC1F3BD8"
+					type: "item"
+					item: "twilightforest:maze_map_empty"
+				}
+			]
+		}
+		{
+			title: "娜迦"
+			icon: "twilightforest:naga_courtyard_miniature_structure"
+			x: 0.0d
+			y: 0.0d
+			description: [""]
+			dependencies: ["41F913DE229866D3"]
+			id: "193EF825E13D48A5"
+			tasks: [{
+				id: "6C569C6CD3F16BDD"
+				type: "item"
+				item: "twilightforest:naga_trophy"
+			}]
+			rewards: [
+				{
+					id: "652C6D2EBDF390E9"
+					type: "item"
+					item: "twilightforest:naga_scale"
+					count: 4
+				}
+				{
+					id: "5CAE8C3214F55ED7"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			title: "巫妖王的陨落"
+			icon: "twilightforest:lich_tower_miniature_structure"
+			x: 2.0d
+			y: -2.0d
+			description: [""]
+			dependencies: ["193EF825E13D48A5"]
+			id: "50763EE45F686238"
+			tasks: [{
+				id: "32E2A23D53237CEA"
+				type: "item"
+				item: "twilightforest:lich_trophy"
+			}]
+			rewards: [
+				{
+					id: "0A4E08EFF4484884"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1704B18F71180558"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "070678BFD1E683F0"
+					type: "item"
+					item: {
+						id: "twilightforest:twilight_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4D3812780C93D35D"
+					type: "random"
+					table_id: 5316651533782326179L
+				}
+			]
+		}
+		{
+			title: "米诺菇"
+			icon: "twilightforest:minoshroom_trophy"
+			x: 4.0d
+			y: -4.0d
+			description: [""]
+			dependencies: ["50763EE45F686238"]
+			id: "084C332625F27100"
+			tasks: [{
+				id: "3D17F76D933295AA"
+				type: "item"
+				item: "twilightforest:minoshroom_trophy"
+			}]
+			rewards: [
+				{
+					id: "368BF3035A875965"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7A4636BA3797C161"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "339DF297D2B851E7"
+					type: "item"
+					item: "twilightforest:meef_stroganoff"
+				}
+				{
+					id: "6CA17B0F2463A037"
+					type: "random"
+					table_id: 1007301431635339741L
+				}
+			]
+		}
+		{
+			title: "幻影骑士"
+			icon: "twilightforest:knight_phantom_trophy"
+			x: 4.0d
+			y: 0.0d
+			shape: "circle"
+			description: [""]
+			dependencies: ["50763EE45F686238"]
+			id: "237E653B24E1C118"
+			tasks: [{
+				id: "123EAC05AE086854"
+				type: "item"
+				item: "twilightforest:knight_phantom_trophy"
+			}]
+			rewards: [
+				{
+					id: "0AA8C24B43A05B4A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6E450E648DB83F80"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "0BBCEB939FCC6F16"
+					type: "random"
+					table_id: 1007301431635339741L
+				}
+			]
+		}
+		{
+			title: "雪怪首领"
+			icon: "twilightforest:alpha_fur"
+			x: 2.0d
+			y: 2.0d
+			description: [""]
+			dependencies: ["50763EE45F686238"]
+			id: "709272CCDDEA1BA8"
+			tasks: [{
+				id: "3C3C63C8A3206C24"
+				type: "kill"
+				entity: "twilightforest:yeti_alpha"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "188AD31160C72131"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4C243C37A35EE075"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "360E75678B7D4459"
+					type: "random"
+					table_id: 1007301431635339741L
+				}
+			]
+		}
+		{
+			title: "谜题羊"
+			x: 4.0d
+			y: -2.0d
+			description: [""]
+			id: "4DE42373204260D9"
+			tasks: [{
+				id: "4655C1C39F097583"
+				type: "item"
+				item: "twilightforest:quest_ram_trophy"
+			}]
+			rewards: [
+				{
+					id: "21024BD10A3BFCFE"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 20
+				}
+				{
+					id: "63EF22B95DAF76C1"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			title: "九头蛇"
+			icon: "twilightforest:hydra_trophy"
+			x: 6.0d
+			y: -2.0d
+			description: [
+				""
+				"比它在主世界的远亲要强大"
+			]
+			dependencies: ["084C332625F27100"]
+			id: "1B938A15F28695A1"
+			tasks: [{
+				id: "45A4325A46441EFF"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
+			}]
+			rewards: [
+				{
+					id: "0E20910417EF5031"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "29D63721179AA0C2"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+				{
+					id: "4D3D8F631510F75D"
+					type: "item"
+					item: "twilightforest:fiery_ingot"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "暮色恶魂"
+			icon: "twilightforest:ur_ghast_trophy"
+			x: 6.0d
+			y: 0.0d
+			description: [""]
+			dependencies: ["237E653B24E1C118"]
+			id: "520072748914DEA4"
+			tasks: [{
+				id: "5BDD91E9C5306717"
+				type: "item"
+				item: "twilightforest:ur_ghast_trophy"
+			}]
+			rewards: [
+				{
+					id: "2E30C88A841D5C8D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1505CFA9CF1E2041"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+				{
+					id: "5DABD216C10323A9"
+					type: "item"
+					item: {
+						id: "twilightforest:triple_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "冰雪女王"
+			icon: "twilightforest:snow_queen_trophy"
+			x: 6.0d
+			y: 2.0d
+			description: [""]
+			dependencies: ["709272CCDDEA1BA8"]
+			id: "5CA697F141A94E09"
+			tasks: [{
+				id: "7BE2C0460F993E82"
+				type: "item"
+				item: "twilightforest:snow_queen_trophy"
+			}]
+			rewards: [
+				{
+					id: "23D233B0097E2F3F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5E288DEEA53D33C0"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+				{
+					id: "6E58FC6E446C638A"
+					type: "item"
+					item: "xreliquary:glacial_staff"
+				}
+			]
+		}
+		{
+			title: "爬到云上"
+			x: 8.0d
+			y: 0.0d
+			description: [""]
+			dependencies: [
+				"1B938A15F28695A1"
+				"520072748914DEA4"
+				"5CA697F141A94E09"
+			]
+			id: "1613D985A231A394"
+			tasks: [
+				{
+					id: "11638A27F229CF24"
+					type: "kill"
+					entity: "twilightforest:giant_miner"
+					value: 1L
+				}
+				{
+					id: "5087F740C2620B53"
+					type: "kill"
+					entity: "twilightforest:armored_giant"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "4A14F196BFE4221B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "232E0F9D35FD83AC"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+				{
+					id: "263CBC6EB56F7FC9"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+				{
+					id: "611B2CAEFDFBF576"
+					type: "item"
+					item: "twilightforest:giant_cobblestone"
+					count: 8
+				}
+				{
+					id: "4B84900D0498E6A9"
+					type: "random"
+					table_id: 1007301431635339741L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			description: ["coming s∞n的最终boss"]
+			dependencies: ["1613D985A231A394"]
+			id: "6BFD973241CD41F6"
+			tasks: [{
+				id: "4D02C5C9A22B769A"
+				type: "item"
+				item: {
+					id: "twilightforest:lamp_of_cinders"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5A6B2F34F11E8367"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+				{
+					id: "4278F52C69709703"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "4BF14CE469599734"
+					type: "item"
+					item: "twilightforest:trophy_pedestal"
+					count: 9
+				}
+				{
+					id: "6E198E3206D11422"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "3D9BC75E40E3C9E1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			id: "3AE8E69C45059E72"
+			tasks: [{
+				id: "1B6B5E58E30A5AA7"
+				type: "item"
+				item: {
+					id: "endrem:black_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "21184D274698930D"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+  "oreConfig": [
+   {
+      "ore": "minecraft:coal_ore",
+      "filler": "minecraft:sandstone",
+      "minY": 1,
+      "maxY": 63,
+      "maxVeinSize": 20,
+      "spawnRate": 30.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+{
+      "ore": "minecraft:coal_ore",
+      "filler": "minecraft:stone",
+      "minY": 1,
+      "maxY": 128,
+      "maxVeinSize": 20,
+      "spawnRate": 30.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

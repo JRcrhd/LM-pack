@@ -1,0 +1,761 @@
+{
+	id: "2C775A37EBE046D3"
+	group: "547F7E1B88118B9B"
+	order_index: 2
+	filename: "2C775A37EBE046D3"
+	title: "工匠"
+	icon: "tconstruct:pattern"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: 4.5d
+			shape: "circle"
+			description: ["这是制作匠魂工作设备的必需品。"]
+			id: "66EF772617B306BA"
+			tasks: [{
+				id: "0B4990CF7694AE1C"
+				type: "item"
+				item: "tconstruct:pattern"
+				consume_items: false
+			}]
+			rewards: [
+				{
+					id: "7D5B6F9DED0E04AE"
+					type: "item"
+					item: "tconstruct:pattern"
+					count: 6
+				}
+				{
+					id: "0F33C0A65EF747E8"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			title: "工作站套装"
+			x: -1.5d
+			y: 4.5d
+			description: ["木制模具是消耗品了，请多准备"]
+			dependencies: ["66EF772617B306BA"]
+			id: "42429B77061EBA72"
+			tasks: [
+				{
+					id: "23D882FF9FB5F09C"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "628BB91262ACB655"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "03DC26B1CDAE7444"
+					type: "item"
+					item: "tconstruct:tinkers_gadgetry"
+				}
+				{
+					id: "1A4F4B4C6FDD90B0"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "601B34F828C8416F"
+					type: "item"
+					item: "tconstruct:pattern"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "烧砖的原料"
+			x: 2.0d
+			y: 4.5d
+			description: ["把它烧成焦黑转"]
+			dependencies: ["42429B77061EBA72"]
+			id: "6312B5F4F0C9E0C7"
+			tasks: [{
+				id: "7A141C022C4A2E10"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 32L
+				consume_items: false
+			}]
+			rewards: [
+				{
+					id: "53E68324EB68B0EA"
+					type: "item"
+					item: "tconstruct:grout"
+					count: 32
+				}
+				{
+					id: "7C6E9EAC99896243"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			icon: "tconstruct:seared_melter"
+			x: -0.5d
+			y: 6.5d
+			description: ["这是一个迷你的冶炼炉，不能制作合金。把加热器放在下面来为其供热。"]
+			dependencies: ["6312B5F4F0C9E0C7"]
+			id: "63921BD3EFDC5D01"
+			tasks: [
+				{
+					id: "6B20DC9453403D77"
+					type: "item"
+					item: "tconstruct:seared_melter"
+					consume_items: false
+				}
+				{
+					id: "04C94322B15B68A8"
+					type: "item"
+					item: "tconstruct:seared_heater"
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "549226F3DF722AFF"
+					type: "item"
+					item: "tconstruct:seared_brick"
+					count: 16
+				}
+				{
+					id: "3F4C20870CFC0E09"
+					type: "item"
+					item: "tconstruct:puny_smelting"
+				}
+				{
+					id: "2F8E59281A9ECDE4"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			title: "基础冶炼设备"
+			icon: "tconstruct:seared_table"
+			x: 1.5d
+			y: 3.5d
+			description: ["冶炼炉的构件准备"]
+			dependencies: ["6312B5F4F0C9E0C7"]
+			id: "2F9EFD203A2EFDB6"
+			tasks: [
+				{
+					id: "243DF7A0A04D3A36"
+					type: "item"
+					item: "tconstruct:seared_basin"
+					consume_items: false
+				}
+				{
+					id: "1E72EF6FF995F131"
+					type: "item"
+					item: "tconstruct:seared_table"
+					consume_items: false
+				}
+				{
+					id: "30B4904C603068C6"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "2BCFD45FBBACC13C"
+					type: "item"
+					item: "tconstruct:seared_brick"
+					count: 16
+				}
+				{
+					id: "26956B2AE16CD8E8"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			title: "一次性铸模"
+			icon: "tconstruct:blank_sand_cast"
+			x: 2.5d
+			y: 5.5d
+			description: ["注意：只有金质筑模可以重复使用"]
+			dependencies: ["6312B5F4F0C9E0C7"]
+			id: "0D832CA06CD045CD"
+			tasks: [{
+				id: "6BB024992668734F"
+				type: "item"
+				title: "任意沙子空白铸模"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:casts/single_use/blank"
+					}
+				}
+				consume_items: false
+			}]
+			rewards: [
+				{
+					id: "4082FA16B4E785F7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "296CB87005E176C4"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			icon: "tconstruct:smeltery_controller"
+			x: 0.5d
+			y: 7.5d
+			description: ["越大越好！"]
+			dependencies: ["63921BD3EFDC5D01"]
+			id: "315D6879103B64AE"
+			tasks: [
+				{
+					id: "1486E24C8991C4CF"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "6F23333D72BE4307"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "64CD190CB25A3C44"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+			]
+			rewards: [
+				{
+					id: "7A015BE77F0CECE3"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "618A7EC3EBB6A6BB"
+					type: "item"
+					item: "tconstruct:mighty_smelting"
+				}
+				{
+					id: "424931B43C6AB540"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 12.5d
+			id: "40DA1EE7702152F6"
+			tasks: [{
+				id: "7BAD59DDAC19CD5B"
+				type: "item"
+				title: "Any #forge:ingots/cobalt"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/cobalt"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "401CFBAD6CE60F3A"
+					type: "item"
+					item: "tconstruct:cobalt_ore"
+					count: 4
+				}
+				{
+					id: "24AD300C83153F58"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 10.5d
+			description: ["随着阿迪特的被取代，这个锭的身价瞬间上升了"]
+			dependencies: [
+				"40DA1EE7702152F6"
+				"56F286672626A32F"
+			]
+			id: "7033DDE6FD8DEFE4"
+			tasks: [{
+				id: "7DB3CF49C5135698"
+				type: "item"
+				title: "Any #forge:ingots/manyullyn"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/manyullyn"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "322625E1A96B5BFA"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "215842FBFB983BBF"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "7403210C8347F82B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "更高的炉温"
+			x: -3.0d
+			y: 11.0d
+			description: ["烈焰人的血"]
+			id: "168CE88CDB9A4985"
+			tasks: [{
+				id: "7122C31D20F5A987"
+				type: "item"
+				item: "tconstruct:blazing_blood_bucket"
+			}]
+			rewards: [{
+				id: "083382B7296DBCF1"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			title: "最高的炉温"
+			x: 0.0d
+			y: 10.0d
+			description: ["血腥熔岩+烈焰人的血"]
+			id: "47B2952C54B5EB83"
+			tasks: [{
+				id: "6B7CF0BD9226ADBF"
+				type: "item"
+				item: "natureminerals:scorchingblood_bucket"
+			}]
+			rewards: [{
+				id: "45C4917894BF7814"
+				type: "ftbmoney:money"
+				ftb_money: 35L
+			}]
+		}
+		{
+			title: "真·最好的合金"
+			x: 1.5d
+			y: 11.0d
+			description: ["这是值得的"]
+			dependencies: [
+				"47B2952C54B5EB83"
+				"70501C277B98CDB6"
+				"4F73112A9DAF0041"
+			]
+			id: "76DC0D6594B0DBC9"
+			tasks: [{
+				id: "7A00C061E11802B0"
+				type: "item"
+				item: "natureminerals:thounite_ingot"
+			}]
+			rewards: [
+				{
+					id: "0BEC76124D465470"
+					type: "item"
+					item: "natureminerals:thounite_ingot"
+				}
+				{
+					id: "1535E31E15FEF51E"
+					type: "random"
+					table_id: 2256279273727221393L
+				}
+				{
+					id: "2171B3AB74214B59"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+				{
+					id: "2AB4E71ACCCACED4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 8.5d
+			id: "72948831A2386EB8"
+			tasks: [{
+				id: "5B55B163E28DBC4E"
+				type: "item"
+				item: {
+					id: "endrem:lost_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			description: ["大型的液体储罐"]
+			dependencies: ["63921BD3EFDC5D01"]
+			id: "136DCF4D397747F5"
+			tasks: [{
+				id: "5C62296C9BD1023E"
+				type: "item"
+				item: "tconstruct:foundry_controller"
+			}]
+			rewards: [{
+				id: "280AC744B3847607"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 10.0d
+			id: "56F286672626A32F"
+			tasks: [{
+				id: "78259DF031DACD39"
+				type: "item"
+				title: "Any #forge:ores/netherite_scrap"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ores/netherite_scrap"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 9.5d
+			id: "6D249DA1EF5488BD"
+			tasks: [{
+				id: "744B5DD87B3042BF"
+				type: "item"
+				title: "Any #forge:ingots/copper"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/copper"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 9.0d
+			dependencies: ["6D249DA1EF5488BD"]
+			id: "5F233B5FD8435F6A"
+			tasks: [{
+				id: "17EF654A6B97EA70"
+				type: "item"
+				title: "Any #forge:ingots/silicon_bronze"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/silicon_bronze"
+					}
+				}
+			}]
+			rewards: [{
+				id: "60CD29FD792EAD6A"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 10.0d
+			dependencies: ["6D249DA1EF5488BD"]
+			id: "1DF63A633454315D"
+			tasks: [{
+				id: "54B1F3C41CC1B884"
+				type: "item"
+				title: "Any #forge:ingots/rose_gold"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/rose_gold"
+					}
+				}
+			}]
+			rewards: [{
+				id: "03E58C623105883B"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 12.5d
+			dependencies: ["40DA1EE7702152F6"]
+			id: "2A0A1F526A6EA3F4"
+			tasks: [{
+				id: "7AFC8AF43842B73D"
+				type: "item"
+				title: "Any #forge:ingots/queens_slime"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/queens_slime"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2EC75BFEA300A1A6"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 13.5d
+			description: ["等它跳下来也许是个不错的选项"]
+			id: "08977A2705A1C4E4"
+			tasks: [{
+				id: "61371754621DC0F2"
+				type: "item"
+				item: "tconstruct:sky_slime_ball"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 13.5d
+			dependencies: ["08977A2705A1C4E4"]
+			id: "0A276AF57FF9E9BB"
+			tasks: [{
+				id: "7F61787FCD354A8B"
+				type: "item"
+				title: "Any #forge:ingots/slimesteel"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/slimesteel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3DBC68E404B20FD0"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 11.5d
+			dependencies: ["40DA1EE7702152F6"]
+			id: "14F794EAD0380DB7"
+			tasks: [{
+				id: "1D754F3CF841393D"
+				type: "item"
+				title: "Any #forge:ingots/hepatizon"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/hepatizon"
+					}
+				}
+			}]
+			rewards: [{
+				id: "22CAD9AB67838086"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 12.0d
+			id: "70501C277B98CDB6"
+			tasks: [{
+				id: "7B66E1B3634DB074"
+				type: "item"
+				title: "Any #forge:ingots/stibnite"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/stibnite"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 11.0d
+			id: "4F73112A9DAF0041"
+			tasks: [{
+				id: "43C0CE91CD7DE726"
+				type: "item"
+				title: "Any #forge:ingots/astrite"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/astrite"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 12.5d
+			id: "503A927728A8CC8D"
+			tasks: [{
+				id: "21DA79E9979552B8"
+				type: "item"
+				title: "Any #forge:ingots/aluminum"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/aluminum"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 11.0d
+			dependencies: [
+				"6D249DA1EF5488BD"
+				"503A927728A8CC8D"
+			]
+			id: "74BF1F421D08BF7D"
+			tasks: [{
+				id: "0D422D2B0F7337B4"
+				type: "item"
+				title: "Any #forge:ingots/duralumin"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/duralumin"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 13.5d
+			dependencies: ["40DA1EE7702152F6"]
+			id: "6252E871DF1DEB2E"
+			tasks: [{
+				id: "5094EC92CBC91084"
+				type: "item"
+				title: "Any #forge:ingots/lavium"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/lavium"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 8.0d
+			dependencies: ["6D249DA1EF5488BD"]
+			id: "74FC32062B7F7017"
+			tasks: [{
+				id: "4376910036B30D75"
+				type: "item"
+				title: "Any #forge:ingots/electrical_copper"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/electrical_copper"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 9.5d
+			dependencies: ["56F286672626A32F"]
+			id: "113D56FDDCC49FE4"
+			tasks: [{
+				id: "5CEF9EDD3522C0EA"
+				type: "item"
+				title: "Any #forge:ingots/gausum"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/gausum"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 14.5d
+			dependencies: ["40DA1EE7702152F6"]
+			id: "2A270BB4FE84334E"
+			tasks: [{
+				id: "6688ECE26482FE07"
+				type: "item"
+				title: "Any #forge:ingots/qivium"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/qivium"
+					}
+				}
+			}]
+		}
+	]
+}

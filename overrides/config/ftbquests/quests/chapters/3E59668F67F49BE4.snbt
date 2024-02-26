@@ -1,0 +1,1499 @@
+{
+	id: "3E59668F67F49BE4"
+	group: ""
+	order_index: 0
+	filename: "3E59668F67F49BE4"
+	title: "§6锻造所(矮人工匠的帮助)"
+	icon: "relics:runic_anvil"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "无赖之眼"
+			icon: {
+				id: "endrem:rogue_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -5.5d
+			y: -3.5d
+			shape: "pentagon"
+			id: "40BC3E5861AA3698"
+			tasks: [
+				{
+					id: "267D7459472647AF"
+					type: "ftbmoney:money"
+					value: 200L
+				}
+				{
+					id: "283B053ED1402A34"
+					type: "item"
+					item: "minecraft:ender_eye"
+					count: 16L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "6984BC44C25241D8"
+					type: "item"
+					item: {
+						id: "endrem:rogue_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "792DC4A2575C2091"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:paper"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			title: "拒绝之杖"
+			icon: {
+				id: "minecraft:stick"
+				Count: 1b
+				tag: {
+					AttributeModifiers: [{
+						UUIDMost: 2682582258933289279L
+						UUIDLeast: -1428888986726524555L
+						Amount: 0.3d
+						AttributeName: "generic.reachDistance"
+						Operation: 1
+						Name: "generic.reachDistance"
+					}]
+					display: {
+						Name: "[{\"text\":\"拒绝之杖\",\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					}
+					Enchantments: [{
+						lvl: 50
+						id: "minecraft:knockback"
+					}]
+				}
+			}
+			x: -0.5d
+			y: -2.5d
+			shape: "hexagon"
+			id: "0E6E00675B37E062"
+			tasks: [
+				{
+					id: "3595B8FA425E8C9D"
+					type: "item"
+					item: "minecraft:leather"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "27DC41D1C7E432E1"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "0B6A15D45BDD946C"
+					type: "item"
+					item: "botania:vinculotus"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "63C39ED3571A4E3E"
+					type: "item"
+					item: {
+						id: "minecraft:stick"
+						Count: 1b
+						tag: {
+							AttributeModifiers: [{
+								UUIDMost: 2682582258933289279L
+								UUIDLeast: -1428888986726524555L
+								Amount: 0.3d
+								AttributeName: "generic.reachDistance"
+								Operation: 1
+								Name: "generic.reachDistance"
+							}]
+							display: {
+								Name: "[{\"text\":\"拒绝之杖\",\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+							}
+							Enchantments: [{
+								lvl: 50
+								id: "minecraft:knockback"
+							}]
+						}
+					}
+				}
+				{
+					id: "04E612171FAFF886"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			title: "镀金弓"
+			icon: {
+				id: "minecraft:bow"
+				Count: 1b
+				tag: {
+					Unbreakable: 1
+					Damage: 0
+					HideFlags: 4
+					display: {
+						Name: "[{\"text\":\"镀金弓\",\"color\":\"gold\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					}
+					Enchantments: [{
+						lvl: 20
+						id: "minecraft:punch"
+					}]
+				}
+			}
+			x: -0.5d
+			y: -3.5d
+			shape: "hexagon"
+			id: "189F2338F758B329"
+			tasks: [
+				{
+					id: "303CFD9F592096B9"
+					type: "item"
+					item: "mysticalagriculture:prudentium_essence"
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "77B39D7CF7763902"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "58F90A5782C0C305"
+					type: "item"
+					item: {
+						id: "minecraft:bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3D8E4E53E0FF9802"
+					type: "ftbmoney:money"
+					value: 100L
+				}
+			]
+			rewards: [
+				{
+					id: "525AF922CF3C0A7A"
+					type: "item"
+					item: {
+						id: "minecraft:bow"
+						Count: 1b
+						tag: {
+							Unbreakable: 1
+							Damage: 0
+							HideFlags: 4
+							display: {
+								Name: "[{\"text\":\"镀金弓\",\"color\":\"gold\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+							}
+							Enchantments: [{
+								lvl: 20
+								id: "minecraft:punch"
+							}]
+						}
+					}
+				}
+				{
+					id: "270F0A76A4148E5D"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			title: "狱炎业火之剑"
+			icon: {
+				id: "upgradednetherite:fire_upgraded_netherite_sword"
+				Count: 1b
+				tag: {
+					Unbreakable: 1
+					Damage: 0
+					display: {
+						Name: "[{\"text\":\"狱炎业火之剑\",\"color\":\"dark_red\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					}
+					Enchantments: [{
+						lvl: 100
+						id: "minecraft:fire_aspect"
+					}]
+				}
+			}
+			x: -2.5d
+			y: -2.5d
+			shape: "hexagon"
+			id: "48FA40505635C32B"
+			tasks: [
+				{
+					id: "73277A6578540760"
+					type: "item"
+					item: "mysticalagriculture:tertium_ingot"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "7879032CC930FF68"
+					type: "item"
+					item: "upgradednetherite:fire_upgraded_netherite_ingot"
+					consume_items: true
+				}
+				{
+					id: "2ACB2C1EA20CE7CC"
+					type: "item"
+					item: "minecraft:fire_charge"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "14D82575EB428569"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "160810E6BF76951E"
+					type: "ftbmoney:money"
+					value: 100L
+				}
+			]
+			rewards: [
+				{
+					id: "19606F229B5044D9"
+					type: "item"
+					item: {
+						id: "upgradednetherite:fire_upgraded_netherite_sword"
+						Count: 1b
+						tag: {
+							Unbreakable: 1
+							Damage: 0
+							display: {
+								Name: "[{\"text\":\"狱炎业火之剑\",\"color\":\"dark_red\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+							}
+							Enchantments: [{
+								lvl: 100
+								id: "minecraft:fire_aspect"
+							}]
+						}
+					}
+				}
+				{
+					id: "04E612171FAFF887"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			title: "龙血长弓"
+			icon: {
+				id: "upgradednetherite:gold_upgraded_netherite_bow"
+				Count: 1b
+				tag: {
+					Unbreakable: 1
+					Damage: 0
+					HideFlags: 4
+					display: {
+						Name: "[{\"text\":\"龙血长弓\",\"color\":\"red\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					}
+					Enchantments: [
+						{
+							lvl: 1
+							id: "minecraft:flame"
+						}
+						{
+							lvl: 1
+							id: "minecraft:infinity"
+						}
+						{
+							lvl: 5
+							id: "minecraft:power"
+						}
+					]
+				}
+			}
+			x: -2.5d
+			y: -3.5d
+			shape: "hexagon"
+			id: "68A989FAE1FC445E"
+			tasks: [
+				{
+					id: "226A5ACA9BF4B9CF"
+					type: "item"
+					item: "iceandfire:fire_dragon_blood"
+					consume_items: true
+				}
+				{
+					id: "495197E4C37B9128"
+					type: "item"
+					item: "minecraft:crying_obsidian"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "45F428EF954BD6BD"
+					type: "item"
+					item: {
+						id: "upgradednetherite:netherite_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "147367B90875609A"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "6E8B4F25325A91DA"
+					type: "item"
+					item: "mysticalagriculture:imperium_essence"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0D08EA43E0EA0D99"
+					type: "item"
+					item: {
+						id: "upgradednetherite:fire_upgraded_netherite_bow"
+						Count: 1b
+						tag: {
+							Unbreakable: 1
+							Damage: 0
+							HideFlags: 4
+							display: {
+								Name: "[{\"text\":\"龙血长弓\",\"color\":\"red\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+							}
+							Enchantments: [
+								{
+									lvl: 20
+									id: "minecraft:flame"
+								}
+								{
+									lvl: 1
+									id: "minecraft:infinity"
+								}
+								{
+									lvl: 5
+									id: "minecraft:power"
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "04E612171FAFF888"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			title: "无尽书卷"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					Unbreakable: 1
+					StoredEnchantments: [
+						{
+							lvl: 100
+							id: "minecraft:infinity"
+						}
+						{
+							lvl: 100
+							id: "minecraft:mending"
+						}
+						{
+							lvl: 100
+							id: "minecraft:unbreaking"
+						}
+					]
+					HideFlags: 4
+					display: {
+						Name: "[{\"text\":\"1\",\"color\":\"gray\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":true},{\"text\":\"无尽书卷\",\"color\":\"dark_gray\",\"bold\":true,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"1\",\"color\":\"gray\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":true}]"
+					}
+				}
+			}
+			x: -5.5d
+			y: -2.0d
+			shape: "hexagon"
+			id: "1A0270D3A471F499"
+			tasks: [
+				{
+					id: "011F3C261502E9AE"
+					type: "item"
+					item: "extendedcrafting:luminessence"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "4BB5DD2FE7CB3C50"
+					type: "item"
+					item: "minecraft:bookshelf"
+					consume_items: true
+				}
+				{
+					id: "10B7A0C4EAD06C6C"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "18DEEC921F7A6F78"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [
+				{
+					id: "762D72A41EC2D461"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							Unbreakable: 1
+							StoredEnchantments: [
+								{
+									lvl: 100
+									id: "minecraft:infinity"
+								}
+								{
+									lvl: 100
+									id: "minecraft:mending"
+								}
+								{
+									lvl: 100
+									id: "minecraft:unbreaking"
+								}
+							]
+							HideFlags: 4
+							display: {
+								Name: "[{\"text\":\"1\",\"color\":\"gray\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":true},{\"text\":\"无尽书卷\",\"color\":\"dark_gray\",\"bold\":true,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"1\",\"color\":\"gray\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":true}]"
+							}
+						}
+					}
+				}
+				{
+					id: "04E612171FAFF889"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			title: "波塞冬之赐"
+			icon: {
+				id: "minecraft:trident"
+				Count: 1b
+				tag: {
+					Unbreakable: 1
+					Damage: 0
+					HideFlags: 4
+					display: {
+						Name: "[{\"text\":\"波塞冬之赐\",\"color\":\"dark_aqua\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					}
+					Enchantments: [
+						{
+							lvl: 50
+							id: "minecraft:loyalty"
+						}
+						{
+							lvl: 100
+							id: "minecraft:impaling"
+						}
+						{
+							lvl: 1
+							id: "minecraft:channeling"
+						}
+					]
+				}
+			}
+			x: -10.5d
+			y: 0.0d
+			shape: "hexagon"
+			id: "2002F72369080E8F"
+			tasks: [
+				{
+					id: "4A773335C7627C72"
+					type: "item"
+					item: "mysticalagriculture:tertium_essence"
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "00F3B2C1BBE3F6C3"
+					type: "item"
+					item: "iceandfire:shiny_scales"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "2A06CA9E3636342F"
+					type: "item"
+					item: "minecraft:prismarine_bricks"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "68F96D71E63717FF"
+					type: "item"
+					item: {
+						id: "minecraft:trident"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "70E529EE5EBD69EA"
+					type: "item"
+					item: {
+						id: "minecraft:trident"
+						Count: 1b
+						tag: {
+							Unbreakable: 1
+							Damage: 0
+							HideFlags: 4
+							display: {
+								Name: "[{\"text\":\"波塞冬之赐\",\"color\":\"dark_aqua\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+							}
+							Enchantments: [
+								{
+									lvl: 50
+									id: "minecraft:loyalty"
+								}
+								{
+									lvl: 100
+									id: "minecraft:impaling"
+								}
+								{
+									lvl: 1
+									id: "minecraft:channeling"
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "04E612171FAFF885"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			title: "觉醒之神威"
+			icon: {
+				id: "mythicbotany:mjoellnir"
+				Count: 1b
+				tag: {
+					Unbreakable: 1
+					HideFlags: 4
+					display: {
+						Name: "[{\"text\":\"觉醒之神威\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					}
+					Enchantments: [
+						{
+							lvl: 50
+							id: "minecraft:loyalty"
+						}
+						{
+							lvl: 10
+							id: "minecraft:power"
+						}
+						{
+							lvl: 10
+							id: "minecraft:sharpness"
+						}
+						{
+							lvl: 10
+							id: "mythicbotany:hammer_mobility"
+						}
+					]
+				}
+			}
+			x: -8.5d
+			y: -1.0d
+			shape: "hexagon"
+			id: "73CBB98FE73B5FF8"
+			tasks: [
+				{
+					id: "6E495E1AE0D3D03D"
+					type: "item"
+					item: "mysticalagriculture:imperium_essence"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "05CDD575FE3B96AA"
+					type: "item"
+					item: "mythicbotany:alfsteel_ingot"
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "0C2695CB7754B236"
+					type: "item"
+					item: "extrabotany:heromedal"
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "7B090555E495D9A4"
+					type: "item"
+					item: "mythicbotany:mjoellnir"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "10BCF1D7EF1878B1"
+					type: "item"
+					item: {
+						id: "mythicbotany:mjoellnir"
+						Count: 1b
+						tag: {
+							Unbreakable: 1
+							HideFlags: 4
+							display: {
+								Name: "[{\"text\":\"觉醒之神威\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+							}
+							Enchantments: [
+								{
+									lvl: 50
+									id: "minecraft:loyalty"
+								}
+								{
+									lvl: 50
+									id: "mythicbotany:hammer_mobility"
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "04E612171FAFF884"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			title: "深海之祝"
+			icon: {
+				id: "minecraft:fishing_rod"
+				Count: 1b
+				tag: {
+					Unbreakable: 1
+					Damage: 0
+					HideFlags: 4
+					display: {
+						Name: "[{\"text\":\"深海之祝\",\"color\":\"blue\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					}
+					Enchantments: [
+						{
+							lvl: 25
+							id: "minecraft:luck_of_the_sea"
+						}
+						{
+							lvl: 25
+							id: "minecraft:lure"
+						}
+					]
+				}
+			}
+			x: -10.5d
+			y: -1.0d
+			shape: "hexagon"
+			id: "2F56B5CA1EB962CA"
+			tasks: [
+				{
+					id: "6E2A23D650549B66"
+					type: "item"
+					item: {
+						id: "minecraft:fishing_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "7CC77A0573FB0262"
+					type: "item"
+					item: "minecraft:sponge"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "2393C2BF7B24BD0C"
+					type: "item"
+					item: "xreliquary:guardian_spike"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "1433EE95B9F65538"
+					type: "ftbmoney:money"
+					value: 100L
+				}
+			]
+			rewards: [
+				{
+					id: "22816EF2C6E9B513"
+					type: "item"
+					item: {
+						id: "minecraft:fishing_rod"
+						Count: 1b
+						tag: {
+							Unbreakable: 1
+							Damage: 0
+							HideFlags: 4
+							display: {
+								Name: "[{\"text\":\"深海之祝\",\"color\":\"blue\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+							}
+							Enchantments: [
+								{
+									lvl: 25
+									id: "minecraft:luck_of_the_sea"
+								}
+								{
+									lvl: 25
+									id: "minecraft:lure"
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "04E612171FAFF882"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			title: "行刑者之斧"
+			icon: {
+				id: "enigmaticlegacy:forbidden_axe"
+				Count: 1b
+				tag: {
+					Unbreakable: 1b
+					Damage: 0
+					Enchantments: [{
+						lvl: 20
+						id: "minecraft:looting"
+					}]
+				}
+			}
+			x: -10.5d
+			y: -3.5d
+			shape: "hexagon"
+			id: "2F5F55CCD396081A"
+			tasks: [
+				{
+					id: "3092599FDE852883"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "1D2B80DE1B3F3CC5"
+					type: "item"
+					item: "mysticalagriculture:soulium_ingot"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "392BB1BAEBC0D281"
+					type: "item"
+					item: "bloodmagic:demonslate"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "2FE53D4C6581C935"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:forbidden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "61DE12EF89AF4683"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+				{
+					id: "23DADA5701FE18D7"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:forbidden_axe"
+						Count: 1b
+						tag: {
+							Unbreakable: 1b
+							Damage: 0
+							Enchantments: [{
+								lvl: 10
+								id: "minecraft:looting"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "归原生命之剑"
+			icon: {
+				id: "avaritia:skullfire_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						lvl: 50s
+						id: "apotheosis:capturing"
+					}]
+					display: {
+						Lore: ["{\"text\":\"可以获取刷怪蛋\",\"color\":\"dark_gray\",\"bold\":false,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"]
+						Name: "[{\"text\":\"1\",\"color\":\"light_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":true},{\"text\":\"归原生命之剑\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"1\",\"color\":\"light_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":true}]"
+					}
+				}
+			}
+			x: -10.5d
+			y: -2.5d
+			shape: "hexagon"
+			id: "099B006F9D539A81"
+			tasks: [
+				{
+					id: "07249B80FA3FEEF5"
+					type: "item"
+					item: "avaritia:neutronium_nugget"
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "5C7DDA4012DBC14B"
+					type: "item"
+					item: "minecraft:creeper_head"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "3DC85BC22843D714"
+					type: "item"
+					item: "minecraft:zombie_head"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "11523EC53A04B7DA"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "107A8C2D14D51F74"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "106F369E54871E52"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:forbidden_axe"
+						Count: 1b
+						tag: {
+							Unbreakable: 1b
+							Damage: 0
+							Enchantments: [{
+								lvl: 20
+								id: "minecraft:looting"
+							}]
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "3246BC8466599174"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+				{
+					id: "18C9722206578892"
+					type: "item"
+					item: {
+						id: "avaritia:skullfire_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 100s
+								id: "apotheosis:capturing"
+							}]
+							display: {
+								Lore: ["{\"text\":\"可以获取刷怪蛋\",\"color\":\"dark_gray\",\"bold\":false,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"]
+								Name: "[{\"text\":\"1\",\"color\":\"light_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":true},{\"text\":\"归原生命之剑\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"1\",\"color\":\"light_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":true}]"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "神秘造物"
+			icon: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "mistery_creature"
+				}
+			}
+			x: -5.5d
+			y: -5.0d
+			subtitle: "里面有着巨大的力量"
+			id: "55099EDA71BFDB7F"
+			tasks: [
+				{
+					id: "1AAFE0796CEEC396"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:earth_heart"
+						Count: 1b
+						tag: { }
+					}
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "16B32D92959E636E"
+					type: "ftbmoney:money"
+					value: 10L
+				}
+				{
+					id: "59F4AE3BD6720B2E"
+					type: "item"
+					item: "mysticalagriculture:imperium_essence"
+					count: 6L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "2ED9420CA5E3FB74"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "17512A303DE2954C"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			title: "终极分形者"
+			icon: {
+				id: "cataclysm:final_fractal"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -8.5d
+			y: -3.5d
+			shape: "hexagon"
+			subtitle: "高贵的百分比伤害"
+			id: "25A6925E95741416"
+			tasks: [
+				{
+					id: "30F20C809FC9F38A"
+					type: "item"
+					item: "occultism:iesnium_ingot"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "2C7BFD066CC04691"
+					type: "item"
+					item: "eidolon:lesser_soul_gem"
+					consume_items: true
+				}
+				{
+					id: "08CCAF070FDDAA9B"
+					type: "item"
+					item: "bloodmagic:reinforcedslate"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "1C785F9C65B17D20"
+					type: "item"
+					item: {
+						id: "mysticalworld:tin_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "2A4581465255D800"
+					type: "ftbmoney:money"
+					value: 50L
+				}
+			]
+			rewards: [
+				{
+					id: "5AD484B80FB49B17"
+					type: "item"
+					item: {
+						id: "cataclysm:final_fractal"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "52BD7AB57DFE579B"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			title: "背刺利刃"
+			icon: {
+				id: "cataclysm:zweiender"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -8.5d
+			y: -2.5d
+			shape: "hexagon"
+			id: "465A3C6FCF3932CD"
+			tasks: [
+				{
+					id: "6C6BF736B04CBDFF"
+					type: "item"
+					item: {
+						id: "cataclysm:final_fractal"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "450D4E974FB6B090"
+					type: "item"
+					item: "mysticalagradditions:nether_star_shard"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "4D74BAD99ED2A115"
+					type: "item"
+					item: "pyromancer:netherite_shard"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "799E6EF1A86300CD"
+					type: "item"
+					item: "minecraft:wither_rose"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "3EA9860237F121CF"
+					type: "ftbmoney:money"
+					value: 20L
+				}
+			]
+			rewards: [
+				{
+					id: "22C81F4BDEFC3653"
+					type: "item"
+					item: {
+						id: "cataclysm:zweiender"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6CD129AD1F58DC8C"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			title: "掘矿者巨灵——无限耐久"
+			icon: {
+				id: "occultism:miner_djinni_ores"
+				Count: 1b
+				tag: {
+					spiritName: "Zorkloricred"
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: -1.0d
+			shape: "hexagon"
+			subtitle: "永远的打工灵"
+			id: "064A56C1CAB73C07"
+			tasks: [
+				{
+					id: "16B2880319908204"
+					type: "item"
+					title: "Any #occultism:miners/ores"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "occultism:miners/ores"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5573FB23E52776AE"
+					type: "item"
+					item: "mythicbotany:dream_cherry"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "300CC9B6539FA87B"
+					type: "item"
+					item: "extendedcrafting:luminessence"
+					consume_items: true
+				}
+				{
+					id: "041D7E564C4EA17B"
+					type: "item"
+					item: "eidolon:unholy_symbol"
+					consume_items: true
+				}
+				{
+					id: "62E65934D6A782E0"
+					type: "ftbmoney:money"
+					value: 50L
+				}
+			]
+			rewards: [
+				{
+					id: "70794EC20CEDAE24"
+					type: "item"
+					item: {
+						id: "occultism:miner_djinni_ores"
+						Count: 1b
+						tag: {
+							spiritName: "TheBoo"
+							Unbreakable: 1b
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4B507F2313CAE9BE"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			title: "发光空气"
+			x: -0.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "放下去就不能挖掉"
+			id: "405713DCA09BF0B7"
+			tasks: [
+				{
+					id: "20EFD95C71FEF030"
+					type: "item"
+					item: "occultism:otherworld_ashes"
+					consume_items: true
+				}
+				{
+					id: "3B8BD1AA5C9DEDBD"
+					type: "item"
+					item: "occultism:candle_white"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "05E9A93AF9C1244B"
+					type: "item"
+					item: "occultism:lighted_air"
+				}
+				{
+					id: "2BA71B2165D68690"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			title: "冰河纪元"
+			icon: {
+				id: "mowziesmobs:ice_crystal"
+				Count: 1b
+				tag: {
+					Unbreakable: 1b
+					Damage: 0
+					display: {
+						Name: "[{\"text\":\"❄\",\"color\":\"dark_blue\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"冰河纪元\",\"color\":\"dark_aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					}
+				}
+			}
+			x: -5.5d
+			y: -0.5d
+			shape: "hexagon"
+			subtitle: "无限耐久"
+			id: "701F719B65EF0D6D"
+			tasks: [
+				{
+					id: "00CD37805944798E"
+					type: "item"
+					item: {
+						id: "mowziesmobs:ice_crystal"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "37A48AD980F4AA36"
+					type: "item"
+					item: "projecte:red_matter"
+					consume_items: true
+				}
+				{
+					id: "04F29BC997ED706F"
+					type: "item"
+					item: "mythicbotany:dreamwood_leaves"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "45C74FEDE4014DE5"
+					type: "item"
+					item: "astralsorcery:resonating_gem"
+					count: 16L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4FBB71515AD92559"
+					type: "item"
+					item: {
+						id: "mowziesmobs:ice_crystal"
+						Count: 1b
+						tag: {
+							Unbreakable: 1b
+							Damage: 0
+							display: {
+								Name: "[{\"text\":\"❄\",\"color\":\"dark_blue\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"冰河纪元\",\"color\":\"dark_aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+							}
+						}
+					}
+				}
+				{
+					id: "05A06FF59DD30506"
+					type: "custom"
+					title: "可重复"
+					icon: "minecraft:feather"
+					tags: ["repeatable"]
+				}
+			]
+		}
+		{
+			title: "长矛"
+			icon: {
+				id: "mowziesmobs:spear"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.5d
+			y: -1.0d
+			shape: "hexagon"
+			id: "2CEAF2C25D3FE0A0"
+			tasks: [
+				{
+					id: "1C648D84F5844B8E"
+					type: "item"
+					item: "tomes:beating_heart"
+					consume_items: true
+				}
+				{
+					id: "32910413EDB4B532"
+					type: "item"
+					item: "tomes:sweet_heart"
+					consume_items: true
+				}
+				{
+					id: "61F6BD61D25BDAE1"
+					type: "item"
+					item: "tomes:ancient_heart"
+					consume_items: true
+				}
+				{
+					id: "57B1BAEF5DDC341A"
+					type: "item"
+					item: {
+						id: "mysticalworld:gold_spear"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "33A931C5E02DE11A"
+					type: "item"
+					item: {
+						id: "mowziesmobs:spear"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "330952231EE0AA37"
+					type: "custom"
+					title: "可重复"
+					icon: "alexsmobs:roadrunner_feather"
+					tags: ["repeatable"]
+				}
+				{
+					id: "688B4B990A5E0FA8"
+					type: "item"
+					item: {
+						id: "mowziesmobs:spear"
+						Count: 1b
+						tag: {
+							Unbreakable: 1b
+							RepairCost: 1
+							Enchantment: [{
+								level: 5
+								Id: "minecraft:knockback"
+							}]
+							Damage: 0
+							Enchantments: [{
+								lvl: 5s
+								id: "minecraft:knockback"
+							}]
+						}
+					}
+				}
+			]
+		}
+	]
+}

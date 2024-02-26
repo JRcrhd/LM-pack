@@ -1,0 +1,38 @@
+{
+	id: "710B9722ACF23172"
+	order_index: 4
+	title: "命运之赐"
+	icon: {
+		id: "avaritia:diamond_lattice"
+		Count: 1b
+		tag: { }
+	}
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "extendedcrafting:the_ultimate_ingot", weight: 2 }
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "_"
+				}
+			}
+			weight: 1000
+		}
+		{ item: "avaritia:endest_pearl", count: 4, weight: 5 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 2241416
+		item_name: "命运之赐"
+		glow: 1b
+		string_id: "_"
+	}
+}

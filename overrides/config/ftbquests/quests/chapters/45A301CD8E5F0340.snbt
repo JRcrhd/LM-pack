@@ -1,0 +1,270 @@
+{
+	id: "45A301CD8E5F0340"
+	group: "71995C756599D570"
+	order_index: 5
+	filename: "45A301CD8E5F0340"
+	title: "挑战强者"
+	icon: "mowziesmobs:wrought_helmet"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -2.0d
+			id: "2BBE1262DE497F29"
+			tasks: [{
+				id: "3A7D7FE7E46C32FB"
+				type: "item"
+				item: {
+					id: "mowziesmobs:ice_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0FA5A19592E59AAC"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "585A2DBE7EAD2D9B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			id: "51B2E2409E4751CC"
+			tasks: [{
+				id: "2684CABC168BD030"
+				type: "item"
+				item: "mowziesmobs:wrought_axe"
+			}]
+			rewards: [
+				{
+					id: "23647CFCE79B8FBD"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "3F4D38317369C246"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "025FEE0012BB6396"
+			tasks: [{
+				id: "2C6B7D9C709EE676"
+				type: "item"
+				item: "mowziesmobs:barako_mask"
+			}]
+			rewards: [
+				{
+					id: "46E5D004AF602064"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "5418683708B7E0D9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			id: "780CB39683AF9380"
+			tasks: [{
+				id: "3C9F8EF09D19A246"
+				type: "item"
+				item: "alexsmobs:warped_muscle"
+			}]
+			rewards: [
+				{
+					id: "7E7015435C659553"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "0AED312D01592D76"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			id: "19B23951351A8166"
+			tasks: [{
+				id: "6B7DCEE965970C94"
+				type: "item"
+				item: "alexsmobs:void_worm_eye"
+			}]
+			rewards: [
+				{
+					id: "3D6E2132DC3494DC"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "1247CEDED9EF552C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			id: "23AECA4F335ED465"
+			tasks: [{
+				id: "7FB4F198A26384CC"
+				type: "item"
+				item: "ars_nouveau:wilden_tribute"
+			}]
+			rewards: [
+				{
+					id: "640460B7464E4235"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "7B4A5B8A982082E7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			id: "01B730941C245EAB"
+			tasks: [{
+				id: "5568648E4C413645"
+				type: "item"
+				item: "occultism:afrit_essence"
+			}]
+			rewards: [
+				{
+					id: "1667EDBD653303B2"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "4A9B237356961A70"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			id: "69985CE4E7F32A7A"
+			tasks: [{
+				id: "0AD22CC8611BCD8A"
+				type: "item"
+				item: "cataclysm:void_core"
+			}]
+			rewards: [
+				{
+					id: "0E11C4EA7FA434AF"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "2FC618DB9EF128BD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "7531DE9A110AF71D"
+			tasks: [{
+				id: "4CBC6A90BF5D9BCB"
+				type: "item"
+				item: "cataclysm:monstrous_horn"
+			}]
+			rewards: [
+				{
+					id: "14744C48319698AC"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "6A37D74D7F65279B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+	]
+}

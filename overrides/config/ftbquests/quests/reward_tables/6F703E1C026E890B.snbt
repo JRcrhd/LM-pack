@@ -1,0 +1,19 @@
+{
+	id: "6F703E1C026E890B"
+	order_index: 8
+	title: "遗物符文"
+	icon: "relics:runic_altar"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "relics:rune_of_air" }
+		{ item: "relics:rune_of_earth" }
+		{ item: "relics:rune_of_water" }
+		{ item: "relics:rune_of_fire" }
+		{ item: "relics:rune_of_lightning" }
+		{ item: "relics:rune_of_love" }
+		{ item: "relics:rune_of_moon" }
+		{ item: "relics:rune_of_explosion" }
+		{ item: "relics:rune_of_cold" }
+	]
+}

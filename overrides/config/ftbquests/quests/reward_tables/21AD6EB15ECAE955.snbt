@@ -1,0 +1,120 @@
+{
+	id: "21AD6EB15ECAE955"
+	order_index: 6
+	title: "advanture_chest"
+	icon: "relics:coal_parchment"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "basic_reward"
+				}
+			}
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "mid_reward"
+				}
+			}
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "high_reward"
+				}
+			}
+		}
+		{ item: "minecraft:ender_pearl", count: 2 }
+		{ item: "minecraft:slime_ball", count: 6 }
+		{ item: "atum:nebu_drop", count: 2 }
+		{ item: "enigmaticlegacy:cursed_ring" }
+		{
+			item: {
+				id: "enigmaticlegacy:earth_heart"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "twilightforest:ironwood_ingot", count: 2 }
+		{ item: "twilightforest:steeleaf_ingot", count: 2 }
+		{ item: "betterendforge:ender_shard", count: 5 }
+		{ item: "betterendforge:crystal_shards", count: 4 }
+		{ item: "tconstruct:sky_slime_ball", count: 4 }
+		{ item: "tconstruct:ender_slime_ball", count: 4 }
+		{
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+				Count: 1b
+				tag: {
+					borderColor: 15961002
+					clothColor: 15961002
+				}
+			}
+			item: {
+				id: "sophisticatedbackpacks:backpack"
+				Count: 1b
+				tag: {
+					borderColor: 15961002
+					clothColor: 15961002
+				}
+			}
+		}
+		{ item: "iceandfire:dragonbone", count: 3 }
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "upgrades"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "defense"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "abilities"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "souls"
+				}
+			}
+		}
+		{ item: "minecraft:book", count: 5 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 4495727
+		item_name: "冒险之赐"
+		string_id: "advanture_chest"
+	}
+}

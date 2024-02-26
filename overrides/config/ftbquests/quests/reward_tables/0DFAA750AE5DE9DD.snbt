@@ -1,0 +1,66 @@
+{
+	id: "0DFAA750AE5DE9DD"
+	order_index: 2
+	title: "中级奖励"
+	icon: "minecraft:chest"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "minecraft:netherite_ingot" }
+		{ item: "upgradednetherite:gold_upgraded_netherite_ingot", count: 4 }
+		{ item: "upgradednetherite:fire_upgraded_netherite_ingot", count: 4 }
+		{ item: "upgradednetherite:ender_upgraded_netherite_ingot", count: 4 }
+		{ item: "upgradednetherite:water_upgraded_netherite_ingot", count: 4 }
+		{ item: "upgradednetherite:wither_upgraded_netherite_ingot", count: 4 }
+		{ item: "upgradednetherite:poison_upgraded_netherite_ingot", count: 4 }
+		{ item: "upgradednetherite:phantom_upgraded_netherite_ingot", count: 4 }
+		{ item: "upgradednetherite:feather_upgraded_netherite_ingot", count: 4 }
+		{ item: "upgradednetherite:corrupt_upgraded_netherite_ingot", count: 4 }
+		{
+			item: {
+				id: "astralsorcery:rock_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+			}
+		}
+		{ item: "avaritia:pileof_neutrons" }
+		{ item: "projecte:dark_matter" }
+		{ item: "botania:livingwood", count: 32 }
+		{ item: "botania:livingrock", count: 32 }
+		{ item: "botania:terrasteel_nugget", count: 4 }
+		{ item: "extendedcrafting:black_iron_ingot" }
+		{ item: "astralsorcery:aquamarine", count: 16 }
+		{ item: "mysticalagriculture:tertium_essence", count: 8 }
+		{ item: "iceandfire:dragonsteel_lightning_ingot", count: 2 }
+		{ item: "iceandfire:dragonsteel_ice_ingot", count: 2 }
+		{ item: "iceandfire:dragonsteel_fire_ingot", count: 2 }
+		{ item: "extrabotany:rewardbaga", count: 4 }
+		{ item: "extrabotany:rewardbagb", count: 4 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "mid_reward"
+	}
+}

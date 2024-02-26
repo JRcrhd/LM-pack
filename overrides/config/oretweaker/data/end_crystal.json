@@ -1,0 +1,54 @@
+{
+  "oreConfig": [
+    {
+      "ore": "endrem:end_crystal_ore",
+      "filler": "minecraft:basalt",
+      "minY": 1,
+      "maxY": 128,
+      "maxVeinSize": 2,
+      "spawnRate": 3.5,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+{
+      "ore": "endrem:end_crystal_ore",
+      "filler": "minecraft:blackstone",
+      "minY": 20,
+      "maxY": 128,
+      "maxVeinSize": 2,
+      "spawnRate": 3.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+{
+      "ore": "endrem:end_crystal_ore",
+      "filler": "minecraft:blackstone",
+      "minY": 96,
+      "maxY": 128,
+      "maxVeinSize": 2,
+      "spawnRate": 3.5,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+    {
+      "ore": "endrem:end_crystal_ore",
+      "filler": "minecraft:netherrack",
+      "minY": 20,
+      "maxY": 128,
+      "maxVeinSize": 2,
+      "spawnRate": 2.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+    {
+      "ore": "endrem:end_crystal_ore",
+      "filler": "minecraft:netherrack",
+      "minY": 96,
+      "maxY": 128,
+      "maxVeinSize": 2,
+      "spawnRate": 2.5,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

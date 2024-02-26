@@ -1,0 +1,4869 @@
+{
+	id: "1298F9408EFB3F71"
+	group: "71995C756599D570"
+	order_index: 4
+	filename: "1298F9408EFB3F71"
+	title: "遗物"
+	icon: "enigmaticlegacy:golem_heart"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -3.5d
+			y: -1.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chisel:textures/block/gold/goldeye.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chisel:textures/block/gold/goldeye_0_1.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chisel:textures/block/gold/goldeye_1_0.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chisel:textures/block/gold/goldeye_1_1.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chisel:textures/block/gold/goldeye_2_0.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chisel:textures/block/gold/goldeye_2_1.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.0d
+			y: -8.0d
+			width: 15.0d
+			height: 17.0d
+			rotation: 0.0d
+			image: "tconstruct:textures/gui/crosshair/inverse.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.5d
+			y: -8.0d
+			width: 15.0d
+			height: 17.0d
+			rotation: 0.0d
+			image: "tconstruct:textures/gui/crosshair/x.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.5d
+			y: 10.5d
+			width: 45.0d
+			height: 50.0d
+			rotation: 0.0d
+			image: "bloodmagic:textures/models/alchemyarrays/sunarraycircle.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -8.0d
+			y: -8.0d
+			id: "42E673F1BA0BA1B1"
+			tasks: [{
+				id: "1DB0BE47DDD9D879"
+				type: "item"
+				item: {
+					id: "xreliquary:alkahestry_tome"
+					Count: 1b
+					tag: {
+						Damage: 1001
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0567DD89884CB800"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "53BB7861CDD1BF45"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+				{
+					id: "16108A3FF5C93BED"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -8.0d
+			id: "01FF655E7FA7C62F"
+			tasks: [{
+				id: "316BD78FA0EEACA2"
+				type: "item"
+				item: {
+					id: "xreliquary:mercy_cross"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3589F28C3539D21F"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "67A808FDD255ECF4"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+				{
+					id: "70BD17DB5BA0C7E4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -10.5d
+			id: "0D533F2223985E3B"
+			tasks: [{
+				id: "0D9601460CDEC01F"
+				type: "item"
+				item: "xreliquary:angelic_feather"
+			}]
+			rewards: [
+				{
+					id: "7306D4B37D2BCEF7"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "017137CEBE893092"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+				{
+					id: "6BB5A5A37AD82518"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -12.0d
+			id: "1C605BADD148DAE3"
+			tasks: [{
+				id: "1C59B471C5F4D4A8"
+				type: "item"
+				item: "xreliquary:emperor_chalice"
+			}]
+			rewards: [
+				{
+					id: "590706F7FB192D24"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "009594A1968B4073"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+				{
+					id: "39495EF480470F06"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -10.5d
+			id: "62F5ED55CA0C7B32"
+			tasks: [{
+				id: "4F68103D9484710E"
+				type: "item"
+				item: {
+					id: "xreliquary:ender_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								filter: {
+									id: "minecraft:ender_pearl"
+									Count: 1b
+								}
+								amount: 0
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1A55B4611C9BFD08"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "306DBE901F045E91"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+				{
+					id: "0FF9E91C65D9AEA2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -4.0d
+			id: "0E0985F2713A66E6"
+			tasks: [{
+				id: "2EFE5B6E4CFDDD47"
+				type: "item"
+				item: "xreliquary:fortune_coin"
+			}]
+			rewards: [
+				{
+					id: "5266291C513B6FA9"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "1E8F469A88923058"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+				{
+					id: "4ED84D745D23F889"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -8.0d
+			id: "336689521CFAE936"
+			tasks: [{
+				id: "1D66EEC1D78C8DE5"
+				type: "item"
+				item: "xreliquary:glacial_staff"
+			}]
+			rewards: [
+				{
+					id: "73045B6D050CFEFA"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "41E2AAFBAA1C6933"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+				{
+					id: "40E70243B60190AE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -1.5d
+			dependencies: ["0E0985F2713A66E6"]
+			id: "59E689B98C470638"
+			tasks: [{
+				id: "126D4127A0D08A2F"
+				type: "item"
+				item: "xreliquary:hero_medallion"
+			}]
+			rewards: [
+				{
+					id: "7E53D02E74AA15BF"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "6BB6230FD1AAEFAB"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+				{
+					id: "297AA6805F6FDA5B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -5.5d
+			id: "3F6E778CBE818287"
+			tasks: [{
+				id: "56E3C35BBC287C07"
+				type: "item"
+				item: "xreliquary:ice_magus_rod"
+			}]
+			rewards: [
+				{
+					id: "20B879349806BC5C"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "30B95EDBAD5330A3"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+				{
+					id: "6C7827831A84F6FF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -8.0d
+			id: "2D9D67B96559BEE0"
+			tasks: [{
+				id: "0E88DB127D9BEEEC"
+				type: "item"
+				item: "xreliquary:infernal_claws"
+			}]
+			rewards: [
+				{
+					id: "647612E75A6360DB"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "3FE7FA9A22A78865"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+				{
+					id: "00FC5F6045D2F0CC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -5.5d
+			id: "571187504388E474"
+			tasks: [{
+				id: "16ACDDD0BC232051"
+				type: "item"
+				item: "xreliquary:infernal_tear"
+			}]
+			rewards: [
+				{
+					id: "038F40410A0DFEB2"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "358F235228522BFB"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+				{
+					id: "563C8B33B841F3DD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -8.0d
+			id: "6C9D4E4D9ADB9844"
+			tasks: [{
+				id: "4FA6C6A745E6A723"
+				type: "item"
+				item: "xreliquary:midas_touchstone"
+			}]
+			rewards: [
+				{
+					id: "28A102A919991ED4"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "7026EF87F57B92DA"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+				{
+					id: "42CED8E28FDFC326"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -8.0d
+			id: "37927C1A6E1B2350"
+			tasks: [{
+				id: "73E75E11D1D58A5B"
+				type: "item"
+				item: "xreliquary:phoenix_down"
+			}]
+			rewards: [
+				{
+					id: "42F23DBD1B120484"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "21D82237B7228644"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+				{
+					id: "4C42763F48194D77"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -9.5d
+			id: "39792E770CEFAD30"
+			tasks: [{
+				id: "2B85314EEE966E90"
+				type: "item"
+				item: "xreliquary:pyromancer_staff"
+			}]
+			rewards: [
+				{
+					id: "77A0A7B3F0A74C2C"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "3A9CF777B8DACA39"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+				{
+					id: "1C62C6F44EB62D77"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -8.0d
+			id: "2FC2BDA131172C00"
+			tasks: [{
+				id: "62908DBBC7A30FFB"
+				type: "item"
+				item: "xreliquary:sojourner_staff"
+			}]
+			rewards: [
+				{
+					id: "5207C51DADD46045"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "0EFD8EE6A3213872"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+				{
+					id: "2BF5CBBD68F7C090"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -6.5d
+			id: "4CF11420D08A052A"
+			tasks: [{
+				id: "077F4FF82A7DED12"
+				type: "item"
+				item: "xreliquary:witherless_rose"
+			}]
+			rewards: [
+				{
+					id: "4E99903A7CA72E9B"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "674180E8E27A917B"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+				{
+					id: "2040116190C27E3D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -9.0d
+			id: "4FAA303C1E900C92"
+			tasks: [{
+				id: "6A40E995058D58C1"
+				type: "item"
+				item: {
+					id: "xreliquary:magicbane"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5CF6A21972E15E75"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "6D5316FDD3E46D39"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+				{
+					id: "5D5AE0E6AEDD0A37"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -9.0d
+			id: "67B07B6A6A9EE1F7"
+			tasks: [{
+				id: "681A1DE3B058307E"
+				type: "item"
+				item: "xreliquary:salamander_eye"
+			}]
+			rewards: [
+				{
+					id: "586DF6A1C4607241"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "43035DCF5A14C45F"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+				{
+					id: "52A388FBC477AF7C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -7.0d
+			id: "3960AEC55F552391"
+			tasks: [{
+				id: "37B6DB142DEE597B"
+				type: "item"
+				item: "xreliquary:twilight_cloak"
+			}]
+			rewards: [
+				{
+					id: "1382940C949E153A"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "22363DBAD58256E4"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+				{
+					id: "1C7C108D50D31703"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -7.0d
+			id: "3FDF2C2249E7AE01"
+			tasks: [{
+				id: "001635769A0F017A"
+				type: "item"
+				item: "xreliquary:fertile_lily_pad"
+			}]
+			rewards: [
+				{
+					id: "742BB046E1677408"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "03E9F93372F6AF1B"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+				{
+					id: "3BB4647CCD3E7728"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -8.0d
+			dependencies: ["550E68DCEBEA7C77"]
+			id: "49193ED2E1F7DFC5"
+			tasks: [{
+				id: "60FA7769BBAB91FC"
+				type: "item"
+				item: {
+					id: "relics:magma_walker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4F8AF3E72BEC19B4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "4E602989BE7B93AF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "3C4C066A41286E30"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "512772CD8C9704E4"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -9.0d
+			dependencies: ["550E68DCEBEA7C77"]
+			id: "2114682BFE1C0A2C"
+			tasks: [{
+				id: "5BB589AE7C5F2D38"
+				type: "item"
+				item: {
+					id: "relics:ice_skates"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7775656057E3D2DA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "188A292E04CD9D43"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "0B010511FBE7A1BD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "133E4D35AC97CA62"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -9.5d
+			dependencies: ["550E68DCEBEA7C77"]
+			id: "0154EFC6C43E1BEF"
+			tasks: [{
+				id: "2FABBCE3E3A5DC87"
+				type: "item"
+				item: {
+					id: "relics:ice_breaker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3CEE1071FC1D9DA4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "08CC45811B7DF398"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "6C872CEE2F3484D8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "4C50DDAB7DF6FA1E"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -7.0d
+			dependencies: ["550E68DCEBEA7C77"]
+			id: "25AE8C813929B57F"
+			tasks: [{
+				id: "7B09DE91A2E9298E"
+				type: "item"
+				item: {
+					id: "relics:out_runner"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "63FAD1E8532B54B3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "27B873660A79CB29"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "48DE7A9E26FA5C42"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "5E3F7D173CF956E7"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -6.5d
+			dependencies: ["550E68DCEBEA7C77"]
+			id: "6D24215F049B29AA"
+			tasks: [{
+				id: "7F7744AF3A285C14"
+				type: "item"
+				item: {
+					id: "relics:amphibian_boot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4A6B2858017E2F35"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "0F46B6026759B423"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "5855E1614617E6A7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "0ACBCD53C39F8C8D"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -9.0d
+			dependencies: ["550E68DCEBEA7C77"]
+			id: "66A18A6B64AAEFC3"
+			tasks: [{
+				id: "21C3BA8A320B2F1D"
+				type: "item"
+				item: {
+					id: "relics:hunter_belt"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "32838C4EA3CDF285"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "5CC3DEF0F8177923"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "0938F7AAE1E1CFA1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "20FC41E3E5CC09E4"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -7.0d
+			dependencies: ["550E68DCEBEA7C77"]
+			id: "4E18C0CA3614542A"
+			tasks: [{
+				id: "228CD7EB53C24337"
+				type: "item"
+				item: {
+					id: "relics:drowned_belt"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5BBF801F5222F536"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "28EE236A0D427634"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "7704452F797110CF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "254C906B75AE6F74"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -8.0d
+			dependencies: ["550E68DCEBEA7C77"]
+			id: "2964CE036F2F9D34"
+			tasks: [{
+				id: "0D40D988A4341DED"
+				type: "item"
+				item: {
+					id: "relics:rage_glove"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "427F6360F08FD1DA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "2C8B73C0D29FDA4D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "3A1751ABB4856287"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "38C7AE8F0890EC98"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -8.0d
+			id: "550E68DCEBEA7C77"
+			tasks: [{
+				id: "59C646A7B8F718AA"
+				type: "item"
+				item: "relics:runic_altar"
+			}]
+			rewards: [
+				{
+					id: "2D9176E54B9928ED"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "025CBD18CBFE6731"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "7A73C6E5F13D8175"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "7CF4F27A91104261"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -11.0d
+			id: "56598CA9B0AB7023"
+			tasks: [{
+				id: "12211B1CC3F6E2B1"
+				type: "item"
+				item: "enigmaticlegacy:escape_scroll"
+			}]
+			rewards: [
+				{
+					id: "61C91F21C25EA8AB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "2C59BDE6447A0B0A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "5B327F838DA16DA8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "0F8B764513B7ECFB"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -10.5d
+			id: "0D1767E4C63A5767"
+			tasks: [{
+				id: "75D8B5DE71A1C72F"
+				type: "item"
+				item: "enigmaticlegacy:heaven_scroll"
+			}]
+			rewards: [
+				{
+					id: "197AEF05C6434515"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "57D58C988B2DBE49"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "0227163770D679BB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "016BF4A5D3502664"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -10.5d
+			id: "5947B92CB278D841"
+			tasks: [{
+				id: "1C97E65D13CF4433"
+				type: "item"
+				item: "enigmaticlegacy:fabulous_scroll"
+			}]
+			rewards: [
+				{
+					id: "6EB82BA08D2B8D97"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "0FFF94D1A316F983"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "420EDBCC8DFB0048"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "55B1468311FFB310"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -9.5d
+			id: "10B9332DE67E9B1C"
+			tasks: [{
+				id: "5883C5048916E14F"
+				type: "item"
+				item: "enigmaticlegacy:avarice_scroll"
+			}]
+			rewards: [
+				{
+					id: "67766577243CDACD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "2169AD9A6A608D6E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "60DD83A14A09EEFA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "42F0DDB3B3186639"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -9.5d
+			id: "2E32BF8C3F81254C"
+			tasks: [{
+				id: "62C754157C2A2151"
+				type: "item"
+				item: "enigmaticlegacy:cursed_scroll"
+			}]
+			rewards: [
+				{
+					id: "53D34EDEDD8AA50C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "04E43B286DC0D689"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "3614152989FDBE8E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "23495146BF59D89A"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -12.5d
+			id: "5C0C35811DE5A37E"
+			tasks: [{
+				id: "55D6C6835790A565"
+				type: "item"
+				item: "enigmaticlegacy:enchantment_transposer"
+			}]
+			rewards: [
+				{
+					id: "49210F748B853B5F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "48FD8C10420B40C8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "4087960C47BD0FEF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "6B565EF0C56FB7E6"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -12.0d
+			id: "33B0D92919F87D1B"
+			tasks: [{
+				id: "5D719A1B13738147"
+				type: "item"
+				item: "enigmaticlegacy:the_acknowledgment"
+			}]
+			rewards: [
+				{
+					id: "365D91908D03BEDE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "781B10DC7F383C2F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "6E42F3FB1FFEA5FD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "3F68D1467079D378"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -12.0d
+			id: "07820B99F9C19CD4"
+			tasks: [{
+				id: "62E6819870C674CB"
+				type: "item"
+				item: "enigmaticlegacy:the_twist"
+			}]
+			rewards: [
+				{
+					id: "4F366237F9B027D4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "1C47C29595CA7117"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "7DD31DF646952D3E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "5CF0BF30E95625D8"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -12.5d
+			id: "467F0A41DEA9F8E9"
+			tasks: [{
+				id: "46358834DFA52B16"
+				type: "item"
+				item: "enigmaticlegacy:animal_guide"
+			}]
+			rewards: [
+				{
+					id: "59081993C31D6308"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "3ADEC5D0583C7A47"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "4947B97DCFA5A06C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "23DFC480C36D71C5"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -12.5d
+			id: "10F92A9F9367D688"
+			tasks: [{
+				id: "1E36CF507AB9EC15"
+				type: "item"
+				item: "enigmaticlegacy:hunter_guide"
+			}]
+			rewards: [
+				{
+					id: "089DFCF697375A82"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "648FFF7B0793C3D0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "3D0610E78DF8A50B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "0E647452F04C3A02"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			id: "109422D8FF722265"
+			tasks: [{
+				id: "0D9EBCCF472FE628"
+				type: "item"
+				item: "enigmaticlegacy:magnet_ring"
+			}]
+			rewards: [
+				{
+					id: "3B515BE977635206"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "1096B11C2A327263"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "12B046CC6DA3FB7E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "741342B0D802BE37"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -5.0d
+			id: "5CCB8074AE94C095"
+			tasks: [{
+				id: "1682C93E94EECB68"
+				type: "item"
+				item: "enigmaticlegacy:super_magnet_ring"
+			}]
+			rewards: [
+				{
+					id: "22AA058EBBFD4062"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "0A1D15B00DD7711C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "044E6B56F7FEE9A4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "716B29F4AF24E115"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -6.5d
+			id: "643D017A54E8524B"
+			tasks: [{
+				id: "06D34034506A8E5E"
+				type: "item"
+				item: "enigmaticlegacy:ender_ring"
+			}]
+			rewards: [
+				{
+					id: "7F1A73C29C980E8E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "3962458AAC4F514F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "7498F53F6C5DB819"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "10C3C75B15DD1380"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -5.5d
+			id: "2436629C0EC8AE2C"
+			tasks: [{
+				id: "0E9B57CF7F219A3E"
+				type: "item"
+				item: "enigmaticlegacy:monster_charm"
+			}]
+			rewards: [
+				{
+					id: "58B450904F67615F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "43038C8361619096"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "1E0325DCBFF2480B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "42734E88C99C6579"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -5.5d
+			id: "4E4B96298D6A377A"
+			tasks: [{
+				id: "50A2A1EDA67F8027"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:mining_charm"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "23C8F29F6F05C099"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "23417E8C66095E49"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "4AC4D9921903259E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "7978C7BB9BDC68E7"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			id: "58C0BE7517BBE529"
+			tasks: [{
+				id: "294B2C4B89F1C9DE"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:forbidden_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "550C417C08154139"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "2429D6BDA0E06215"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "48FC5B3E4783C387"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "650C0E0861795778"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			id: "27A9129FDE7B6C35"
+			tasks: [{
+				id: "662726DE689476B1"
+				type: "item"
+				item: "enigmaticlegacy:dark_mirror"
+			}]
+			rewards: [
+				{
+					id: "6B85E109A99960D0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "5F73D76FF1F3D38B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "4AC02BCC28074641"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "563EB02BC43C0C00"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			id: "4CCE697F4EF6FBFF"
+			tasks: [{
+				id: "144656C650B024E9"
+				type: "item"
+				item: "enigmaticlegacy:lore_inscriber"
+			}]
+			rewards: [
+				{
+					id: "4299EB9F51C3A7E1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "23222D7CD47ED2A4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "02FCEC0B1C59C7E9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "6C5FD8563B3D400D"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			id: "276980229FBAD608"
+			tasks: [{
+				id: "3A88636FC3DC0EB6"
+				type: "item"
+				item: "enigmaticlegacy:mending_mixture"
+			}]
+			rewards: [
+				{
+					id: "3BFE1B5070AC74A7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "431D40EE997CBF9B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "67D620AA401150D3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "516C969FDAD48AE2"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			id: "72583324FF651AF9"
+			tasks: [{
+				id: "0881596F66AB69DB"
+				type: "item"
+				item: "enigmaticlegacy:gem_ring"
+			}]
+			rewards: [
+				{
+					id: "4071D9A23E91754D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "474FE01C21CA3EBC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "11EEF07F1EB9DFE9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "48CFB8CF37764737"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -8.5d
+			id: "6DEFF53BA72C016C"
+			tasks: [{
+				id: "7DFA00EA98BE69E7"
+				type: "item"
+				item: "enigmaticlegacy:mega_sponge"
+			}]
+			rewards: [
+				{
+					id: "2079418B35ABB56C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "1B08C897FF1B625D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "427219D8BD41727C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "36F8F41F1D4898AD"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -8.0d
+			id: "3D32DCE4DCB5D6AA"
+			tasks: [{
+				id: "05B356D478F3465D"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:extradimensional_eye"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "6F8B6D92FEE68F50"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "66C390E3B720A30F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "473AA2AA5AF15F7E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "688F06E6E4CFBD2E"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -7.5d
+			id: "14406A42E302B7D6"
+			tasks: [{
+				id: "4EE194A9202E6F58"
+				type: "item"
+				item: "enigmaticlegacy:berserk_emblem"
+			}]
+			rewards: [
+				{
+					id: "5882DC903F4B4635"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "3E5402449B8D458D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "3AF647467D13A0F7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "75AD0C94D5BD3074"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -8.5d
+			id: "4AD06F81FCE44E7F"
+			tasks: [{
+				id: "2270BE9FBFA16F3E"
+				type: "item"
+				item: "enigmaticlegacy:cursed_stone"
+			}]
+			rewards: [
+				{
+					id: "2F462928CC3A9881"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "21F10AAD1BF88808"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "0A6C28CD49033558"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "76B4B597EACE7A6F"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -8.0d
+			id: "47C6D177198D75E4"
+			tasks: [{
+				id: "6204749FA385F662"
+				type: "item"
+				item: "enigmaticlegacy:enchanter_pearl"
+			}]
+			rewards: [
+				{
+					id: "48DB3987D4803A63"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "29CAE1653BBEB53F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "4BFFC120E3E9B06F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "487DF1865CACAEED"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -7.5d
+			id: "431C2D8CA65592DB"
+			tasks: [{
+				id: "77DC85289E70CE74"
+				type: "item"
+				item: "enigmaticlegacy:infinimeal"
+			}]
+			rewards: [
+				{
+					id: "66B632BF8A6B8D8C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "6A50012CCB3686F2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "316B84F12B2995A0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "1D49B721FE86D080"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 5.0d
+			id: "6899D3824FBB2A34"
+			tasks: [{
+				id: "7F03348E5C0C6ADF"
+				type: "item"
+				item: "enigmaticlegacy:void_pearl"
+			}]
+			rewards: [
+				{
+					id: "78095448617B73AF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "660829985112A119"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "1ADACFF48875BF09"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "3A828DAF3A326B7D"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 5.5d
+			id: "45595A877AFEC8C6"
+			tasks: [{
+				id: "0A421C220506431A"
+				type: "item"
+				item: "enigmaticlegacy:eye_of_nebula"
+			}]
+			rewards: [
+				{
+					id: "05A15A5AEFB75B7E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "1D08C2148422ED4F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "326969DE76336912"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "4C1CDADB1FF27DED"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 6.5d
+			id: "5AB2D94710381CDA"
+			tasks: [{
+				id: "4F635792C8C6FE3E"
+				type: "item"
+				item: "enigmaticlegacy:magma_heart"
+			}]
+			rewards: [
+				{
+					id: "0E3FBB77F0678C44"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "78106EB0209BEDB5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "1CAE89DBC9CFAFF2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "0643B967CA5ABF2A"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 7.0d
+			id: "62C2FE4F7635D32A"
+			tasks: [{
+				id: "7F8DA48FA44943D7"
+				type: "item"
+				item: "enigmaticlegacy:ocean_stone"
+			}]
+			rewards: [
+				{
+					id: "5FCF179E0EF7282B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "7AC19B2E57EF909D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "1354CA1A05373D29"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "2264410028B69B64"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 5.5d
+			id: "158EE023FD66D618"
+			tasks: [{
+				id: "0521AE67B0A3A759"
+				type: "item"
+				item: "enigmaticlegacy:angel_blessing"
+			}]
+			rewards: [
+				{
+					id: "7593C4DFE7DF8607"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "3D2EF7919E8F56F1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "646D0B3DBF862505"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "5EB7C8712332B91F"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 6.5d
+			id: "7DC4EA13D6615D97"
+			tasks: [{
+				id: "1EBABCABB702D5CA"
+				type: "item"
+				item: "enigmaticlegacy:golem_heart"
+			}]
+			rewards: [
+				{
+					id: "7459A481A3A41D13"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "3B54BA9560C35831"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "4715B8141E3A0BE1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "6F37262E34626FB3"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			id: "4E11FFC8F9433C20"
+			tasks: [{
+				id: "766109049FE67158"
+				type: "item"
+				item: {
+					id: "relics:reflection_necklace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "29644C74DD10AE1F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "5B3163D13666AB97"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "24745841F94FECDD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "0B7A7F3347727235"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 6.5d
+			id: "66BD4EF115F0BB97"
+			tasks: [{
+				id: "76DF243BD502DBF0"
+				type: "item"
+				item: {
+					id: "relics:jellyfish_necklace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4B7B0BE6BFC2C086"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "21923E4AEF04B97B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "27805AA3C1D68B10"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "35CB50795A7F9019"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 8.0d
+			id: "462422E6CB3C4EC0"
+			tasks: [{
+				id: "2B516C3D4F3F73F0"
+				type: "item"
+				item: {
+					id: "relics:holy_locket"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7AE7A940ED109852"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "780BED4748688105"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "6457CCCF2070B2D6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "08052ABC3AD866DA"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 9.5d
+			id: "7DD933C8759E3BDF"
+			tasks: [{
+				id: "2E99A84D2F7C33B6"
+				type: "item"
+				item: {
+					id: "relics:spider_necklace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "41CB21247E0C388D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "72E1FB5C7B9E643B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "4C74CBD0C350A4A9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "24038C6B80066E4C"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 12.0d
+			id: "409DA17025B6BC81"
+			tasks: [{
+				id: "208F5E659941ABC5"
+				type: "item"
+				item: {
+					id: "relics:spore_sack"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "59182AF64E916F20"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "078E005F2ADC9F3C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "7BE58C8B7BA9AF09"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "425A5F41ED7DCCC7"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 11.5d
+			id: "75CA351246E46027"
+			tasks: [{
+				id: "3853594A719E464C"
+				type: "item"
+				item: {
+					id: "relics:blazing_flask"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-2008389356
+							450312131
+							-1587466983
+							-557462751
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6CE93B5176CB43F3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "6A59AC0ECB162E52"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "7C18BA1221005832"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "43B6F98324189591"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 12.0d
+			id: "2B0A6ED1339E00E8"
+			tasks: [{
+				id: "53B9365C5F5CE13D"
+				type: "item"
+				item: {
+					id: "relics:stellar_catalyst"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "45584C0F4670719F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "054105985D714521"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "1A67F2DF10B65652"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "6A4AA06B3B0888EC"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 13.0d
+			id: "312013059E8A6003"
+			tasks: [{
+				id: "7481B53D202D504C"
+				type: "item"
+				item: {
+					id: "relics:slime_heart"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "609B5ABB818C15BB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "1468B34600DB08DC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "3FD19BDF387F6F90"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "3C7BEE64A0469EE1"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 14.0d
+			id: "78FB8B035930FF08"
+			tasks: [{
+				id: "03C80AD6D637152A"
+				type: "item"
+				item: {
+					id: "relics:ghost_skin_talisman"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3820173E25B842EA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "7B042A72387CF751"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "612302EEDE550A4C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "577069BD2FCDE426"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 15.0d
+			id: "41F7F446FE5F0228"
+			tasks: [{
+				id: "192BC0B821F71CC5"
+				type: "item"
+				item: {
+					id: "relics:chorus_inhibitor"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "085EF26B0678D434"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "112B68963B9A02FF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "1CA6D709BEBF8C99"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "69CC5BE6F06F1C67"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 16.5d
+			id: "107ED980D24A5943"
+			tasks: [{
+				id: "1089638427947892"
+				type: "item"
+				item: {
+					id: "relics:lucky_horseshoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4634B47A42420FD0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "4880C14ADA5116B6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "580DD7A569DBC953"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "77D2C9F93622BFC9"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 16.0d
+			id: "1DB01FFF5EF51AFB"
+			tasks: [{
+				id: "47AD872C0371170D"
+				type: "item"
+				item: {
+					id: "relics:scarab_talisman"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4F4909654F3D4E6C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "19DADB515EFA1566"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "08A617CBAD08B25C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "5B755DC303260394"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 16.0d
+			id: "25E64A4A3536BDCF"
+			tasks: [{
+				id: "17543EB619D36CD5"
+				type: "item"
+				item: {
+					id: "relics:soul_devourer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2E35B56D1F2555A7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "3051C1834B85A9EF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "3C37EC5A64A72180"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "17E5FD9D30F2F7E8"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 15.0d
+			id: "5C834CE3AFEBB1D7"
+			tasks: [{
+				id: "7A1A5F3C40CF9460"
+				type: "item"
+				item: {
+					id: "relics:camouflage_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "53AFD9952F638298"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "555B35A756222765"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "76588019A074D9D5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "136A962FC1F814CC"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 14.0d
+			id: "53E00B6766A30CA7"
+			tasks: [{
+				id: "30BE87CAE0B041FC"
+				type: "item"
+				item: {
+					id: "relics:delay_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7CE548225EB7C445"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "49A5EF66EA3740A1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "23CB5159A33F91B0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "6CCDA117918A6CAB"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 13.0d
+			id: "4A641AF16AAC96A6"
+			tasks: [{
+				id: "0E940B8977905A3D"
+				type: "item"
+				item: {
+					id: "relics:bastion_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "137FE92080F5662D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "3CE894DDFAB90DA3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "13057E66249F5E69"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "7470BCED5540E514"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 9.0d
+			id: "25A5DA1133B46177"
+			tasks: [{
+				id: "031E04A592B5DF53"
+				type: "item"
+				item: {
+					id: "relics:wool_mitten"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4FFED11E8F615541"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "68B1C1090AA1992E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "5FD892E864A0D77C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "4368AA268FB30C5B"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 8.5d
+			id: "6E5C6720D45C58A1"
+			tasks: [{
+				id: "6A5F0A0CB7BE971C"
+				type: "item"
+				item: {
+					id: "relics:old_boot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0B679A74CD6935E1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "21E7C3CF49CDBC3E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "23B19C44F1493CA6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "663771C1AEF6EFC0"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 9.5d
+			id: "3D95847AB7836969"
+			tasks: [{
+				id: "05D716AC63FD6064"
+				type: "item"
+				item: {
+					id: "relics:leather_belt"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "66AFAFCD520AB896"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "0980B1CB13B72F47"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "6BA1B2369EF00141"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "62D5B7D043ECFAD6"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			id: "2158E05897D10D14"
+			tasks: [{
+				id: "6E9B51876585D670"
+				type: "item"
+				item: {
+					id: "relics:shadow_glaive"
+					Count: 1b
+					tag: {
+						charges: 8
+						AS_Amulet_Holder: [I;
+							-2008389356
+							450312131
+							-1587466983
+							-557462751
+						]
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3806BC374A41C5A7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "2AA3F9DAC84B62F2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "42D740534DA2A947"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "6EF1E0DF563D96FB"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 9.0d
+			id: "71F9620EF2258454"
+			tasks: [{
+				id: "01DFB932BE164C13"
+				type: "item"
+				item: {
+					id: "relics:arrow_quiver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1FCBB91EF458E826"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "1C9A407C0BCE9326"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "18512F132DAC92E7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "68B18969A7516EF6"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 18.5d
+			id: "32BDC56B27C4ED12"
+			tasks: [{
+				id: "488711165C4E96BA"
+				type: "item"
+				item: "enigmaticlegacy:unholy_grail"
+			}]
+			rewards: [
+				{
+					id: "022219527E62D0B6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "3CE71C8F3A65D900"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "75D55E3E38210100"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "728634C718D5670E"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 9.5d
+			id: "033F93B1BF8912EA"
+			tasks: [{
+				id: "42D9F207850140B5"
+				type: "item"
+				item: "enigmaticlegacy:guardian_heart"
+			}]
+			rewards: [
+				{
+					id: "4ABEF1F457FE28E5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "0C683CD2AB8CB4EA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "7980378E667ECA22"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "46BB4AC6D1E5C2DE"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 6.0d
+			id: "53225096AAC67A04"
+			tasks: [{
+				id: "209D147B007CC93A"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:oblivion_stone"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2124F710DAE6B67E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "0FD226BF3DD2046B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "12B90941420A376B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "19F9E79A505F392E"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			id: "43BD026FE6882798"
+			tasks: [{
+				id: "1F1E8E03ABFCCFA9"
+				type: "item"
+				item: "enigmaticlegacy:forbidden_fruit"
+			}]
+			rewards: [
+				{
+					id: "48B3FB4BC79A9961"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "237A7355744351EE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "431666130BD81CD3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "4F508B46C1D1AD73"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 15.5d
+			id: "0879B431C6F2B025"
+			tasks: [{
+				id: "6FEDAEACB0316CFD"
+				type: "item"
+				item: "enigmaticlegacy:antiforbidden_potion"
+			}]
+			rewards: [
+				{
+					id: "53150189DC285640"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "5CDD53B5B45DFDF8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "15A355315AFEBFF5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "50B139358B80994E"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 15.5d
+			id: "790C0F9018A52D26"
+			tasks: [{
+				id: "5509F037951945BD"
+				type: "item"
+				item: {
+					id: "relics:spatial_sign"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "10616953A3A113A2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "24F24FC555F01FD0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "04AFDE43BCE31960"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "25BBF8582C88D9F6"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 3.0d
+			id: "20F03D6E85D0EDFF"
+			tasks: [{
+				id: "0EFDB91E5AFBF403"
+				type: "item"
+				item: {
+					id: "relics:magic_mirror"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "17E31990A7A64266"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "12E82BFD4234B2D8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "537AB45932084D58"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "34AC1F3AD775F620"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			id: "23C6A4F19C1D27FE"
+			tasks: [{
+				id: "45EA05F035110A40"
+				type: "item"
+				item: {
+					id: "relics:squire_bag"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "417D4C5C6551AB49"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "1278A90B83557B9F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "47A5C9E0BA43B66E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "001D2A6971409EB4"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 6.5d
+			id: "1C998E7EC4605A14"
+			tasks: [{
+				id: "6B710E8C52934564"
+				type: "item"
+				item: {
+					id: "relics:fragrant_flower"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "759049D840B87458"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "072724E9A43B6DC1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "5A5A6ABEAA7AC6F1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "4FDF35075290D117"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 12.5d
+			id: "54BD4D0A9A368DDF"
+			tasks: [{
+				id: "17A1C8CD0BC64335"
+				type: "item"
+				item: {
+					id: "relics:horse_flute"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0F0D145B1248F681"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "47B7EE890C555502"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "4F45B9E4D637619D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "14610436BA4ACBBB"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 17.5d
+			id: "6DF04DCDB7CF2387"
+			tasks: [{
+				id: "32B103A32B995FB9"
+				type: "item"
+				item: {
+					id: "relics:infinity_ham"
+					Count: 1b
+					tag: {
+						pieces: 3
+						charge: 0
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "789FFC65071074FB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "6AF7561E0E39043F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "3ED0E9D0AC26CEAA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "66575445E55E1199"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 17.5d
+			id: "5FBEC2F018E8BA66"
+			tasks: [{
+				id: "2CF40F5B1FDDAF05"
+				type: "item"
+				item: {
+					id: "relics:elytra_booster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2BC1E2F7840E93CB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "52304D17885FA250"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "7F0D96437A1483E2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "5AEB11C6DAF8DE50"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 12.5d
+			id: "6555DEBF199F5140"
+			tasks: [{
+				id: "561FCF82719F740A"
+				type: "item"
+				item: {
+					id: "relics:midnight_robe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0B3170B13B74B514"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanture_chest"
+						}
+					}
+				}
+				{
+					id: "54D423F5C3505F14"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+				}
+				{
+					id: "0C52752A2E6BE928"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "basic_reward"
+						}
+					}
+				}
+				{
+					id: "7F613A336A4F8502"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			shape: "hexagon"
+			id: "41381DD9A5BD1411"
+			tasks: [{
+				id: "264641BB3BA634B9"
+				type: "item"
+				item: "enigmaticlegacy:enigmatic_item"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			id: "61BE7818096F5025"
+			tasks: [{
+				id: "1B5B6E5CD4E4B9FA"
+				type: "checkmark"
+				title: "神圣遗物"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			id: "349DD6B7656AB97D"
+			tasks: [{
+				id: "7FBF5CA9E53D576A"
+				type: "checkmark"
+				title: "逸散遗物"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			id: "26E2F2CCB44DF821"
+			tasks: [{
+				id: "0FC79BB7B1D4F7EB"
+				type: "checkmark"
+				title: "不灭遗物"
+			}]
+		}
+	]
+}
