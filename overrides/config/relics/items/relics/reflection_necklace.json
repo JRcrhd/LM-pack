@@ -1,0 +1,7 @@
+{
+  "stats": {
+    "maxCharges": 3,
+    "timePerCharge": 30,
+    "reflectedDamageMultiplier": 0.5
+  }
+}

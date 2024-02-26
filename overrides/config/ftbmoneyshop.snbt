@@ -1,0 +1,178 @@
+{
+	tabs: [
+		{
+			title: "一点补给"
+			icon: "minecraft:bread"
+			entries: [
+				{
+					item: "minecraft:experience_bottle"
+					buy: 10L
+				}
+				{
+					item: "minecraft:bread"
+					buy: 5L
+				}
+				{
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					buy: 10L
+				}
+				{
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "patchouli:guidebook"
+						}
+					}
+					buy: 1L
+				}
+				{
+					item: "botania:keep_ivy"
+					buy: 80L
+				}
+			]
+		}
+		{
+			title: "遗物"
+			icon: {
+				id: "enigmaticlegacy:enigmatic_amulet"
+				Count: 1b
+				tag: {
+					AssignedColor: 0.1f
+				}
+			}
+			entries: [
+				{
+					item: "enigmaticlegacy:unwitnessed_amulet"
+					buy: 400L
+				}
+				{
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mistery_creature"
+						}
+					}
+					buy: 1200L
+				}
+				{
+					item: "xreliquary:angelheart_vial"
+					buy: 70L
+				}
+				{
+					item: "enigmaticlegacy:escape_scroll"
+					buy: 900L
+				}
+			]
+		}
+		{
+			title: "传送"
+			icon: {
+				id: "waystones:warp_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			entries: [
+				{
+					item: "waystones:waystone"
+					buy: 150L
+				}
+				{
+					item: "enigmaticlegacy:recall_potion"
+					buy: 120L
+				}
+			]
+		}
+		{
+			title: "附魔"
+			icon: "minecraft:enchanting_table"
+			entries: [
+				{
+					item: "mysticalagriculture:experience_droplet"
+					buy: 2L
+				}
+				{
+					item: "apotheosis:null_book"
+					buy: 50L
+				}
+				{
+					item: "apotheosis:armor_head_book"
+					buy: 50L
+				}
+				{
+					item: "apotheosis:armor_chest_book"
+					buy: 50L
+				}
+				{
+					item: "apotheosis:armor_legs_book"
+					buy: 50L
+				}
+				{
+					item: "apotheosis:armor_feet_book"
+					buy: 50L
+				}
+				{
+					item: "apotheosis:weapon_book"
+					buy: 50L
+				}
+				{
+					item: "apotheosis:digger_book"
+					buy: 50L
+				}
+				{
+					item: "apotheosis:fishing_rod_book"
+					buy: 50L
+				}
+				{
+					item: "apotheosis:bow_book"
+					buy: 50L
+				}
+				{
+					item: "apotheosis:scrap_tome"
+					buy: 50L
+				}
+			]
+		}
+		{
+			title: "魔法"
+			icon: {
+				id: "relics:magic_mirror"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			entries: [
+				{
+					item: "botania:black_lotus"
+					buy: 100L
+				}
+				{
+					item: { id: "botania:fertilizer", Count: 2b }
+					buy: 20L
+				}
+				{
+					item: "bloodmagic:blankrune"
+					buy: 10L
+				}
+				{
+					item: "astralsorcery:marble_raw"
+					buy: 2L
+				}
+				{
+					item: "twilightforest:raven_feather"
+					buy: 5L
+				}
+			]
+		}
+	]
+}

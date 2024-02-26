@@ -1,0 +1,9 @@
+{
+  "stats": {
+    "rechargeTime": 60,
+    "useDuration": 32,
+    "maxPieces": 4,
+    "feedAmount": 6,
+    "saturationAmount": 5
+  }
+}
