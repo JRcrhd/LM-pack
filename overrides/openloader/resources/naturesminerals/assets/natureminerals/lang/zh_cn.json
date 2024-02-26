@@ -1,0 +1,136 @@
+{
+  "item.natureminerals.uvarovite_ingot": "钙铬榴石锭",
+  "item.natureminerals.uvarovite_nugget": "钙铬榴石粒",
+  "item.natureminerals.uvarovite_bucket": "熔融钙铬榴石桶",
+
+  "item.natureminerals.uvarovite_crushed": "Crushed Uvarovite Ore",
+  "item.natureminerals.uvarovite_dust": "Uvarovite Dust",
+  "item.natureminerals.uvarovite_rod": "Uvarovite Rod",
+  "item.natureminerals.uvarovite_gear": "Uvarovite Gear",
+  "item.natureminerals.uvarovite_plate": "Uvarovite Plate",
+
+  "item.natureminerals.uvarovite_head": "钙铬榴石头盔",
+  "item.natureminerals.uvarovite_chest": "钙铬榴石胸甲",
+  "item.natureminerals.uvarovite_legs": "钙铬榴石护腿",
+  "item.natureminerals.uvarovite_feet": "钙铬榴石靴子",
+
+  "item.natureminerals.kunzite_ingot": "紫锂辉石锭",
+  "item.natureminerals.kunzite_nugget": "紫锂辉石粒",
+  "item.natureminerals.kunzite_bucket": "熔融紫锂辉石桶",
+
+	"item.natureminerals.kunzite_crushed": "Crushed Kunzite Ore",
+	"item.natureminerals.kunzite_dust": "Kunzite Dust",
+	"item.natureminerals.kunzite_rod": "Kunzite Rod",
+	"item.natureminerals.kunzite_gear": "Kunzite Gear",
+	"item.natureminerals.kunzite_plate": "Kunzite Plate",
+
+  "item.natureminerals.kunzite_head": "紫锂辉石头盔",
+  "item.natureminerals.kunzite_chest": "紫锂辉石胸甲",
+  "item.natureminerals.kunzite_legs": "紫锂辉石护腿",
+  "item.natureminerals.kunzite_feet": "紫锂辉石靴子",
+
+  "item.natureminerals.stibnite_ingot": "辉锑锭",
+  "item.natureminerals.stibnite_nugget": "辉锑粒",
+  "item.natureminerals.stibnite_bucket": "熔融辉锑桶",
+
+	"item.natureminerals.stibnite_crushed": "Crushed Stibnite Ore",
+	"item.natureminerals.stibnite_dust": "Stibnite Dust",
+	"item.natureminerals.stibnite_rod": "Stibnite Rod",
+	"item.natureminerals.stibnite_gear": "Stibnite Gear",
+	"item.natureminerals.stibnite_plate": "Stibnite Plate",
+
+  "item.natureminerals.stibnite_head": "辉锑头盔",
+  "item.natureminerals.stibnite_chest": "辉锑胸甲",
+  "item.natureminerals.stibnite_legs": "辉锑护腿",
+  "item.natureminerals.stibnite_feet": "辉锑靴子",
+
+  "item.natureminerals.astrite_ingot": "星彩石锭",
+  "item.natureminerals.astrite_nugget": "星彩石粒",
+  "item.natureminerals.astrite_bucket": "熔融星彩石桶",
+
+	"item.natureminerals.astrite_crushed": "Crushed Astrite Ore",
+	"item.natureminerals.astrite_dust": "Astrite Dust",
+	"item.natureminerals.astrite_rod": "Astrite Rod",
+	"item.natureminerals.astrite_gear": "Astrite Gear",
+	"item.natureminerals.astrite_plate": "Astrite Plate",
+
+
+  "item.natureminerals.astrite_head": "星彩石头盔",
+  "item.natureminerals.astrite_chest": "星彩石胸甲",
+  "item.natureminerals.astrite_legs": "星彩石护腿",
+  "item.natureminerals.astrite_feet": "星彩石靴子",
+
+  "item.natureminerals.thounite_ingot": "千纪锭",
+  "item.natureminerals.thounite_nugget": "千纪粒",
+  "item.natureminerals.thounite_bucket": "熔融千纪桶",
+
+	"item.natureminerals.thounite_crushed": "Crushed Thounite",
+	"item.natureminerals.thounite_dust": "Thounite Dust",
+	"item.natureminerals.thounite_rod": "Thounite Rod",
+	"item.natureminerals.thounite_gear": "Thounite Gear",
+	"item.natureminerals.thounite_plate": "Thounite Plate",
+
+  "item.natureminerals.thounite_head": "千纪头盔",
+  "item.natureminerals.thounite_chest": "千纪胸甲",
+  "item.natureminerals.thounite_legs": "千纪护腿",
+  "item.natureminerals.thounite_feet": "千纪靴子",
+
+	"item.natureminerals.uvarovite_apple": "钙铬榴石苹果",
+	"item.natureminerals.enchanted_uvarovite_apple": "附魔 钙铬榴石苹果",
+	"item.natureminerals.kunzite_apple": "紫锂辉石苹果",
+	"item.natureminerals.enchanted_kunzite_apple": "附魔 紫锂辉石苹果",
+	"item.natureminerals.stibnite_apple": "辉锑苹果",
+	"item.natureminerals.enchanted_stibnite_apple": "附魔 辉锑苹果",
+	"item.natureminerals.astrite_apple": "星彩石苹果",
+	"item.natureminerals.enchanted_astrite_apple": "附魔 星彩石苹果",
+	"item.natureminerals.thounite_apple": "千纪苹果",
+	"item.natureminerals.enchanted_thounite_apple": "附魔 千纪苹果",
+
+  "item.natureminerals.bloodlava_bucket": "血腥熔岩桶",
+	"item.natureminerals.scorchingblood_bucket": "Scorching Blood Bucket",
+
+  "block.natureminerals.uvarovite_block": "钙铬榴石块",
+  "block.natureminerals.uvarovite_ore": "钙铬榴石矿石",
+  "block.natureminerals.uvarovite_ore.description": "生成于沙漠",
+  "block.natureminerals.kunzite_block": "紫锂辉石块",
+  "block.natureminerals.kunzite_ore": "紫锂辉石矿石",
+  "block.natureminerals.kunzite_ore.description": "生成于热带草原生物群系",
+  "block.natureminerals.stibnite_block": "辉锑块",
+  "block.natureminerals.stibnite_ore": "辉锑矿矿石",
+  "block.natureminerals.stibnite_ore.description": "生成于下界",
+  "block.natureminerals.astrite_block": "星彩石块",
+  "block.natureminerals.astrite_ore": "星彩石矿石",
+  "block.natureminerals.astrite_ore.description": "生成于末地",
+
+  "block.natureminerals.thounite_block": "千纪块",
+
+  "material.natureminerals.uvarovite": "钙铬榴石",
+  "material.natureminerals.kunzite": "紫锂辉石",
+  "material.natureminerals.stibnite": "辉锑",
+  "material.natureminerals.astrite": "星彩石",
+  "material.natureminerals.thounite": "千纪",
+
+  "fluid.natureminerals.blood_lava": "血腥熔岩",
+  "fluid.natureminerals.molten_uvarovite": "熔融钙铬榴石",
+  "fluid.natureminerals.molten_kunzite": "熔融紫锂辉石",
+  "fluid.natureminerals.molten_stibnite": "熔融辉锑矿",
+  "fluid.natureminerals.molten_astrite": "熔融星彩石",
+  "fluid.natureminerals.molten_thounite": "熔融千纪",
+
+  "modifier.natureminerals.venomous": "剧毒",
+  "modifier.natureminerals.venomous.flavor": "毒药！",
+  "modifier.natureminerals.venomous.description": "对攻击目标施加中毒效果",
+  "modifier.natureminerals.nether_crushing": "下界粉碎",
+  "modifier.natureminerals.nether_crushing.flavor": "下界化!",
+  "modifier.natureminerals.nether_crushing.description": "提高在下界的挖掘速度",
+  "modifier.natureminerals.astral_speed": "星速",
+  "modifier.natureminerals.astral_speed.flavor": "亮晶晶！",
+  "modifier.natureminerals.astral_speed.description": "潜行时提升采掘速度和移动速度",
+  "modifier.natureminerals.electrifying": "雷厉风行",
+  "modifier.natureminerals.electrifying.flavor": "一路火花带闪电！",
+  "modifier.natureminerals.electrifying.description": "攻击时在目标位置召唤一道闪电，且雷雨天气时提升采掘速度",
+  "modifier.natureminerals.life_steal": "生命窃取",
+  "modifier.natureminerals.life_steal.flavor": "治疗一下！",
+  "modifier.natureminerals.life_steal.description": "窃取攻击目标的生命值，转而治疗自身"
+
+}
