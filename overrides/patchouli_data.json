@@ -1,0 +1,58 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "patchouli:guidebook": {
+      "viewedEntries": [
+        "patchouli:advance/guide",
+        "patchouli:advance/power_diff",
+        "patchouli:advance/essence",
+        "patchouli:unknownletter/found",
+        "patchouli:world/recycle",
+        "patchouli:world/chest",
+        "patchouli:world/diff",
+        "patchouli:you/coin",
+        "patchouli:you/fate",
+        "patchouli:history/death",
+        "patchouli:unknownletter/vanaheim",
+        "patchouli:you/outoffate",
+        "patchouli:advance/relics",
+        "patchouli:unknownletter/nidavellir"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:you/coin",
+        "patchouli:world/diff",
+        "patchouli:world/chest",
+        "patchouli:world/recycle",
+        "patchouli:unknownletter/found",
+        "patchouli:history/death",
+        "patchouli:you/fate",
+        "patchouli:advance/guide",
+        "patchouli:advance/essence",
+        "patchouli:advance/power_diff"
+      ],
+      "completedManualQuests": []
+    },
+    "enigmaticlegacy:the_acknowledgment": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "history": [],
+      "completedManualQuests": []
+    },
+    "apotheosis:apoth_chronicle": {
+      "viewedEntries": [
+        "apotheosis:village/fletching",
+        "apotheosis:village/wandering_trader",
+        "apotheosis:spawner/spawners"
+      ],
+      "bookmarks": [],
+      "history": [
+        "apotheosis:spawner/spawners",
+        "apotheosis:village/wandering_trader",
+        "apotheosis:village/fletching"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}
