@@ -1,0 +1,157 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/rescourse/2022-05-29_09.20.12.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400310%
+  orientation = mid-centered
+  x = -117
+  action = movebutton
+  y = 11
+}
+
+customization {
+  identifier = %id=400310%
+  width = 121
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400310%
+  action = setbuttonlabel
+  value = 和伙伴一起的冒险
+}
+
+customization {
+  identifier = %id=400358%
+  orientation = mid-centered
+  x = 24
+  action = movebutton
+  y = -11
+}
+
+customization {
+  identifier = %id=400358%
+  width = 121
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=604394%
+  orientation = bottom-centered
+  x = 24
+  action = movebutton
+  y = -62
+}
+
+customization {
+  identifier = %id=400286%
+  orientation = mid-centered
+  x = -117
+  action = movebutton
+  y = -11
+}
+
+customization {
+  identifier = %id=400286%
+  width = 121
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400286%
+  action = setbuttonlabel
+  value = 一个人的旅途
+}
+
+customization {
+  identifier = %id=400334%
+  orientation = bottom-right
+  x = -79
+  action = movebutton
+  y = -41
+}
+
+customization {
+  identifier = %id=400334%
+  width = 80
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400394%
+  orientation = mid-centered
+  x = 24
+  action = movebutton
+  y = 11
+}
+
+customization {
+  identifier = %id=400394%
+  width = 121
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502394%
+  orientation = mid-centered
+  x = 24
+  action = movebutton
+  y = 33
+}
+
+customization {
+  identifier = %id=502394%
+  width = 121
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=9550%
+  orientation = bottom-centered
+  x = 100
+  action = movebutton
+  y = -62
+}
+
+customization {
+  identifier = %id=376394%
+  orientation = bottom-centered
+  x = 62
+  action = movebutton
+  y = -62
+}
+
+customization {
+  path = config/fancymenu/rescourse/losttitle.png
+  orientation = top-centered
+  x = -130
+  width = 293
+  action = addtexture
+  actionid = 4f8000ac-abab-4a97-8019-e3abe2659dc71655440036543
+  y = 46
+  height = 37
+}
+

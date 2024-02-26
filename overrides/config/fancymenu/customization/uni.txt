@@ -1,0 +1,29 @@
+type = menu
+
+customization-meta {
+  identifier = %fancymenu:universal_layout%
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  showname = true
+  orientation = mid-left
+  crouching = false
+  x = 27
+  slim = false
+  actionid = 10c04691-4964-419e-98de-634f11f2cb961653795479917
+  action = addentity
+  y = 27
+  scale = 30
+  playername = %playername%
+  parrot = false
+}
+
