@@ -1,0 +1,12 @@
+{
+  "dragon_type": "fire",
+  "input_left": {
+    "item":"minecraft:ender_eye"
+  },
+  "input_right": {
+    "item": "iceandfire:fire_dragon_blood"
+  },
+  "result": {
+    "item": "endrem:guardian_eye"
+  }
+}

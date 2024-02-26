@@ -1,0 +1,21 @@
+{
+    "readme_____comment_____readme": "no configuration is needed in this file",
+    "mod_id": "bountiful",
+    "mod_name": "Bountiful",
+    "enabled": true,
+    "replace_structures": false,
+    "pool_plains": [
+        "bountiful:village/common/bounty_gazebo"
+    ],
+    "pool_desert": [
+        "bountiful:village/common/bounty_gazebo"
+    ],
+    "pool_snowy": [
+        "bountiful:village/common/bounty_gazebo"
+    ],
+    "pool_savanna": [
+        "bountiful:village/common/bounty_gazebo"
+    ],
+    "pool_taiga": [ 
+    ]
+}
