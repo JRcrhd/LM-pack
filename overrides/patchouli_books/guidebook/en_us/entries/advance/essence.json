@@ -1,0 +1,69 @@
+{
+	"name": "精华",
+	"description": "",
+	"icon": "mysticalagriculture:inferium_essence",
+	"category": "advance",
+	"pages":[
+		{
+			"type":"text",
+			"text":"    在我出生的年代里，这些东西被捧上了神坛。人们肆意地享受着由它带来的无尽财富……但社会的不公并没有因它消失，在带来富足的同时，它也带来了无尽的贪欲。$(br)    出于责任，我依然会向您介绍它。但请您小心它的力量。"
+		},
+		{
+			"type": "crafting",
+			"title": "神秘作物指南",
+			"recipe": "mysticalagriculture:guide_book",
+			"text": "    关于它在种植资源和制造装备的功能上，这本书已经讲得很详细了。此章节只是额外进行补充。"
+		},
+		{
+			"type": "crafting",
+			"title": "一级耕地",
+			"recipe": "crafttweaker:inf_farmland",
+			"text": "最基础的耕地，只能种植很少的资源。"
+		},
+		{
+			"type": "crafting_altar",
+			"heading": "二级耕地",
+			"recipe": "crafttweaker:pri_farmland",
+			"text": "注入一点血液，它就可以种那些既便宜又不重要的资源了。"
+		},
+		{
+			"type":"patchouli:runic_altar",
+			"title":"三级耕地",
+			"recipe":"crafttweaker:mid_farmland",
+			"text":"注入一点魔法，它就可以种那些便宜但重要的资源了。"
+			
+		},
+		{
+			"type":"spotlight",
+			"item": "mysticalagriculture:imperium_farmland",
+			"title":"四级耕地",
+			"link_recipe":false,
+			"text":"    注入一点星能，它就可以种那些没那么便宜的资源了。"
+			
+		},
+		{
+			"type":"spotlight",
+			"item": "mysticalagriculture:supremium_farmland",
+			"title":"五级耕地",
+			"link_recipe":false,
+			"text":"    注入龙族的残魂，它就可以种那些珍贵的资源了。"
+			
+		},
+		{
+			"type":"spotlight",
+			"item": "mysticalagradditions:insanium_farmland",
+			"title":"六级耕地",
+			"link_recipe":false,
+			"text":"    注入炼金物质，它就能够复制那些强大生物的力量了。"
+			
+		},
+		{
+			"type":"spotlight",
+			"item": "mysticalagradditions:creative_essence",
+			"title":"创造精华",
+			"link_recipe":false,
+			"text":"    只留存于传说的物品。用途不明。"
+			
+		}
+	]
+}

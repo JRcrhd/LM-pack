@@ -1,0 +1,16 @@
+{
+	"name": "变化",
+	"description": "魔改部分",
+	"icon": "avaritia:world_breaker",
+	"category": "world",
+	"pages":[
+		{
+			"type":"text",
+			"text":"    为了平衡地下荒野的复杂矿洞地形，矿物生成概率整体上调。$(br)$(br)    本我战中不再有装备限制，所以您可以在战斗中尽情使用遗物$(br)$(br)    "
+		},
+		{
+			"type":"text",
+			"text":"    "
+		}
+	]
+}
