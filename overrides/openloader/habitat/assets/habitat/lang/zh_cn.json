@@ -1,0 +1,29 @@
+{
+"block.habitat.slime_fern": "史莱姆蕨",
+
+"item.habitat.rafflesia": "霸王花",
+"item.habitat.kabloom_pulp": "爆果丛植物",
+"item.habitat.kabloom_fruit": "爆果丛果实",
+
+"entity.habitat.kabloom_fruit": "爆果丛扔鸡",
+
+"habitat.subtitle.block.rafflesia.spew": "霸王花喷发",
+"habitat.subtitle.block.rafflesia.pop": "霸王花膨胀",
+"habitat.subtitle.block.rafflesia.slurp": "霸王花吸收",
+"habitat.subtitle.block.kabloom_bush.rustle": "爆果丛沙沙作响",
+"habitat.subtitle.block.kabloom_bush.shear": "剪刀剪取",
+"habitat.subtitle.block.slime_fern.drip": "史莱姆滴落",
+
+"habitat.subtitle.entity.kabloom_fruit.throw": "爆果丛飞",
+"habitat.subtitle.entity.kabloom_fruit.explosion": "爆果丛",
+
+"death.attack.habitat.kabloom": "%1$s 被爆果了",
+
+"effect.habitat.blast_endurance": "耐爆炸性",
+
+"habitat.advancements.husbandry.suspicious.title": "真可疑...",
+"habitat.advancements.husbandry.bloom_defused.title": "被修剪的爆果丛",
+
+"habitat.advancements.husbandry.suspicious.description": "将可疑的炖汤喂给霸王花",
+"habitat.advancements.husbandry.bloom_defused.description": "剪开爆果丛以收获果实"
+}
