@@ -110,7 +110,7 @@
 			y: -5.0d
 			description: [
 				"“魔灵”分出了一份力量，这让你可以同时承受更多饰品。"
-				""
+				"Spirites give you a part of power, which makes you can suffer more relics"
 			]
 			dependencies: ["3E9C5545ED1F246A"]
 			hide: true
@@ -218,11 +218,8 @@
 			x: -3.0d
 			y: -3.0d
 			description: [
-				""
-				""
-				""
 				"这片不断沸腾的、暗灰色的海洋向你描绘了第一个需求"
-				""
+				"Ths gray and boiling sea describes its first request"
 			]
 			dependencies: ["2C51C061A8FAB3F0"]
 			hide: true
@@ -468,7 +465,10 @@
 			}
 			x: -3.0d
 			y: -12.5d
-			description: ["它似乎开始向你索求一些*特别的*物品"]
+			description: [
+				"它似乎开始向你索求一些*特别的*物品"
+				"it starts to request something special"
+			]
 			dependencies: ["16C766A3F25F5C28"]
 			hide: true
 			id: "3D63516268C023F7"

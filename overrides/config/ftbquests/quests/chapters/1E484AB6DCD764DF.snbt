@@ -28,11 +28,11 @@
 			shape: "octagon"
 			subtitle: "永恒黄昏之地"
 			description: [
-				"花花花花"
-				"花水水花"
-				"花水水花"
-				"花花花花"
-				"  +钻石"
+				"❀❀❀❀"
+				"❀■■❀"
+				"❀■■❀"
+				"❀❀❀❀"
+				"  +钻石diamond"
 			]
 			id: "41F913DE229866D3"
 			tasks: [{
@@ -57,7 +57,10 @@
 			x: 0.0d
 			y: -4.0d
 			subtitle: "寻找目的地"
-			description: ["你会需要它的"]
+			description: [
+				"你会需要它的"
+				"You may need it"
+			]
 			dependencies: ["41F913DE229866D3"]
 			id: "393CA41672921467"
 			tasks: [{
@@ -278,8 +281,8 @@
 			x: 6.0d
 			y: -2.0d
 			description: [
-				""
 				"比它在主世界的远亲要强大"
+				"Stronger than her aunt in overworld"
 			]
 			dependencies: ["084C332625F27100"]
 			id: "1B938A15F28695A1"
@@ -432,7 +435,7 @@
 		{
 			x: 10.0d
 			y: -2.0d
-			description: ["coming s∞n的最终boss"]
+			description: ["coming s∞n"]
 			dependencies: ["1613D985A231A394"]
 			id: "6BFD973241CD41F6"
 			tasks: [{

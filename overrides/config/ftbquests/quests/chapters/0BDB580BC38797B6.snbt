@@ -639,7 +639,7 @@
 		{
 			x: 1.0d
 			y: -4.0d
-			description: ["有点难做"]
+			description: ["Just a bit difficulty"]
 			id: "53CC4B5ABCAC9463"
 			tasks: [{
 				id: "6975E40336D1DBEE"
@@ -755,7 +755,10 @@
 		{
 			x: 5.0d
 			y: -1.0d
-			description: ["可惜，这版本的简易存储未实现无线面板"]
+			description: [
+				"无线面板未实现"
+				"Wireless panel unrealized"
+			]
 			id: "665C217F2C68F32A"
 			tasks: [{
 				id: "3E6D4286F5804B74"
@@ -779,7 +782,10 @@
 		{
 			x: 4.0d
 			y: -2.5d
-			description: ["地图配方经过修改，且地狱可用"]
+			description: [
+				"配方经过修改，地狱可用"
+				"Recipe has changed, available in nether"
+			]
 			id: "6A604AC092859A83"
 			tasks: [{
 				id: "66DF54CAE6DA82F9"
@@ -818,9 +824,12 @@
 			x: 2.0d
 			y: -5.5d
 			description: [
-				"与旗帜合成来改变材质，与染料或烟花合成更改尾迹。"
-				"可以用剪刀把它分成两半，分别配置颜色"
-				"以及最重要的，提供了一种很爽的飞(去)行(逝)方式"
+				"将它与旗帜组合来改变纹理，或者与染料或烟花结合，改变轨迹。"
+				"你可以使用剪刀将其剪成两半，并分别配置颜色。"
+				"最重要的是，它提供了一种非常酷的飞行方式。"
+				"Combine it with flags to change the texture, or combine it with dyes or fireworks to change its trajectory."
+				"You can use scissors to cut it in half and configure the colors separately."
+				"Most importantly, it provides a very cool way to fly."
 			]
 			id: "0AFFA475DCBED406"
 			tasks: [{
@@ -855,7 +864,10 @@
 		{
 			x: -5.0d
 			y: -1.0d
-			description: ["使用后可以按波次刷出对应怪物。如果在限定时间内击杀完毕，则合成表中间的物品会返还。"]
+			description: [
+				"按波次刷怪，限定时间内击杀完毕，则配方中间的物品会返还"
+				"By clearing monsters in waves within the specified time, the items in the recipe will be refunded."
+			]
 			id: "240E6BA66264E3C4"
 			tasks: [{
 				id: "356E74B4BEB72923"
@@ -885,7 +897,6 @@
 		{
 			x: -3.0d
 			y: -1.0d
-			description: ["自动将果实放入下方容器。"]
 			id: "34AB8A7B6DAC874A"
 			tasks: [{
 				id: "3203D0EF4C66030C"
@@ -901,7 +912,10 @@
 		{
 			x: -2.0d
 			y: -5.5d
-			description: ["在村庄的公告栏接取悬赏任务"]
+			description: [
+				"在村庄里接取悬赏任务"
+				"Get the mission in the village"
+			]
 			id: "215CE257602DF9C3"
 			tasks: [{
 				id: "1396722ADA60ED3D"
@@ -917,7 +931,10 @@
 		{
 			x: -1.0d
 			y: -7.0d
-			description: ["可以放进所有教程书"]
+			description: [
+				"可以容纳所有的教程书"
+				"You can put guidebooks here"
+			]
 			id: "04D2F050D738571D"
 			tasks: [{
 				id: "5C2F8D3D79A86BCC"

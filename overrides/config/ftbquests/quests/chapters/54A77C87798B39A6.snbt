@@ -77,6 +77,7 @@
 			x: 0.0d
 			y: 1.0d
 			shape: "diamond"
+			description: ["Feather in quest reward means 'renewable'"]
 			dependencies: ["233E9C74CEA3E1F5"]
 			id: "0AD3E2353607D877"
 			tasks: [{
@@ -169,7 +170,6 @@
 			}]
 		}
 		{
-			title: "铜/铁熔炉"
 			x: -3.0d
 			y: 0.0d
 			dependencies: ["19F88716D79B3DC3"]
@@ -187,7 +187,6 @@
 			}]
 		}
 		{
-			title: "银/金熔炉"
 			x: -3.5d
 			y: 1.0d
 			dependencies: ["750757A5199790CE"]
@@ -221,7 +220,6 @@
 			}]
 		}
 		{
-			title: "绿宝石/水晶熔炉"
 			x: -4.0d
 			y: 2.0d
 			dependencies: ["14CC375115F747D0"]
@@ -287,7 +285,6 @@
 			}]
 		}
 		{
-			title: "铜/铁箱子"
 			x: 3.0d
 			y: 0.0d
 			dependencies: ["0B9F9C231E83351E"]
@@ -305,7 +302,6 @@
 			}]
 		}
 		{
-			title: "铁/银箱子"
 			x: 3.5d
 			y: 1.0d
 			dependencies: ["5B44B04F657E0398"]

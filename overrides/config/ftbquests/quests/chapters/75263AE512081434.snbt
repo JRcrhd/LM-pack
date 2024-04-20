@@ -186,10 +186,8 @@
 			x: -0.5d
 			y: 1.5d
 			description: [
-				"为了更强的力量！"
-				""
-				" "
 				"将书丢给女巫，获得第一个吟唱符文"
+				"Throw the book to witch"
 			]
 			dependencies: ["4FB1479CB2710760"]
 			id: "3C1DCD1FBE3EC6D9"

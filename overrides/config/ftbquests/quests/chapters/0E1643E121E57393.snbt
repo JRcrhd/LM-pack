@@ -75,6 +75,8 @@
 			description: [
 				"    尼福尔海姆，又或者是我们所称的“彼岸”，是一片由迷雾笼罩的未知领域。"
 				"我们对那里还知之甚少，前行须谨慎。"
+				"Neufeldheim, or what we call the 'Other Side', is an unknown area shrouded in mist."
+				"We know very little about it, so we must proceed with caution."
 			]
 			id: "5A0A835DB538990D"
 			tasks: [{
@@ -100,7 +102,10 @@
 			icon: "occultism:pentacle"
 			x: 0.5d
 			y: 3.5d
-			description: ["来自彼岸，幽蓝的火光。"]
+			description: [
+				"来自彼岸，幽蓝的火光。"
+				"From the other side, a faint blue light."
+			]
 			dependencies: ["695EB0AAAF7886AB"]
 			id: "7FE6BDF7C0008538"
 			tasks: [
@@ -190,7 +195,10 @@
 		{
 			x: 2.0d
 			y: 2.5d
-			description: ["用异界火焰净化它"]
+			description: [
+				"用异界火焰净化它"
+				"Purify it with the flame of the other"
+			]
 			dependencies: ["5A0A835DB538990D"]
 			id: "695EB0AAAF7886AB"
 			tasks: [{
@@ -215,9 +223,11 @@
 			y: 3.5d
 			description: [
 				"彼岸灯火真实地出现在异界眼镜的对面。如果你还保有理智，那这便是个好兆头。"
-				""
 				"在你观察时，那群魔灵也会注意到你。尼福尔海姆存在于精神的海洋，而你打开了它的通路。"
 				"既然它们似乎没有敌意，那不妨尝试下与之沟通。"
+				"The lights of the other side appear vividly on the opposite side of the interdimensional glasses. If you still maintain your sanity, then this is a good sign."
+				"As you observe, the group of spirits will also take notice of you. Nifolheim exists in the ocean of the mind, and you have opened its passage."
+				"Since they seem to harbor no hostility, it might be worth trying to communicate with them."
 			]
 			dependencies: ["7FE6BDF7C0008538"]
 			id: "2C51C061A8FAB3F0"
@@ -281,7 +291,6 @@
 		{
 			x: 0.5d
 			y: 5.5d
-			description: ["获取凋零骷髅头的方式"]
 			dependencies: ["7FE6BDF7C0008538"]
 			id: "620035C61529F23D"
 			tasks: [{
@@ -337,6 +346,9 @@
 				"使用探测杖同调地狱岩"
 				"需要灌注镐来挖掘"
 				"开启第三只眼时可见"
+				"Using a probe to synchronize with netherreck"
+				"Requires imbued pickaxe for excavation"
+				"Visible when the third eye is opened"
 			]
 			dependencies: [
 				"2C51C061A8FAB3F0"

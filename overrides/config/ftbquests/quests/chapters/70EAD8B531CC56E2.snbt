@@ -169,7 +169,6 @@
 		{
 			x: 3.0d
 			y: -1.0d
-			description: ["除了奖励太少都挺好的"]
 			dependencies: ["1332F140295E83D1"]
 			id: "7B6E2BD3C2771A37"
 			tasks: [{

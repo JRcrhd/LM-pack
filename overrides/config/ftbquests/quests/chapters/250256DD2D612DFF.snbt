@@ -523,7 +523,10 @@
 		{
 			x: 5.5d
 			y: 0.0d
-			description: ["极其巨大的附魔仓库"]
+			description: [
+				"极其巨大的附魔仓库"
+				""
+			]
 			dependencies: ["08827613206D4524"]
 			id: "4732172671057C3E"
 			tasks: [{

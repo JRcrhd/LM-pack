@@ -443,7 +443,10 @@
 		{
 			x: 5.0d
 			y: 5.0d
-			description: ["达到满级"]
+			description: [
+				"达到满级"
+				"reach top level"
+			]
 			dependencies: ["516494404A05A4EC"]
 			id: "6CE28B7AC98CBE04"
 			tasks: [{

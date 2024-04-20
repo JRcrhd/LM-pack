@@ -127,6 +127,10 @@
 				"    由于这部分难度较大，我更建议在安全和物资得到保障的前提下尝试开始。"
 				"    这一系列任务会大幅增加游玩的难度。而且一旦开启，不可反悔。"
 				"    如果你打算开始了，就请带上与你一同来到世界的“七咒之戒”吧 。"
+				"This part of the quest won't affect the main storyline of the integration pack."
+				"Due to the difficulty of this part, I suggest attempting it only with the guarantee of safety and resources."
+				"This series of tasks will significantly increase the difficulty of gameplay. And once initiated, there's no turning back."
+				"If you're planning to proceed, please bring along the 'Curse Ring' that accompanied you to this world."
 			]
 			id: "3066FC81BE8677B0"
 			tasks: [{
@@ -140,13 +144,14 @@
 			y: 6.0d
 			shape: "diamond"
 			description: [
-				"第二层级·扭曲之心"
+				"第二层级·扭曲之心    lev.2 Twisted Core"
 				""
 				"负咒者可以通过将大地之心和地狱物质结合来制作此物。扭曲之心比大地之心有更强大的光泽，而且它似乎拥有蛊惑人心的能力。"
-				""
 				"也许这才是大地之心的真正样貌。"
-				""
 				"达到这一层级的负咒者已是凤毛麟角。此时七咒的祝福面开始显现，负咒者可以无师自通的学会使用一些常人难以运用的物品。"
+				"The curse weaver can create this item by combining the heart of the earth and hellish materials. The twisted heart has a stronger luster than the heart of the earth, and it seems to have the ability to enchant people's hearts."
+				"Perhaps this is the true appearance of the heart of the earth."
+				"Curse weavers at this level are already rare. At this point, the blessings of the seven curses begin to show, and curse weavers can learn to use some items that are difficult for ordinary people to use without teaching."
 			]
 			hide_dependency_lines: true
 			dependencies: ["28BA5EE580D99E51"]
@@ -248,11 +253,12 @@
 			y: 8.5d
 			shape: "diamond"
 			description: [
-				"第三层级·邪恶精髓"
+				"第三层级·邪恶精髓    lev.3 Evil Essence"
 				""
 				"带着七咒之戒击败凋灵……听起来很疯狂，对吧？但这是你获得邪恶精髓的唯一途径。"
-				""
 				"这是曾有人类达到的最高层级。"
+				"Beating Wither with curse ring...sounds mad,right? But its the only way to get it."
+				"This is the top level human can arrive."
 			]
 			hide_dependency_lines: true
 			dependencies: ["28BA5EE580D99E51"]
@@ -305,9 +311,10 @@
 			y: 3.5d
 			shape: "diamond"
 			description: [
-				"第一层级·大地之心"
+				"第一层级·大地之心    lev.1 Earth Heart"
 				""
 				"    似乎天然出现在遗迹之中的神秘物质。通常认为它是英雄灵魂的具现。但对于它出现的原因人们一无所知。"
+				"Mystical material appears naturally in ruins.its knowned as the performance of heros spirit.But people knows nothing about how it appears."
 			]
 			hide_dependency_lines: true
 			dependencies: ["28BA5EE580D99E51"]
@@ -378,8 +385,9 @@
 			y: 8.5d
 			description: [
 				"实际上，以太矿在负咒者的手中还可以有别的用处。"
-				""
 				"把以太锭和邪恶精髓融合锻造，可以制造出虚假的灵魂水晶。但似乎它的效果和真正的灵魂水晶并无差别。 "
+				"In fact, the ether ore in the hands of a curse waever can have other uses."
+				"Combining ether ingots with evil essence for smithing can create counterfeit soul crystals. However, its effects seem to be no different from genuine soul crystals."
 			]
 			dependencies: [
 				"312E609D882E759C"
@@ -398,10 +406,11 @@
 			y: 1.0d
 			description: [
 				"这枚戒指会与你的灵魂相融，不分彼此。只有神的力量才能打断你与它的联系。"
-				""
 				"自愿背负诅咒的人被称为“负咒者”。在久远的曾经，它们被视为挑战命运的勇士，同时又被讥讽为自讨苦吃的傻子。"
-				""
 				"但诅咒与祝福一同降临，除了“七咒之戒”铭文上所刻的七条祝福，还有一些不曾言明的祝福伴随着诅咒的深入而出现。走得越深，便会拥有越强大的力量。直到最后连诅咒也可能会化为力量……"
+				"This ring will merge with your soul, inseparable. Only the power of the gods can break the bond between you and it."
+				"Those who voluntarily bear the curse are known as 'Curse weaver' In the distant past, they were seen as warriors challenging fate, yet also mocked as fools bringing trouble upon themselves."
+				"But curses and blessings come together. In addition to the seven blessings inscribed on the 'Curse Ring,' there are some unspoken blessings that appear as the curse deepens. The deeper you go, the more powerful you will become. Until eventually, even the curse may transform into power..."
 			]
 			dependencies: ["3066FC81BE8677B0"]
 			hide: true
@@ -415,7 +424,10 @@
 		{
 			x: 0.0d
 			y: 1.0d
-			description: ["负咒者可以在潜影贝的身体里找到它，但这种情况较为罕见。"]
+			description: [
+				"负咒者可以在潜影贝的身体里找到它，但这种情况较为罕见。"
+				"Curse Weaver can find it in shulkers loot, but its kind of rare"
+			]
 			hide: true
 			id: "4356049452D90E5D"
 			tasks: [{
@@ -439,7 +451,10 @@
 		{
 			x: 2.5d
 			y: 6.0d
-			description: ["“禁忌苹果”是这个世界众多遗物之一，它会令你不再饥饿，作为交换，它也会大幅减弱你自然再生的能力。而解除它的效果并不容易。"]
+			description: [
+				"“禁忌苹果”是这个世界众多遗物之一，它会令你不再饥饿，作为交换，它也会大幅减弱你自然再生的能力。而解除它的效果并不容易。"
+				"The Forbidden Apple is one of the many relics in this world. It will make you no longer hungry, but in exchange, it will greatly weaken your natural regeneration ability. However, it is not easy to remove its effects."
+			]
 			dependencies: ["0906A6C2464E0D93"]
 			hide: true
 			id: "6D6B2B97B9D93068"
@@ -518,10 +533,12 @@
 			y: 8.5d
 			description: [
 				"完成此任务后解锁修改难度的任务"
+				"You can change difficulty freely after this quest."
 				""
 				"怪物会自然地随着时间不断增强，这种莫名的变化似乎有意的在和你的实力平衡。"
-				""
 				"这种莫名的变化对人类而言并不是好事。而幸运的是，这一层级的负咒者已经可以控制这种变化了。"
+				"Monsters will naturally grow stronger over time, this inexplicable change seems intentionally balancing with your strength."
+				"This inexplicable change is not a good thing for humans. Fortunately, Curse Weaver at this level can already control this change."
 			]
 			dependencies: [
 				"31675B809CB9C0A4"
@@ -602,9 +619,10 @@
 			y: 11.0d
 			shape: "diamond"
 			description: [
-				"第四层级·神"
+				"第四层级·神    lev.4 God"
 				""
 				"    带着七咒之戒通关……如果你确实做到了，那么恭喜你，你完成了自己设下的挑战。"
+				"Finishing modpack with curse ring. You made it! Congratulation!"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -625,6 +643,8 @@
 			description: [
 				"理论上，你已经可以摘下七咒之戒了。如果你想的话，"
 				"这块石头可以帮你摘下它。"
+				"If you want,you can take down the ring now."
+				"Use this stone to remove it."
 			]
 			dependencies: [
 				"20C92BD022DBF724"
@@ -645,8 +665,9 @@
 			y: -1.5d
 			description: [
 				"当然，如果你已下定决心，我可以帮你把它销毁掉。"
-				""
+				"IF you want, I can also help you destory it"
 				"但也许你还会再次找到它……"
+				"But you may find it somewhere else again..."
 			]
 			dependencies: ["3066FC81BE8677B0"]
 			id: "578C3E83D02F9362"

@@ -104,7 +104,6 @@
 		{
 			x: 5.5d
 			y: 0.0d
-			description: ["需求不是很大"]
 			dependencies: ["66F67AD429CD0364"]
 			id: "7C7CD09C24E89014"
 			tasks: [{
@@ -139,7 +138,11 @@
 		{
 			x: 5.5d
 			y: -3.5d
-			description: ["请不要和时间洪流怀表一起用"]
+			description: [
+				"请不要和时间洪流怀表一起用"
+				"Do NOT use it together with the watch!!!"
+				""
+			]
 			dependencies: ["5F7C150E93FDF3C7"]
 			id: "21B9A7680CCE6A43"
 			tasks: [{

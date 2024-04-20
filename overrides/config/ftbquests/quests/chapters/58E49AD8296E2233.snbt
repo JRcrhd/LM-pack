@@ -33,8 +33,6 @@
 			description: [
 				"用来合成花"
 				""
-				"其实是科技模组"
-				""
 				"“幻梦”章节会告诉你如何获得花药台核心的魂石"
 			]
 			id: "3711F3727C6EDBA0"
@@ -337,7 +335,10 @@
 			title: "精灵钢"
 			x: 0.5d
 			y: 2.5d
-			description: ["需要消耗2个魔力池的魔力。"]
+			description: [
+				"需要消耗2个魔力池的魔力。"
+				"2 pools"
+			]
 			dependencies: ["5B03AC7D519E0C17"]
 			id: "7321EA61DEFCA454"
 			tasks: [
@@ -375,7 +376,6 @@
 			title: "大战盖亚"
 			x: 2.5d
 			y: 2.5d
-			description: ["怎么和我长得一模一样？"]
 			dependencies: ["7321EA61DEFCA454"]
 			id: "41054B476C42839C"
 			tasks: [
@@ -466,7 +466,10 @@
 		{
 			x: 0.5d
 			y: 0.0d
-			description: ["九界通行证"]
+			description: [
+				"九界通行证"
+				"To alfheim"
+			]
 			dependencies: [
 				"4D8C9E8CC8428A43"
 				"7321EA61DEFCA454"
@@ -1557,7 +1560,10 @@
 		{
 			x: 6.5d
 			y: 2.5d
-			description: ["不要误会，这套装备并不强大"]
+			description: [
+				"不要误会，这套装备并不强大"
+				"these equipments are not very strong"
+			]
 			id: "2ED0492236A8B307"
 			tasks: [{
 				id: "0809FC5B16DEE5E3"
@@ -1642,7 +1648,10 @@
 		{
 			x: 2.5d
 			y: 1.5d
-			description: ["从此实现魔力自由"]
+			description: [
+				"从此实现魔力自由"
+				"mana free"
+			]
 			dependencies: ["41054B476C42839C"]
 			id: "0B635A5ED54D1164"
 			tasks: [{

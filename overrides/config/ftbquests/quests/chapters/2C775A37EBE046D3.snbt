@@ -12,7 +12,6 @@
 			x: -3.0d
 			y: 4.5d
 			shape: "circle"
-			description: ["这是制作匠魂工作设备的必需品。"]
 			id: "66EF772617B306BA"
 			tasks: [{
 				id: "0B4990CF7694AE1C"
@@ -38,7 +37,10 @@
 			title: "工作站套装"
 			x: -1.5d
 			y: 4.5d
-			description: ["木制模具是消耗品了，请多准备"]
+			description: [
+				"木制模具是消耗品了，请多准备"
+				"you may need a lot it"
+			]
 			dependencies: ["66EF772617B306BA"]
 			id: "42429B77061EBA72"
 			tasks: [
@@ -84,7 +86,6 @@
 			title: "烧砖的原料"
 			x: 2.0d
 			y: 4.5d
-			description: ["把它烧成焦黑转"]
 			dependencies: ["42429B77061EBA72"]
 			id: "6312B5F4F0C9E0C7"
 			tasks: [{
@@ -153,7 +154,6 @@
 			icon: "tconstruct:seared_table"
 			x: 1.5d
 			y: 3.5d
-			description: ["冶炼炉的构件准备"]
 			dependencies: ["6312B5F4F0C9E0C7"]
 			id: "2F9EFD203A2EFDB6"
 			tasks: [
@@ -195,7 +195,10 @@
 			icon: "tconstruct:blank_sand_cast"
 			x: 2.5d
 			y: 5.5d
-			description: ["注意：只有金质筑模可以重复使用"]
+			description: [
+				"注意：只有金质筑模可以重复使用"
+				"Only gold can be reused"
+			]
 			dependencies: ["6312B5F4F0C9E0C7"]
 			id: "0D832CA06CD045CD"
 			tasks: [{
@@ -228,7 +231,10 @@
 			icon: "tconstruct:smeltery_controller"
 			x: 0.5d
 			y: 7.5d
-			description: ["越大越好！"]
+			description: [
+				"越大越好！"
+				"The bigger, the better"
+			]
 			dependencies: ["63921BD3EFDC5D01"]
 			id: "315D6879103B64AE"
 			tasks: [
@@ -299,7 +305,6 @@
 		{
 			x: -1.5d
 			y: 10.5d
-			description: ["随着阿迪特的被取代，这个锭的身价瞬间上升了"]
 			dependencies: [
 				"40DA1EE7702152F6"
 				"56F286672626A32F"
@@ -362,7 +367,6 @@
 			title: "最高的炉温"
 			x: 0.0d
 			y: 10.0d
-			description: ["血腥熔岩+烈焰人的血"]
 			id: "47B2952C54B5EB83"
 			tasks: [{
 				id: "6B7CF0BD9226ADBF"
@@ -379,7 +383,10 @@
 			title: "真·最好的合金"
 			x: 1.5d
 			y: 11.0d
-			description: ["这是值得的"]
+			description: [
+				"这是值得的"
+				"its worth it"
+			]
 			dependencies: [
 				"47B2952C54B5EB83"
 				"70501C277B98CDB6"
@@ -439,7 +446,10 @@
 		{
 			x: -1.5d
 			y: 7.5d
-			description: ["大型的液体储罐"]
+			description: [
+				"大型的液体储罐"
+				"Large liquid can"
+			]
 			dependencies: ["63921BD3EFDC5D01"]
 			id: "136DCF4D397747F5"
 			tasks: [{
