@@ -1,10 +1,10 @@
 {
 
-"name": "来自世界之外的引导",
+"name": "guidance from the outer world",
 
-"landing_text": "”在这个世界里，每一朵花、每一棵草的呼吸里，都有诱人的神秘气息。“$(br)$(br)长路漫漫，这本书将伴你行走。$(br)$(br)           作者：JR_crhd",
+"landing_text": "\"In this world, in the breath of every flower and every blade of grass, there is a captivating mysterious fragrance.\"$(br)$(br)The long road ahead, this book will accompany you on the journey.$(br)$(br)Modpack author:JR_crhd",
 
-"version": 6,
+"version": 1,
 "show_progress":false,
 "pause_game":true,
 "use_blocky_font":false
