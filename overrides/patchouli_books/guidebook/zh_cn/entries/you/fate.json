@@ -1,0 +1,108 @@
+{
+	"name": "命运",
+	"description": "天命既定",
+	"icon": "minecraft:dragon_head",
+	"category": "you",
+	"pages":[
+		{
+			"type":"text",
+			"text":"    在这个世界里，天命已经以十分难以忽视的方式呈现在你的眼前。$(br)  你的到来，已经为盘踞于紫黑星空的恶龙宣判了死刑。"
+		},
+		{
+			"type":"text",
+			"text":"  但实现天命并不是一件易事。为此，你需要制造出十二枚眼睛，然后冒着让眼睛碎掉的风险用它们本身的力量进行定位。$(br)  注意：只有endrem里的末影之眼有定位功能!!!!"
+		},
+		{
+			"type":"text",
+			"text":"  “但我将烈焰粉与这枚珍珠碰到一起时，一只眼睛竟从它表面展开来——但是没有瞳孔$(br)  他在渴求什么吗？”"
+		},
+		{
+			"type":"crafting",
+			"title":"末影水晶之眼",
+			"recipe":"endrem:end_crystal_eye",
+			"text":"这种稀有的粉色的矿物在地狱赤红的背景下格外醒目，其中暗暗流动的光泽告诉了我它的不凡。$(br)  与残骸相反，它出现在地狱的高层，且在玄武岩上尤其多"
+			
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "endrem:nether_eye",
+			"link_recipe": true,
+			"text": "地狱之眼需要通过$(l:apotheosis:enchanting/table/infusion)Infusion Enchanting$()来合成。$(p)至少需要：$(br)$(2)位阶20$(br)$(c)量子化20$(br)$(5)阿卡纳15"
+			
+		},
+		{
+			"type":"spotlight",
+			"item": "endrem:wither_eye",
+			"title":"凋零之眼",
+			"link_recipe":false,
+			"text":"那个性格暴躁的怪物绝不会乖乖交出他的眼睛，一场恶战是不可避免的。"
+			
+		},
+		{
+			"type":"spotlight",
+			"item": "endrem:rogue_eye",
+			"title":"无赖之眼",
+			"link_recipe":false,
+			"text":"这枚眼睛的制造方法似乎已经随着它带来的知识消逝了。但也许矮人工匠们还保留着它的配方。"
+			
+		},
+		{
+			"type":"spotlight",
+			"item": "endrem:guardian_eye",
+			"title":"守卫者之眼",
+			"link_recipe":true,
+			"text":"在久远的曾经，龙和人和平共处的年代里，这颗眼睛凝聚了龙族的力量，被作为礼物送给人类。$(br)  但现在想要再次凝聚龙族的力量，恐怕只有战争这个选项了。"
+			
+		},
+		{
+			"type":"crafting",
+			"title":"远古之眼",
+			"recipe":"crafttweaker:eye_old",
+			"text":"高贵的金属，这是自然给阿图姆人的馈赠。"
+			
+		},
+		{
+			"type":"crafting",
+			"title":"漆黑之眼",
+			"recipe":"crafttweaker:eye_black",
+			"text":"暮光之森……这本是被遗忘的世界，连普照大地的太阳之车也不会驶过这里。长久的黑暗孕育了独特的力量。"
+			
+		},
+		{
+			"type":"crafting",
+			"title":"腐化之眼",
+			"recipe":"crafttweaker:eye_corrupted",
+			"text":"在“精华”这一物第一次被发现时，没有人会想到数十年后，王朝的腐败就因他而起。$(br)  无限的资源，更像是个陷阱。"
+			
+		},
+		{
+			"type":"patchouli:runic_altar",
+			"title":"魔力之眼",
+			"recipe":"crafttweaker:eye_magical",
+			"text":"花和草中的魔力"
+			
+		},
+		{
+			"type":"spotlight",
+			"item": "endrem:lost_eye",
+			"title":"迷离之眼",
+			"link_recipe":true,
+			"text":"在矮人一族向人类传授锻造知识后，一个工匠偶然把一滴玛玉灵滴入了末影之眼里，于是制造出了这枚眼睛"
+			
+		},
+		{
+			"type": "crafting_altar",
+			"heading": "巫师之眼",
+			"recipe": "crafttweaker:eye_witch",
+			"text": "这是一名合格的血魔法巫师的证明"
+		},
+		{
+			"type":"spotlight",
+			"item": "endrem:cold_eye",
+			"title":"寒冰之眼",
+			"link_recipe":true,
+			"text":"天阶夜色凉如水"
+			
+		}
+	]
+}

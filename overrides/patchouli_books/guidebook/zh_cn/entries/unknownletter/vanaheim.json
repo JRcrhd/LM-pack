@@ -1,0 +1,17 @@
+{
+	"name": "来自华纳海姆的信",
+	"description": "华纳神族的世界",
+	"icon": "tconstruct:blood_slime_ball",
+	"category": "unknownletter",
+	"advancement":"botania:main/elf_portal_open",
+	"pages":[
+		{
+			"type":"text",
+			"text":"  以圣华纳海姆的名义，向你致以最深切的问候。$(br)  我们在了解到你与精灵和矮人的交易后，就对你所使用的货币产生了兴趣。经我们的测试发现，那些货币与你们的精华和EMC相似，都拥有转化万物的能力，但这些货币还不够完善，需要经过一些改造。$(br)  我们会为你提供这种帮助。只要你完成我们的条件，我们就可以让你用货币制造一些难以再生的珍贵物品。"
+		},
+		{
+			"type":"text",
+			"text":"  当然，如果你无法信任我们，你也完全可以无视这封信。"
+		}
+	]
+}

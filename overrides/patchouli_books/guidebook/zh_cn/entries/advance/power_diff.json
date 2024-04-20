@@ -1,0 +1,37 @@
+{
+	"name": "力量与难度",
+	"description": "一个难题",
+	"icon": "minecraft:experience_bottle",
+	"category": "advance",
+	"pages":[
+		{
+			"type":"text",
+			"text":"  你已经发现了吧？随着时间的推移，世界中的怪物也会不断变强，并渐渐变得难以战胜。但幸运的是，我们人类也可以在磨练中成长。$(br)  技能选项卡在物品栏的右上角"
+		},
+		{
+			"type":"text",
+			"text":"  技能点与附魔不同，是一个独立的经验系统。每次吸取经验球大概会有30%的经验量被转化为技能点经验$(br)  如果想要更快提升，你就可能需要借助神王奥丁的力量或是星辉魔法……但这些都是后话了$(br)  现在，我们还有另外一种应对难度增长的方案——降低怪物的成长水平。"
+			
+		},
+		{
+			"type": "spotlight",
+			"item": "scalinghealth:enchanted_heart",
+			"title": "蕴魔之心",
+			"link_recipe":false,
+			"text": "可以制造，用于降低难度。$(br)  $(br)  另外，死亡也会带来难度的下降，但是击杀友善生物可能会略微增加难度。"
+		},
+		{
+			"type": "spotlight",
+			"item": "scalinghealth:cursed_heart",
+			"title": "诅咒之心",
+			"link_recipe":false,
+			"text": "使用后提升怪物的战力，对人类无用，除非你渴望挑战"
+		},
+		{
+			"type": "crafting",
+			"title": "运势之心",
+			"recipe": "crafttweaker:69e7fa4d-526e-475e-9fe6-736da1701759",
+			"text": "使用后随机改变难度"
+		}
+	]
+}

@@ -1,0 +1,102 @@
+{
+	"name": ".基础教程",
+	"description": "",
+	"icon": "minecraft:written_book",
+	"category": "advance",
+	"pages":[
+		{
+			"type":"text",
+			"text":"    初来乍到，你的心中也许充满了谜团。不过不用担心，我已经准备好了大量的资料以供查阅。这里给出的是这些资料的获取方法。"
+		},
+		{
+			"type": "crafting",
+			"title": "神秘农业",
+			"recipe": "mysticalagriculture:guide_book",
+			"text": "神秘农业的教程"
+		},
+		{
+			"type": "crafting",
+			"title": "异兽手记",
+			"recipe": "iceandfire:bestiary",
+			"text": "冰火传说的教程"
+		},
+		{
+			"type": "crafting",
+			"title": "启示之证",
+			"recipe": "enigmaticlegacy:the_acknowledgment",
+			"text": "神秘遗物的教程"
+		},
+		{
+			"type": "crafting",
+			"title": "合成拓展",
+			"recipe": "extendedcrafting:guide_book",
+			"text": "合成拓展的教程"
+		},
+		{
+			"type": "crafting",
+			"title": "星芒宝典",
+			"recipe": "astralsorcery:shaped/tome",
+			"text": "星辉魔法的教程"
+		},
+		{
+			"type": "crafting",
+			"title": "植物魔法词典",
+			"recipe": "botania:lexicon",
+			"text": "植物魔法的教程"
+		},
+		{
+			"type": "crafting",
+			"title": "破旧的笔记本",
+			"recipe": "ars_nouveau:worn_notebook",
+			"text": "新生魔艺的教程"
+		},
+		{
+			"type": "crafting",
+			"title": "秘仪教典",
+			"recipe": "eidolon:codex",
+			"text": "幻梦的教程"
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "bloodmagic:guide",
+			"text": "血魔法的教程"
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "tconstruct:common/materials_and_you",
+			"text": "匠魂的教程"
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "occultism:crafting/dictionary_of_spirits",
+			"text": "神秘学的教程"
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "twilightforest:patchouli_logbook_alt",
+			"text": "暮色森林的教程"
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "betterendforge:guidebook",
+			"text": "更好的末地的教程"
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "alexsmobs:animal_dictionary",
+			"text": "alex的生物的教程"
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "mysticalworld:encyclopedia",
+			"text": "神秘世界的教程"
+		}
+	]
+}

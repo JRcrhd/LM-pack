@@ -1,0 +1,21 @@
+{
+	"name": "尼德威阿尔的来信",
+	"description": "矮人界",
+	"icon": "minecraft:anvil",
+	"category": "unknownletter",
+	"advancement":"botania:main/elf_portal_open",
+	"pages":[
+		{
+			"type":"text",
+			"text":"  亚尔夫海姆的精灵们向我们揭露了你的存在。$(br)  你是彩虹桥断裂后第一个将米德加尔特与其他世界相连的人。我们想，你或许有潜力，能替曾经的神明们完成我们锻造的愿望。"
+		},
+		{
+			"type":"text",
+			"text":"  合作的方法很简单，你只需要在任务书里”锻造所“中将材料交给我们，并付出一点金钱，然后我们便会将你想要的东西给你。$(br)  祝，合作愉快！"
+		},
+		{
+			"type":"text",
+			"text":""
+		}
+	]
+}

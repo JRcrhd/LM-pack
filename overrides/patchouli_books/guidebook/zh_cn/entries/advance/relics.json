@@ -1,0 +1,23 @@
+{
+	"name": "遗物",
+	"description": "",
+	"icon": "enigmaticlegacy:enigmatic_amulet",
+	"category": "advance",
+	"pages":[
+		{
+			"type":"text",
+			"text":"    这个世界的久远过往留下了不计其数的英雄和传说。他们的内容或已失真，形象或已扭曲。但他们的精神早已与大地相融。由此诞生的，拥有有神秘力量的物件就被称为————遗物。"
+		},
+		{
+			"type": "spotlight",
+			"item": "enigmaticlegacy:earth_heart",
+			"title": "大地之心",
+			"link_recipe":false,
+			"text": "其中潜藏着一部分英雄传说。它可以用于逸散遗物的复原。$(br)$(br)    另外，它的结构十分精细，无法以常规方法再生，但华纳神族似乎有办法。"
+		},
+		{
+			"type":"text",
+			"text":"    遗物的获取，不仅要靠实力，还要靠缘分。所以不必强求。"
+		}
+	]
+}
