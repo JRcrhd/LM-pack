@@ -36,7 +36,7 @@ customization {
 customization {
   identifier = %id=400310%
   action = setbuttonlabel
-  value = 和伙伴一起的冒险
+  value = 多人/multiplayer
 }
 
 customization {
@@ -80,7 +80,7 @@ customization {
 customization {
   identifier = %id=400286%
   action = setbuttonlabel
-  value = 一个人的旅途
+  value = 单人/singleplayer
 }
 
 customization {
