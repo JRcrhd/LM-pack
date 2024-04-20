@@ -1,0 +1,23 @@
+
+["Toggle model visibility"]
+	#Slot 3
+	s3 = true
+	#Slot 4
+	s4 = true
+	#Shield
+	shield = true
+	#Slot 5
+	s5 = true
+	#Slot 6
+	s6 = true
+	#Slot 7
+	s7 = true
+	#Slot 8
+	s8 = true
+	#Banner
+	banner = true
+	#Slot 1
+	s1 = true
+	#Slot 2
+	s2 = true
+

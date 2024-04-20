@@ -1,0 +1,11 @@
+
+[General]
+	#Volume of water/lava drips [0.0-1.0|default:0.3]
+	volume = 0.3
+	#Sound category [default:AMBIENT]
+	soundCategory = "AMBIENT"
+	#Chance of a drip forming each tick (one in X so lower is faster) [1-100|default:10]
+	dripChance = 10
+	#Enables/Disables the whole Mod [false/true|default:true]
+	enableMod = true
+

@@ -1,0 +1,10 @@
+{
+  "inventory": {
+    "0:0": "{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"patchouli:guidebook\"}}",
+    "2:0": "{id:\"minecraft:totem_of_undying\",Count:1b}",
+    "0:2": "{id:\"minecraft:iron_axe\",Count:1b,tag:{Damage:0}}",
+    "0:6": "{id:\"scalinghealth:enchanted_heart\",Count:1b}",
+    "0:1": "{id:\"minecraft:bread\",Count:16b}"
+  },
+  "wipeBlacklist": []
+}

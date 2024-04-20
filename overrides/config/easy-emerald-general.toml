@@ -1,0 +1,100 @@
+
+#Emerald Tool Material
+[emerald_tool_material]
+	#Emerald Tool Durability [250-3000, default: 700]
+	#Range: 250 ~ 3000
+	emeraldToolDurability = 700
+	#Emerald Tool efficiency [1.0-7.0, default: 1.0]
+	#Range: 0.0 ~ 7.0
+	emeraldToolEfficiency = 5.5
+	#Emerald attack damage [1-40, default: 3.0]
+	#Range: 0.0 ~ 40.0
+	emeraldAttackDamage = 3.0
+	#Emerald tool mining level [1-5, default: 2]
+	#Range: 1 ~ 5
+	emeraldMiningLevel = 2
+	#Emerald tool enchantability [1-30, default: 21]
+	#Range: 1 ~ 30
+	emeraldEnchantability = 21
+
+#Ruby Tool Material
+[ruby_tool_material]
+	#Ruby Tool Durability [250-3000, default: 1050]
+	#Range: 250 ~ 3000
+	emeraldToolDurability = 1050
+	#Ruby Tool efficiency [1.0-7.0, default: 2.0]
+	#Range: 0.0 ~ 7.0
+	emeraldToolEfficiency = 6.5
+	#Ruby attack damage [1-40, default: 4.0]
+	#Range: 0.0 ~ 40.0
+	emeraldAttackDamage = 4.0
+	#Ruby tool mining level [1-5, default: 3]
+	#Range: 1 ~ 5
+	emeraldMiningLevel = 3
+	#Ruby tool enchantability [1-30, default: 25]
+	#Range: 1 ~ 30
+	emeraldEnchantability = 25
+
+#Obsidian Tool Material
+[obsidian_tool_material]
+	#Obsidian Tool Durability [250-3000, default: 525]
+	#Range: 250 ~ 3000
+	emeraldToolDurability = 525
+	#Obsidian Tool efficiency [1.0-7.0, default: 1.0]
+	#Range: 0.0 ~ 7.0
+	emeraldToolEfficiency = 5.5
+	#Obsidian attack damage [1-40, default: 3.0]
+	#Range: 0.0 ~ 40.0
+	emeraldAttackDamage = 3.0
+	#Obsidian tool mining level [1-5, default: 3]
+	#Range: 1 ~ 5
+	emeraldMiningLevel = 3
+	#Obsidian tool enchantability [1-30, default: 18]
+	#Range: 1 ~ 30
+	emeraldEnchantability = 18
+
+#Emerald Armor Material
+[emerald_armor_material]
+	#Emerald armor durability multiplier [1-50, default: 31]
+	#Range: 1 ~ 50
+	emeraldArmorDurabilityMultiplier = 31
+	#Emerald armor enchantability [1-31, default: 15]
+	#Range: 1 ~ 31
+	emeraldArmorEnchantability = 15
+	#Emerald armor toughness [0.0-4.0, default: 0.0]
+	#Range: 0.0 ~ 4.0
+	emeraldArmorToughness = 0.0
+	#Emerald armor knockback resistance [0.0-4.0, default: 0.0]
+	#Range: 0.0 ~ 4.0
+	emeraldArmorKnockbackResistance = 0.0
+
+#Ruby Armor Material
+[ruby_armor_material]
+	#Ruby armor durability multiplier [1-50, default: 33]
+	#Range: 1 ~ 50
+	rubyArmorDurabilityMultiplier = 33
+	#Ruby armor enchantability [1-31, default: 17]
+	#Range: 1 ~ 31
+	rubyArmorEnchantability = 17
+	#Ruby armor toughness [0.0-4.0, default: 0.5]
+	#Range: 0.0 ~ 4.0
+	rubyArmorToughness = 0.5
+	#Ruby armor knockback resistance [0.0-4.0, default: 0.1]
+	#Range: 0.0 ~ 4.0
+	rubyArmorKnockbackResistance = 0.1
+
+#Obsidian Armor Material
+[obsidian_armor_material]
+	#Obsidian armor durability multiplier [1-50, default: 29]
+	#Range: 1 ~ 50
+	obsidianArmorDurabilityMultiplier = 29
+	#Obsidian armor enchantability [1-31, default: 13]
+	#Range: 1 ~ 31
+	obsidianArmorEnchantability = 13
+	#Obsidian armor toughness [0.0-4.0, default: 1.0]
+	#Range: 0.0 ~ 4.0
+	obsidianArmorToughness = 1.0
+	#Obsidian armor knockback resistance [0.0-4.0, default: 0.0]
+	#Range: 0.0 ~ 4.0
+	obsidianArmorKnockbackResistance = 0.0
+

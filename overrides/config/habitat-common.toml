@@ -1,0 +1,33 @@
+
+#Common Configurations for Habitat
+[common]
+	#
+	#Pooka and Fairy Ring Mushroom Stew Effects
+	#Enter them in the format effectid:duration (duration in seconds) and separate theme with a single ,
+	suspicious_stew_effects = "1:12,5:8,8:16,10:10,11:8,2:8,15:12,17:16,18:8,19:10"
+	pooka_positive_effects = "1:6,5:4,8:8,10:5,11:4"
+	pooka_negative_effects = "2:4,15:6,17:8,18:4,19:5"
+	#
+	#Features have 1 in X Chance of Generating per Chunk where X is the Config Value
+	rafflesia_chance = 3
+	kabloom_bush_chance = 144
+	slime_fern_chance = 2
+	ball_cactus_chance = 14
+	#Average and Minimum Chunk Spacing for Structures (Minimum must be lower than Average)
+	fairy_ring_average = 24
+	fairy_ring_minimum = 4
+	#Whitelist and Blacklist for Biomes in which Features and Structures can generate
+	#Use the Biome Name with Namespace (namespace:biome) and separate Biomes if more than one with a single ,
+	#Biome Whitelist
+	rafflesia_whitelist = ""
+	kabloom_bush_whitelist = ""
+	slime_fern_whitelist = ""
+	ball_cactus_whitelist = ""
+	fairy_ring_whitelist = ""
+	#Biome Blacklist
+	rafflesia_blacklist = ""
+	kabloom_bush_blacklist = ""
+	slime_fern_blacklist = ""
+	ball_cactus_blacklist = ""
+	fairy_ring_blacklist = ""
+

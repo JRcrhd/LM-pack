@@ -21,7 +21,7 @@
 	ringLuck = true
 	ringDolphin = true
 	ringMagnetism = true
-	ringFlight = false
+	ringFlight = true
 	ringPoisonResistance = true
 	ringHungerless = true
 	ringGrowth = true

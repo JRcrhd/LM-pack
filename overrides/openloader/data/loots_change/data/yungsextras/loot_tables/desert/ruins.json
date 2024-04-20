@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+	"rolls":{"min":2,"max":3},
+	"entries":[
+		{
+			"type":"item",
+			"name":"ftbquests:lootcrate",
+			"weight":1,
+			"functions":[
+				{
+					"function":"minecraft:set_nbt",
+					"tag":"{
+						type:\"relics\"
+					}"
+				}
+			]
+		},
+		{
+			"type":"item",
+			"name":"minecraft:air",
+			"weight":9
+		},
+		{
+			"type":"item",
+			"name":"enigmaticlegacy:earth_heart",
+			"weight":5
+		}
+	]
+},{
+      "rolls": {
+        "min": 4.0,
+        "max": 6.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:sand"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:wheat"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:emerald"
+        }
+      ]
+    }
+  ]
+}
