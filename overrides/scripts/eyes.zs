@@ -126,3 +126,48 @@ craftingTable.addShaped("eye_corrupted", <item:endrem:corrupted_eye>, [
 		"count": 1
 	}
 });
+
+
+<recipetype:iceandfire:dragonforge>.addJSONRecipe("eye_guardian_fire", {
+  "dragon_type": "fire",
+  "cook_time": 500,
+  "input": {
+    "item":"minecraft:ender_eye"
+  },
+  "blood": {
+    "item": "iceandfire:fire_dragon_blood"
+  },
+  "result": {
+    "item": "endrem:guardian_eye"
+  }
+});
+
+
+<recipetype:iceandfire:dragonforge>.addJSONRecipe("eye_guardian_ice", {
+  "dragon_type": "ice",
+  "cook_time": 500,
+  "input": {
+    "item":"minecraft:ender_eye"
+  },
+  "blood": {
+    "item": "iceandfire:ice_dragon_blood"
+  },
+  "result": {
+    "item": "endrem:guardian_eye"
+  }
+});
+
+
+<recipetype:iceandfire:dragonforge>.addJSONRecipe("eye_guardian_lightning", {
+  "dragon_type": "lightning",
+  "cook_time": 500,
+  "input": {
+    "item":"minecraft:ender_eye"
+  },
+  "blood": {
+    "item": "iceandfire:lightning_dragon_blood"
+  },
+  "result": {
+    "item": "endrem:guardian_eye"
+  }
+});
