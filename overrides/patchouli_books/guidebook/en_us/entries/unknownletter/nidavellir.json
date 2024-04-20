@@ -1,0 +1,21 @@
+{
+	"name": "Letter form Nidavellir",
+	"description": "<<<>>>",
+	"icon": "minecraft:anvil",
+	"category": "unknownletter",
+	"advancement":"botania:main/elf_portal_open",
+	"pages":[
+		{
+			"type":"text",
+			"text":"  The elves of Alfheim have revealed your existence to us.$(br)  You are the first to connect Midgard with other worlds after the Rainbow Bridge's fracture. We believe you may have the potential to fulfill the desires of the former gods for us."
+		},
+		{
+			"type":"text",
+			"text":"  The method of cooperation is simple: you only need to provide the materials to us in the 'The forge' in the task book, pay a little money, and then we will give you what you want. Wishing you a pleasant cooperation!"
+		},
+		{
+			"type":"text",
+			"text":""
+		}
+	]
+}

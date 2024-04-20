@@ -1,0 +1,25 @@
+{
+	"name": "Past",
+	"description": "<<<>>>",
+	"icon": "relics:stellar_catalyst",
+	"category": "history",
+	"advancement":"mythicbotany:mythicbotany/mimir",
+	"pages":[
+		{
+			"type":"text",
+			"text":"     After drinking the water from the Mimir Spring, a vision from the past flooded into my mind.$(br)$(br)    \"Other than the Dragon, humans are not the only intelligent beings in Midgard...\" Elzman slowly told us."
+		},
+		{
+			"type":"text",
+			"text":"    We are all children adopted by him, living in a secluded corner of the deep mountains in this world blessed by the essence crops, as if practicing without any external contact."
+		},
+		{
+			"type":"text",
+			"text":"$(br)    \"The transformation of humans and other races from chaos to peace took several generations...,\" he continued, \"In the end, with the help of the Dragon Clan, the key to the Dragon Clan's homeland - the End, was divided into twelve pieces and given to each intelligent race. As a token to maintain peace in this world. Humans received three pieces.\""
+		},
+		{
+			"type":"text",
+			"text":"$(br)    \"As time goes by, even the strongest minds tend to go mad. Even the heaviest vows are forgotten. In the madness of the Dragon Clan, when peace no longer exists. Those races... would find it difficult to reach the End Land, helpless.\""
+		}
+	]
+}

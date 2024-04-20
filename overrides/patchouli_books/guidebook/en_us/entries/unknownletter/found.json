@@ -1,0 +1,24 @@
+{
+	"name": "The letter found in the ruin",
+	"description": "<<<>>>",
+	"icon": "minecraft:paper",
+	"category": "unknownletter",
+	"pages":[
+		{
+			"type":"text",
+			"text":"  \"Now, outside the window, a drizzle is falling, and the dim oil lamp is flickering. The towering church in the distance loses its luster in the dark rain curtain. The roofs piercing into the sky cast a black silhouette in the field of vision, as if a crowd in black mourning clothes is moving slowly.\""
+		},
+		{
+			"type":"text",
+			"text":"  \"Former prosperity is long gone, and now only the abandoned, the deprived, and us remain.$(br)  Now I am also facing a major decision, just like twenty-eight years ago... That decision destined me to become a great person, while this decision will make me a sinner.$(br)  Fortunately... I am not the only one facing a choice...\""
+		},
+		{
+			"type":"text",
+			"text":"  \"I thought war was the most cruel and evil. So I spent my whole life pushing war to an end in my own way. But now, the former head of the academy has been exiled, and I see something even more evil than war...$(br)  From this, I realized that those achievements I was proud of were just tools for the aristocrats' rule. While these beasts revel night after night, how many people are sinking in the quagmire of hunger and death, how many are struggling in an unshakable fate.\"$(br)  ..."
+		},
+		{
+			"type":"text",
+			"text":"  \"I finally found a way, but the implementation of this method... requires the support of all humanity in the world. This is almost impossible... except at this moment...\""
+		}
+	]
+}

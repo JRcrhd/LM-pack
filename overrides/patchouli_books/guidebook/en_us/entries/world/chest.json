@@ -1,0 +1,20 @@
+{
+	"name": "Bonus Chest",
+	"description": "。。。。",
+	"icon": "minecraft:chest",
+	"category": "world",
+	"pages":[
+		{
+	"type":"text",
+	"text":"During the exploration, you often come across many reward chests. It is usually necessary to know in advance what will be opened from those chest-like rewards."
+},
+{
+	"type":"text",
+	"text":"I. The 'Immortal Relics' can often be found in the wilderness chests, which are the incarnations of powerful relics that have not perished over time. You can obtain items classified as Immortal Relics from them. $(br)  II: 'Mysterious Creations' are the works of dwarf craftsmen and can be purchased at 'the Forge'. There is about a half chance of obtaining 'Gift of Adventure' and a half chance of obtaining 'Gift of Arcana'. There is also a small chance of obtaining 'Gift of Destiny'."
+},
+{
+	"type":"text",
+	"text":"III: 'Gift of Destiny' is the rarest. It has a high chance of opening itself, as well as an extremely small chance of obtaining the Ultimate Ingot and the Final Vision Pearl. So, do not attempt to open it at home!!"
+}
+	]
+}

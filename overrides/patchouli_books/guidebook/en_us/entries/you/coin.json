@@ -1,0 +1,20 @@
+{
+	"name": "About Currency",
+	"description": "a peculiar currency with you here",
+	"icon": "atum:coin_gold",
+	"category": "you",
+	"pages":[
+		{
+			"type":"text",
+			"text":"  You seem out of place with everything in this world, like a sinner exiled in the wilderness.$(br)   Your past has been washed away without a trace. As you look at the necklace and books in your hands, and at the villagers around you, you feel both unfamiliar and familiar."
+		},
+		{
+			"type":"text",
+			"text":" With you here is a peculiar currency. They have no physical form, only a quantity. This has piqued the interest of the natives who trade with green stones and the Atum people who trade with gold coins. .$(br)  However, that's about it.They cannot use this currency, so they can only watch.$(br)  Currently, these currencies can only be exchanged for very limited goods."
+		},
+		{
+			"type":"text",
+			"text":"  You may use the currency in the shop on top right corner in ftbquest."
+		}
+	]
+}

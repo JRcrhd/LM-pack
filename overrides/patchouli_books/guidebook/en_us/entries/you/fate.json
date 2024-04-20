@@ -1,0 +1,97 @@
+{
+	"name": "Fate",
+	"description": "■■■■",
+	"icon": "minecraft:dragon_head",
+	"category": "you",
+	"pages":[
+		{
+    "type": "text",
+    "text": "In this world, destiny has manifested itself in a way that is difficult to ignore. Your arrival has sentenced the dragon lurking in the purple-black sky to death."
+},
+{
+    "type": "text",
+    "text": "However, fulfilling destiny is not an easy task. For this, you need to create twelve eyes, and then risk them breaking to use their own power for positioning."
+},
+{
+    "type": "text",
+    "text": "\"But when I touched the blaze powder with this pearl, an eye unfolded from its surface—without pupils. Is it craving something?\""
+},
+{
+    "type": "crafting",
+    "title": "End Crystal Eye",
+    "recipe": "endrem:end_crystal_eye",
+    "text": "This rare pink mineral stands out against the red backdrop of the nether, with its subtly flowing luster indicating its extraordinary nature. Unlike debris, it appears in the upper layers of the nether, especially on obsidian."
+},
+{
+    "type": "patchouli:spotlight",
+    "item": "endrem:nether_eye",
+    "link_recipe": true,
+    "text": "Nether eyes need to be synthesized through Infusion Enchanting. It requires at least: Tier 20, Quantization 20, and Arcana 15."
+},
+{
+    "type": "spotlight",
+    "item": "endrem:wither_eye",
+    "title": "Wither Eye",
+    "link_recipe": false,
+    "text": "That irritable monster will never willingly surrender its eyes. A fierce battle is inevitable."
+},
+{
+    "type": "spotlight",
+    "item": "endrem:rogue_eye",
+    "title": "Rogue Eye",
+    "link_recipe": false,
+    "text": "The manufacturing method of this eye seems to have disappeared along with the knowledge it brought. But perhaps the dwarf craftsmen still retain its recipe."
+},
+{
+    "type": "spotlight",
+    "item": "endrem:guardian_eye",
+    "title": "Guardian Eye",
+    "link_recipe": true,
+    "text": "In the distant era when dragons and humans coexisted peacefully, this eye condensed the power of the dragon clan and was presented as a gift to humans. But now, to once again gather the power of the dragon, war may be the only option."
+},
+{
+    "type": "crafting",
+    "title": "Old Eye",
+    "recipe": "crafttweaker:eye_old",
+    "text": "Noble metal, a gift from nature to the Atum people."
+},
+{
+    "type": "crafting",
+    "title": "Black Eye",
+    "recipe": "crafttweaker:eye_black",
+    "text": "Twilight Forest... This was a forgotten world, where even the sun chariot that illuminates the earth would not pass through. The long darkness has nurtured unique power."
+},
+{
+    "type": "crafting",
+    "title": "Corrupted Eye",
+    "recipe": "crafttweaker:eye_corrupted",
+    "text": "When 'Essence' was first discovered, no one would have thought that decades later, the corruption of the dynasty would arise because of it. Infinite resources seem more like a trap."
+},
+{
+    "type": "patchouli:runic_altar",
+    "title": "Magic Eye",
+    "recipe": "crafttweaker:eye_magical",
+    "text": "Magic from flowers and grass."
+},
+{
+    "type": "spotlight",
+    "item": "endrem:lost_eye",
+    "title": "Lost Eye",
+    "link_recipe": true,
+    "text": "After the dwarves passed on forging knowledge to humans, a craftsman accidentally dropped a drop of Manyullyn into the ender eye, creating this eye."
+},
+{
+    "type": "crafting_altar",
+    "heading": "Witch Eye",
+    "recipe": "crafttweaker:eye_witch",
+    "text": "This is proof of a qualified blood magic wizard."
+},
+{
+    "type": "spotlight",
+    "item": "endrem:cold_eye",
+    "title": "Cold Eye",
+    "link_recipe": true,
+    "text": "The sky at night is as cold as water."
+}
+	]
+}

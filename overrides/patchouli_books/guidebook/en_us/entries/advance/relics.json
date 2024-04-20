@@ -1,0 +1,23 @@
+{
+	"name": "Relics",
+	"description": "",
+	"icon": "enigmaticlegacy:enigmatic_amulet",
+	"category": "advance",
+	"pages":[
+		{
+			"type":"text",
+			"text":"   The long history of this world has left behind countless heroes and legends. Their stories may have been distorted, their images may have been twisted. But their spirits have long been integrated with the earth. From this, objects with mysterious powers are born, known as relics."
+		},
+		{
+			"type": "spotlight",
+			"item": "enigmaticlegacy:earth_heart",
+			"title": "The Earth Heart",
+			"link_recipe":false,
+			"text": "Hidden within are some parts of heroic legends. It can be used for the restoration of scattered relics.$(br)$(br)    By the way,if you urgently need it,ftbquest may provide a way to crafting it."
+		},
+		{
+			"type":"text",
+			"text":"    Acquiring relics not only relies on strength but also on fate. So there is no need to push too hard."
+		}
+	]
+}

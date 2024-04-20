@@ -1,0 +1,66 @@
+{
+	"name": "Beyond Fate",
+	"description": "■■■■■■■■■■■■",
+	"icon": "enigmaticlegacy:enigmatic_item",
+	"category": "you",
+	"pages":[
+		{
+    "type": "text",
+    "text": "You are the unique wisdom in this world, and your achievements should not be limited to just slaying dragons."
+},
+{
+    "type": "patchouli:infuser",
+    "title": "Neutron Essence",
+    "recipe": "crafttweaker:neutron",
+    "text": "Try not to dwell on it too much."
+},
+{
+    "type": "mythicbotany:ritual_pattern",
+    "title": "Endless Ingot",
+    "recipe": "crafttweaker:inf_ingot"
+},
+{
+    "type": "mythicbotany:ritual_info",
+    "title": "",
+    "recipe": "crafttweaker:inf_ingot",
+    "text": "The power of the cosmos lies in your hands."
+},
+{
+    "type": "text",
+    "text": "The Endless Ingot can be used to craft various creative items and can be transmuted into 12 Creative Essences by the Philosopher's Stone. These surplus essences may be used to reduce the difficulty of further crafting."
+},
+{
+    "type": "patchouli:infuser",
+    "title": "Star of Gems",
+    "recipe": "crafttweaker:jewel_star",
+    "text": "Creating 50 magic pool... or...? No, don't think like that."
+},
+{
+    "type": "spotlight",
+    "item": "kubejs:mini_blackhole",
+    "title": "Miniature Black Hole",
+    "link_recipe": true,
+    "text": "It's just a \"slightly\" complex."
+},
+{
+    "type": "spotlight",
+    "item": "kubejs:universe_passport",
+    "title": "Multiversal Certificate",
+    "link_recipe": true,
+    "text": "Synthesized through an End Gateway Infusion Altar."
+},
+{
+    "type": "crafting",
+    "title": "Creative Stone",
+    "recipe": "crafttweaker:creative_fin",
+    "text": "Just one step away from awakening."
+},
+{
+    "type": "spotlight",
+    "item": "enigmaticlegacy:enigmatic_item",
+    "title": "Creative Stone",
+    "link_recipe": true,
+    "text": "You can obtain it infinitely after completing this."
+}
+	]
+}

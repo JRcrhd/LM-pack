@@ -1,0 +1,16 @@
+{
+	"name": "differences",
+	"description": "changed part of the modpack",
+	"icon": "avaritia:world_breaker",
+	"category": "world",
+	"pages":[
+		{
+			"type":"text",
+			"text":"  To balance with the complex cave shape,Mineral generation probabilities have been increased overall.$(br)$(br)  There are no longer equipment restrictions in third gaia battle, so you can freely use relics during combat."
+		},
+		{
+			"type":"text",
+			"text":"    "
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"name": "Equipment Recycling",
+	"description": "......",
+	"icon": "minecraft:blast_furnace",
+	"category": "world",
+	"pages":[
+		{
+			"type":"text",
+			"text":"  Putting some equipment into the blast furnace to melt it can recycle the raw materials.$(br)$(br)  Unfortunately, this rough recycling method makes it difficult to completely recover the materials, and it is also not applicable to all equipment.You may check jei for details"
+		}
+	]
+}

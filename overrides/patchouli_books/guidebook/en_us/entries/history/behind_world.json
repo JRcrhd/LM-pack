@@ -1,0 +1,33 @@
+{
+	"name": "Behind the world",
+	"description": "<<<>>>",
+	"icon": "minecraft:dragon_breath",
+	"category": "history",
+	"advancement":"minecraft:end/kill_dragon",
+	"pages":[
+		{
+			"type":"text",
+			"text":"To the beings who have arrived here,$(br)$(br)  You have finally come to this place, fulfilling destiny, returning home with glory. As the last president of the Imperial Academy, I sincerely extend my blessings and gratitude to you. At the same time, I will answer some questions that I can anticipate.$(br)$(br)    "
+		},
+		{
+			"type":"text",
+			"text":"Midgard was once the habitat of the dragon race. As direct creations of the Aesir, their presence filled the oceans and forests, proud and mighty. Meanwhile, humans of that time, born of nature, were no different from beasts, struggling in the wilderness.$(br)$(br)  The dragons felt the call of humanity and began to open up the wilderness for them, imparting knowledge. In the fiery ascent of the fire dragons, humans tasted cooked food and established true nations."
+		},
+		{
+			"type":"text",
+			"text":"Then, suddenly one day, the Rainbow Bridge collapsed in catastrophe, severing the connection between the Nine Realms, and the dragon race, as creations of the gods, was abandoned in Midgard, unable to return to the divine realm."
+		},
+		{
+			"type":"text",
+			"text":"  For a while, the will of powerful creatures wavered, replaced by madness. The flames of light, once a gift, became a fire burning with suffering. Humanity, along with the other three races, was in grave danger.$(br)$(br)  It was at this time that I made the greatest and most regrettable discovery of my life—Essence.$(br)$(br)"
+		},
+		{
+			"type":"text",
+			"text":"  With Essence, humanity defeated most of the dragons in the main world, but... the comfortable life Essence provided dulled their fighting spirit, and in the end, humans failed to kill the mother dragon residing in the End."
+		},
+		{
+			"type":"text",
+			"text":"  This is your destiny, the magical creation I devoted the latter half of my life to. You, I have gathered all the wisdom of humanity in your body to bring about your birth.$(br)$(br)  At this moment, my fellow beings and I have returned to the earth, but you, you will surely survive with hope.$(br)$(br)             E.P. Elzman"
+		}
+	]
+}

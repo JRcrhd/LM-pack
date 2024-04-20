@@ -1,0 +1,21 @@
+{
+	"name": "Letter from Warnerheim",
+	"description": "<<<>>>",
+	"icon": "tconstruct:blood_slime_ball",
+	"category": "unknownletter",
+	"advancement":"botania:main/elf_portal_open",
+	"pages":[
+		{
+			"type":"text",
+			"text":"  In the name of Warnerheim, we send our deepest regards to you. $(br)  Upon learning about your trades with elves and dwarves, we became interested in the currency you use. Through our tests, we found that those currencies are similar to your essence and EMC, possessing the ability to transmute all things. However, these currencies are not yet perfect and require some modifications. $(br)  We are here to offer you this assistance. As long as you fulfill our conditions, we can enable you to use currency to create precious items that are difficult to regenerate."
+		},
+		{
+			"type":"text",
+			"text":"  We are here to offer you this assistance. As long as you fulfill our conditions, we can enable you to use currency to create precious items that are difficult to regenerate."
+		},
+		{
+			"type":"text",
+			"text":"  Of course, if you cannot trust us, you are completely free to ignore this letter.If you wants cooperation,find me in ftbquest 'trade'"
+		}
+	]
+}

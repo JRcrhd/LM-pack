@@ -1,0 +1,25 @@
+{
+	"name": "Death",
+	"description": "......",
+	"icon": "minecraft:skeleton_skull",
+	"category": "history",
+	"advancement":"extrabotany:main/egodefeat",
+	"pages":[
+		{
+			"type":"text",
+			"text":"  With the death of the enemy who looked exactly like oneself, a memory surged into the mind.$(br)$(br)$(br)  For decades, the slander surrounding Mr. Elzman has never ceased. Those blessed by the Essence regard him as a heretic, appointing him as the king of the abandoned city, consorting him with rogues and criminals."
+		},
+		{
+			"type":"text",
+			"text":"  With the almost infinite resources provided by the Essence, gold and diamonds pave the way for the human kingdom... But in those corners untouched by blessings, evil, conspiracy, and greed are fermenting...$(br)  We are the abandoned ones born in those corners, for us, life is just a simple accident. It was Mr. Elzman who adopted us, the discoverer of the Essence, now hated by the world."
+		},
+		{
+			"type":"text",
+			"text":"  Observing from his position, everything can be seen clearly - the Essence is corroding the human soul. In the near future, other races of Midgard will wipe out humanity, while the pampered humans will offer no resistance."
+		},
+		{
+			"type":"text",
+			"text":"  Prophets have never been well received. During the heyday of the empire, he prophesied its downfall years later. But this cost him his position as the president of the Royal Academy, yet everything was already predetermined, and the future will inevitably be bound by his words."
+		}
+	]
+}

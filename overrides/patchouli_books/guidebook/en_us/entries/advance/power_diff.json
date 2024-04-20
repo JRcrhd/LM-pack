@@ -1,0 +1,41 @@
+{
+	"name": "Difficulty System",
+	"description": "......",
+	"icon": "minecraft:experience_bottle",
+	"category": "advance",
+	"pages":[
+		{
+			"type":"text",
+			"text":"Have you noticed it already? As time goes by, the monsters in the world will become stronger and gradually more difficult to defeat. Fortunately, we humans can also grow through practice.$(br)    The skill tab is located in the top right corner of the inventory."
+		},
+		{
+			"type":"text",
+			"text":"  Skills points are different from enchantments; they constitute an independent experience system. Roughly 30% of the experience gained from absorbing experience orbs is converted into skill point experience.$(br)  If you want to improve faster, you may need to rely on the power of the astral magic... But that's another story."
+			
+		},
+		{
+			"type":"text",
+			"text":"  Now, we have another solution to deal with the increasing difficulty - reducing the growth level of monsters."
+		},
+		{
+			"type": "spotlight",
+			"item": "scalinghealth:enchanted_heart",
+			"title": "Enchanted Heart",
+			"link_recipe":false,
+			"text": "  It can be manufactured to reduce the difficulty.$(br)$(br)  Furthermore, death will result in a decrease in difficulty, but killing friendly creatures may slightly increase difficulty."
+		},
+		{
+			"type": "spotlight",
+			"item": "scalinghealth:cursed_heart",
+			"title": "Cursed Heart",
+			"link_recipe":false,
+			"text": "  Using it will enhance the power of monsters, useless for humans unless you crave challenges."
+		},
+		{
+			"type": "crafting",
+			"title": "Lucky Heart",
+			"recipe": "crafttweaker:69e7fa4d-526e-475e-9fe6-736da1701759",
+			"text": "  Using it will change the difficulty randomly."
+		}
+	]
+}

@@ -1,0 +1,77 @@
+{
+	"name": "essence",
+	"description": "",
+	"icon": "mysticalagriculture:inferium_essence",
+	"category": "advance",
+	"pages":[
+		{
+			"type":"text",
+			"text":"In the era when I was born, these things were elevated to the altar. People indulged themselves in the endless wealth it brought..."
+		},
+		{
+			"type":"text",
+			"text":"But the injustice in society did not disappear because of it. Along with bringing prosperity, it also brought endless greed."
+		},
+		{
+			"type":"text",
+			"text":"Out of responsibility, I will still introduce it to you. But please be cautious of its power."
+		},
+		{
+			"type": "crafting",
+			"title": "guidance of mystical agriculture",
+			"recipe": "mysticalagriculture:guide_book",
+			"text": "This book has already provided detailed explanations. This section serves merely as an additional supplement."
+		},
+		{
+			"type": "crafting",
+			"title": "tier 1",
+			"recipe": "crafttweaker:inf_farmland",
+			"text": "The most basic farmland can only grow a limited kinds of resources."
+		},
+		{
+			"type": "crafting_altar",
+			"heading": "tier 2",
+			"recipe": "crafttweaker:pri_farmland",
+			"text": "Inject a little blood, and it can plant those resources that are both cheap and unimportant."
+		},
+		{
+			"type":"patchouli:runic_altar",
+			"title":"tier 3",
+			"recipe":"crafttweaker:mid_farmland",
+			"text":"Inject a little magic, and it can grow those cheap but important resources."
+			
+		},
+		{
+			"type":"spotlight",
+			"item": "mysticalagriculture:imperium_farmland",
+			"title":"tier 4",
+			"link_recipe":false,
+			"text":"Inject a bit of stardust, and it can grow those resources that aren't so cheap."
+			
+		},
+		{
+			"type":"spotlight",
+			"item": "mysticalagriculture:supremium_farmland",
+			"title":"tier 5",
+			"link_recipe":false,
+			"text":"Inject the remnants of the dragon, and it will be able to cultivate those precious resources."
+			
+		},
+		{
+			"type":"spotlight",
+			"item": "mysticalagradditions:insanium_farmland",
+			"title":"tier 6",
+			"link_recipe":false,
+			"text":"Inject alchemical substances, and it will be able to replicate the powers of those powerful creatures."
+			
+		},
+		{
+			"type":"spotlight",
+			"item": "mysticalagradditions:creative_essence",
+			"title":"The Creative Essence",
+			"link_recipe":false,
+			"text":"Item that exist only in legend. Its purpose is unknown."
+			
+		}
+	]
+}

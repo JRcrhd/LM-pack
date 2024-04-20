@@ -1,0 +1,102 @@
+{
+	"name": ".Basic Tutorial",
+	"description": "",
+	"icon": "minecraft:written_book",
+	"category": "advance",
+	"pages":[
+		{
+			"type":"text",
+			"text":"    As a newcomer, your mind may be full of mysteries. But don't worry, I have prepared a lot of materials for you to refer to. Here are the methods to obtain these materials."
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "mysticalagriculture:guide_book",
+			"text": "Tutorial for Mystical Agriculture"
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "iceandfire:bestiary",
+			"text": "Tutorial for Ice and Fire"
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "enigmaticlegacy:the_acknowledgment",
+			"text": "Tutorial for Enigmatic Legacy"
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "extendedcrafting:guide_book",
+			"text": "Tutorial for Extended Crafting"
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "astralsorcery:shaped/tome",
+			"text": "Tutorial for Astral Sorcery"
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "botania:lexicon",
+			"text": "Tutorial for Botanical Magic"
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "ars_nouveau:worn_notebook",
+			"text": "Tutorial for Ars Nouveau"
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "eidolon:codex",
+			"text": "Tutorial for Eidolons"
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "bloodmagic:guide",
+			"text": "Tutorial for Blood Magic"
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "tconstruct:common/materials_and_you",
+			"text": "Tutorial for Tinkers' Construct"
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "occultism:crafting/dictionary_of_spirits",
+			"text": "Tutorial for Occultism"
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "twilightforest:patchouli_logbook_alt",
+			"text": "Tutorial for Twilight Forest"
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "betterendforge:guidebook",
+			"text": "Tutorial for Better End"
+		},
+		{
+			"type": "crafting",
+			"title": "Animal Dictionary",
+			"recipe": "alexsmobs:animal_dictionary",
+			"text": "Tutorial for Alex's Mobs"
+		},
+		{
+			"type": "crafting",
+			"title": "",
+			"recipe": "mysticalworld:encyclopedia",
+			"text": "Tutorial for Mystical World"
+		}
+	]
+}
