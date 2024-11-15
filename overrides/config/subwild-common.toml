@@ -28,7 +28,7 @@
 	#Enable to generate patches (varying heights of slabs and snow) in cave biomes.
 	"Generate Patches" = false
 	#Enable to generate puddles in lush, mossy muddy, dead coral cave biomes
-	"Generate Puddles" = true
+	"Generate Puddles" = false
 	#Enable to generate floor coral in coral cave biomes.
 	"Generate Floor Coral" = false
 	#Enable to generate stone buttons in rocky cave biomes
@@ -57,12 +57,12 @@
 	[Frequencies."Lush Volcanic Caves"]
 		#Use the "Generate Saplings" config option to stop generating them entirely.
 		#Range: 1.0 ~ 100.0
-		"Sapling Generation Chance" = 10.0
+		"Sapling Generation Chance" = 8.0
 
 	[Frequencies."Rocky Caves"]
 		#Use the "Generate Buttons" config option to stop generating them entirely.
 		#Range: 1.0 ~ 100.0
-		"Button Generation Chance" = 7.14
+		"Button Generation Chance" = 6.14
 
 	[Frequencies."Mossy Rocky Caves"]
 		#Use the "Generate Lily Pads" config option to stop generating them entirely.
@@ -78,7 +78,7 @@
 		"Lily Pad Generation Chance" = 8.33
 		#Use the "Generate Saplings" config option to stop generating them entirely.
 		#Range: 1.0 ~ 100.0
-		"Sapling Generation Chance" = 10.0
+		"Sapling Generation Chance" = 6.0
 
 	[Frequencies."Sandy Caves"]
 		#Use the "Generate Dead Bushes" config option to stop generating them entirely.
@@ -88,12 +88,12 @@
 	[Frequencies."Icy Rocky Caves"]
 		#Use the "Generate Buttons" config option to stop generating them entirely.
 		#Range: 1.0 ~ 100.0
-		"Button Generation Chance" = 25.0
+		"Button Generation Chance" = 10.0
 
 	[Frequencies."Mossy Caves"]
 		#Use the "Generate Lily Pads" config option to stop generating them entirely.
 		#Range: 1.0 ~ 100.0
-		"Lily Pad Generation Chance" = 8.33
+		"Lily Pad Generation Chance" = 6.33
 
 	[Frequencies."Mesa Caves"]
 		#Use the "Generate Dead Bushes" config option to stop generating them entirely.
