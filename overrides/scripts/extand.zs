@@ -205,7 +205,8 @@ mods.extendedcrafting.TableCrafting.addShaped("5d323ea6-f324-4e1d-ad59-a1af81bbe
 <recipetype:mythicbotany:infusion>.addJSONRecipe("neutron", {
 	"group": "infuser",
 	"output": {
-		"item": "avaritia:neutronium_nugget"
+		"item": "avaritia:neutronium_nugget",
+		"count": 6
 	},
 	"mana": 100000,
 	"ingredients": [
