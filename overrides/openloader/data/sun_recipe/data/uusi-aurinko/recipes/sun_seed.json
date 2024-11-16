@@ -1,0 +1,22 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "uusi-aurinko:sun_seed",
+    "count": 1
+  },
+  "mana": 5200,
+  "ingredients": [
+    {
+      "item": "minecraft:shroomlight"
+    },
+    {
+      "item": "minecraft:sunflower"
+    },
+    {
+      "item": "extrabotany:sunbless"
+    },
+	{
+	  "item": "eidolon:lesser_soul_gem"
+	}
+  ]
+}

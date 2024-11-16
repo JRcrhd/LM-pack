@@ -1,0 +1,32 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        {
+          "item": "eidolon:soul_shard"
+        }
+      ]
+    },
+    {
+      "stirs": 1,
+      "items": [
+        {
+          "item": "xreliquary:molten_core"
+        }
+      ]
+    },
+	{
+      "stirs": 2,
+      "items": [
+        {
+          "item": "pyromancer:nitropowder"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "item": "uusi_aurinko:fire_stone",
+    "count": 1
+  }
+}

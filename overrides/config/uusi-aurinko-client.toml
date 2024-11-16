@@ -1,0 +1,14 @@
+#The probability that spark particles may appear on a surface of electrified block.
+#All particles will be rendered if there are less than 20 exposed surfaces when this value is greater than 0.
+#Set this value to 0 to disable particles.
+#Range: 0.0 ~ 1.0
+lightning_stone_spark_particle_amount = 0.4
+#If to render mod fluid blocks with transparency, from which minor glitches may arise.
+#Press F3+T after changing this value to take effect.
+transparent_fluid = true
+#Higher value gives a more smooth transition to the sun's halo,
+#while a lower value may enhance your FPS.
+#Set this value to 0 to disable halo.
+#Range: 0 ~ 128
+sun_halo_iterations = 60
+

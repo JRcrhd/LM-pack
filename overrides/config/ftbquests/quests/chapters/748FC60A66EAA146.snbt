@@ -577,7 +577,7 @@
 					id: "3DF01224E74FEB9F"
 					type: "item"
 					item: "avaritia:neutronium_nugget"
-					count: 3L
+					count: 9L
 					consume_items: true
 				}
 			]
@@ -619,7 +619,7 @@
 					id: "08E7424DBC3F1F0D"
 					type: "item"
 					item: "avaritia:neutronium_nugget"
-					count: 3L
+					count: 9L
 					consume_items: true
 				}
 			]
@@ -661,7 +661,7 @@
 					id: "287327D6EE2C13F1"
 					type: "item"
 					item: "avaritia:neutronium_nugget"
-					count: 10L
+					count: 30L
 				}
 			]
 			rewards: [

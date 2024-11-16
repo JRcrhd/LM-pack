@@ -1,0 +1,19 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "uusi-aurinko:poop_stone",
+    "count": 1
+  },
+  "mana": 5200,
+  "ingredients": [
+    {
+      "item": "betterendforge:end_fish_cooked"
+    },
+    {
+      "item": "cataclysm:void_infused_end_stone_bricks"
+    },
+    {
+      "item": "eidolon:soul_shard"
+    }
+  ]
+}

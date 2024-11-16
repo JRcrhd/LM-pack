@@ -947,5 +947,25 @@
 				ftb_money: 5L
 			}]
 		}
+		{
+			x: 1.0d
+			y: -7.0d
+			description: [
+				"防止3*3区块内的怪物生成"
+				""
+				"Avoid mobs spawn in 3*3 chunks"
+			]
+			id: "48AAC5225B65EE6B"
+			tasks: [{
+				id: "0091424208951039"
+				type: "item"
+				item: "torchmaster:megatorch"
+			}]
+			rewards: [{
+				id: "55D3641E2E735715"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
 	]
 }

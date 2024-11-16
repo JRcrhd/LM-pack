@@ -10,17 +10,43 @@
 	quests: [
 		{
 			title: "幻梦"
-			x: 0.0d
+			x: 0.6d
 			y: 3.0d
 			shape: "hexagon"
 			size: 1.2d
 			id: "4FB1479CB2710760"
-			tasks: [{
-				id: "2FC3BE593F815BA5"
-				type: "checkmark"
-				title: "点击确认"
-				icon: "eidolon:shadow_gem"
-			}]
+			tasks: [
+				{
+					id: "2FC3BE593F815BA5"
+					type: "checkmark"
+					title: "点击确认"
+					icon: "eidolon:shadow_gem"
+				}
+				{
+					id: "504E7279273C0024"
+					type: "item"
+					title: "Any #forge:ingots/iron"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/iron"
+						}
+					}
+				}
+				{
+					id: "478D5EDF8A6BEB6A"
+					type: "item"
+					title: "Any #forge:ingots/lead"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/lead"
+						}
+					}
+				}
+			]
 			rewards: [
 				{
 					id: "1954E7DDB9DC1030"
@@ -60,8 +86,8 @@
 		}
 		{
 			title: "仪式入门"
-			x: -0.5d
-			y: 4.5d
+			x: -1.0d
+			y: 6.0d
 			description: ["获得用来进行仪式的物品。"]
 			dependencies: ["455ECA09E0A082DE"]
 			id: "3E0B648966DA3E93"
@@ -84,8 +110,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 3.0d
+			x: -1.0d
+			y: 7.5d
 			description: ["进行一场结晶仪式，获得魂之碎片。"]
 			dependencies: ["3E0B648966DA3E93"]
 			id: "6C152913534B33FA"
@@ -109,9 +135,9 @@
 		}
 		{
 			title: "炼金入门"
-			x: -2.0d
-			y: 6.0d
-			dependencies: ["3E0B648966DA3E93"]
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["455ECA09E0A082DE"]
 			id: "6D3F772B4D38A7FD"
 			tasks: [{
 				id: "0A0A504F68AF1800"
@@ -134,8 +160,11 @@
 		}
 		{
 			x: 2.0d
-			y: 3.0d
-			description: ["获得魔力工作台，用于合成更高级的魔法物品。"]
+			y: 6.0d
+			description: [
+				"获得魔力工作台，用于合成更高级的魔法物品。"
+				"Magic workbench.You can create powerful magic tools on it."
+			]
 			dependencies: ["455ECA09E0A082DE"]
 			id: "16EFC2CA05AA2496"
 			tasks: [{
@@ -159,8 +188,11 @@
 		}
 		{
 			x: 2.0d
-			y: 6.0d
-			dependencies: ["16EFC2CA05AA2496"]
+			y: 7.5d
+			dependencies: [
+				"16EFC2CA05AA2496"
+				"6C152913534B33FA"
+			]
 			id: "59CB35C0EBD93904"
 			tasks: [{
 				id: "0063CE3136DF527F"
@@ -183,11 +215,13 @@
 		}
 		{
 			title: "祭坛"
-			x: -0.5d
+			x: -1.0d
 			y: 1.5d
 			description: [
 				"将书丢给女巫，获得第一个吟唱符文"
 				"Throw the book to witch"
+				"每天只能进行一次祷告"
+				"Prayer can only be performed once a day"
 			]
 			dependencies: ["4FB1479CB2710760"]
 			id: "3C1DCD1FBE3EC6D9"
@@ -224,8 +258,8 @@
 		}
 		{
 			title: "更好的祭坛"
-			x: 0.0d
-			y: 0.0d
+			x: -2.5d
+			y: 4.5d
 			description: ["石头做的祭坛和雕像能让你进行更强的仪式。"]
 			dependencies: ["715FF695CF10345C"]
 			id: "31C1939D4F457208"
@@ -248,8 +282,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 1.5d
+			x: -2.5d
+			y: 3.0d
 			description: ["对着扔在地上的嵌材咏唱黑暗之触祷告，获得亵渎象征符。"]
 			dependencies: ["3C1DCD1FBE3EC6D9"]
 			id: "715FF695CF10345C"
@@ -262,6 +296,408 @@
 				id: "3F412F972428311F"
 				type: "xp"
 				xp: 200
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			dependencies: ["6D3F772B4D38A7FD"]
+			id: "6C55562E0C5D0ED7"
+			tasks: [{
+				id: "4F60C86B92E6386A"
+				type: "item"
+				item: "hexblades:hexium_ingot"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["6D3F772B4D38A7FD"]
+			id: "2F4E69B6F0BFE608"
+			tasks: [{
+				id: "38803B5610BF25A7"
+				type: "item"
+				item: "hexblades:hexed_ingot"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["2F4E69B6F0BFE608"]
+			id: "3BD72EF80DD5E755"
+			tasks: [
+				{
+					id: "5C4910BCF61D1DFA"
+					type: "item"
+					item: {
+						id: "hexblades:hex_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								1667758976
+								228543167
+								-1240934850
+								431263783
+							]
+						}
+					}
+				}
+				{
+					id: "49208F069DA7A033"
+					type: "item"
+					item: {
+						id: "hexblades:hex_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "727DA29B97CEA1D5"
+					type: "item"
+					item: {
+						id: "hexblades:hex_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "28A42FA0D13D2F1F"
+					type: "item"
+					item: {
+						id: "hexblades:hex_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3E7E275213F86F0B"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.5d
+			dependencies: ["6C55562E0C5D0ED7"]
+			id: "444FBF0CAA917F33"
+			tasks: [
+				{
+					id: "055D177CCE0C1955"
+					type: "item"
+					item: {
+						id: "hexblades:katana_dull"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "02D36DCBE3CC75E9"
+					type: "item"
+					item: {
+						id: "hexblades:sword_dull"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "02046543DB8B9638"
+					type: "item"
+					item: {
+						id: "hexblades:saber_dull"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0C01BBACF1F3533F"
+					type: "item"
+					item: {
+						id: "hexblades:hammer_dull"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6BED13A1340E3C67"
+					type: "item"
+					item: {
+						id: "hexblades:dagger_dull"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7B4C72552AAA15A3"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 7.5d
+			dependencies: ["6C152913534B33FA"]
+			id: "0DF6101EB99D1EEA"
+			tasks: [{
+				id: "41A0B012DB70966B"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			dependencies: ["2F4E69B6F0BFE608"]
+			id: "220ACC4D015EFA5E"
+			tasks: [{
+				id: "0B86ED8BEB8532D1"
+				type: "item"
+				item: {
+					id: "hexblades:blood_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							1667758976
+							228543167
+							-1240934850
+							431263783
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			dependencies: ["444FBF0CAA917F33"]
+			id: "5DCB4818ECFE8FEE"
+			tasks: [{
+				id: "70CD9D6709B6BC99"
+				type: "item"
+				item: {
+					id: "hexblades:ice_katana_1"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.5d
+			dependencies: ["444FBF0CAA917F33"]
+			id: "38603789B6AA80CD"
+			tasks: [{
+				id: "5A27C505BFE69C7D"
+				type: "item"
+				item: {
+					id: "hexblades:flame_sword_1"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.5d
+			dependencies: ["444FBF0CAA917F33"]
+			id: "7B4B57CE0A41BA81"
+			tasks: [{
+				id: "620295CF6A2C4A7E"
+				type: "item"
+				item: {
+					id: "hexblades:water_saber_1"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 5.5d
+			dependencies: ["444FBF0CAA917F33"]
+			id: "123020F9593400FB"
+			tasks: [{
+				id: "22330FA0A9248626"
+				type: "item"
+				item: {
+					id: "hexblades:earth_hammer_1"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.5d
+			dependencies: ["444FBF0CAA917F33"]
+			id: "6714B367BB5543DA"
+			tasks: [
+				{
+					id: "6E9135B6494510F1"
+					type: "item"
+					item: {
+						id: "hexblades:thunder_knives_right1"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "45973729EC3C5F7B"
+					type: "item"
+					item: {
+						id: "hexblades:thunder_knives_left1"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			dependencies: ["5DCB4818ECFE8FEE"]
+			id: "5E5F14030BE2561F"
+			tasks: [{
+				id: "48DC7A227679D0A2"
+				type: "item"
+				item: {
+					id: "hexblades:ice_katana_2"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							1667758976
+							228543167
+							-1240934850
+							431263783
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.5d
+			dependencies: ["38603789B6AA80CD"]
+			id: "4C0F1DFCF6BBFF5F"
+			tasks: [{
+				id: "47D1A04316D10FC9"
+				type: "item"
+				item: {
+					id: "hexblades:flame_sword_2"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.5d
+			dependencies: ["7B4B57CE0A41BA81"]
+			id: "35F2493FB9D67142"
+			tasks: [{
+				id: "568DE5A338B575FC"
+				type: "item"
+				item: {
+					id: "hexblades:water_saber_2"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 5.5d
+			dependencies: ["123020F9593400FB"]
+			id: "23884A1D4157DDA0"
+			tasks: [{
+				id: "50A7228DE0DFD1D2"
+				type: "item"
+				item: {
+					id: "hexblades:earth_hammer_2"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 6.5d
+			dependencies: ["6714B367BB5543DA"]
+			id: "17B100956D05B94C"
+			tasks: [
+				{
+					id: "6BA537698B13B308"
+					type: "item"
+					item: {
+						id: "hexblades:thunder_knives_right2"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F9BE57FC98562C7"
+					type: "item"
+					item: {
+						id: "hexblades:thunder_knives_left2"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			shape: "hexagon"
+			description: ["开启“繁荣之种”章节"]
+			dependencies: ["16EFC2CA05AA2496"]
+			id: "6573813E0A3F3016"
+			tasks: [{
+				id: "0B817E4A77325359"
+				type: "checkmark"
+				title: "令这个世界欣欣向荣的种子"
 			}]
 		}
 	]

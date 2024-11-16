@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+   {
+	"rolls":{"min":2,"max":3},
+	"entries":[
+		{
+			"type":"item",
+			"name":"ftbquests:lootcrate",
+			"weight":1,
+			"functions":[
+				{
+					"function":"minecraft:set_nbt",
+					"tag":"{
+						type:\"relics\"
+					}"
+				}
+			]
+		},
+		{
+			"type":"item",
+			"name":"minecraft:air",
+			"weight":9
+		},
+		{
+			"type":"item",
+			"name":"enigmaticlegacy:earth_heart",
+			"weight":5
+		}
+	]
+}, {
+      "rolls": {
+        "min": 1.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "outer_end:music_disc_galactic_wave"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4.0,
+                "max": 40.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "outer_end:azure_berries"
+        }
+      ]
+    }
+  ]
+}

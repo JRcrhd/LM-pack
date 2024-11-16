@@ -1,0 +1,300 @@
+{
+	id: "44371879FE70A067"
+	group: "547F7E1B88118B9B"
+	order_index: 5
+	filename: "44371879FE70A067"
+	title: "【发展“幻梦”解锁】繁荣之种"
+	icon: "mowziesmobs:grant_suns_blessing"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -2.5d
+			y: 1.5d
+			width: 1.0d
+			height: 100.0d
+			rotation: 90.0d
+			image: "eidolon:textures/block/enchanted_ash_line0.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			width: 1.0d
+			height: 10.0d
+			rotation: 90.0d
+			image: "eidolon:textures/block/enchanted_ash_line0.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.5d
+			y: -5.5d
+			width: 1.0d
+			height: 6.0d
+			rotation: 0.0d
+			image: "twilightforest:textures/items/bee/outline_body.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.0d
+			y: -5.5d
+			width: 1.0d
+			height: 6.0d
+			rotation: 0.0d
+			image: "twilightforest:textures/items/bee/outline_body.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"太阳之种"
+				"Seed of Sun"
+				""
+				"本章的物品存在一定危险性，使用时请确认周围无重要物品。"
+				"The items in this chapter are dangerous, so please make sure that there are no important items around you when using them."
+			]
+			dependencies: ["0B817E4A77325359"]
+			id: "316FF84557C3CA76"
+			tasks: [{
+				id: "0FEBA8013948C3AD"
+				type: "item"
+				item: "uusi-aurinko:sun_seed"
+			}]
+			rewards: [{
+				id: "269E6A8F514E4C73"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			description: [
+				"在正午时刻，将Auringonsiemen丢进沙漠神殿的蓝色陶瓦上，并让阳光照射它。"
+				"At midday, throw the Auringonsiemen into the blue terracotta tiles of the desert temple and let the sun shine on it."
+			]
+			dependencies: ["316FF84557C3CA76"]
+			hide: true
+			id: "5AA3F894B3CB41DD"
+			tasks: [{
+				id: "242F19AA55741E6C"
+				type: "item"
+				item: "uusi-aurinko:sun_stone"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["316FF84557C3CA76"]
+			hide: true
+			id: "5E0C616443355563"
+			tasks: [{
+				id: "37021789E4A0705E"
+				type: "item"
+				item: "uusi-aurinko:earth_stone"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["316FF84557C3CA76"]
+			hide: true
+			id: "276C3AF2CA5076F2"
+			tasks: [{
+				id: "719CF05A41DC343E"
+				type: "item"
+				item: "uusi-aurinko:fire_stone"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -7.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["316FF84557C3CA76"]
+			hide: true
+			id: "484EDCA9DBF8655A"
+			tasks: [{
+				id: "0B28715DACB505CA"
+				type: "item"
+				item: "uusi-aurinko:water_stone"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["316FF84557C3CA76"]
+			hide: true
+			id: "0472F33BFBB025DF"
+			tasks: [{
+				id: "319BD89D7A720E70"
+				type: "item"
+				item: "uusi-aurinko:lightning_stone"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			description: [
+				"在aurinkokivi周围同时引爆8个tnt，这将成为种子萌芽的养料。"
+				"Detonate 8 TNTs at the same time around Aurinkokivi and this will become nourishment for the germination of seeds."
+			]
+			hide_dependency_lines: true
+			dependencies: ["5AA3F894B3CB41DD"]
+			hide: true
+			id: "38CB81EA9913BA45"
+			tasks: [{
+				id: "4A59860902CB5B72"
+				type: "item"
+				item: "minecraft:tnt"
+				count: 8L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			description: [
+				"太阳的成长需要吞噬100个生物。"
+				"The growth of the sun requires devouring 100 creatures."
+			]
+			dependencies: ["38CB81EA9913BA45"]
+			hide: true
+			id: "1977CA27F6DA3C31"
+			tasks: [{
+				id: "18D8129E7F317DA8"
+				type: "advancement"
+				title: "献祭"
+				icon: {
+					id: "mysticalworld:tin_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "uusi-aurinko:grow_new_sun"
+				criterion: "uusi-aurinko:grow_new_sun"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -6.0d
+			dependencies: [
+				"1977CA27F6DA3C31"
+				"5AA3F894B3CB41DD"
+			]
+			hide: true
+			id: "3CD1BFE8929105E4"
+			tasks: [{
+				id: "4B79FCCB5D39336E"
+				type: "advancement"
+				advancement: "uusi-aurinko:full_new_sun"
+				criterion: "uusi-aurinko:full_new_sun"
+			}]
+			rewards: [{
+				id: "484334402FA47F15"
+				type: "command"
+				title: "太阳升起，你感觉自己充满了力量。"
+				icon: "tconstruct:queens_slime_nugget"
+				command: "/playerex level-add @p 20"
+				player_command: false
+			}]
+		}
+		{
+			x: 14.5d
+			y: 0.0d
+			id: "4F9479E864616605"
+			tasks: [{
+				id: "556FD5E8FE6CD1AB"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.5d
+			dependencies: ["4F9479E864616605"]
+			hide: true
+			id: "294072DE63634539"
+			tasks: [{
+				id: "0E8E95E57B8033BB"
+				type: "item"
+				item: "uusi-aurinko:poop_stone"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -2.0d
+			description: [
+				"如果你在末地完成这个仪式，并在过程中丢入一颗kakkakikkare……"
+				"If you complete this ritual in the end and throw a kakkakikkare in the process......"
+			]
+			dependencies: ["4F9479E864616605"]
+			hide: true
+			id: "12D6D2B39E9F0DA8"
+			tasks: [{
+				id: "525A7E441961AD9C"
+				type: "checkmark"
+				title: "另一种可能性"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -3.5d
+			dependencies: [
+				"12D6D2B39E9F0DA8"
+				"294072DE63634539"
+			]
+			hide: true
+			id: "30B23102BE4FCBF7"
+			tasks: [{
+				id: "741C39565138274E"
+				type: "advancement"
+				advancement: "uusi-aurinko:rise_dark_new_sun"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7854A6EE9EC5B5EA"
+					type: "command"
+					title: "新的秩序已经建立，你感到平静。"
+					icon: "minecraft:polished_blackstone_button"
+					command: "/playerex level-add @p 30"
+					player_command: false
+				}
+				{
+					id: "069741C86789B073"
+					type: "item"
+					item: "apotheosis:mythic_shard"
+					count: 16
+				}
+				{
+					id: "60044A2FDC219EB3"
+					type: "item"
+					item: "enigmaticlegacy:astral_dust"
+					count: 16
+				}
+			]
+		}
+	]
+}

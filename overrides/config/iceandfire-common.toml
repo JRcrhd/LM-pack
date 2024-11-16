@@ -51,7 +51,7 @@
 		"Dragon Den Gold Amount" = 4
 
 	[Generation.Structures-Features]
-		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn(0, 0).
+		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn.
 		#Range: 1 ~ 10000
 		"Dangerous World Gen Dist From Spawn" = 800
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from the last generated structure.
@@ -202,6 +202,11 @@
 		#Maximum ghost health.
 		#Range: 1.0 ~ 10000.0
 		"Ghost Max Health" = 30.0
+		#Dread Lich spawn chance. Lower = higher chance to spawn
+		#Range: 1 ~ 10000
+		"Lich Spawn Chance" = 30
+		#Allows attributes for mobs to be overridden via the config file. One might want to disable this if other mods are enabled that change mob attributes e.g armor, health etc...
+		"Allow Attribute Overriding" = true
 
 	[Mobs.Gorgons]
 		#True if gorgon temples are allowed to spawn
@@ -335,6 +340,8 @@
 		#How many maximum individuals a myrmex colony can have.
 		#Range: 10 ~ 10000
 		"Myrmex Colony Max Size" = 80
+		#Myrmex hives will ignore daytime
+		"Myrmex Hive Ignore Daytime" = false
 
 	[Mobs.Hippogryph]
 		#Hippogryph spawn weight. Lower = lower chance to spawn.
@@ -450,4 +457,6 @@
 	#Maximum nodes for dragons/myrmex to path too. Decrease this is dragon pathfinding is super slow or intensive.
 	#Range: > 1
 	"Dragon Max Pathfinding Nodes" = 5000
+	#Enables the option to draw the pathfinding nodes when enabled (use a stick on an entity)
+	"Debug Pathfinding Mode" = false
 

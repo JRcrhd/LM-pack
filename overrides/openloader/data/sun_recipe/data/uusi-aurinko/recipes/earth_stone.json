@@ -1,0 +1,19 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "uusi-aurinko:earth_stone",
+    "count": 1
+  },
+  "mana": 5200,
+  "ingredients": [
+    {
+      "item": "tconstruct:earth_slime_dirt"
+    },
+    {
+      "item": "farmersdelight:rich_soil"
+    },
+    {
+      "item": "eidolon:soul_shard"
+    }
+  ]
+}

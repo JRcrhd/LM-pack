@@ -834,7 +834,7 @@
 		}
 		{
 			x: 0.0d
-			y: 4.5d
+			y: 8.0d
 			id: "3F2116B3E1620D8E"
 			tasks: [{
 				id: "117CF9AD1285481D"
@@ -849,7 +849,7 @@
 		}
 		{
 			x: 1.5d
-			y: 5.0d
+			y: 8.5d
 			id: "07EEE7E010E7F784"
 			tasks: [{
 				id: "1B6147EF63BB6773"
@@ -864,7 +864,7 @@
 		}
 		{
 			x: 3.0d
-			y: 4.5d
+			y: 8.0d
 			id: "0149D2AD40537FC7"
 			tasks: [{
 				id: "47A63592CFA5D6BF"
@@ -879,7 +879,7 @@
 		}
 		{
 			x: 1.5d
-			y: 4.0d
+			y: 7.5d
 			id: "26E7A549DD63C805"
 			tasks: [{
 				id: "01A99DE3DEDB0BA7"
@@ -1658,6 +1658,39 @@
 				id: "517FC55ED580D6DF"
 				type: "item"
 				item: "mythicbotany:mana_collector"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			dependencies: ["5B03AC7D519E0C17"]
+			id: "01DEE5E01209C731"
+			tasks: [{
+				id: "0B2F5093AC927D76"
+				type: "item"
+				item: "incorporeal:corporea_solidifier"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["5B03AC7D519E0C17"]
+			id: "12098958D65D9F76"
+			tasks: [{
+				id: "2B6591EDE1C9F092"
+				type: "item"
+				item: "rhododendrite:opcode"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.0d
+			dependencies: ["5B03AC7D519E0C17"]
+			id: "111AF7BFC14DFB07"
+			tasks: [{
+				id: "35B9EE60B298AC91"
+				type: "item"
+				item: "incorporeal:soul_core_frame"
 			}]
 		}
 	]

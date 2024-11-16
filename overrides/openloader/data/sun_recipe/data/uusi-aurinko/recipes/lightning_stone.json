@@ -1,0 +1,19 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "uusi-aurinko:lightning_stone",
+    "count": 1
+  },
+  "mana": 5200,
+  "ingredients": [
+    {
+      "item": "iceandfire:lightning_dragon_flesh"
+    },
+    {
+      "item": "xreliquary:eye_of_the_storm"
+    },
+    {
+      "item": "eidolon:soul_shard"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "uusi-aurinko:fire_stone",
+    "count": 1
+  },
+  "mana": 5200,
+  "ingredients": [
+    {
+      "item": "pyromancer:nitropowder"
+    },
+    {
+      "item": "xreliquary:molten_core"
+    },
+    {
+      "item": "eidolon:soul_shard"
+    }
+  ]
+}
