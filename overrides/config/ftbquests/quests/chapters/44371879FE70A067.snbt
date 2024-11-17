@@ -69,6 +69,7 @@
 				"The items in this chapter are dangerous, so please make sure that there are no important items around you when using them."
 			]
 			dependencies: ["0B817E4A77325359"]
+			hide: true
 			id: "316FF84557C3CA76"
 			tasks: [{
 				id: "0FEBA8013948C3AD"
@@ -223,6 +224,10 @@
 		{
 			x: 14.5d
 			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["316FF84557C3CA76"]
+			hide: true
+			dependency_requirement: "all_started"
 			id: "4F9479E864616605"
 			tasks: [{
 				id: "556FD5E8FE6CD1AB"
