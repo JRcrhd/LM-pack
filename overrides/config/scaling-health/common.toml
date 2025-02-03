@@ -4,7 +4,7 @@
 	#Enable player bonus hp by crystals.
 	crystalsAddHealth = false
 	#Enable blights. If disabled, no blights will spawn.
-	enableBlights = true
+	enableBlights = false
 	#Enable player regen hp by crystals.
 	crystalsRegenHealth = false
 	#Enable mob damage scaling.

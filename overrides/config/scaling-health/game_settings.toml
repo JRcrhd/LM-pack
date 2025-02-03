@@ -205,12 +205,12 @@
 
 	[item.heart_crystal]
 		#The number of levels required to use a heart crystal.
-		levelCost = 3
+		levelCost = 65535
 		#The amount of additional health restored by heart crystals.
 		#Heart crystals always restore the amount of health they add, this is a bonus
-		healthRestored = 4.0
+		healthRestored = 0.0
 		#How much hearts a player will gain using a heart crystal.
-		healthBoost = 1
+		healthBoost = 0
 
 	[item.enchanted_heart]
 		#Change in difficulty when an enchanted heart is used
@@ -218,7 +218,7 @@
 
 	[item.power_crystal]
 		#The number of levels required to use a power crystal.
-		levelCost = 3
+		levelCost = 65535
 		#How much more damage a player deals after using a power crystal.
 		damageBoost = 0.5
 
