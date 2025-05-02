@@ -2,8 +2,9 @@
 
 **Awaken in a unfamiliar village, start exploring in magiical world, eventually, find the destiny...**
 
-[![CurseForge Downloads](https://img.shields.io/curseforge/dt/1006819)](https://www.curseforge.com/minecraft/modpacks/lost-midgard)
-[![QQ group](https://pub.idqqimg.com/wpa/images/group.png)]([https://www.curseforge.com/minecraft/modpacks/lost-midgard](https://qm.qq.com/cgi-bin/qm/qr?k=O_b9XZL4nWKWC6amBuK9ZcCS52uXeEWD&jump_from=webapi&authKey=vONiH2YGvkWAq8czqLgn+zeMmfFDIH/RBQYgxUVyZtjaXbLZIDG8jLmNzPokOoK3))
+[![CurseForge Downloads](https://img.shields.io/curseforge/dt/1006819?logo=curseforge)
+](https://www.curseforge.com/minecraft/modpacks/lost-midgard)
+[![QQ group](https://img.shields.io/badge/QQ-加入交流群-12B7F5?logo=qq&logoColor=white)](https://qm.qq.com/cgi-bin/qm/qr?k=Arnr8FYx7NcCQ_E62HkUeyzQbqFSLNcE&jump_from=webapi&authKey=4nm7BwV6eSa6h8lnXjmCjziowISAeAaysxsQBdoVp8AY6++Gyi77JXi6kOv6nWbJ)
 
 ***
 
